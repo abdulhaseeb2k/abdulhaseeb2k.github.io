@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdul Haseeb — Projects</title>
+<meta name="description" content="Download and explore open-source projects by Abdul Haseeb (abdulhaseeb2k)">
+<style>
+  :root {
+    --bg: #f6f8fa;
+    --card-bg: #ffffff;
+    --text: #1f2328;
+    --text-muted: #656d76;
+    --border: #d0d7de;
+    --accent: #0969da;
+    --accent-hover: #0550ae;
+    --btn-text: #ffffff;
+    --shadow: 0 1px 3px rgba(0,0,0,.08), 0 4px 14px rgba(0,0,0,.05);
+    --shadow-hover: 0 8px 24px rgba(0,0,0,.12);
+    --chip-bg: #eff2f5;
+  }
+  [data-theme="dark"] {
+    --bg: #0d1117;
+    --card-bg: #161b22;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --border: #30363d;
+    --accent: #2f81f7;
+    --accent-hover: #58a6ff;
+    --btn-text: #ffffff;
+    --shadow: 0 1px 3px rgba(0,0,0,.4);
+    --shadow-hover: 0 8px 24px rgba(0,0,0,.5);
+    --chip-bg: #21262d;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    transition: background .3s, color .3s;
+  }
+  .container { width: 100%; margin: 0 auto; padding: 16px 28px 40px; }
+
+  header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 16px 0 20px;
+  }
+  .head-stats {
+    margin-left: auto;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .stat-box {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 12px 22px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    min-width: 96px;
+  }
+  .stat-box .num { font-size: 1.35rem; font-weight: 700; color: var(--accent); }
+  .stat-box .lbl { font-size: .75rem; color: var(--text-muted); margin-top: 2px; }
+  .avatar {
+    width: 88px; height: 88px;
+    border-radius: 50%;
+    border: 3px solid var(--accent);
+  }
+  .head-info h1 { font-size: 1.6rem; }
+  .head-info p { color: var(--text-muted); margin-top: 4px; max-width: 560px; font-size: .95rem; }
+  .head-links { margin-top: 8px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .head-links a { color: var(--accent); text-decoration: none; font-size: .9rem; }
+  .head-links a:hover { text-decoration: underline; }
+
+  /* ---------- 3-column layout ---------- */
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(280px, 340px) minmax(0, 1fr) minmax(300px, 360px);
+    gap: 24px;
+    align-items: start;
+  }
+  aside { display: flex; flex-direction: column; gap: 20px; position: sticky; top: 16px; }
+
+  .widget {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .widget h3 {
+    font-size: .95rem;
+    padding: 13px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .widget .w-body { padding: 6px 0; max-height: calc(50vh - 120px); overflow-y: auto; }
+  .w-item {
+    display: block;
+    padding: 9px 16px;
+    text-decoration: none;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+    transition: background .15s;
+  }
+  .w-item:last-child { border-bottom: none; }
+  .w-item:hover { background: var(--chip-bg); }
+  .w-title { font-size: .84rem; line-height: 1.4; display: block; }
+  .w-meta { font-size: .74rem; color: var(--text-muted); margin-top: 3px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .w-loading, .w-error { padding: 16px; font-size: .82rem; color: var(--text-muted); text-align: center; }
+  .live-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #2da44e; margin-left: auto;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+
+  .toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 0 0 20px;
+  }
+  #search {
+    flex: 1;
+    min-width: 220px;
+    max-width: 380px;
+    padding: 10px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--card-bg);
+    color: var(--text);
+    font-size: .95rem;
+    outline: none;
+  }
+  #search:focus { border-color: var(--accent); }
+  #themeBtn {
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text);
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: .95rem;
+    transition: transform .15s;
+  }
+  #themeBtn:hover { transform: scale(1.05); }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: var(--shadow);
+    transition: transform .2s, box-shadow .2s;
+  }
+  .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+  .card h2 { font-size: 1.05rem; word-break: break-word; }
+  .card h2 a { color: var(--accent); text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; }
+  .desc { color: var(--text-muted); font-size: .9rem; flex: 1; line-height: 1.5; }
+  .meta { display: flex; gap: 14px; flex-wrap: wrap; font-size: .82rem; color: var(--text-muted); }
+  .meta span { display: inline-flex; align-items: center; gap: 5px; }
+  .lang-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+  .chip {
+    background: var(--chip-bg);
+    padding: 2px 10px;
+    border-radius: 999px;
+    font-size: .78rem;
+  }
+  .actions { display: flex; gap: 10px; margin-top: 4px; }
+  .btn {
+    flex: 1;
+    text-align: center;
+    padding: 9px 12px;
+    border-radius: 8px;
+    font-size: .88rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background .2s, border-color .2s;
+  }
+  .btn-primary { background: var(--accent); color: var(--btn-text); }
+  .btn-primary:hover { background: var(--accent-hover); }
+  .btn-secondary {
+    border: 1px solid var(--border);
+    color: var(--text);
+    background: transparent;
+  }
+  .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+  .release-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn-apk { background: #2da44e; color: #fff; }
+  .btn-apk:hover { background: #218739; }
+  .btn-installer { background: #8250df; color: #fff; }
+  .btn-installer:hover { background: #6b3fc4; }
+  .btn-sm { flex: 1; min-width: 120px; }
+
+  .status { text-align: center; color: var(--text-muted); padding: 60px 0; font-size: 1rem; }
+  footer { text-align: center; margin-top: 48px; color: var(--text-muted); font-size: .85rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+
+  @media (max-width: 1200px) {
+    .layout { grid-template-columns: minmax(0, 1fr) 320px; }
+    #leftSidebar { display: none; }
+    #rightSidebar .widget#newsWidget-clone { display: block; }
+  }
+  @media (max-width: 900px) {
+    .layout { grid-template-columns: 1fr; }
+    aside { position: static; }
+    #leftSidebar { display: flex; order: 2; }
+    #rightSidebar { order: 3; }
+    main { order: 1; }
+  }
+  @media (max-width: 900px) {
+    .head-stats { margin-left: 0; width: 100%; justify-content: center; }
+  }
+  @media (max-width: 480px) {
+    header { flex-direction: column; text-align: center; }
+    .head-links { justify-content: center; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <img class="avatar" src="https://avatars.githubusercontent.com/u/67502044?v=4" alt="Abdul Haseeb">
+    <div class="head-info">
+      <h1>Abdul Haseeb</h1>
+      <p id="bio">Passionate programmer &amp; software developer.</p>
+      <div class="head-links">
+        <a href="https://github.com/abdulhaseeb2k" target="_blank" rel="noopener">GitHub Profile</a>
+        <a href="https://twitter.com/Abdulhaseeb085" target="_blank" rel="noopener">X / Twitter</a>
+      </div>
+    </div>
+    <div class="head-stats" id="headStats"></div>
+  </header>
+
+  <div class="layout">
+    <!-- LEFT: AI & Tech news -->
+    <aside id="leftSidebar">
+      <div class="widget" id="newsWidget">
+        <h3>🤖 AI &amp; Tech News <span class="live-dot" title="Auto-updates on every visit"></span></h3>
+        <div class="w-body" id="newsBody"><div class="w-loading">Loading news…</div></div>
+      </div>
+      <div class="widget" id="hnWidget">
+        <h3>📰 Top on Hacker News</h3>
+        <div class="w-body" id="hnBody"><div class="w-loading">Loading…</div></div>
+      </div>
+    </aside>
+
+    <!-- CENTER: projects -->
+    <main>
+      <div class="toolbar">
+        <input id="search" type="text" placeholder="Search projects...">
+        <button id="themeBtn" title="Toggle theme">🌙 Dark</button>
+      </div>
+      <div id="grid" class="grid"></div>
+      <div id="status" class="status">Loading projects…</div>
+    </main>
+
+    <!-- RIGHT: new AI models + trending repos -->
+    <aside id="rightSidebar">
+      <div class="widget" id="modelsWidget">
+        <h3>🧠 New AI Models <span class="live-dot" title="Auto-updates on every visit"></span></h3>
+        <div class="w-body" id="modelsBody"><div class="w-loading">Loading models…</div></div>
+      </div>
+      <div class="widget" id="trendingWidget">
+        <h3>🔥 Trending on GitHub</h3>
+        <div class="w-body" id="trendingBody"><div class="w-loading">Loading…</div></div>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    Made with ❤️ by <a href="https://github.com/abdulhaseeb2k" target="_blank" rel="noopener">Abdul Haseeb</a>
+  </footer>
+</div>
+
+<script>
+const USERNAME = "abdulhaseeb2k";
+
+// ---------- Theme ----------
+const themeBtn = document.getElementById("themeBtn");
+function applyTheme(t) {
+  document.documentElement.setAttribute("data-theme", t);
+  themeBtn.textContent = t === "dark" ? "☀️ Light" : "🌙 Dark";
+  try { localStorage.setItem("theme", t); } catch (e) {}
+}
+let saved;
+try { saved = localStorage.getItem("theme"); } catch (e) {}
+applyTheme(saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+themeBtn.onclick = () => {
+  applyTheme(document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark");
+};
+
+// ---------- Helpers ----------
+function esc(s) {
+  return (s || "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function timeAgo(iso) {
+  const mins = Math.floor((Date.now() - new Date(iso)) / 60000);
+  if (mins < 60) return mins + "m ago";
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return hrs + "h ago";
+  const days = Math.floor(hrs / 24);
+  if (days < 30) return days + "d ago";
+  if (days < 365) return Math.floor(days / 30) + "mo ago";
+  return Math.floor(days / 365) + "y ago";
+}
+function fmtNum(n) {
+  if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
+  if (n >= 1e3) return (n / 1e3).toFixed(1) + "k";
+  return n;
+}
+
+// ---------- Language colors ----------
+const LANG_COLORS = {
+  JavaScript: "#f1e05a", Python: "#3572A5", HTML: "#e34c26", CSS: "#563d7c",
+  Java: "#b07219", "C++": "#f34b7d", C: "#555555", "C#": "#178600",
+  TypeScript: "#3178c6", PHP: "#4F5D95", Assembly: "#6E4C13", Shell: "#89e051",
+  Kotlin: "#A97BFF", Swift: "#F05138", Dart: "#00B4AB", Go: "#00ADD8",
+  Ruby: "#701516", Rust: "#dea584", Jupyter: "#DA5B0B"
+};
+
+// ---------- Projects ----------
+const grid = document.getElementById("grid");
+const statusEl = document.getElementById("status");
+let repos = [];
+const releaseAssets = {};
+
+function assetButtons(repoName) {
+  const assets = releaseAssets[repoName];
+  if (!assets || !assets.length) return "";
+  const btns = assets.map(a => {
+    const n = a.name.toLowerCase();
+    let cls = "btn-secondary", label = "⬇ " + esc(a.name);
+    if (n.endsWith(".apk")) { cls = "btn-apk"; label = "📱 Download APK"; }
+    else if (/\.(exe|msi)$/.test(n)) { cls = "btn-installer"; label = "💻 Download Installer"; }
+    else if (n.endsWith(".dmg")) { cls = "btn-installer"; label = "🍎 Download for Mac"; }
+    else if (/\.(deb|rpm|appimage)$/.test(n)) { cls = "btn-installer"; label = "🐧 Download for Linux"; }
+    else if (n.endsWith(".zip") || n.endsWith(".7z") || n.endsWith(".rar")) { label = "📦 " + esc(a.name); }
+    return `<a class="btn btn-sm ${cls}" href="${a.browser_download_url}" title="${esc(a.name)}">${label}</a>`;
+  }).join("");
+  return `<div class="release-actions">${btns}</div>`;
+}
+
+function render(list) {
+  grid.innerHTML = list.map(r => `
+    <div class="card">
+      <h2><a href="${r.html_url}" target="_blank" rel="noopener">${esc(r.name)}</a></h2>
+      <div class="desc">${esc(r.description) || "No description provided."}</div>
+      <div class="meta">
+        ${r.language ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.language] || "#8b949e"}"></span>${esc(r.language)}</span>` : ""}
+        <span>⭐ ${r.stargazers_count}</span>
+        <span>🍴 ${r.forks_count}</span>
+        <span class="chip">Updated ${timeAgo(r.pushed_at)}</span>
+      </div>
+      ${assetButtons(r.name)}
+      <div class="actions">
+        <a class="btn btn-primary" href="https://github.com/${USERNAME}/${r.name}/archive/refs/heads/${r.default_branch}.zip">⬇ Source ZIP</a>
+        <a class="btn btn-secondary" href="${r.html_url}" target="_blank" rel="noopener">View Code</a>
+      </div>
+    </div>`).join("");
+  statusEl.style.display = list.length ? "none" : "block";
+  statusEl.textContent = list.length ? "" : "No projects found.";
+}
+
+function loadReleases() {
+  Promise.allSettled(repos.map(r =>
+    fetch(`https://api.github.com/repos/${USERNAME}/${r.name}/releases/latest`)
+      .then(res => res.ok ? res.json() : null)
+      .then(rel => {
+        if (rel && rel.assets && rel.assets.length) releaseAssets[r.name] = rel.assets;
+      })
+  )).then(() => {
+    const q = document.getElementById("search").value.toLowerCase();
+    render(q ? filterRepos(q) : repos);
+  });
+}
+
+fetch(`https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=100`)
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data => {
+    repos = data.filter(r => !r.fork);
+    render(repos);
+    loadReleases();
+    stats.stars = data.reduce((s, r) => s + r.stargazers_count, 0);
+    renderStats();
+  })
+  .catch(() => {
+    statusEl.textContent = "Could not load projects. Please refresh the page.";
+  });
+
+// ---------- Header stats (repos, followers, stars) ----------
+const stats = { repos: null, followers: null, stars: null };
+function renderStats() {
+  const el = document.getElementById("headStats");
+  const box = (num, lbl) => num === null ? "" :
+    `<div class="stat-box"><div class="num">${fmtNum(num)}</div><div class="lbl">${lbl}</div></div>`;
+  el.innerHTML =
+    box(stats.repos, "Repositories") +
+    box(stats.stars, "Total Stars") +
+    box(stats.followers, "Followers");
+}
+
+fetch(`https://api.github.com/users/${USERNAME}`)
+  .then(r => r.json())
+  .then(u => {
+    if (u.bio) document.getElementById("bio").textContent = u.bio;
+    if (typeof u.public_repos === "number") stats.repos = u.public_repos;
+    if (typeof u.followers === "number") stats.followers = u.followers;
+    renderStats();
+  })
+  .catch(() => {});
+
+// ---------- Search ----------
+function filterRepos(q) {
+  return repos.filter(r =>
+    r.name.toLowerCase().includes(q) ||
+    (r.description || "").toLowerCase().includes(q) ||
+    (r.language || "").toLowerCase().includes(q)
+  );
+}
+document.getElementById("search").addEventListener("input", e => {
+  render(filterRepos(e.target.value.toLowerCase()));
+});
+
+// ==================================================
+//  DYNAMIC SIDEBARS — refresh automatically on every
+//  page visit, no maintenance needed
+// ==================================================
+
+function fail(el, msg) {
+  el.innerHTML = `<div class="w-error">${msg}</div>`;
+}
+
+// ---- 1. AI News (Hacker News search: recent AI stories) ----
+fetch("https://hn.algolia.com/api/v1/search?query=AI%20model&tags=story&numericFilters=points%3E30&hitsPerPage=8")
+  .then(r => r.json())
+  .then(d => {
+    const body = document.getElementById("newsBody");
+    if (!d.hits || !d.hits.length) return fail(body, "No news right now.");
+    body.innerHTML = d.hits.map(h => `
+      <a class="w-item" href="${h.url || `https://news.ycombinator.com/item?id=${h.objectID}`}" target="_blank" rel="noopener">
+        <span class="w-title">${esc(h.title)}</span>
+        <span class="w-meta"><span>▲ ${h.points}</span><span>💬 ${h.num_comments || 0}</span><span>${timeAgo(h.created_at)}</span></span>
+      </a>`).join("");
+  })
+  .catch(() => fail(document.getElementById("newsBody"), "News load nahi hui — refresh karein."));
+
+// ---- 2. Top Hacker News front page ----
+fetch("https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=6")
+  .then(r => r.json())
+  .then(d => {
+    const body = document.getElementById("hnBody");
+    if (!d.hits || !d.hits.length) return fail(body, "Nothing to show.");
+    body.innerHTML = d.hits.map(h => `
+      <a class="w-item" href="${h.url || `https://news.ycombinator.com/item?id=${h.objectID}`}" target="_blank" rel="noopener">
+        <span class="w-title">${esc(h.title)}</span>
+        <span class="w-meta"><span>▲ ${h.points}</span><span>${timeAgo(h.created_at)}</span></span>
+      </a>`).join("");
+  })
+  .catch(() => fail(document.getElementById("hnBody"), "Load failed."));
+
+// ---- 3. New / trending AI models (Hugging Face) ----
+fetch("https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=8")
+  .then(r => r.json())
+  .then(models => {
+    const body = document.getElementById("modelsBody");
+    if (!Array.isArray(models) || !models.length) return fail(body, "No models found.");
+    body.innerHTML = models.map(m => `
+      <a class="w-item" href="https://huggingface.co/${m.id}" target="_blank" rel="noopener">
+        <span class="w-title">${esc(m.id)}</span>
+        <span class="w-meta">
+          ${m.pipeline_tag ? `<span>🏷 ${esc(m.pipeline_tag)}</span>` : ""}
+          <span>⬇ ${fmtNum(m.downloads || 0)}</span>
+          <span>❤️ ${fmtNum(m.likes || 0)}</span>
+        </span>
+      </a>`).join("");
+  })
+  .catch(() => fail(document.getElementById("modelsBody"), "Models load nahi huay."));
+
+// ---- 4. Trending GitHub repos (created in last 7 days, most stars) ----
+(() => {
+  const d = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
+  fetch(`https://api.github.com/search/repositories?q=created:>${d}&sort=stars&order=desc&per_page=6`)
+    .then(r => r.json())
+    .then(res => {
+      const body = document.getElementById("trendingBody");
+      if (!res.items || !res.items.length) return fail(body, "Nothing trending.");
+      body.innerHTML = res.items.map(rep => `
+        <a class="w-item" href="${rep.html_url}" target="_blank" rel="noopener">
+          <span class="w-title">${esc(rep.full_name)}</span>
+          <span class="w-meta">
+            <span>⭐ ${fmtNum(rep.stargazers_count)}</span>
+            ${rep.language ? `<span>${esc(rep.language)}</span>` : ""}
+          </span>
+        </a>`).join("");
+    })
+    .catch(() => fail(document.getElementById("trendingBody"), "Load failed."));
+})();
+</script>
+</body>
+</html>
