@@ -231,6 +231,11 @@
   .desc { color: var(--text-muted); font-size: .9rem; flex: 1; line-height: 1.5; }
   .meta { display: flex; gap: 14px; flex-wrap: wrap; font-size: .82rem; color: var(--text-muted); }
   .meta span { display: inline-flex; align-items: center; gap: 5px; }
+  .meta a { color: inherit; text-decoration: none; }
+  .meta a:hover { color: var(--accent); text-decoration: underline; }
+  .dl-chip { background: var(--chip-bg); padding: 2px 10px; border-radius: 999px; font-size: .78rem; color: var(--accent); font-weight: 600; }
+  .w-footer-btn { display: block; margin: 12px 14px 14px; text-align: center; padding: 9px 12px; border-radius: 8px; font-size: .88rem; font-weight: 600; text-decoration: none; background: var(--accent); color: var(--btn-text); }
+  .w-footer-btn:hover { background: var(--accent-hover); }
   .lang-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
   .chip {
     background: var(--chip-bg);
@@ -318,6 +323,11 @@
       <div class="widget" id="hnWidget">
         <h3>📰 Top on Hacker News</h3>
         <div class="w-body" id="hnBody"><div class="w-loading">Loading…</div></div>
+      </div>
+      <div class="widget" id="feedbackWidget">
+        <h3>💬 Suggestions &amp; Feedback</h3>
+        <div class="w-body" id="feedbackBody"><div class="w-loading">Loading…</div></div>
+        <a class="w-footer-btn" href="https://github.com/abdulhaseeb2k/abdulhaseeb2k.github.io/issues/new?title=Suggestion:%20&body=Apni%20suggestion%20yahan%20likhein..." target="_blank" rel="noopener">✍ Give a Suggestion</a>
       </div>
     </aside>
 
@@ -489,6 +499,7 @@ const grid = document.getElementById("grid");
 const statusEl = document.getElementById("status");
 let repos = [];
 const releaseAssets = {};
+const repoDownloads = {};
 
 function assetButtons(repoName) {
   const assets = releaseAssets[repoName];
@@ -515,7 +526,10 @@ function render(list) {
         ${r.language ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.language] || "#8b949e"}"></span>${esc(r.language)}</span>` : ""}
         <span>⭐ ${r.stargazers_count}</span>
         <span>🍴 ${r.forks_count}</span>
+        <span title="Open issues"><a href="${r.html_url}/issues" target="_blank" rel="noopener">🐛 ${r.open_issues_count} issues</a></span>
+        ${repoDownloads[r.name] ? `<span class="dl-chip" title="Total release downloads">⬇ ${fmtNum(repoDownloads[r.name])} downloads</span>` : ""}
         <span class="chip">Updated ${timeAgo(r.pushed_at)}</span>
+        <span><a href="${r.html_url}/issues/new?title=Suggestion:%20" target="_blank" rel="noopener" title="Suggestion ya bug report dein">💬 Suggest</a></span>
       </div>
       ${assetButtons(r.name)}
       <div class="actions">
@@ -529,16 +543,45 @@ function render(list) {
 
 function loadReleases() {
   Promise.allSettled(repos.map(r =>
-    fetch(`https://api.github.com/repos/${USERNAME}/${r.name}/releases/latest`)
-      .then(res => res.ok ? res.json() : null)
-      .then(rel => {
-        if (rel && rel.assets && rel.assets.length) releaseAssets[r.name] = rel.assets;
+    fetch(`https://api.github.com/repos/${USERNAME}/${r.name}/releases?per_page=100`)
+      .then(res => res.ok ? res.json() : [])
+      .then(rels => {
+        if (!Array.isArray(rels) || !rels.length) return;
+        // download buttons: latest release ke assets
+        const latest = rels.find(rel => !rel.draft && rel.assets && rel.assets.length);
+        if (latest) releaseAssets[r.name] = latest.assets;
+        // total downloads: sab releases ke assets ka sum
+        let dl = 0;
+        for (const rel of rels) for (const a of (rel.assets || [])) dl += a.download_count || 0;
+        if (dl > 0) repoDownloads[r.name] = dl;
       })
   )).then(() => {
     const q = document.getElementById("search").value.toLowerCase();
     render(q ? filterRepos(q) : repos);
   });
 }
+
+// ---- Suggestions & feedback (GitHub issues across all repos) ----
+fetch(`https://api.github.com/search/issues?q=user:${USERNAME}+is:issue+state:open&sort=created&order=desc&per_page=6`)
+  .then(r => r.json())
+  .then(d => {
+    const body = document.getElementById("feedbackBody");
+    if (!d.items || !d.items.length) {
+      body.innerHTML = `<div class="w-error">Abhi koi suggestion nahi — pehli aap dein! 👇</div>`;
+      return;
+    }
+    body.innerHTML = d.items.map(iss => {
+      const repoName = iss.repository_url.split("/").pop();
+      return `
+      <a class="w-item" href="${iss.html_url}" target="_blank" rel="noopener">
+        <span class="w-title">${esc(iss.title)}</span>
+        <span class="w-meta"><span>📁 ${esc(repoName)}</span><span>💬 ${iss.comments}</span><span>${timeAgo(iss.created_at)}</span></span>
+      </a>`;
+    }).join("");
+  })
+  .catch(() => {
+    document.getElementById("feedbackBody").innerHTML = `<div class="w-error">Load nahi hua.</div>`;
+  });
 
 fetch(`https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=100`)
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
