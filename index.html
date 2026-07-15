@@ -397,7 +397,9 @@ function loadReleases() {
 fetch(`https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=100`)
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(data => {
-    repos = data.filter(r => !r.fork);
+    // Repos to hide from the page (website repo itself, profile README, etc.)
+    const HIDDEN = [`${USERNAME}.github.io`.toLowerCase()];
+    repos = data.filter(r => !r.fork && !HIDDEN.includes(r.name.toLowerCase()));
     render(repos);
     loadReleases();
     stats.stars = data.reduce((s, r) => s + r.stargazers_count, 0);
