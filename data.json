@@ -1,0 +1,114 @@
+{
+ "generated_at": "2026-07-21T21:28:38.717742+00:00",
+ "ai_news": [],
+ "hacking_news": [],
+ "dev_news": [],
+ "hn_front": [],
+ "models": [],
+ "trending": [
+  {
+   "name": "Fei-Away/Codex-Dream-Skin",
+   "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
+   "stars": 11494,
+   "lang": "JavaScript",
+   "desc": "Codex Dream Skin"
+  },
+  {
+   "name": "hoainho/img2threejs",
+   "url": "https://github.com/hoainho/img2threejs",
+   "stars": 1415,
+   "lang": "Python",
+   "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-"
+  },
+  {
+   "name": "lopopolo/harness-engineering",
+   "url": "https://github.com/lopopolo/harness-engineering",
+   "stars": 1411,
+   "lang": "Python",
+   "desc": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering"
+  },
+  {
+   "name": "tandpfun/wardrobe",
+   "url": "https://github.com/tandpfun/wardrobe",
+   "stars": 1279,
+   "lang": "JavaScript",
+   "desc": "Your clothes, extracted and organized with gpt-image."
+  },
+  {
+   "name": "pablostanley/yoinks",
+   "url": "https://github.com/pablostanley/yoinks",
+   "stars": 953,
+   "lang": "TypeScript",
+   "desc": "yoink any video from your terminal. no shady ads."
+  },
+  {
+   "name": "nethical6/conversation-steganography",
+   "url": "https://github.com/nethical6/conversation-steganography",
+   "stars": 908,
+   "lang": "Go",
+   "desc": "Use LLMs to hide messages inside normal looking conversations"
+  },
+  {
+   "name": "v-modal/vmodal_sdk_flutter",
+   "url": "https://github.com/v-modal/vmodal_sdk_flutter",
+   "stars": 762,
+   "lang": "Dart",
+   "desc": "V- Modal AI: Search anything anywhere SDK Flutter"
+  },
+  {
+   "name": "MIgHTy-alIeN/MEV-Arbitrage-Bot",
+   "url": "https://github.com/MIgHTy-alIeN/MEV-Arbitrage-Bot",
+   "stars": 740,
+   "lang": "Solidity",
+   "desc": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation."
+  }
+ ],
+ "famous_repos": [
+  {
+   "name": "thedotmack/claude-mem",
+   "url": "https://github.com/thedotmack/claude-mem",
+   "stars": 88138,
+   "lang": "TypeScript",
+   "desc": "Persistent context across sessions for every agent",
+   "pushed": ""
+  },
+  {
+   "name": "DeusData/codebase-memory-mcp",
+   "url": "https://github.com/DeusData/codebase-memory-mcp",
+   "stars": 33625,
+   "lang": "",
+   "desc": "High-performance code intelligence MCP server — indexes codebases into persistent memory",
+   "pushed": ""
+  },
+  {
+   "name": "tirth8205/code-review-graph",
+   "url": "https://github.com/tirth8205/code-review-graph",
+   "stars": 24469,
+   "lang": "",
+   "desc": "Local-first code intelligence graph for MCP and CLI",
+   "pushed": ""
+  },
+  {
+   "name": "diegosouzapw/OmniRoute",
+   "url": "https://github.com/diegosouzapw/OmniRoute",
+   "stars": 23399,
+   "lang": "TypeScript",
+   "desc": "Free MIT AI gateway: one endpoint, 268+ providers, auto-fallback",
+   "pushed": ""
+  },
+  {
+   "name": "WorldFlowAI/everything-claude-code",
+   "url": "https://github.com/WorldFlowAI/everything-claude-code",
+   "stars": 563,
+   "lang": "",
+   "desc": "Complete Claude Code configuration collection",
+   "pushed": ""
+  }
+ ],
+ "concept": {
+  "cat": "AI",
+  "title": "RAG (Retrieval-Augmented Generation)",
+  "desc": "Model ko jawab dene se pehle apne documents se relevant chunks retrieve kar ke context mein dena. Hallucination kam, private data pe kaam mumkin.",
+  "link": "https://huggingface.co/learn"
+ }
+}

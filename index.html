@@ -320,6 +320,14 @@
         <h3>🤖 AI &amp; Tech News <span class="live-dot" title="Auto-updates on every visit"></span></h3>
         <div class="w-body" id="newsBody"><div class="w-loading">Loading news…</div></div>
       </div>
+      <div class="widget" id="hackWidget">
+        <h3>🛡️ Hacking &amp; Security News <span class="live-dot" title="Updates daily"></span></h3>
+        <div class="w-body" id="hackBody"><div class="w-loading">Loading…</div></div>
+      </div>
+      <div class="widget" id="devWidget">
+        <h3>⚙️ Software Dev News <span class="live-dot" title="Updates daily"></span></h3>
+        <div class="w-body" id="devBody"><div class="w-loading">Loading…</div></div>
+      </div>
       <div class="widget" id="hnWidget">
         <h3>📰 Top on Hacker News</h3>
         <div class="w-body" id="hnBody"><div class="w-loading">Loading…</div></div>
@@ -341,8 +349,16 @@
       <div id="status" class="status">Loading projects…</div>
     </main>
 
-    <!-- RIGHT: new AI models + trending repos -->
+    <!-- RIGHT: concept + models + famous & trending repos -->
     <aside id="rightSidebar">
+      <div class="widget" id="conceptWidget">
+        <h3>💡 Concept of the Day</h3>
+        <div class="w-body" id="conceptBody"><div class="w-loading">Loading…</div></div>
+      </div>
+      <div class="widget" id="famousWidget">
+        <h3>🌟 Famous Repos <span class="live-dot" title="Curated + live stars, updates daily"></span></h3>
+        <div class="w-body" id="famousBody"><div class="w-loading">Loading…</div></div>
+      </div>
       <div class="widget" id="modelsWidget">
         <h3>🧠 New AI Models <span class="live-dot" title="Auto-updates on every visit"></span></h3>
         <div class="w-body" id="modelsBody"><div class="w-loading">Loading models…</div></div>
@@ -641,71 +657,101 @@ function fail(el, msg) {
   el.innerHTML = `<div class="w-error">${msg}</div>`;
 }
 
-// ---- 1. AI News (Hacker News search: recent AI stories) ----
-fetch("https://hn.algolia.com/api/v1/search?query=AI%20model&tags=story&numericFilters=points%3E30&hitsPerPage=8")
-  .then(r => r.json())
-  .then(d => {
-    const body = document.getElementById("newsBody");
-    if (!d.hits || !d.hits.length) return fail(body, "No news right now.");
-    body.innerHTML = d.hits.map(h => `
-      <a class="w-item" href="${h.url || `https://news.ycombinator.com/item?id=${h.objectID}`}" target="_blank" rel="noopener">
-        <span class="w-title">${esc(h.title)}</span>
-        <span class="w-meta"><span>▲ ${h.points}</span><span>💬 ${h.num_comments || 0}</span><span>${timeAgo(h.created_at)}</span></span>
-      </a>`).join("");
-  })
-  .catch(() => fail(document.getElementById("newsBody"), "News load nahi hui — refresh karein."));
+// ============================================================
+// Widgets ab data.json se load hote hain (GitHub Actions rozana
+// isay update karta hai — dekho scripts/update_data.py).
+// Agar data.json na mile to live APIs pe fallback hota hai.
+// ============================================================
 
-// ---- 2. Top Hacker News front page ----
-fetch("https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=6")
-  .then(r => r.json())
-  .then(d => {
-    const body = document.getElementById("hnBody");
-    if (!d.hits || !d.hits.length) return fail(body, "Nothing to show.");
-    body.innerHTML = d.hits.map(h => `
-      <a class="w-item" href="${h.url || `https://news.ycombinator.com/item?id=${h.objectID}`}" target="_blank" rel="noopener">
-        <span class="w-title">${esc(h.title)}</span>
-        <span class="w-meta"><span>▲ ${h.points}</span><span>${timeAgo(h.created_at)}</span></span>
-      </a>`).join("");
-  })
-  .catch(() => fail(document.getElementById("hnBody"), "Load failed."));
+function newsItems(list) {
+  return list.map(h => `
+    <a class="w-item" href="${h.url}" target="_blank" rel="noopener">
+      <span class="w-title">${esc(h.title)}</span>
+      <span class="w-meta"><span>▲ ${h.points}</span>${h.comments != null ? `<span>💬 ${h.comments}</span>` : ""}<span>${timeAgo(h.time)}</span></span>
+    </a>`).join("");
+}
 
-// ---- 3. New / trending AI models (Hugging Face) ----
-fetch("https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=8")
-  .then(r => r.json())
-  .then(models => {
-    const body = document.getElementById("modelsBody");
-    if (!Array.isArray(models) || !models.length) return fail(body, "No models found.");
-    body.innerHTML = models.map(m => `
+function repoItems(list) {
+  return list.map(r => `
+    <a class="w-item" href="${r.url}" target="_blank" rel="noopener" title="${esc(r.desc || "")}">
+      <span class="w-title">${esc(r.name)}</span>
+      <span class="w-meta"><span>⭐ ${fmtNum(r.stars)}</span>${r.lang ? `<span>${esc(r.lang)}</span>` : ""}</span>
+    </a>`).join("");
+}
+
+function renderFromData(d) {
+  const set = (id, html, empty) => {
+    const el = document.getElementById(id);
+    if (el) el.innerHTML = html || `<div class="w-error">${empty}</div>`;
+  };
+  if (d.ai_news?.length)      set("newsBody", newsItems(d.ai_news));
+  if (d.hacking_news?.length) set("hackBody", newsItems(d.hacking_news));
+  if (d.dev_news?.length)     set("devBody", newsItems(d.dev_news));
+  if (d.hn_front?.length)     set("hnBody", newsItems(d.hn_front));
+  if (d.models?.length) {
+    set("modelsBody", d.models.map(m => `
       <a class="w-item" href="https://huggingface.co/${m.id}" target="_blank" rel="noopener">
         <span class="w-title">${esc(m.id)}</span>
-        <span class="w-meta">
-          ${m.pipeline_tag ? `<span>🏷 ${esc(m.pipeline_tag)}</span>` : ""}
-          <span>⬇ ${fmtNum(m.downloads || 0)}</span>
-          <span>❤️ ${fmtNum(m.likes || 0)}</span>
-        </span>
-      </a>`).join("");
-  })
-  .catch(() => fail(document.getElementById("modelsBody"), "Models load nahi huay."));
+        <span class="w-meta">${m.pipeline ? `<span>🏷 ${esc(m.pipeline)}</span>` : ""}<span>⬇ ${fmtNum(m.downloads)}</span><span>❤️ ${fmtNum(m.likes)}</span></span>
+      </a>`).join(""));
+  }
+  if (d.trending?.length)     set("trendingBody", repoItems(d.trending));
+  if (d.famous_repos?.length) set("famousBody", repoItems(d.famous_repos));
+  if (d.concept) {
+    set("conceptBody", `
+      <div style="padding:10px 12px">
+        <span class="chip" style="font-size:.7rem">${esc(d.concept.cat)}</span>
+        <div style="font-weight:700;margin:6px 0 4px">${esc(d.concept.title)}</div>
+        <div style="font-size:.85rem;color:var(--text-muted);line-height:1.5">${esc(d.concept.desc)}</div>
+        <a href="${d.concept.link}" target="_blank" rel="noopener" style="font-size:.8rem;color:var(--accent)">Aur parhein →</a>
+      </div>`);
+  }
+  if (d.generated_at) {
+    const w = document.getElementById("newsWidget");
+    if (w) {
+      const stamp = document.createElement("div");
+      stamp.style.cssText = "font-size:.7rem;color:var(--text-muted);padding:4px 12px 8px";
+      stamp.textContent = "Last updated: " + timeAgo(d.generated_at);
+      w.appendChild(stamp);
+    }
+  }
+}
 
-// ---- 4. Trending GitHub repos (created in last 7 days, most stars) ----
-(() => {
-  const d = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
-  fetch(`https://api.github.com/search/repositories?q=created:>${d}&sort=stars&order=desc&per_page=6`)
+// Live API fallback (agar data.json abhi generate nahi hua)
+function liveFallback() {
+  fetch("https://hn.algolia.com/api/v1/search?query=AI%20model&tags=story&numericFilters=points%3E30&hitsPerPage=8")
     .then(r => r.json())
-    .then(res => {
-      const body = document.getElementById("trendingBody");
-      if (!res.items || !res.items.length) return fail(body, "Nothing trending.");
-      body.innerHTML = res.items.map(rep => `
-        <a class="w-item" href="${rep.html_url}" target="_blank" rel="noopener">
-          <span class="w-title">${esc(rep.full_name)}</span>
-          <span class="w-meta">
-            <span>⭐ ${fmtNum(rep.stargazers_count)}</span>
-            ${rep.language ? `<span>${esc(rep.language)}</span>` : ""}
-          </span>
-        </a>`).join("");
-    })
+    .then(d => renderFromData({ ai_news: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, comments: h.num_comments, time: h.created_at })) }))
+    .catch(() => fail(document.getElementById("newsBody"), "News load nahi hui."));
+  fetch("https://hn.algolia.com/api/v1/search_by_date?query=security%20OR%20vulnerability%20OR%20CVE&tags=story&numericFilters=points%3E15&hitsPerPage=8")
+    .then(r => r.json())
+    .then(d => renderFromData({ hacking_news: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, comments: h.num_comments, time: h.created_at })) }))
+    .catch(() => fail(document.getElementById("hackBody"), "Load failed."));
+  fetch("https://hn.algolia.com/api/v1/search_by_date?query=programming%20OR%20framework%20OR%20database&tags=story&numericFilters=points%3E25&hitsPerPage=8")
+    .then(r => r.json())
+    .then(d => renderFromData({ dev_news: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, comments: h.num_comments, time: h.created_at })) }))
+    .catch(() => fail(document.getElementById("devBody"), "Load failed."));
+  fetch("https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=6")
+    .then(r => r.json())
+    .then(d => renderFromData({ hn_front: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, time: h.created_at })) }))
+    .catch(() => fail(document.getElementById("hnBody"), "Load failed."));
+  fetch("https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=8")
+    .then(r => r.json())
+    .then(models => renderFromData({ models: models.map(m => ({ id: m.id, pipeline: m.pipeline_tag, downloads: m.downloads || 0, likes: m.likes || 0 })) }))
+    .catch(() => fail(document.getElementById("modelsBody"), "Models load nahi huay."));
+  const since = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
+  fetch(`https://api.github.com/search/repositories?q=created:>${since}&sort=stars&order=desc&per_page=6`)
+    .then(r => r.json())
+    .then(res => renderFromData({ trending: (res.items || []).map(rp => ({ name: rp.full_name, url: rp.html_url, stars: rp.stargazers_count, lang: rp.language, desc: rp.description })) }))
     .catch(() => fail(document.getElementById("trendingBody"), "Load failed."));
-})();
+  fail(document.getElementById("famousBody"), "Pehli daily update ke baad show honge (Actions tab se 'Run workflow' bhi kar sakte hain).");
+  fail(document.getElementById("conceptBody"), "Pehli daily update ke baad show hoga.");
+}
+
+fetch("data.json?v=" + Math.floor(Date.now() / 3600000)) // hourly cache-bust
+  .then(r => { if (!r.ok) throw 0; return r.json(); })
+  .then(renderFromData)
+  .catch(liveFallback);
 </script>
 </body>
 </html>
