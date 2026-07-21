@@ -1,377 +1,356 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abdul Haseeb — Projects</title>
-<meta name="description" content="Download and explore open-source projects by Abdul Haseeb (abdulhaseeb2k)">
+<title>Abdul Haseeb — Projects &amp; Daily AI Intel</title>
+<meta name="description" content="Open-source projects by Abdul Haseeb (abdulhaseeb2k) + daily AI, security & dev intelligence board">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #f6f8fa;
-    --card-bg: #ffffff;
-    --text: #1f2328;
-    --text-muted: #656d76;
-    --border: #d0d7de;
-    --accent: #0969da;
-    --accent-hover: #0550ae;
-    --btn-text: #ffffff;
-    --shadow: 0 1px 3px rgba(0,0,0,.08), 0 4px 14px rgba(0,0,0,.05);
-    --shadow-hover: 0 8px 24px rgba(0,0,0,.12);
-    --chip-bg: #eff2f5;
+    --bg: #0B0E14;
+    --panel: #121722;
+    --panel-2: #161D2B;
+    --ink: #E9E4D6;
+    --muted: #7E889C;
+    --amber: #F0B33C;
+    --amber-dim: rgba(240,179,60,.14);
+    --teal: #45C4B0;
+    --alert: #E4694F;
+    --line: #1F2735;
+    --line-soft: #182031;
+    --btn-ink: #14100A;
+    --mono: "IBM Plex Mono", ui-monospace, monospace;
+    --disp: "Space Grotesk", sans-serif;
+    --body: "Inter", -apple-system, "Segoe UI", sans-serif;
   }
-  [data-theme="dark"] {
-    --bg: #0d1117;
-    --card-bg: #161b22;
-    --text: #e6edf3;
-    --text-muted: #8b949e;
-    --border: #30363d;
-    --accent: #2f81f7;
-    --accent-hover: #58a6ff;
-    --btn-text: #ffffff;
-    --shadow: 0 1px 3px rgba(0,0,0,.4);
-    --shadow-hover: 0 8px 24px rgba(0,0,0,.5);
-    --chip-bg: #21262d;
+  [data-theme="light"] {
+    --bg: #F4F0E6;
+    --panel: #FFFDF8;
+    --panel-2: #FAF6EC;
+    --ink: #171C26;
+    --muted: #6A7180;
+    --amber: #9C6A14;
+    --amber-dim: rgba(156,106,20,.12);
+    --teal: #14776B;
+    --alert: #B4432C;
+    --line: #DAD3C2;
+    --line-soft: #E6E0D1;
+    --btn-ink: #FFF9EC;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scrollbar-color: var(--line) var(--bg); }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: var(--body);
     background: var(--bg);
-    color: var(--text);
+    color: var(--ink);
     min-height: 100vh;
     transition: background .3s, color .3s;
+    font-size: 15px;
   }
-  /* animated neural-network background */
-  #neuralCanvas {
-    position: fixed;
-    inset: 0;
-    z-index: 0;
-    pointer-events: none;
-    opacity: .5;
-  }
-  .container { width: 100%; margin: 0 auto; padding: 16px 28px 40px; position: relative; z-index: 1; }
+  a { color: inherit; }
+  ::selection { background: var(--amber); color: var(--btn-ink); }
 
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(18px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
+  #neuralCanvas { position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: .3; }
+  .container { width: 100%; max-width: 1760px; margin: 0 auto; padding: 14px 26px 48px; position: relative; z-index: 1; }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
   @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
   @keyframes spinRing { to { transform: rotate(360deg); } }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
+  /* ============ HEADER — status bar ============ */
   header {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding: 16px 0 20px;
+    display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+    padding: 14px 0 16px;
   }
-  .head-stats {
-    margin-left: auto;
-    display: flex;
-    gap: 14px;
-    flex-wrap: wrap;
-  }
-  .stat-box {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 12px 22px;
-    text-align: center;
-    box-shadow: var(--shadow);
-    min-width: 96px;
-  }
-  .stat-box .num { font-size: 1.35rem; font-weight: 700; color: var(--accent); }
-  .stat-box .lbl { font-size: .75rem; color: var(--text-muted); margin-top: 2px; }
-  .avatar-wrap {
-    position: relative;
-    width: 96px; height: 96px;
-    flex-shrink: 0;
-  }
+  .avatar-wrap { position: relative; width: 76px; height: 76px; flex-shrink: 0; }
   .avatar-wrap::before {
-    content: "";
-    position: absolute;
-    inset: -4px;
-    border-radius: 50%;
-    background: conic-gradient(#0969da, #8250df, #d946ef, #f97316, #0969da);
-    animation: spinRing 5s linear infinite;
+    content: ""; position: absolute; inset: -3px; border-radius: 50%;
+    background: conic-gradient(var(--amber), var(--teal), var(--amber));
+    animation: spinRing 7s linear infinite;
   }
-  .avatar {
-    position: relative;
-    width: 96px; height: 96px;
-    border-radius: 50%;
-    border: 4px solid var(--bg);
-  }
+  .avatar { position: relative; width: 76px; height: 76px; border-radius: 50%; border: 3px solid var(--bg); display: block; object-fit: cover; }
   .head-info h1 {
-    font-size: 1.9rem;
-    background: linear-gradient(90deg, var(--accent), #8250df, #d946ef);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: var(--disp); font-weight: 700; font-size: 1.7rem; letter-spacing: -.02em; line-height: 1.1;
   }
-  .typing-line {
-    font-family: Consolas, Monaco, "Courier New", monospace;
-    color: var(--accent);
-    font-size: .95rem;
-    margin-top: 6px;
-    min-height: 1.4em;
+  .head-info h1 .accent { color: var(--amber); }
+  #bio { color: var(--muted); font-size: .85rem; margin-top: 2px; max-width: 480px; }
+  .typing-line { font-family: var(--mono); font-size: .82rem; color: var(--teal); margin-top: 5px; }
+  .prompt { color: var(--amber); font-weight: 600; }
+  .cursor { display: inline-block; width: 8px; height: 1em; background: var(--amber); vertical-align: text-bottom; animation: blink 1s step-end infinite; }
+  .head-links { margin-top: 7px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .head-links a {
+    font-family: var(--mono); font-size: .72rem; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 1px;
   }
-  .typing-line .prompt { color: var(--text-muted); }
-  .typing-line .cursor {
-    display: inline-block;
-    width: 9px; height: 1.05em;
-    background: var(--accent);
-    vertical-align: text-bottom;
-    animation: blink 1s infinite;
-  }
-  .head-info p { color: var(--text-muted); margin-top: 4px; max-width: 560px; font-size: .95rem; }
-  .head-links { margin-top: 8px; display: flex; gap: 12px; flex-wrap: wrap; }
-  .head-links a { color: var(--accent); text-decoration: none; font-size: .9rem; }
-  .head-links a:hover { text-decoration: underline; }
+  .head-links a:hover { color: var(--amber); border-color: var(--amber); }
 
-  /* ---------- 3-column layout ---------- */
-  .layout {
-    display: grid;
-    grid-template-columns: minmax(280px, 340px) minmax(0, 1fr) minmax(300px, 360px);
-    gap: 24px;
-    align-items: start;
+  .head-stats {
+    margin-left: auto; text-align: right;
+    font-family: var(--mono); font-size: .8rem; color: var(--muted);
+    display: flex; flex-direction: column; gap: 6px; align-items: flex-end;
   }
-  aside { display: flex; flex-direction: column; gap: 20px; position: sticky; top: 16px; }
+  .readout { display: flex; gap: 0; flex-wrap: wrap; }
+  .readout span { padding: 0 12px; border-right: 1px solid var(--line); }
+  .readout span:last-child { border-right: 0; padding-right: 0; }
+  .readout b { color: var(--amber); font-weight: 600; }
+  #clock { color: var(--teal); letter-spacing: .06em; }
+  #themeBtn {
+    font-family: var(--mono); font-size: .72rem; text-transform: uppercase; letter-spacing: .08em;
+    background: none; border: 1px solid var(--line); color: var(--muted);
+    padding: 5px 12px; border-radius: 4px; cursor: pointer; transition: .2s;
+  }
+  #themeBtn:hover { border-color: var(--amber); color: var(--amber); }
 
+  /* ============ SIGNATURE — news ticker ============ */
+  .ticker-wrap {
+    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
+    background: var(--panel);
+    display: flex; align-items: stretch; overflow: hidden;
+    margin-bottom: 22px;
+  }
+  .ticker-label {
+    font-family: var(--mono); font-size: .68rem; font-weight: 600; letter-spacing: .12em;
+    color: var(--btn-ink); background: var(--amber);
+    padding: 8px 14px; display: flex; align-items: center; gap: 7px; flex-shrink: 0;
+    text-transform: uppercase;
+  }
+  .ticker-label .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--btn-ink); animation: blink 1.2s step-end infinite; }
+  .ticker-view { overflow: hidden; flex: 1; display: flex; align-items: center; }
+  .ticker-track {
+    display: inline-flex; white-space: nowrap; will-change: transform;
+    animation: ticker 60s linear infinite;
+    font-family: var(--mono); font-size: .78rem;
+  }
+  .ticker-wrap:hover .ticker-track { animation-play-state: paused; }
+  .ticker-track a { color: var(--muted); text-decoration: none; padding: 8px 0; }
+  .ticker-track a:hover { color: var(--amber); }
+  .ticker-track .sep { color: var(--amber); padding: 8px 16px; }
+
+  /* ============ LAYOUT ============ */
+  .layout { display: grid; grid-template-columns: 300px 1fr 320px; gap: 20px; align-items: start; }
+
+  /* ============ WIDGETS ============ */
   .widget {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    box-shadow: var(--shadow);
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    margin-bottom: 18px;
+    animation: fadeUp .5s ease both;
     overflow: hidden;
   }
-  .widget h3 {
-    font-size: .95rem;
-    padding: 13px 16px;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  .w-head {
+    display: flex; align-items: center; gap: 8px;
+    padding: 10px 12px; border-bottom: 1px solid var(--line-soft);
   }
-  .widget .w-body { padding: 6px 0; max-height: calc(50vh - 120px); overflow-y: auto; }
+  .tag {
+    font-family: var(--mono); font-size: .66rem; font-weight: 600; letter-spacing: .1em;
+    color: var(--amber); background: var(--amber-dim);
+    border: 1px solid transparent; border-radius: 3px; padding: 2px 8px;
+    text-transform: uppercase;
+  }
+  .tag.sec { color: var(--alert); background: rgba(228,105,79,.12); }
+  .tag.teal { color: var(--teal); background: rgba(69,196,176,.1); }
+  .w-head .w-title-text { font-family: var(--disp); font-weight: 500; font-size: .88rem; }
+  .live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--teal); margin-left: auto; box-shadow: 0 0 8px var(--teal); }
+  .w-body { display: flex; flex-direction: column; }
   .w-item {
-    display: block;
-    padding: 9px 16px;
-    text-decoration: none;
-    color: var(--text);
-    border-bottom: 1px solid var(--border);
+    padding: 9px 12px; text-decoration: none;
+    border-bottom: 1px solid var(--line-soft);
+    display: flex; flex-direction: column; gap: 4px;
     transition: background .15s;
   }
-  .w-item:last-child { border-bottom: none; }
-  .w-item:hover { background: var(--chip-bg); }
-  .w-title { font-size: .84rem; line-height: 1.4; display: block; }
-  .w-meta { font-size: .74rem; color: var(--text-muted); margin-top: 3px; display: flex; gap: 10px; flex-wrap: wrap; }
-  .w-loading, .w-error { padding: 16px; font-size: .82rem; color: var(--text-muted); text-align: center; }
-  .live-dot {
-    width: 8px; height: 8px; border-radius: 50%;
-    background: #2da44e; margin-left: auto;
-    animation: pulse 2s infinite;
+  .w-item:last-child { border-bottom: 0; }
+  .w-item:hover { background: var(--panel-2); }
+  .w-item:hover .w-title { color: var(--amber); }
+  .w-title { font-size: .82rem; line-height: 1.4; font-weight: 500; transition: color .15s; }
+  .w-meta { display: flex; gap: 10px; flex-wrap: wrap; font-family: var(--mono); font-size: .68rem; color: var(--muted); }
+  .w-loading, .w-error { padding: 14px 12px; color: var(--muted); font-family: var(--mono); font-size: .75rem; }
+  .w-loading::before { content: "▸ "; color: var(--amber); }
+  .w-footer-btn {
+    display: block; text-align: center; padding: 9px;
+    font-family: var(--mono); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--amber); text-decoration: none; border-top: 1px solid var(--line-soft);
   }
-  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .3; } }
+  .w-footer-btn:hover { background: var(--amber-dim); }
+  .stamp { font-family: var(--mono); font-size: .65rem; color: var(--muted); padding: 6px 12px 9px; border-top: 1px solid var(--line-soft); }
 
-  .toolbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin: 0 0 20px;
+  /* Concept of the day — the one loud panel */
+  #conceptWidget { border-color: var(--amber); border-left-width: 3px; }
+  .concept-inner { padding: 12px 14px; }
+  .concept-inner .cat {
+    font-family: var(--mono); font-size: .64rem; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--btn-ink); background: var(--amber); border-radius: 3px; padding: 2px 8px; display: inline-block;
   }
+  .concept-inner h4 { font-family: var(--disp); font-size: 1.02rem; margin: 8px 0 5px; }
+  .concept-inner p { font-size: .82rem; color: var(--muted); line-height: 1.55; }
+  .concept-inner a { font-family: var(--mono); font-size: .72rem; color: var(--amber); text-decoration: none; display: inline-block; margin-top: 7px; }
+  .concept-inner a:hover { text-decoration: underline; }
+
+  /* ============ PROJECTS ============ */
+  .toolbar { display: flex; gap: 10px; margin-bottom: 16px; }
   #search {
-    flex: 1;
-    min-width: 220px;
-    max-width: 380px;
-    padding: 10px 14px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    background: var(--card-bg);
-    color: var(--text);
-    font-size: .95rem;
-    outline: none;
+    flex: 1; background: var(--panel); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 6px;
+    padding: 9px 14px; font-family: var(--mono); font-size: .8rem;
   }
-  #search:focus { border-color: var(--accent); }
-  #themeBtn {
-    border: 1px solid var(--border);
-    background: var(--card-bg);
-    color: var(--text);
-    padding: 10px 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: .95rem;
-    transition: transform .15s;
+  #search::placeholder { color: var(--muted); }
+  #search:focus { outline: none; border-color: var(--amber); }
+  .section-head {
+    display: flex; align-items: baseline; gap: 10px; margin-bottom: 14px;
   }
-  #themeBtn:hover { transform: scale(1.05); }
-
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-    gap: 20px;
-  }
+  .section-head h2 { font-family: var(--disp); font-size: 1.15rem; font-weight: 700; letter-spacing: -.01em; }
+  .section-head .rule { flex: 1; height: 1px; background: var(--line); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 16px; }
   .card {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    box-shadow: var(--shadow);
-    transition: transform .2s, box-shadow .2s;
+    background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
+    padding: 15px 16px; animation: fadeUp .5s ease both;
+    display: flex; flex-direction: column; gap: 9px;
+    transition: border-color .2s, transform .2s;
   }
-  .card { animation: fadeUp .55s ease backwards; }
-  .widget { animation: fadeUp .6s ease backwards; }
-  .stat-box { animation: fadeUp .5s ease backwards; }
-  .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); border-color: var(--accent); }
-  .card h2 { font-size: 1.05rem; word-break: break-word; }
-  .card h2 a { color: var(--accent); text-decoration: none; }
-  .card h2 a:hover { text-decoration: underline; }
-  .desc { color: var(--text-muted); font-size: .9rem; flex: 1; line-height: 1.5; }
-  .meta { display: flex; gap: 14px; flex-wrap: wrap; font-size: .82rem; color: var(--text-muted); }
-  .meta span { display: inline-flex; align-items: center; gap: 5px; }
-  .meta a { color: inherit; text-decoration: none; }
-  .meta a:hover { color: var(--accent); text-decoration: underline; }
-  .dl-chip { background: var(--chip-bg); padding: 2px 10px; border-radius: 999px; font-size: .78rem; color: var(--accent); font-weight: 600; }
-  .w-footer-btn { display: block; margin: 12px 14px 14px; text-align: center; padding: 9px 12px; border-radius: 8px; font-size: .88rem; font-weight: 600; text-decoration: none; background: var(--accent); color: var(--btn-text); }
-  .w-footer-btn:hover { background: var(--accent-hover); }
-  .lang-dot { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
-  .chip {
-    background: var(--chip-bg);
-    padding: 2px 10px;
-    border-radius: 999px;
-    font-size: .78rem;
-  }
-  .actions { display: flex; gap: 10px; margin-top: 4px; }
+  .card:hover { border-color: var(--amber); transform: translateY(-2px); }
+  .card h2 { font-family: var(--disp); font-size: 1rem; font-weight: 700; }
+  .card h2 a { text-decoration: none; }
+  .card h2 a:hover { color: var(--amber); }
+  .desc { color: var(--muted); font-size: .82rem; line-height: 1.5; flex: 1; }
+  .meta { display: flex; flex-wrap: wrap; gap: 8px 12px; font-family: var(--mono); font-size: .68rem; color: var(--muted); align-items: center; }
+  .meta a { color: var(--muted); text-decoration: none; }
+  .meta a:hover { color: var(--amber); }
+  .lang-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 4px; vertical-align: -1px; }
+  .chip { background: var(--panel-2); border: 1px solid var(--line-soft); border-radius: 3px; padding: 1px 7px; }
+  .dl-chip { color: var(--teal); }
+  .actions, .release-actions { display: flex; gap: 8px; flex-wrap: wrap; }
   .btn {
-    flex: 1;
-    text-align: center;
-    padding: 9px 12px;
-    border-radius: 8px;
-    font-size: .88rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition: background .2s, border-color .2s;
+    font-family: var(--mono); font-size: .72rem; font-weight: 600; letter-spacing: .04em;
+    padding: 7px 13px; border-radius: 5px; text-decoration: none;
+    border: 1px solid transparent; transition: .15s; display: inline-block;
   }
-  .btn-primary { background: var(--accent); color: var(--btn-text); }
-  .btn-primary:hover { background: var(--accent-hover); }
-  .btn-secondary {
-    border: 1px solid var(--border);
-    color: var(--text);
-    background: transparent;
-  }
-  .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
-  .release-actions { display: flex; gap: 10px; flex-wrap: wrap; }
-  .btn-apk { background: #2da44e; color: #fff; }
-  .btn-apk:hover { background: #218739; }
-  .btn-installer { background: #8250df; color: #fff; }
-  .btn-installer:hover { background: #6b3fc4; }
-  .btn-sm { flex: 1; min-width: 120px; }
+  .btn-sm { padding: 5px 10px; font-size: .68rem; }
+  .btn-primary { background: var(--amber); color: var(--btn-ink); }
+  .btn-primary:hover { filter: brightness(1.1); }
+  .btn-secondary { border-color: var(--line); color: var(--ink); }
+  .btn-secondary:hover { border-color: var(--amber); color: var(--amber); }
+  .btn-apk { background: var(--teal); color: var(--btn-ink); }
+  .btn-apk:hover { filter: brightness(1.08); }
+  .btn-installer { background: var(--panel-2); border-color: var(--line); color: var(--ink); }
+  .btn-installer:hover { border-color: var(--teal); color: var(--teal); }
+  .status { text-align: center; color: var(--muted); font-family: var(--mono); font-size: .8rem; padding: 30px 0; }
 
-  .status { text-align: center; color: var(--text-muted); padding: 60px 0; font-size: 1rem; }
-  footer { text-align: center; margin-top: 48px; color: var(--text-muted); font-size: .85rem; }
-  footer a { color: var(--accent); text-decoration: none; }
-
-  @media (max-width: 1200px) {
-    .layout { grid-template-columns: minmax(0, 1fr) 320px; }
-    #leftSidebar { display: none; }
-    #rightSidebar .widget#newsWidget-clone { display: block; }
+  footer {
+    margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line);
+    text-align: center; color: var(--muted); font-family: var(--mono); font-size: .72rem;
   }
-  @media (max-width: 900px) {
+  footer a { color: var(--amber); text-decoration: none; }
+
+  /* ============ RESPONSIVE ============ */
+  @media (max-width: 1180px) {
+    .layout { grid-template-columns: 1fr 1fr; }
+    main { grid-column: 1 / -1; grid-row: 1; }
+  }
+  @media (max-width: 720px) {
     .layout { grid-template-columns: 1fr; }
-    aside { position: static; }
-    #leftSidebar { display: flex; order: 2; }
-    #rightSidebar { order: 3; }
-    main { order: 1; }
+    .container { padding: 10px 14px 32px; }
+    .head-stats { margin-left: 0; align-items: flex-start; text-align: left; }
   }
-  @media (max-width: 900px) {
-    .head-stats { margin-left: 0; width: 100%; justify-content: center; }
-  }
-  @media (max-width: 480px) {
-    header { flex-direction: column; text-align: center; }
-    .head-links { justify-content: center; }
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track, .avatar-wrap::before, .cursor, .ticker-label .dot { animation: none !important; }
+    .widget, .card { animation: none !important; }
   }
 </style>
 </head>
 <body>
 <canvas id="neuralCanvas"></canvas>
 <div class="container">
+
   <header>
     <div class="avatar-wrap">
       <img class="avatar" src="https://avatars.githubusercontent.com/u/67502044?v=4" alt="Abdul Haseeb">
     </div>
     <div class="head-info">
-      <h1>Abdul Haseeb</h1>
-      <div class="typing-line"><span class="prompt">&gt;&nbsp;</span><span id="typingText"></span><span class="cursor"></span></div>
-      <p id="bio">Passionate programmer &amp; software developer.</p>
+      <h1>Abdul <span class="accent">Haseeb</span></h1>
+      <div id="bio"></div>
+      <div class="typing-line"><span class="prompt">❯&nbsp;</span><span id="typingText"></span><span class="cursor"></span></div>
       <div class="head-links">
-        <a href="https://github.com/abdulhaseeb2k" target="_blank" rel="noopener">GitHub Profile</a>
+        <a href="https://github.com/abdulhaseeb2k" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/abdulhaseeb2k" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://twitter.com/Abdulhaseeb085" target="_blank" rel="noopener">X / Twitter</a>
       </div>
     </div>
-    <div class="head-stats" id="headStats"></div>
+    <div class="head-stats">
+      <span id="clock"></span>
+      <div class="readout" id="headStats"></div>
+      <button id="themeBtn" title="Toggle theme">Light mode</button>
+    </div>
   </header>
 
+  <!-- Signature: live news ticker -->
+  <div class="ticker-wrap" id="tickerWrap" hidden>
+    <div class="ticker-label"><span class="dot"></span> Live intel</div>
+    <div class="ticker-view"><div class="ticker-track" id="tickerTrack"></div></div>
+  </div>
+
   <div class="layout">
-    <!-- LEFT: AI & Tech news -->
+    <!-- LEFT: news feeds -->
     <aside id="leftSidebar">
       <div class="widget" id="newsWidget">
-        <h3>🤖 AI &amp; Tech News <span class="live-dot" title="Auto-updates on every visit"></span></h3>
+        <div class="w-head"><span class="tag">AI-News</span><span class="w-title-text">AI &amp; Tech</span><span class="live-dot" title="Updates daily"></span></div>
         <div class="w-body" id="newsBody"><div class="w-loading">Loading news…</div></div>
       </div>
       <div class="widget" id="hackWidget">
-        <h3>🛡️ Hacking &amp; Security News <span class="live-dot" title="Updates daily"></span></h3>
+        <div class="w-head"><span class="tag sec">Sec</span><span class="w-title-text">Hacking &amp; Security</span><span class="live-dot" title="Updates daily"></span></div>
         <div class="w-body" id="hackBody"><div class="w-loading">Loading…</div></div>
       </div>
       <div class="widget" id="devWidget">
-        <h3>⚙️ Software Dev News <span class="live-dot" title="Updates daily"></span></h3>
+        <div class="w-head"><span class="tag teal">Dev</span><span class="w-title-text">Software Development</span><span class="live-dot" title="Updates daily"></span></div>
         <div class="w-body" id="devBody"><div class="w-loading">Loading…</div></div>
       </div>
       <div class="widget" id="hnWidget">
-        <h3>📰 Top on Hacker News</h3>
+        <div class="w-head"><span class="tag">HN</span><span class="w-title-text">Front Page</span></div>
         <div class="w-body" id="hnBody"><div class="w-loading">Loading…</div></div>
       </div>
       <div class="widget" id="feedbackWidget">
-        <h3>💬 Suggestions &amp; Feedback</h3>
+        <div class="w-head"><span class="tag teal">Inbox</span><span class="w-title-text">Suggestions &amp; Feedback</span></div>
         <div class="w-body" id="feedbackBody"><div class="w-loading">Loading…</div></div>
-        <a class="w-footer-btn" href="https://github.com/abdulhaseeb2k/abdulhaseeb2k.github.io/issues/new?title=Suggestion:%20&body=Apni%20suggestion%20yahan%20likhein..." target="_blank" rel="noopener">✍ Give a Suggestion</a>
+        <a class="w-footer-btn" href="https://github.com/abdulhaseeb2k/abdulhaseeb2k.github.io/issues/new?title=Suggestion:%20&body=Apni%20suggestion%20yahan%20likhein..." target="_blank" rel="noopener">✍ Give a suggestion</a>
       </div>
     </aside>
 
     <!-- CENTER: projects -->
     <main>
+      <div class="section-head"><h2>Projects</h2><div class="rule"></div></div>
       <div class="toolbar">
-        <input id="search" type="text" placeholder="Search projects...">
-        <button id="themeBtn" title="Toggle theme">🌙 Dark</button>
+        <input id="search" type="text" placeholder="❯ search projects…">
       </div>
       <div id="grid" class="grid"></div>
       <div id="status" class="status">Loading projects…</div>
     </main>
 
-    <!-- RIGHT: concept + models + famous & trending repos -->
+    <!-- RIGHT: concept + models + repos -->
     <aside id="rightSidebar">
       <div class="widget" id="conceptWidget">
-        <h3>💡 Concept of the Day</h3>
+        <div class="w-head"><span class="tag">Daily</span><span class="w-title-text">Concept of the Day</span></div>
         <div class="w-body" id="conceptBody"><div class="w-loading">Loading…</div></div>
       </div>
       <div class="widget" id="famousWidget">
-        <h3>🌟 Famous Repos <span class="live-dot" title="Curated + live stars, updates daily"></span></h3>
+        <div class="w-head"><span class="tag">Repos ★</span><span class="w-title-text">Famous Repos</span><span class="live-dot" title="Curated, live stars"></span></div>
         <div class="w-body" id="famousBody"><div class="w-loading">Loading…</div></div>
       </div>
       <div class="widget" id="modelsWidget">
-        <h3>🧠 New AI Models <span class="live-dot" title="Auto-updates on every visit"></span></h3>
+        <div class="w-head"><span class="tag teal">Models</span><span class="w-title-text">New AI Models</span><span class="live-dot" title="Updates daily"></span></div>
         <div class="w-body" id="modelsBody"><div class="w-loading">Loading models…</div></div>
       </div>
       <div class="widget" id="trendingWidget">
-        <h3>🔥 Trending on GitHub</h3>
+        <div class="w-head"><span class="tag">Trend</span><span class="w-title-text">Trending on GitHub</span></div>
         <div class="w-body" id="trendingBody"><div class="w-loading">Loading…</div></div>
       </div>
     </aside>
   </div>
 
   <footer>
-    Made with ❤️ by <a href="https://github.com/abdulhaseeb2k" target="_blank" rel="noopener">Abdul Haseeb</a>
+    Made with ❤️ by <a href="https://github.com/abdulhaseeb2k" target="_blank" rel="noopener">Abdul Haseeb</a> · updates daily at 08:00 PKT
   </footer>
 </div>
 
@@ -399,6 +378,15 @@ const ROLES = [
     setTimeout(tick, delay);
   }
   tick();
+})();
+
+// ---------- PKT clock ----------
+(function clock() {
+  const el = document.getElementById("clock");
+  function tick() {
+    el.textContent = new Date().toLocaleTimeString("en-GB", { timeZone: "Asia/Karachi", hour: "2-digit", minute: "2-digit", second: "2-digit" }) + " PKT";
+  }
+  tick(); setInterval(tick, 1000);
 })();
 
 // ---------- Neural network background ----------
@@ -429,8 +417,8 @@ const ROLES = [
   function colors() {
     const dark = document.documentElement.getAttribute("data-theme") === "dark";
     return dark
-      ? { node: "rgba(88,166,255,", line: "rgba(130,80,223," }
-      : { node: "rgba(9,105,218,", line: "rgba(130,80,223," };
+      ? { node: "rgba(240,179,60,", line: "rgba(69,196,176," }
+      : { node: "rgba(156,106,20,", line: "rgba(20,119,107," };
   }
 
   function frame() {
@@ -447,7 +435,7 @@ const ROLES = [
         const dx = a.x - b.x, dy = a.y - b.y;
         const d = Math.hypot(dx, dy);
         if (d < LINK) {
-          ctx.strokeStyle = c.line + (0.5 * (1 - d / LINK)) + ")";
+          ctx.strokeStyle = c.line + (0.35 * (1 - d / LINK)) + ")";
           ctx.lineWidth = 1;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y);
@@ -457,7 +445,7 @@ const ROLES = [
       }
     }
     for (const n of nodes) {
-      ctx.fillStyle = c.node + "0.8)";
+      ctx.fillStyle = c.node + "0.7)";
       ctx.beginPath();
       ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
       ctx.fill();
@@ -471,12 +459,12 @@ const ROLES = [
 const themeBtn = document.getElementById("themeBtn");
 function applyTheme(t) {
   document.documentElement.setAttribute("data-theme", t);
-  themeBtn.textContent = t === "dark" ? "☀️ Light" : "🌙 Dark";
+  themeBtn.textContent = t === "dark" ? "Light mode" : "Dark mode";
   try { localStorage.setItem("theme", t); } catch (e) {}
 }
 let saved;
 try { saved = localStorage.getItem("theme"); } catch (e) {}
-applyTheme(saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+applyTheme(saved || "dark");
 themeBtn.onclick = () => {
   applyTheme(document.documentElement.getAttribute("data-theme") === "dark" ? "light" : "dark");
 };
@@ -535,7 +523,7 @@ function assetButtons(repoName) {
 
 function render(list) {
   grid.innerHTML = list.map((r, i) => `
-    <div class="card" style="animation-delay:${Math.min(i * 80, 600)}ms">
+    <div class="card" style="animation-delay:${Math.min(i * 70, 500)}ms">
       <h2><a href="${r.html_url}" target="_blank" rel="noopener">${esc(r.name)}</a></h2>
       <div class="desc">${esc(r.description) || "No description provided."}</div>
       <div class="meta">
@@ -550,7 +538,7 @@ function render(list) {
       ${assetButtons(r.name)}
       <div class="actions">
         <a class="btn btn-primary" href="https://github.com/${USERNAME}/${r.name}/archive/refs/heads/${r.default_branch}.zip">⬇ Source ZIP</a>
-        <a class="btn btn-secondary" href="${r.html_url}" target="_blank" rel="noopener">View Code</a>
+        <a class="btn btn-secondary" href="${r.html_url}" target="_blank" rel="noopener">View code</a>
       </div>
     </div>`).join("");
   statusEl.style.display = list.length ? "none" : "block";
@@ -563,10 +551,8 @@ function loadReleases() {
       .then(res => res.ok ? res.json() : [])
       .then(rels => {
         if (!Array.isArray(rels) || !rels.length) return;
-        // download buttons: latest release ke assets
         const latest = rels.find(rel => !rel.draft && rel.assets && rel.assets.length);
         if (latest) releaseAssets[r.name] = latest.assets;
-        // total downloads: sab releases ke assets ka sum
         let dl = 0;
         for (const rel of rels) for (const a of (rel.assets || [])) dl += a.download_count || 0;
         if (dl > 0) repoDownloads[r.name] = dl;
@@ -602,7 +588,6 @@ fetch(`https://api.github.com/search/issues?q=user:${USERNAME}+is:issue+state:op
 fetch(`https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=100`)
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(data => {
-    // Repos to hide from the page (website repo itself, profile README, etc.)
     const HIDDEN = [`${USERNAME}.github.io`.toLowerCase()];
     repos = data.filter(r => !r.fork && !HIDDEN.includes(r.name.toLowerCase()));
     render(repos);
@@ -614,16 +599,15 @@ fetch(`https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=100`
     statusEl.textContent = "Could not load projects. Please refresh the page.";
   });
 
-// ---------- Header stats (repos, followers, stars) ----------
+// ---------- Header stats (mono readout) ----------
 const stats = { repos: null, followers: null, stars: null };
 function renderStats() {
   const el = document.getElementById("headStats");
-  const box = (num, lbl) => num === null ? "" :
-    `<div class="stat-box"><div class="num">${fmtNum(num)}</div><div class="lbl">${lbl}</div></div>`;
+  const part = (num, lbl) => num === null ? "" : `<span>${lbl} <b>${fmtNum(num)}</b></span>`;
   el.innerHTML =
-    box(stats.repos, "Repositories") +
-    box(stats.stars, "Total Stars") +
-    box(stats.followers, "Followers");
+    part(stats.repos, "REPOS") +
+    part(stats.stars, "STARS") +
+    part(stats.followers, "FOLLOWERS");
 }
 
 fetch(`https://api.github.com/users/${USERNAME}`)
@@ -648,20 +632,15 @@ document.getElementById("search").addEventListener("input", e => {
   render(filterRepos(e.target.value.toLowerCase()));
 });
 
-// ==================================================
-//  DYNAMIC SIDEBARS — refresh automatically on every
-//  page visit, no maintenance needed
-// ==================================================
+// ============================================================
+// Widgets data.json se load hote hain (GitHub Actions rozana
+// isay update karta hai — dekho scripts/update_data.py).
+// Agar data.json na mile to live APIs pe fallback hota hai.
+// ============================================================
 
 function fail(el, msg) {
   el.innerHTML = `<div class="w-error">${msg}</div>`;
 }
-
-// ============================================================
-// Widgets ab data.json se load hote hain (GitHub Actions rozana
-// isay update karta hai — dekho scripts/update_data.py).
-// Agar data.json na mile to live APIs pe fallback hota hai.
-// ============================================================
 
 function newsItems(list) {
   return list.map(h => `
@@ -679,12 +658,26 @@ function repoItems(list) {
     </a>`).join("");
 }
 
+function fillTicker(list) {
+  if (!list || !list.length) return;
+  const wrap = document.getElementById("tickerWrap");
+  const track = document.getElementById("tickerTrack");
+  const items = list.map(h =>
+    `<a href="${h.url}" target="_blank" rel="noopener">${esc(h.title)}</a><span class="sep">◆</span>`
+  ).join("");
+  track.innerHTML = items + items; // duplicate for seamless loop
+  wrap.hidden = false;
+}
+
 function renderFromData(d) {
   const set = (id, html, empty) => {
     const el = document.getElementById(id);
     if (el) el.innerHTML = html || `<div class="w-error">${empty}</div>`;
   };
-  if (d.ai_news?.length)      set("newsBody", newsItems(d.ai_news));
+  if (d.ai_news?.length) {
+    set("newsBody", newsItems(d.ai_news));
+    fillTicker(d.ai_news.concat(d.hacking_news || [], d.dev_news || []));
+  }
   if (d.hacking_news?.length) set("hackBody", newsItems(d.hacking_news));
   if (d.dev_news?.length)     set("devBody", newsItems(d.dev_news));
   if (d.hn_front?.length)     set("hnBody", newsItems(d.hn_front));
@@ -699,18 +692,18 @@ function renderFromData(d) {
   if (d.famous_repos?.length) set("famousBody", repoItems(d.famous_repos));
   if (d.concept) {
     set("conceptBody", `
-      <div style="padding:10px 12px">
-        <span class="chip" style="font-size:.7rem">${esc(d.concept.cat)}</span>
-        <div style="font-weight:700;margin:6px 0 4px">${esc(d.concept.title)}</div>
-        <div style="font-size:.85rem;color:var(--text-muted);line-height:1.5">${esc(d.concept.desc)}</div>
-        <a href="${d.concept.link}" target="_blank" rel="noopener" style="font-size:.8rem;color:var(--accent)">Aur parhein →</a>
+      <div class="concept-inner">
+        <span class="cat">${esc(d.concept.cat)}</span>
+        <h4>${esc(d.concept.title)}</h4>
+        <p>${esc(d.concept.desc)}</p>
+        <a href="${d.concept.link}" target="_blank" rel="noopener">Aur parhein →</a>
       </div>`);
   }
   if (d.generated_at) {
     const w = document.getElementById("newsWidget");
-    if (w) {
+    if (w && !w.querySelector(".stamp")) {
       const stamp = document.createElement("div");
-      stamp.style.cssText = "font-size:.7rem;color:var(--text-muted);padding:4px 12px 8px";
+      stamp.className = "stamp";
       stamp.textContent = "Last updated: " + timeAgo(d.generated_at);
       w.appendChild(stamp);
     }
