@@ -10,35 +10,37 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0B0E14;
-    --panel: #121722;
-    --panel-2: #161D2B;
-    --ink: #E9E4D6;
-    --muted: #7E889C;
-    --amber: #F0B33C;
-    --amber-dim: rgba(240,179,60,.14);
-    --teal: #45C4B0;
-    --alert: #E4694F;
-    --line: #1F2735;
-    --line-soft: #182031;
-    --btn-ink: #14100A;
+    --bg: #07090F;
+    --panel: #0E1320;
+    --panel-2: #151C2E;
+    --ink: #EDF0FF;
+    --muted: #8B93B0;
+    --amber: #8A7BFF;               /* primary: electric violet */
+    --amber-dim: rgba(138,123,255,.14);
+    --teal: #2DD6E8;                /* secondary: hot cyan */
+    --alert: #FF5C8A;               /* security: neon pink */
+    --line: #1C2338;
+    --line-soft: #161D30;
+    --btn-ink: #0A0716;
+    --grad: linear-gradient(92deg, #8A7BFF, #2DD6E8);
     --mono: "IBM Plex Mono", ui-monospace, monospace;
     --disp: "Space Grotesk", sans-serif;
     --body: "Inter", -apple-system, "Segoe UI", sans-serif;
   }
   [data-theme="light"] {
-    --bg: #F4F0E6;
-    --panel: #FFFDF8;
-    --panel-2: #FAF6EC;
-    --ink: #171C26;
-    --muted: #6A7180;
-    --amber: #9C6A14;
-    --amber-dim: rgba(156,106,20,.12);
-    --teal: #14776B;
-    --alert: #B4432C;
-    --line: #DAD3C2;
-    --line-soft: #E6E0D1;
-    --btn-ink: #FFF9EC;
+    --bg: #F5F6FB;
+    --panel: #FFFFFF;
+    --panel-2: #F1F2FA;
+    --ink: #14172A;
+    --muted: #666E8C;
+    --amber: #5B4BE0;
+    --amber-dim: rgba(91,75,224,.1);
+    --teal: #0891B2;
+    --alert: #DB2777;
+    --line: #E0E3F0;
+    --line-soft: #EAECF5;
+    --btn-ink: #FFFFFF;
+    --grad: linear-gradient(92deg, #5B4BE0, #0891B2);
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html { scrollbar-color: var(--line) var(--bg); }
@@ -69,14 +71,14 @@
   .avatar-wrap { position: relative; width: 76px; height: 76px; flex-shrink: 0; }
   .avatar-wrap::before {
     content: ""; position: absolute; inset: -3px; border-radius: 50%;
-    background: conic-gradient(var(--amber), var(--teal), var(--amber));
+    background: conic-gradient(#8A7BFF, #2DD6E8, #FF5C8A, #8A7BFF);
     animation: spinRing 7s linear infinite;
   }
   .avatar { position: relative; width: 76px; height: 76px; border-radius: 50%; border: 3px solid var(--bg); display: block; object-fit: cover; }
   .head-info h1 {
     font-family: var(--disp); font-weight: 700; font-size: 1.7rem; letter-spacing: -.02em; line-height: 1.1;
   }
-  .head-info h1 .accent { color: var(--amber); }
+  .head-info h1 .accent { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
   #bio { color: var(--muted); font-size: .85rem; margin-top: 2px; max-width: 480px; }
   .typing-line { font-family: var(--mono); font-size: .82rem; color: var(--teal); margin-top: 5px; }
   .prompt { color: var(--amber); font-weight: 600; }
@@ -114,11 +116,11 @@
   }
   .ticker-label {
     font-family: var(--mono); font-size: .68rem; font-weight: 600; letter-spacing: .12em;
-    color: var(--btn-ink); background: var(--amber);
+    color: #fff; background: var(--grad);
     padding: 8px 14px; display: flex; align-items: center; gap: 7px; flex-shrink: 0;
     text-transform: uppercase;
   }
-  .ticker-label .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--btn-ink); animation: blink 1.2s step-end infinite; }
+  .ticker-label .dot { width: 6px; height: 6px; border-radius: 50%; background: #fff; animation: blink 1.2s step-end infinite; }
   .ticker-view { overflow: hidden; flex: 1; display: flex; align-items: center; }
   .ticker-track {
     display: inline-flex; white-space: nowrap; will-change: transform;
@@ -155,7 +157,7 @@
   .tag.sec { color: var(--alert); background: rgba(228,105,79,.12); }
   .tag.teal { color: var(--teal); background: rgba(69,196,176,.1); }
   .w-head .w-title-text { font-family: var(--disp); font-weight: 500; font-size: .88rem; }
-  .live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--teal); margin-left: auto; box-shadow: 0 0 8px var(--teal); }
+  .live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--teal); margin-left: auto; box-shadow: 0 0 10px var(--teal); }
   .w-body { display: flex; flex-direction: column; }
   .w-item {
     padding: 9px 12px; text-decoration: none;
@@ -179,11 +181,11 @@
   .stamp { font-family: var(--mono); font-size: .65rem; color: var(--muted); padding: 6px 12px 9px; border-top: 1px solid var(--line-soft); }
 
   /* Concept of the day — the one loud panel */
-  #conceptWidget { border-color: var(--amber); border-left-width: 3px; }
+  #conceptWidget { border: 1px solid transparent; background: linear-gradient(var(--panel), var(--panel)) padding-box, var(--grad) border-box; }
   .concept-inner { padding: 12px 14px; }
   .concept-inner .cat {
     font-family: var(--mono); font-size: .64rem; letter-spacing: .12em; text-transform: uppercase;
-    color: var(--btn-ink); background: var(--amber); border-radius: 3px; padding: 2px 8px; display: inline-block;
+    color: #fff; background: var(--grad); border-radius: 3px; padding: 2px 8px; display: inline-block;
   }
   .concept-inner h4 { font-family: var(--disp); font-size: 1.02rem; margin: 8px 0 5px; }
   .concept-inner p { font-size: .82rem; color: var(--muted); line-height: 1.55; }
@@ -211,7 +213,7 @@
     display: flex; flex-direction: column; gap: 9px;
     transition: border-color .2s, transform .2s;
   }
-  .card:hover { border-color: var(--amber); transform: translateY(-2px); }
+  .card:hover { border-color: var(--amber); transform: translateY(-2px); box-shadow: 0 0 22px rgba(138,123,255,.14); }
   .card h2 { font-family: var(--disp); font-size: 1rem; font-weight: 700; }
   .card h2 a { text-decoration: none; }
   .card h2 a:hover { color: var(--amber); }
@@ -229,11 +231,11 @@
     border: 1px solid transparent; transition: .15s; display: inline-block;
   }
   .btn-sm { padding: 5px 10px; font-size: .68rem; }
-  .btn-primary { background: var(--amber); color: var(--btn-ink); }
+  .btn-primary { background: var(--grad); color: #fff; }
   .btn-primary:hover { filter: brightness(1.1); }
   .btn-secondary { border-color: var(--line); color: var(--ink); }
   .btn-secondary:hover { border-color: var(--amber); color: var(--amber); }
-  .btn-apk { background: var(--teal); color: var(--btn-ink); }
+  .btn-apk { background: var(--teal); color: #06222A; }
   .btn-apk:hover { filter: brightness(1.08); }
   .btn-installer { background: var(--panel-2); border-color: var(--line); color: var(--ink); }
   .btn-installer:hover { border-color: var(--teal); color: var(--teal); }
@@ -314,7 +316,7 @@
       <div class="widget" id="feedbackWidget">
         <div class="w-head"><span class="tag teal">Inbox</span><span class="w-title-text">Suggestions &amp; Feedback</span></div>
         <div class="w-body" id="feedbackBody"><div class="w-loading">Loading…</div></div>
-        <a class="w-footer-btn" href="https://github.com/abdulhaseeb2k/abdulhaseeb2k.github.io/issues/new?title=Suggestion:%20&body=Apni%20suggestion%20yahan%20likhein..." target="_blank" rel="noopener">✍ Give a suggestion</a>
+        <a class="w-footer-btn" href="https://github.com/abdulhaseeb2k/abdulhaseeb2k.github.io/issues/new?title=Suggestion:%20&body=Write%20your%20suggestion%20here..." target="_blank" rel="noopener">✍ Give a suggestion</a>
       </div>
     </aside>
 
@@ -417,8 +419,8 @@ const ROLES = [
   function colors() {
     const dark = document.documentElement.getAttribute("data-theme") === "dark";
     return dark
-      ? { node: "rgba(240,179,60,", line: "rgba(69,196,176," }
-      : { node: "rgba(156,106,20,", line: "rgba(20,119,107," };
+      ? { node: "rgba(138,123,255,", line: "rgba(45,214,232," }
+      : { node: "rgba(91,75,224,", line: "rgba(8,145,178," };
   }
 
   function frame() {
@@ -533,7 +535,7 @@ function render(list) {
         <span title="Open issues"><a href="${r.html_url}/issues" target="_blank" rel="noopener">🐛 ${r.open_issues_count} issues</a></span>
         ${repoDownloads[r.name] ? `<span class="dl-chip" title="Total release downloads">⬇ ${fmtNum(repoDownloads[r.name])} downloads</span>` : ""}
         <span class="chip">Updated ${timeAgo(r.pushed_at)}</span>
-        <span><a href="${r.html_url}/issues/new?title=Suggestion:%20" target="_blank" rel="noopener" title="Suggestion ya bug report dein">💬 Suggest</a></span>
+        <span><a href="${r.html_url}/issues/new?title=Suggestion:%20" target="_blank" rel="noopener" title="Send a suggestion or bug report">💬 Suggest</a></span>
       </div>
       ${assetButtons(r.name)}
       <div class="actions">
@@ -569,7 +571,7 @@ fetch(`https://api.github.com/search/issues?q=user:${USERNAME}+is:issue+state:op
   .then(d => {
     const body = document.getElementById("feedbackBody");
     if (!d.items || !d.items.length) {
-      body.innerHTML = `<div class="w-error">Abhi koi suggestion nahi — pehli aap dein! 👇</div>`;
+      body.innerHTML = `<div class="w-error">No suggestions yet — be the first! 👇</div>`;
       return;
     }
     body.innerHTML = d.items.map(iss => {
@@ -582,7 +584,7 @@ fetch(`https://api.github.com/search/issues?q=user:${USERNAME}+is:issue+state:op
     }).join("");
   })
   .catch(() => {
-    document.getElementById("feedbackBody").innerHTML = `<div class="w-error">Load nahi hua.</div>`;
+    document.getElementById("feedbackBody").innerHTML = `<div class="w-error">Could not load.</div>`;
   });
 
 fetch(`https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=100`)
@@ -633,9 +635,9 @@ document.getElementById("search").addEventListener("input", e => {
 });
 
 // ============================================================
-// Widgets data.json se load hote hain (GitHub Actions rozana
-// isay update karta hai — dekho scripts/update_data.py).
-// Agar data.json na mile to live APIs pe fallback hota hai.
+// Widgets load from data.json (GitHub Actions updates it daily —
+// see scripts/update_data.py).
+// Falls back to live APIs if data.json is missing.
 // ============================================================
 
 function fail(el, msg) {
@@ -696,7 +698,7 @@ function renderFromData(d) {
         <span class="cat">${esc(d.concept.cat)}</span>
         <h4>${esc(d.concept.title)}</h4>
         <p>${esc(d.concept.desc)}</p>
-        <a href="${d.concept.link}" target="_blank" rel="noopener">Aur parhein →</a>
+        <a href="${d.concept.link}" target="_blank" rel="noopener">Read more →</a>
       </div>`);
   }
   if (d.generated_at) {
@@ -710,12 +712,12 @@ function renderFromData(d) {
   }
 }
 
-// Live API fallback (agar data.json abhi generate nahi hua)
+// Live API fallback (if data.json is not generated yet)
 function liveFallback() {
   fetch("https://hn.algolia.com/api/v1/search?query=AI%20model&tags=story&numericFilters=points%3E30&hitsPerPage=8")
     .then(r => r.json())
     .then(d => renderFromData({ ai_news: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, comments: h.num_comments, time: h.created_at })) }))
-    .catch(() => fail(document.getElementById("newsBody"), "News load nahi hui."));
+    .catch(() => fail(document.getElementById("newsBody"), "Could not load news."));
   fetch("https://hn.algolia.com/api/v1/search_by_date?query=security%20OR%20vulnerability%20OR%20CVE&tags=story&numericFilters=points%3E15&hitsPerPage=8")
     .then(r => r.json())
     .then(d => renderFromData({ hacking_news: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, comments: h.num_comments, time: h.created_at })) }))
@@ -731,14 +733,14 @@ function liveFallback() {
   fetch("https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=8")
     .then(r => r.json())
     .then(models => renderFromData({ models: models.map(m => ({ id: m.id, pipeline: m.pipeline_tag, downloads: m.downloads || 0, likes: m.likes || 0 })) }))
-    .catch(() => fail(document.getElementById("modelsBody"), "Models load nahi huay."));
+    .catch(() => fail(document.getElementById("modelsBody"), "Could not load models."));
   const since = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
   fetch(`https://api.github.com/search/repositories?q=created:>${since}&sort=stars&order=desc&per_page=6`)
     .then(r => r.json())
     .then(res => renderFromData({ trending: (res.items || []).map(rp => ({ name: rp.full_name, url: rp.html_url, stars: rp.stargazers_count, lang: rp.language, desc: rp.description })) }))
     .catch(() => fail(document.getElementById("trendingBody"), "Load failed."));
-  fail(document.getElementById("famousBody"), "Pehli daily update ke baad show honge (Actions tab se 'Run workflow' bhi kar sakte hain).");
-  fail(document.getElementById("conceptBody"), "Pehli daily update ke baad show hoga.");
+  fail(document.getElementById("famousBody"), "Will appear after the first daily update (you can also trigger it from the Actions tab).");
+  fail(document.getElementById("conceptBody"), "Will appear after the first daily update.");
 }
 
 fetch("data.json?v=" + Math.floor(Date.now() / 3600000)) // hourly cache-bust

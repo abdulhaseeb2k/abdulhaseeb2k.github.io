@@ -1,165 +1,10 @@
 {
- "generated_at": "2026-07-21T21:37:12.898851+00:00",
- "ai_news": [
-  {
-   "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
-   "url": "https://github.com/juggler-ai/juggler",
-   "points": 280,
-   "comments": 119,
-   "time": "2026-07-12T18:28:15Z"
-  },
-  {
-   "title": "Show HN: I am building a map of people who lived in the Roman Empire",
-   "url": "https://new.roman-names.com/",
-   "points": 210,
-   "comments": 52,
-   "time": "2026-06-10T19:28:49Z"
-  },
-  {
-   "title": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
-   "url": "https://news.ycombinator.com/item?id=48356312",
-   "points": 103,
-   "comments": 28,
-   "time": "2026-06-01T13:05:02Z"
-  },
-  {
-   "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
-   "url": "https://voker.ai",
-   "points": 59,
-   "comments": 22,
-   "time": "2026-05-12T15:45:20Z"
-  },
-  {
-   "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
-   "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
-   "points": 60,
-   "comments": 30,
-   "time": "2026-04-29T16:01:51Z"
-  },
-  {
-   "title": "Show HN: Robust LLM extractor for websites in TypeScript",
-   "url": "https://github.com/lightfeed/extractor",
-   "points": 72,
-   "comments": 50,
-   "time": "2026-03-26T03:55:52Z"
-  },
-  {
-   "title": "Show HN: Vibe Code your 3D Models",
-   "url": "https://github.com/ierror/synaps-cad",
-   "points": 61,
-   "comments": 20,
-   "time": "2026-02-27T17:27:34Z"
-  },
-  {
-   "title": "Launch HN: TeamOut (YC W22) – AI agent for planning company retreats",
-   "url": "https://app.teamout.com/ai",
-   "points": 55,
-   "comments": 61,
-   "time": "2026-02-25T14:02:02Z"
-  }
- ],
+ "generated_at": "2026-07-21T21:28:38.717742+00:00",
+ "ai_news": [],
  "hacking_news": [],
  "dev_news": [],
- "hn_front": [
-  {
-   "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-   "points": 527,
-   "time": "2026-07-21T15:17:16Z"
-  },
-  {
-   "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-   "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-   "points": 516,
-   "time": "2026-07-21T08:44:23Z"
-  },
-  {
-   "title": "OpenAI and Hugging Face address security incident during model evaluation",
-   "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-   "points": 295,
-   "time": "2026-07-21T20:09:52Z"
-  },
-  {
-   "title": "Apple defeats liability for not scanning iCloud for CSAM",
-   "url": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
-   "points": 277,
-   "time": "2026-07-21T14:31:41Z"
-  },
-  {
-   "title": "FreeInk: Open ecosystem for e-readers",
-   "url": "https://freeink.org/",
-   "points": 259,
-   "time": "2026-07-21T18:39:06Z"
-  },
-  {
-   "title": "Long presumed dead, a thriving coral reef is discovered in West Africa",
-   "url": "https://e360.yale.edu/digest/benin-coral-reef",
-   "points": 249,
-   "time": "2026-07-21T15:41:51Z"
-  }
- ],
- "models": [
-  {
-   "id": "thinkingmachines/Inkling",
-   "pipeline": "image-text-to-text",
-   "downloads": 16441,
-   "likes": 1350
-  },
-  {
-   "id": "prism-ml/Ternary-Bonsai-27B-gguf",
-   "pipeline": "text-generation",
-   "downloads": 432196,
-   "likes": 896
-  },
-  {
-   "id": "baidu/Unlimited-OCR",
-   "pipeline": "image-text-to-text",
-   "downloads": 2237351,
-   "likes": 2595
-  },
-  {
-   "id": "prism-ml/Bonsai-27B-gguf",
-   "pipeline": "text-generation",
-   "downloads": 1404962,
-   "likes": 570
-  },
-  {
-   "id": "zai-org/GLM-5.2",
-   "pipeline": "text-generation",
-   "downloads": 545109,
-   "likes": 4269
-  },
-  {
-   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 62842,
-   "likes": 233
-  },
-  {
-   "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-   "pipeline": "image-text-to-text",
-   "downloads": 1997690,
-   "likes": 2967
-  },
-  {
-   "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 2133420,
-   "likes": 2385
-  },
-  {
-   "id": "conradlocke/krea2-identity-edit",
-   "pipeline": "",
-   "downloads": 0,
-   "likes": 472
-  },
-  {
-   "id": "ATH-MaaS/OvisOCR2",
-   "pipeline": "image-text-to-text",
-   "downloads": 17162,
-   "likes": 234
-  }
- ],
+ "hn_front": [],
+ "models": [],
  "trending": [
   {
    "name": "Fei-Away/Codex-Dream-Skin",
@@ -171,14 +16,14 @@
   {
    "name": "hoainho/img2threejs",
    "url": "https://github.com/hoainho/img2threejs",
-   "stars": 1417,
+   "stars": 1415,
    "lang": "Python",
    "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-"
   },
   {
    "name": "lopopolo/harness-engineering",
    "url": "https://github.com/lopopolo/harness-engineering",
-   "stars": 1415,
+   "stars": 1411,
    "lang": "Python",
    "desc": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering"
   },
@@ -192,7 +37,7 @@
   {
    "name": "pablostanley/yoinks",
    "url": "https://github.com/pablostanley/yoinks",
-   "stars": 954,
+   "stars": 953,
    "lang": "TypeScript",
    "desc": "yoink any video from your terminal. no shady ads."
   },
@@ -206,7 +51,7 @@
   {
    "name": "v-modal/vmodal_sdk_flutter",
    "url": "https://github.com/v-modal/vmodal_sdk_flutter",
-   "stars": 763,
+   "stars": 762,
    "lang": "Dart",
    "desc": "V- Modal AI: Search anything anywhere SDK Flutter"
   },
@@ -220,122 +65,50 @@
  ],
  "famous_repos": [
   {
-   "name": "ollama/ollama",
-   "url": "https://github.com/ollama/ollama",
-   "stars": 176593,
-   "lang": "Go",
-   "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-07-21T19:36:35Z"
-  },
-  {
-   "name": "open-webui/open-webui",
-   "url": "https://github.com/open-webui/open-webui",
-   "stars": 146237,
-   "lang": "Python",
-   "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-07-21T18:18:42Z"
-  },
-  {
-   "name": "langchain-ai/langchain",
-   "url": "https://github.com/langchain-ai/langchain",
-   "stars": 142266,
-   "lang": "Python",
-   "desc": "The agent engineering platform.",
-   "pushed": "2026-07-21T19:38:36Z"
-  },
-  {
-   "name": "anthropics/claude-code",
-   "url": "https://github.com/anthropics/claude-code",
-   "stars": 138585,
-   "lang": "Python",
-   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-07-21T21:35:10Z"
-  },
-  {
-   "name": "ggml-org/llama.cpp",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 121198,
-   "lang": "C++",
-   "desc": "LLM inference in C/C++",
-   "pushed": "2026-07-21T16:30:01Z"
-  },
-  {
-   "name": "microsoft/generative-ai-for-beginners",
-   "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 113334,
-   "lang": "Jupyter Notebook",
-   "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-07-21T11:56:26Z"
-  },
-  {
-   "name": "punkpeye/awesome-mcp-servers",
-   "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 91050,
-   "lang": "",
-   "desc": "A collection of MCP servers.",
-   "pushed": "2026-07-21T20:41:06Z"
-  },
-  {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
    "stars": 88138,
-   "lang": "JavaScript",
-   "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-07-20T16:32:51Z"
-  },
-  {
-   "name": "BerriAI/litellm",
-   "url": "https://github.com/BerriAI/litellm",
-   "stars": 54260,
-   "lang": "Python",
-   "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-07-21T21:34:22Z"
-  },
-  {
-   "name": "hesreallyhim/awesome-claude-code",
-   "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 50579,
-   "lang": "Python",
-   "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-07-21T21:27:40Z"
+   "lang": "TypeScript",
+   "desc": "Persistent context across sessions for every agent",
+   "pushed": ""
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 33628,
-   "lang": "C",
-   "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-07-21T13:33:16Z"
+   "stars": 33625,
+   "lang": "",
+   "desc": "High-performance code intelligence MCP server — indexes codebases into persistent memory",
+   "pushed": ""
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 24475,
-   "lang": "Python",
-   "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-07-21T04:49:59Z"
+   "stars": 24469,
+   "lang": "",
+   "desc": "Local-first code intelligence graph for MCP and CLI",
+   "pushed": ""
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 23412,
+   "stars": 23399,
    "lang": "TypeScript",
-   "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-07-21T20:07:02Z"
+   "desc": "Free MIT AI gateway: one endpoint, 268+ providers, auto-fallback",
+   "pushed": ""
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
    "stars": 563,
-   "lang": "JavaScript",
-   "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
-   "pushed": "2026-01-23T12:42:00Z"
+   "lang": "",
+   "desc": "Complete Claude Code configuration collection",
+   "pushed": ""
   }
  ],
  "concept": {
   "cat": "AI",
   "title": "RAG (Retrieval-Augmented Generation)",
-  "desc": "Model ko jawab dene se pehle apne documents se relevant chunks retrieve kar ke context mein dena. Hallucination kam, private data pe kaam mumkin.",
+  "desc": "Retrieve relevant chunks from your own documents and feed them to the model as context before it answers. Less hallucination, and it works on private data.",
   "link": "https://huggingface.co/learn"
  }
 }
