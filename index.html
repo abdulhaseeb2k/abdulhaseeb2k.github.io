@@ -134,6 +134,17 @@
 
   /* ============ LAYOUT ============ */
   .layout { display: grid; grid-template-columns: 300px 1fr 320px; gap: 20px; align-items: start; }
+  .layout > aside {
+    position: sticky; top: 14px;
+    max-height: calc(100vh - 28px);
+    overflow-y: auto; overscroll-behavior: contain;
+    padding-right: 3px;
+    scrollbar-width: thin; scrollbar-color: var(--line) transparent;
+  }
+  .layout > aside::-webkit-scrollbar { width: 6px; }
+  .layout > aside::-webkit-scrollbar-track { background: transparent; }
+  .layout > aside::-webkit-scrollbar-thumb { background: var(--line); border-radius: 99px; }
+  .layout > aside::-webkit-scrollbar-thumb:hover { background: var(--amber); }
 
   /* ============ WIDGETS ============ */
   .widget {
@@ -206,7 +217,33 @@
   }
   .section-head h2 { font-family: var(--disp); font-size: 1.15rem; font-weight: 700; letter-spacing: -.01em; }
   .section-head .rule { flex: 1; height: 1px; background: var(--line); }
+  .plat-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+  .plat-tab {
+    font-family: var(--mono); font-size: .7rem; letter-spacing: .05em;
+    background: var(--panel); color: var(--muted);
+    border: 1px solid var(--line); border-radius: 99px;
+    padding: 5px 14px; cursor: pointer; transition: .15s;
+  }
+  .plat-tab:hover { border-color: var(--amber); color: var(--amber); }
+  .plat-tab.active { background: var(--grad); color: #fff; border-color: transparent; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 16px; }
+  .variants { display: flex; flex-direction: column; }
+  .variant {
+    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    padding: 8px 0; border-top: 1px solid var(--line-soft);
+  }
+  .plat-chip {
+    font-family: var(--mono); font-size: .64rem; font-weight: 600; letter-spacing: .06em;
+    border-radius: 4px; padding: 2px 8px; white-space: nowrap;
+    background: var(--amber-dim); color: var(--amber);
+  }
+  .plat-chip.android { background: rgba(45,214,232,.12); color: var(--teal); }
+  .plat-chip.extension { background: rgba(255,92,138,.12); color: var(--alert); }
+  .plat-chip.web { background: rgba(45,214,232,.12); color: var(--teal); }
+  .v-name { font-family: var(--mono); font-size: .74rem; color: var(--ink); text-decoration: none; }
+  .v-name:hover { color: var(--amber); }
+  .variant .btn-sm { margin-left: auto; }
+  .group-count { font-family: var(--mono); font-size: .62rem; color: var(--teal); background: rgba(45,214,232,.1); border-radius: 4px; padding: 2px 7px; vertical-align: 2px; }
   .card {
     background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
     padding: 15px 16px; animation: fadeUp .5s ease both;
@@ -251,6 +288,9 @@
   @media (max-width: 1180px) {
     .layout { grid-template-columns: 1fr 1fr; }
     main { grid-column: 1 / -1; grid-row: 1; }
+  }
+  @media (max-width: 720px) {
+    .layout > aside { position: static; max-height: none; overflow: visible; padding-right: 0; }
   }
   @media (max-width: 720px) {
     .layout { grid-template-columns: 1fr; }
@@ -331,6 +371,7 @@
       <div class="toolbar">
         <input id="search" type="text" placeholder="❯ search projects…">
       </div>
+      <div class="plat-tabs" id="platTabs"></div>
       <div id="grid" class="grid"></div>
       <div id="status" class="status">Loading projects…</div>
     </main>
@@ -528,28 +569,153 @@ function assetButtons(repoName) {
   return `<div class="release-actions">${btns}</div>`;
 }
 
-function render(list) {
-  grid.innerHTML = list.map((r, i) => `
+// ---------- Platform detection & project grouping ----------
+const PLAT_TOKENS = {
+  extension: "Extension", chrome: "Extension", firefox: "Extension", edge: "Extension", addon: "Extension",
+  desktop: "Desktop", windows: "Desktop", win: "Desktop", electron: "Desktop", linux: "Desktop", mac: "Desktop", macos: "Desktop",
+  android: "Android", apk: "Android", mobile: "Android",
+  ios: "iOS",
+  web: "Web", website: "Web", site: "Web", webapp: "Web", frontend: "Web",
+  app: "App", application: "App",
+  cli: "CLI", api: "API", server: "API", backend: "API", bot: "Bot"
+};
+const PLAT_ICON = { Android: "📱", Desktop: "💻", Extension: "🧩", Web: "🌐", CLI: "⌨️", API: "🔌", App: "📲", iOS: "📱", Bot: "🤖" };
+
+function baseAndPlats(repo) {
+  const toks = repo.name.toLowerCase().replace(/[_\s]+/g, "-").split("-").filter(Boolean);
+  const plats = new Set(), core = [];
+  for (const t of toks) { if (PLAT_TOKENS[t]) plats.add(PLAT_TOKENS[t]); else core.push(t); }
+  for (const a of (releaseAssets[repo.name] || [])) {
+    const n = a.name.toLowerCase();
+    if (n.endsWith(".apk")) plats.add("Android");
+    else if (/\.(exe|msi|dmg|deb|rpm|appimage)$/.test(n)) plats.add("Desktop");
+    else if (n.endsWith(".crx")) plats.add("Extension");
+  }
+  if (plats.has("App") && plats.has("Android")) plats.delete("App");
+  if (!plats.size) {
+    const L = repo.language || "";
+    if (/kotlin|java|dart/i.test(L)) plats.add("Android");
+    else if (/c#|c\+\+/i.test(L)) plats.add("Desktop");
+    else if (/html|css|javascript|typescript/i.test(L)) plats.add("Web");
+  }
+  return { base: core.join("-") || repo.name.toLowerCase(), plats: [...plats] };
+}
+
+function buildGroups(list) {
+  const map = new Map();
+  for (const r of list) {
+    const { base, plats } = baseAndPlats(r);
+    if (!map.has(base)) map.set(base, []);
+    map.get(base).push({ repo: r, plats });
+  }
+  return [...map.entries()].map(([base, items]) => ({ base, items }));
+}
+
+function prettyName(base) {
+  return base.split("-").map(w => w ? w[0].toUpperCase() + w.slice(1) : w).join(" ");
+}
+
+function platChips(plats) {
+  if (!plats.length) return `<span class="plat-chip">Code</span>`;
+  return plats.map(p => `<span class="plat-chip ${p.toLowerCase()}">${PLAT_ICON[p] || ""} ${p}</span>`).join("");
+}
+
+function assetButtonsInline(repoName) {
+  const assets = releaseAssets[repoName];
+  if (!assets || !assets.length) return "";
+  return assets.map(a => {
+    const n = a.name.toLowerCase();
+    let cls = "btn-secondary", label = "⬇ " + esc(a.name);
+    if (n.endsWith(".apk")) { cls = "btn-apk"; label = "📱 APK"; }
+    else if (/\.(exe|msi)$/.test(n)) { cls = "btn-installer"; label = "💻 Installer"; }
+    else if (n.endsWith(".dmg")) { cls = "btn-installer"; label = "🍎 Mac"; }
+    else if (/\.(deb|rpm|appimage)$/.test(n)) { cls = "btn-installer"; label = "🐧 Linux"; }
+    else if (/\.(zip|7z|rar)$/.test(n)) { label = "📦 ZIP"; }
+    return `<a class="btn btn-sm ${cls}" href="${a.browser_download_url}" title="${esc(a.name)}">${label}</a>`;
+  }).join("");
+}
+
+let currentPlat = "All";
+
+function renderPlatTabs() {
+  const set = new Set();
+  buildGroups(repos).forEach(g => g.items.forEach(i => i.plats.forEach(p => set.add(p))));
+  const tabs = ["All", ...[...set].sort()];
+  document.getElementById("platTabs").innerHTML = tabs.map(t =>
+    `<button class="plat-tab${t === currentPlat ? " active" : ""}" data-plat="${t}">${t === "All" ? "All" : (PLAT_ICON[t] || "") + " " + t}</button>`
+  ).join("");
+}
+
+document.getElementById("platTabs").addEventListener("click", e => {
+  const b = e.target.closest(".plat-tab");
+  if (!b) return;
+  currentPlat = b.dataset.plat;
+  const q = document.getElementById("search").value.toLowerCase();
+  render(q ? filterRepos(q) : repos);
+});
+
+function groupCard(g, i) {
+  const items = g.items;
+  const totStars = items.reduce((s, it) => s + it.repo.stargazers_count, 0);
+  const totForks = items.reduce((s, it) => s + it.repo.forks_count, 0);
+  const latest = items.map(it => it.repo.pushed_at).sort().pop();
+  const desc = items.map(it => it.repo.description || "").sort((a, b) => b.length - a.length)[0];
+  const totDl = items.reduce((s, it) => s + (repoDownloads[it.repo.name] || 0), 0);
+  return `
+    <div class="card" style="animation-delay:${Math.min(i * 70, 500)}ms">
+      <h2>${esc(prettyName(g.base))} <span class="group-count">${items.length} platforms</span></h2>
+      <div class="desc">${esc(desc) || "No description provided."}</div>
+      <div class="meta">
+        <span>⭐ ${totStars}</span>
+        <span>🍴 ${totForks}</span>
+        ${totDl ? `<span class="dl-chip">⬇ ${fmtNum(totDl)} downloads</span>` : ""}
+        <span class="chip">Updated ${timeAgo(latest)}</span>
+      </div>
+      <div class="variants">
+        ${items.map(it => `
+          <div class="variant">
+            ${platChips(it.plats)}
+            <a class="v-name" href="${it.repo.html_url}" target="_blank" rel="noopener">${esc(it.repo.name)}</a>
+            ${assetButtonsInline(it.repo.name)}
+            <a class="btn btn-sm btn-secondary" href="https://github.com/${USERNAME}/${it.repo.name}/archive/refs/heads/${it.repo.default_branch}.zip" title="Download source">ZIP</a>
+          </div>`).join("")}
+      </div>
+    </div>`;
+}
+
+function singleCard(entry, i) {
+  const r = entry.repo;
+  return `
     <div class="card" style="animation-delay:${Math.min(i * 70, 500)}ms">
       <h2><a href="${r.html_url}" target="_blank" rel="noopener">${esc(r.name)}</a></h2>
       <div class="desc">${esc(r.description) || "No description provided."}</div>
       <div class="meta">
+        ${platChips(entry.plats)}
         ${r.language ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.language] || "#8b949e"}"></span>${esc(r.language)}</span>` : ""}
         <span>⭐ ${r.stargazers_count}</span>
         <span>🍴 ${r.forks_count}</span>
-        <span title="Open issues"><a href="${r.html_url}/issues" target="_blank" rel="noopener">🐛 ${r.open_issues_count} issues</a></span>
         ${repoDownloads[r.name] ? `<span class="dl-chip" title="Total release downloads">⬇ ${fmtNum(repoDownloads[r.name])} downloads</span>` : ""}
         <span class="chip">Updated ${timeAgo(r.pushed_at)}</span>
-        <span><a href="${r.html_url}/issues/new?title=Suggestion:%20" target="_blank" rel="noopener" title="Send a suggestion or bug report">💬 Suggest</a></span>
       </div>
       ${assetButtons(r.name)}
       <div class="actions">
         <a class="btn btn-primary" href="https://github.com/${USERNAME}/${r.name}/archive/refs/heads/${r.default_branch}.zip">⬇ Source ZIP</a>
         <a class="btn btn-secondary" href="${r.html_url}" target="_blank" rel="noopener">View code</a>
       </div>
-    </div>`).join("");
-  statusEl.style.display = list.length ? "none" : "block";
-  statusEl.textContent = list.length ? "" : "No projects found.";
+    </div>`;
+}
+
+function render(list) {
+  let groups = buildGroups(list);
+  if (currentPlat !== "All") {
+    groups = groups.filter(g => g.items.some(it => it.plats.includes(currentPlat)));
+  }
+  grid.innerHTML = groups.map((g, i) =>
+    g.items.length > 1 ? groupCard(g, i) : singleCard(g.items[0], i)
+  ).join("");
+  renderPlatTabs();
+  statusEl.style.display = groups.length ? "none" : "block";
+  statusEl.textContent = groups.length ? "" : "No projects found.";
 }
 
 function loadReleases() {
