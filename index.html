@@ -672,7 +672,11 @@ function groupCard(g, i) {
   const totStars = items.reduce((s, it) => s + it.repo.stargazers_count, 0);
   const totForks = items.reduce((s, it) => s + it.repo.forks_count, 0);
   const latest = items.map(it => it.repo.pushed_at).sort().pop();
-  const desc = items.map(it => it.repo.description || "").sort((a, b) => b.length - a.length)[0];
+  const PLAT_DESC = /extension|chrome|firefox|addon|android|apk|play store|app store|desktop|windows|electron|linux|macos|\bios\b|iphone|version of|port of|\bfor (android|ios|windows|desktop|chrome|mac)\b/i;
+  const allDescs = items.map(it => it.repo.description || "").filter(Boolean);
+  const allPlats = [...new Set(items.flatMap(it => it.plats))];
+  const desc = allDescs.filter(d => !PLAT_DESC.test(d)).sort((a, b) => b.length - a.length)[0]
+    || `${prettyName(g.base)} — available for ${allPlats.join(", ")}.`;
   const totDl = items.reduce((s, it) => s + (repoDownloads[it.repo.name] || 0), 0);
   return `
     <div class="card group" style="animation-delay:${Math.min(i * 70, 500)}ms">
