@@ -227,11 +227,23 @@
   .plat-tab:hover { border-color: var(--amber); color: var(--amber); }
   .plat-tab.active { background: var(--grad); color: #fff; border-color: transparent; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr)); gap: 16px; }
-  .variants { display: flex; flex-direction: column; }
-  .variant {
-    display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
-    padding: 8px 0; border-top: 1px solid var(--line-soft);
+  .card.group { grid-column: 1 / -1; }
+  .variants {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    gap: 10px; margin-top: 4px;
   }
+  .sub-card {
+    background: var(--panel-2); border: 1px solid var(--line-soft); border-radius: 7px;
+    padding: 11px 12px; display: flex; flex-direction: column; gap: 7px;
+    transition: border-color .15s, transform .15s;
+  }
+  .sub-card:hover { border-color: var(--amber); transform: translateY(-2px); }
+  .sub-head { display: flex; gap: 6px; flex-wrap: wrap; }
+  .sub-name { font-family: var(--disp); font-weight: 700; font-size: .86rem; color: var(--ink); text-decoration: none; }
+  .sub-name:hover { color: var(--amber); }
+  .sub-desc { font-size: .76rem; color: var(--muted); line-height: 1.45; flex: 1; }
+  .sub-meta { display: flex; gap: 10px; flex-wrap: wrap; font-family: var(--mono); font-size: .66rem; color: var(--muted); }
+  .sub-actions { display: flex; gap: 6px; flex-wrap: wrap; }
   .plat-chip {
     font-family: var(--mono); font-size: .64rem; font-weight: 600; letter-spacing: .06em;
     border-radius: 4px; padding: 2px 8px; white-space: nowrap;
@@ -240,9 +252,7 @@
   .plat-chip.android { background: rgba(45,214,232,.12); color: var(--teal); }
   .plat-chip.extension { background: rgba(255,92,138,.12); color: var(--alert); }
   .plat-chip.web { background: rgba(45,214,232,.12); color: var(--teal); }
-  .v-name { font-family: var(--mono); font-size: .74rem; color: var(--ink); text-decoration: none; }
-  .v-name:hover { color: var(--amber); }
-  .variant .btn-sm { margin-left: auto; }
+  .plat-chip.ios { background: rgba(138,123,255,.16); color: var(--amber); }
   .group-count { font-family: var(--mono); font-size: .62rem; color: var(--teal); background: rgba(45,214,232,.1); border-radius: 4px; padding: 2px 7px; vertical-align: 2px; }
   .card {
     background: var(--panel); border: 1px solid var(--line); border-radius: 8px;
@@ -574,8 +584,9 @@ const PLAT_TOKENS = {
   extension: "Extension", chrome: "Extension", firefox: "Extension", edge: "Extension", addon: "Extension",
   desktop: "Desktop", windows: "Desktop", win: "Desktop", electron: "Desktop", linux: "Desktop", mac: "Desktop", macos: "Desktop",
   android: "Android", apk: "Android", mobile: "Android",
-  ios: "iOS",
-  web: "Web", website: "Web", site: "Web", webapp: "Web", frontend: "Web",
+  ios: "iOS", iphone: "iOS", ipad: "iOS",
+  web: "Web", website: "Web", site: "Web", webapp: "Web", frontend: "Web", pwa: "Web",
+  plugin: "Extension", ext: "Extension",
   app: "App", application: "App",
   cli: "CLI", api: "API", server: "API", backend: "API", bot: "Bot"
 };
@@ -588,6 +599,7 @@ function baseAndPlats(repo) {
   for (const a of (releaseAssets[repo.name] || [])) {
     const n = a.name.toLowerCase();
     if (n.endsWith(".apk")) plats.add("Android");
+    else if (n.endsWith(".ipa")) plats.add("iOS");
     else if (/\.(exe|msi|dmg|deb|rpm|appimage)$/.test(n)) plats.add("Desktop");
     else if (n.endsWith(".crx")) plats.add("Extension");
   }
@@ -595,6 +607,7 @@ function baseAndPlats(repo) {
   if (!plats.size) {
     const L = repo.language || "";
     if (/kotlin|java|dart/i.test(L)) plats.add("Android");
+    else if (/swift/i.test(L)) plats.add("iOS");
     else if (/c#|c\+\+/i.test(L)) plats.add("Desktop");
     else if (/html|css|javascript|typescript/i.test(L)) plats.add("Web");
   }
@@ -662,7 +675,7 @@ function groupCard(g, i) {
   const desc = items.map(it => it.repo.description || "").sort((a, b) => b.length - a.length)[0];
   const totDl = items.reduce((s, it) => s + (repoDownloads[it.repo.name] || 0), 0);
   return `
-    <div class="card" style="animation-delay:${Math.min(i * 70, 500)}ms">
+    <div class="card group" style="animation-delay:${Math.min(i * 70, 500)}ms">
       <h2>${esc(prettyName(g.base))} <span class="group-count">${items.length} platforms</span></h2>
       <div class="desc">${esc(desc) || "No description provided."}</div>
       <div class="meta">
@@ -672,13 +685,26 @@ function groupCard(g, i) {
         <span class="chip">Updated ${timeAgo(latest)}</span>
       </div>
       <div class="variants">
-        ${items.map(it => `
-          <div class="variant">
-            ${platChips(it.plats)}
-            <a class="v-name" href="${it.repo.html_url}" target="_blank" rel="noopener">${esc(it.repo.name)}</a>
-            ${assetButtonsInline(it.repo.name)}
-            <a class="btn btn-sm btn-secondary" href="https://github.com/${USERNAME}/${it.repo.name}/archive/refs/heads/${it.repo.default_branch}.zip" title="Download source">ZIP</a>
-          </div>`).join("")}
+        ${items.map(it => {
+          const r = it.repo;
+          return `
+          <div class="sub-card">
+            <div class="sub-head">${platChips(it.plats)}</div>
+            <a class="sub-name" href="${r.html_url}" target="_blank" rel="noopener">${esc(r.name)}</a>
+            <div class="sub-desc">${esc(r.description) || ""}</div>
+            <div class="sub-meta">
+              ${r.language ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.language] || "#8b949e"}"></span>${esc(r.language)}</span>` : ""}
+              <span>⭐ ${r.stargazers_count}</span>
+              ${repoDownloads[r.name] ? `<span class="dl-chip">⬇ ${fmtNum(repoDownloads[r.name])}</span>` : ""}
+              <span>${timeAgo(r.pushed_at)}</span>
+            </div>
+            <div class="sub-actions">
+              ${assetButtonsInline(r.name)}
+              <a class="btn btn-sm btn-secondary" href="https://github.com/${USERNAME}/${r.name}/archive/refs/heads/${r.default_branch}.zip" title="Download source">📦 ZIP</a>
+              <a class="btn btn-sm btn-secondary" href="${r.html_url}" target="_blank" rel="noopener">View</a>
+            </div>
+          </div>`;
+        }).join("")}
       </div>
     </div>`;
 }
