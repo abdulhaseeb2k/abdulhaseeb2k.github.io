@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-21T21:59:59.868795+00:00",
+ "generated_at": "2026-07-22T05:54:41.525769+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-   "points": 537,
-   "time": "2026-07-21T15:17:16Z"
-  },
-  {
-   "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
-   "url": "https://qwen.ai/blog?id=qwen-image-3.0",
-   "points": 521,
-   "time": "2026-07-21T08:44:23Z"
-  },
-  {
    "title": "OpenAI and Hugging Face address security incident during model evaluation",
    "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
-   "points": 359,
+   "points": 930,
    "time": "2026-07-21T20:09:52Z"
   },
   {
-   "title": "Apple defeats liability for not scanning iCloud for CSAM",
-   "url": "https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm",
-   "points": 283,
-   "time": "2026-07-21T14:31:41Z"
+   "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+   "points": 654,
+   "time": "2026-07-21T15:17:16Z"
+  },
+  {
+   "title": "Advertise in ChatGPT",
+   "url": "https://ads.openai.com/",
+   "points": 577,
+   "time": "2026-07-21T18:58:44Z"
   },
   {
    "title": "FreeInk: Open ecosystem for e-readers",
    "url": "https://freeink.org/",
-   "points": 274,
+   "points": 482,
    "time": "2026-07-21T18:39:06Z"
   },
   {
-   "title": "Long presumed dead, a thriving coral reef is discovered in West Africa",
-   "url": "https://e360.yale.edu/digest/benin-coral-reef",
-   "points": 254,
-   "time": "2026-07-21T15:41:51Z"
+   "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+   "url": "https://fireworks.ai/blog/kimik3-fable",
+   "points": 473,
+   "time": "2026-07-21T22:35:24Z"
+  },
+  {
+   "title": "'VPNs are lawful technical tools,' says EU Court in landmark copyright ruling",
+   "url": "https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling",
+   "points": 467,
+   "time": "2026-07-21T19:43:59Z"
   }
  ],
  "models": [
@@ -103,134 +103,134 @@
    "id": "thinkingmachines/Inkling",
    "pipeline": "image-text-to-text",
    "downloads": 16441,
-   "likes": 1352
+   "likes": 1378
   },
   {
    "id": "prism-ml/Ternary-Bonsai-27B-gguf",
    "pipeline": "text-generation",
    "downloads": 432196,
-   "likes": 897
+   "likes": 903
   },
   {
    "id": "baidu/Unlimited-OCR",
    "pipeline": "image-text-to-text",
    "downloads": 2237351,
-   "likes": 2597
+   "likes": 2625
+  },
+  {
+   "id": "reteetzad/Kimi-K3",
+   "pipeline": "",
+   "downloads": 0,
+   "likes": 499
   },
   {
    "id": "prism-ml/Bonsai-27B-gguf",
    "pipeline": "text-generation",
    "downloads": 1404962,
-   "likes": 570
+   "likes": 572
   },
   {
    "id": "zai-org/GLM-5.2",
    "pipeline": "text-generation",
    "downloads": 545109,
-   "likes": 4270
+   "likes": 4291
   },
   {
    "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
    "pipeline": "image-text-to-text",
    "downloads": 62842,
-   "likes": 233
+   "likes": 261
+  },
+  {
+   "id": "poolside/Laguna-S-2.1",
+   "pipeline": "text-generation",
+   "downloads": 3056,
+   "likes": 227
   },
   {
    "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
    "pipeline": "image-text-to-text",
    "downloads": 1997690,
-   "likes": 2967
+   "likes": 2980
   },
   {
    "id": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
    "pipeline": "image-text-to-text",
    "downloads": 2133420,
-   "likes": 2385
-  },
-  {
-   "id": "conradlocke/krea2-identity-edit",
-   "pipeline": "",
-   "downloads": 0,
-   "likes": 472
-  },
-  {
-   "id": "ATH-MaaS/OvisOCR2",
-   "pipeline": "image-text-to-text",
-   "downloads": 17162,
-   "likes": 235
+   "likes": 2393
   }
  ],
  "trending": [
   {
-   "name": "Fei-Away/Codex-Dream-Skin",
-   "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
-   "stars": 11495,
-   "lang": "JavaScript",
-   "desc": "Codex Dream Skin"
-  },
-  {
    "name": "lopopolo/harness-engineering",
    "url": "https://github.com/lopopolo/harness-engineering",
-   "stars": 1436,
+   "stars": 1795,
    "lang": "Python",
    "desc": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering"
   },
   {
-   "name": "hoainho/img2threejs",
-   "url": "https://github.com/hoainho/img2threejs",
-   "stars": 1420,
-   "lang": "Python",
-   "desc": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-"
-  },
-  {
    "name": "tandpfun/wardrobe",
    "url": "https://github.com/tandpfun/wardrobe",
-   "stars": 1280,
+   "stars": 1291,
    "lang": "JavaScript",
    "desc": "Your clothes, extracted and organized with gpt-image."
   },
   {
    "name": "pablostanley/yoinks",
    "url": "https://github.com/pablostanley/yoinks",
-   "stars": 956,
+   "stars": 973,
    "lang": "TypeScript",
    "desc": "yoink any video from your terminal. no shady ads."
   },
   {
    "name": "nethical6/conversation-steganography",
    "url": "https://github.com/nethical6/conversation-steganography",
-   "stars": 909,
+   "stars": 918,
    "lang": "Go",
    "desc": "Use LLMs to hide messages inside normal looking conversations"
   },
   {
    "name": "v-modal/vmodal_sdk_flutter",
    "url": "https://github.com/v-modal/vmodal_sdk_flutter",
-   "stars": 765,
+   "stars": 796,
    "lang": "Dart",
    "desc": "V- Modal AI: Search anything anywhere SDK Flutter"
   },
   {
    "name": "MIgHTy-alIeN/MEV-Arbitrage-Bot",
    "url": "https://github.com/MIgHTy-alIeN/MEV-Arbitrage-Bot",
-   "stars": 740,
+   "stars": 739,
    "lang": "Solidity",
    "desc": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation."
+  },
+  {
+   "name": "Blaizzy/nativ",
+   "url": "https://github.com/Blaizzy/nativ",
+   "stars": 656,
+   "lang": "Swift",
+   "desc": "Local AI, native to your Mac. Chat, serve, monitor, and connect MLX models from one macOS app."
+  },
+  {
+   "name": "xiejunjie524/handdraw-story-video",
+   "url": "https://github.com/xiejunjie524/handdraw-story-video",
+   "stars": 603,
+   "lang": "Python",
+   "desc": "Turn hand-drawn story illustrations into 35–45 second line-reveal and gradual-coloring videos with HyperFrames."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 176595,
+   "stars": 176612,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-07-21T19:36:35Z"
+   "pushed": "2026-07-22T03:58:20Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 146239,
+   "stars": 146270,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
    "pushed": "2026-07-21T18:18:42Z"
@@ -238,15 +238,15 @@
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 142266,
+   "stars": 142294,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-07-21T19:38:36Z"
+   "pushed": "2026-07-22T03:22:08Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 138587,
+   "stars": 138627,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-07-21T21:35:10Z"
@@ -254,15 +254,15 @@
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 121199,
+   "stars": 121228,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-07-21T21:58:34Z"
+   "pushed": "2026-07-22T05:43:10Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 113335,
+   "stars": 113347,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-07-21T11:56:26Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 91052,
+   "stars": 91069,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-07-21T20:41:06Z"
@@ -278,7 +278,7 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 88138,
+   "stars": 88170,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
    "pushed": "2026-07-20T16:32:51Z"
@@ -286,23 +286,23 @@
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 54260,
+   "stars": 54300,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-07-21T22:00:07Z"
+   "pushed": "2026-07-22T05:53:20Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 50580,
+   "stars": 50601,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-07-21T21:27:40Z"
+   "pushed": "2026-07-22T04:05:24Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 33632,
+   "stars": 33812,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
    "pushed": "2026-07-21T13:33:16Z"
@@ -310,7 +310,7 @@
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 24479,
+   "stars": 24787,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-07-21T04:49:59Z"
@@ -318,24 +318,24 @@
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 23440,
+   "stars": 23923,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-07-21T21:45:19Z"
+   "pushed": "2026-07-22T05:35:26Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 563,
+   "stars": 566,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "RAG (Retrieval-Augmented Generation)",
-  "desc": "Retrieve relevant chunks from your own documents and feed them to the model as context before it answers. Less hallucination, and it works on private data.",
-  "link": "https://huggingface.co/learn"
+  "cat": "Data Science",
+  "title": "Data Leakage",
+  "desc": "When training data contains information that won't exist at prediction time — the model aces the test set and fails in production. Keep your train/test split time-aware.",
+  "link": "https://scikit-learn.org/stable/common_pitfalls.html"
  }
 }
