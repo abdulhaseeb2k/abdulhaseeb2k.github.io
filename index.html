@@ -675,8 +675,11 @@ function groupCard(g, i) {
   const PLAT_DESC = /extension|chrome|firefox|addon|android|apk|play store|app store|desktop|windows|electron|linux|macos|\bios\b|iphone|version of|port of|\bfor (android|ios|windows|desktop|chrome|mac)\b/i;
   const allDescs = items.map(it => it.repo.description || "").filter(Boolean);
   const allPlats = [...new Set(items.flatMap(it => it.plats))];
-  const desc = allDescs.filter(d => !PLAT_DESC.test(d)).sort((a, b) => b.length - a.length)[0]
-    || `${prettyName(g.base)} — available for ${allPlats.join(", ")}.`;
+  let desc = allDescs.filter(d => !PLAT_DESC.test(d)).sort((a, b) => b.length - a.length)[0] || "";
+  desc = desc
+    .replace(/^[^A-Za-z0-9]+/, "")  // leading emoji/symbols
+    .replace(/^(a |an )?(python|javascript|typescript|node(js)?|java|kotlin|swift|c#|c\+\+|rust|go|cli|browser|desktop|simple|small)?\s*(tool|app|application|script|program|utility|project)\s+(to|for|that|which)\s+/i, "");
+  desc = desc ? desc[0].toUpperCase() + desc.slice(1) : `${prettyName(g.base)} — available for ${allPlats.join(", ")}.`;
   const totDl = items.reduce((s, it) => s + (repoDownloads[it.repo.name] || 0), 0);
   return `
     <div class="card group" style="animation-delay:${Math.min(i * 70, 500)}ms">
@@ -913,40 +916,45 @@ function renderFromData(d) {
   }
 }
 
-// Live API fallback (if data.json is not generated yet)
+// Live API fallback — fills any section that is still empty
+// (runs when data.json is missing OR when some of its arrays were empty)
+function needs(id) {
+  const el = document.getElementById(id);
+  return el && el.querySelector(".w-loading");
+}
 function liveFallback() {
-  fetch("https://hn.algolia.com/api/v1/search?query=AI%20model&tags=story&numericFilters=points%3E30&hitsPerPage=8")
+  if (needs("newsBody")) fetch("https://hn.algolia.com/api/v1/search?query=AI%20model&tags=story&numericFilters=points%3E30&hitsPerPage=8")
     .then(r => r.json())
     .then(d => renderFromData({ ai_news: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, comments: h.num_comments, time: h.created_at })) }))
     .catch(() => fail(document.getElementById("newsBody"), "Could not load news."));
-  fetch("https://hn.algolia.com/api/v1/search_by_date?query=security%20OR%20vulnerability%20OR%20CVE&tags=story&numericFilters=points%3E15&hitsPerPage=8")
+  if (needs("hackBody")) fetch("https://hn.algolia.com/api/v1/search_by_date?query=security%20OR%20vulnerability%20OR%20CVE&tags=story&numericFilters=points%3E15&hitsPerPage=8")
     .then(r => r.json())
     .then(d => renderFromData({ hacking_news: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, comments: h.num_comments, time: h.created_at })) }))
     .catch(() => fail(document.getElementById("hackBody"), "Load failed."));
-  fetch("https://hn.algolia.com/api/v1/search_by_date?query=programming%20OR%20framework%20OR%20database&tags=story&numericFilters=points%3E25&hitsPerPage=8")
+  if (needs("devBody")) fetch("https://hn.algolia.com/api/v1/search_by_date?query=programming%20OR%20framework%20OR%20database&tags=story&numericFilters=points%3E25&hitsPerPage=8")
     .then(r => r.json())
     .then(d => renderFromData({ dev_news: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, comments: h.num_comments, time: h.created_at })) }))
     .catch(() => fail(document.getElementById("devBody"), "Load failed."));
-  fetch("https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=6")
+  if (needs("hnBody")) fetch("https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=6")
     .then(r => r.json())
     .then(d => renderFromData({ hn_front: d.hits.map(h => ({ title: h.title, url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`, points: h.points, time: h.created_at })) }))
     .catch(() => fail(document.getElementById("hnBody"), "Load failed."));
-  fetch("https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=8")
+  if (needs("modelsBody")) fetch("https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=8")
     .then(r => r.json())
     .then(models => renderFromData({ models: models.map(m => ({ id: m.id, pipeline: m.pipeline_tag, downloads: m.downloads || 0, likes: m.likes || 0 })) }))
     .catch(() => fail(document.getElementById("modelsBody"), "Could not load models."));
   const since = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
-  fetch(`https://api.github.com/search/repositories?q=created:>${since}&sort=stars&order=desc&per_page=6`)
+  if (needs("trendingBody")) fetch(`https://api.github.com/search/repositories?q=created:>${since}&sort=stars&order=desc&per_page=6`)
     .then(r => r.json())
     .then(res => renderFromData({ trending: (res.items || []).map(rp => ({ name: rp.full_name, url: rp.html_url, stars: rp.stargazers_count, lang: rp.language, desc: rp.description })) }))
     .catch(() => fail(document.getElementById("trendingBody"), "Load failed."));
-  fail(document.getElementById("famousBody"), "Will appear after the first daily update (you can also trigger it from the Actions tab).");
-  fail(document.getElementById("conceptBody"), "Will appear after the first daily update.");
+  if (needs("famousBody")) fail(document.getElementById("famousBody"), "Will appear after the first daily update (you can also trigger it from the Actions tab).");
+  if (needs("conceptBody")) fail(document.getElementById("conceptBody"), "Will appear after the first daily update.");
 }
 
 fetch("data.json?v=" + Math.floor(Date.now() / 3600000)) // hourly cache-bust
   .then(r => { if (!r.ok) throw 0; return r.json(); })
-  .then(renderFromData)
+  .then(d => { renderFromData(d); liveFallback(); })
   .catch(liveFallback);
 </script>
 <script src="https://cdn.jsdelivr.net/npm/motion@12.42.2/dist/motion.js" defer></script>
