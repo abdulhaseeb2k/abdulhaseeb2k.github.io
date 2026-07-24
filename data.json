@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-23T06:05:42.356787+00:00",
+ "generated_at": "2026-07-24T05:54:14.939991+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,191 +62,191 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
-   "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56",
-   "points": 749,
-   "time": "2026-07-22T17:30:40Z"
+   "title": "Writing by hand is good for your brain",
+   "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your",
+   "points": 1150,
+   "time": "2026-07-23T14:24:43Z"
   },
   {
-   "title": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
-   "url": "https://bento.page/slides/",
-   "points": 743,
-   "time": "2026-07-22T15:19:23Z"
+   "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+   "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+   "points": 834,
+   "time": "2026-07-23T15:18:40Z"
   },
   {
-   "title": "John C. Dvorak has died",
-   "url": "https://twitter.com/na_announce/status/2079952538040672302",
-   "points": 682,
-   "time": "2026-07-22T19:22:19Z"
+   "title": "OpenAI’s accidental attack against Hugging Face is science fiction that happened",
+   "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
+   "points": 459,
+   "time": "2026-07-23T01:16:14Z"
   },
   {
-   "title": "Are AI labs pelicanmaxxing?",
-   "url": "https://dylancastillo.co/posts/pelicanmaxxing.html",
-   "points": 457,
-   "time": "2026-07-22T17:17:54Z"
+   "title": "98.css",
+   "url": "https://jdan.github.io/98.css/#status-bar",
+   "points": 387,
+   "time": "2026-07-23T22:30:29Z"
   },
   {
-   "title": "GigaToken: ~1000x faster Language model tokenization",
-   "url": "https://github.com/marcelroed/gigatoken/",
-   "points": 436,
-   "time": "2026-07-22T17:20:38Z"
+   "title": "What happened to TheNumbers.com",
+   "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all",
+   "points": 336,
+   "time": "2026-07-23T16:53:33Z"
   },
   {
-   "title": "So Reddit has decided that plain HTML is unsafe",
-   "url": "https://www.cole-k.com/2026/07/21/reddit/",
-   "points": 371,
-   "time": "2026-07-22T12:32:48Z"
+   "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+   "url": "https://news.ycombinator.com/item?id=49026810",
+   "points": 309,
+   "time": "2026-07-23T19:26:01Z"
   }
  ],
  "models": [
   {
-   "id": "thinkingmachines/Inkling",
-   "pipeline": "image-text-to-text",
-   "downloads": 16441,
-   "likes": 1468
-  },
-  {
    "id": "baidu/Unlimited-OCR",
    "pipeline": "image-text-to-text",
-   "downloads": 2237351,
-   "likes": 2773
+   "downloads": 2414259,
+   "likes": 2912
   },
   {
-   "id": "prism-ml/Ternary-Bonsai-27B-gguf",
-   "pipeline": "text-generation",
-   "downloads": 432196,
-   "likes": 953
+   "id": "thinkingmachines/Inkling",
+   "pipeline": "image-text-to-text",
+   "downloads": 24669,
+   "likes": 1514
   },
   {
    "id": "poolside/Laguna-S-2.1",
    "pipeline": "text-generation",
-   "downloads": 3056,
-   "likes": 418
-  },
-  {
-   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 62842,
-   "likes": 337
+   "downloads": 13285,
+   "likes": 532
   },
   {
    "id": "upstage/Solar-Open2-250B",
    "pipeline": "text-generation",
-   "downloads": 0,
-   "likes": 353
+   "downloads": 362,
+   "likes": 482
   },
   {
-   "id": "prism-ml/Bonsai-27B-gguf",
-   "pipeline": "text-generation",
-   "downloads": 1404962,
-   "likes": 602
+   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 334847,
+   "likes": 414
   },
   {
-   "id": "zai-org/GLM-5.2",
+   "id": "prism-ml/Ternary-Bonsai-27B-gguf",
    "pipeline": "text-generation",
-   "downloads": 545109,
-   "likes": 4346
+   "downloads": 576083,
+   "likes": 990
   },
   {
    "id": "Nanbeige/Nanbeige4.2-3B",
    "pipeline": "text-generation",
-   "downloads": 0,
-   "likes": 254
+   "downloads": 4532,
+   "likes": 332
+  },
+  {
+   "id": "zai-org/GLM-5.2",
+   "pipeline": "text-generation",
+   "downloads": 596442,
+   "likes": 4386
+  },
+  {
+   "id": "prism-ml/Bonsai-27B-gguf",
+   "pipeline": "text-generation",
+   "downloads": 1910116,
+   "likes": 622
   },
   {
    "id": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
    "pipeline": "image-text-to-text",
-   "downloads": 1997690,
-   "likes": 3011
+   "downloads": 2027080,
+   "likes": 3042
   }
  ],
  "trending": [
   {
    "name": "lopopolo/harness-engineering",
    "url": "https://github.com/lopopolo/harness-engineering",
-   "stars": 2209,
+   "stars": 2286,
    "lang": "Python",
    "desc": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering"
   },
   {
-   "name": "nethical6/conversation-steganography",
-   "url": "https://github.com/nethical6/conversation-steganography",
-   "stars": 1012,
-   "lang": "Go",
-   "desc": "Use LLMs to hide messages inside normal looking conversations"
+   "name": "andrewyng/openworker",
+   "url": "https://github.com/andrewyng/openworker",
+   "stars": 1913,
+   "lang": "Python",
+   "desc": ""
   },
   {
-   "name": "MIgHTy-alIeN/MEV-Arbitrage-Bot",
-   "url": "https://github.com/MIgHTy-alIeN/MEV-Arbitrage-Bot",
-   "stars": 920,
-   "lang": "Solidity",
-   "desc": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation."
-  },
-  {
-   "name": "Blaizzy/nativ",
-   "url": "https://github.com/Blaizzy/nativ",
-   "stars": 771,
-   "lang": "Swift",
-   "desc": "Local AI, native to your Mac. Chat, serve, monitor, and connect MLX models from one macOS app."
+   "name": "Vincentwei1021/video-shotcraft",
+   "url": "https://github.com/Vincentwei1021/video-shotcraft",
+   "stars": 1060,
+   "lang": "TypeScript",
+   "desc": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-re"
   },
   {
    "name": "Jakubantalik/thinking-orbs",
    "url": "https://github.com/Jakubantalik/thinking-orbs",
-   "stars": 677,
+   "stars": 851,
    "lang": "TypeScript",
    "desc": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light"
   },
   {
-   "name": "xiejunjie524/handdraw-story-video",
-   "url": "https://github.com/xiejunjie524/handdraw-story-video",
-   "stars": 621,
-   "lang": "Python",
-   "desc": "Turn hand-drawn story illustrations into 35–45 second line-reveal and gradual-coloring videos with HyperFrames."
-  },
-  {
-   "name": "nyblnet/bento",
-   "url": "https://github.com/nyblnet/bento",
-   "stars": 600,
-   "lang": "TypeScript",
-   "desc": ""
+   "name": "Blaizzy/nativ",
+   "url": "https://github.com/Blaizzy/nativ",
+   "stars": 823,
+   "lang": "Swift",
+   "desc": "Local AI, native to your Mac. Chat, serve, monitor, and connect MLX models from one macOS app."
   },
   {
    "name": "powerycy/goutoujunshi",
    "url": "https://github.com/powerycy/goutoujunshi",
-   "stars": 564,
+   "stars": 709,
    "lang": "Python",
    "desc": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。"
+  },
+  {
+   "name": "pireel/pireel",
+   "url": "https://github.com/pireel/pireel",
+   "stars": 670,
+   "lang": "TypeScript",
+   "desc": "Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser"
+  },
+  {
+   "name": "xiejunjie524/handdraw-story-video",
+   "url": "https://github.com/xiejunjie524/handdraw-story-video",
+   "stars": 638,
+   "lang": "Python",
+   "desc": "Turn hand-drawn story illustrations into 35–45 second line-reveal and gradual-coloring videos with HyperFrames."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 176682,
+   "stars": 176757,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-07-23T05:40:27Z"
+   "pushed": "2026-07-24T00:46:12Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 146398,
+   "stars": 146536,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-07-22T14:26:27Z"
+   "pushed": "2026-07-24T05:48:57Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 142370,
+   "stars": 142471,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-07-23T03:37:47Z"
+   "pushed": "2026-07-23T20:31:27Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 138762,
+   "stars": 138882,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-07-22T21:24:55Z"
@@ -254,15 +254,15 @@
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 121311,
+   "stars": 121430,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-07-23T05:30:53Z"
+   "pushed": "2026-07-24T05:42:02Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 113412,
+   "stars": 113449,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-07-23T03:43:21Z"
@@ -270,72 +270,72 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 91201,
+   "stars": 91313,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-07-23T03:29:41Z"
+   "pushed": "2026-07-24T03:06:43Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 88288,
+   "stars": 88399,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-07-23T05:30:37Z"
+   "pushed": "2026-07-23T22:47:38Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 54427,
+   "stars": 54543,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-07-23T06:03:41Z"
+   "pushed": "2026-07-24T05:46:49Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 50689,
+   "stars": 50794,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-07-23T04:04:29Z"
+   "pushed": "2026-07-24T00:31:24Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 34286,
+   "stars": 34673,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-07-23T05:11:39Z"
+   "pushed": "2026-07-23T18:06:31Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 25740,
+   "stars": 27582,
    "lang": "TypeScript",
-   "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 278+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-07-23T04:33:32Z"
+   "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
+   "pushed": "2026-07-24T03:37:50Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 25487,
+   "stars": 25968,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-07-21T04:49:59Z"
+   "pushed": "2026-07-23T10:34:36Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 578,
+   "stars": 584,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "CAP Theorem",
-  "desc": "In a distributed system you can't have Consistency, Availability, and Partition-tolerance all at once. During a network partition you must choose between C and A.",
-  "link": "https://en.wikipedia.org/wiki/CAP_theorem"
+  "cat": "Security",
+  "title": "Supply Chain Attack",
+  "desc": "The attacker doesn't hack you — they hack your dependency (an npm/pip package). Use lockfiles, run `npm audit`, and vet unknown packages before installing.",
+  "link": "https://owasp.org/www-project-dependency-check/"
  }
 }
