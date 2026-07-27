@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-26T06:10:02.926186+00:00",
+ "generated_at": "2026-07-27T06:35:23.494282+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,191 +62,191 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Android May Soon Restrict On-Device ADB",
-   "url": "https://kitsumed.github.io/blog/posts/android-may-soon-restrict-on-device-adb/",
-   "points": 900,
-   "time": "2026-07-25T06:57:14Z"
+   "title": "Kill The Cookie Banner",
+   "url": "https://killthecookiebanner.eu/",
+   "points": 917,
+   "time": "2026-07-26T11:53:17Z"
   },
   {
-   "title": "Open-weight AI is having its Kubernetes moment",
-   "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
-   "points": 357,
-   "time": "2026-07-25T14:49:49Z"
+   "title": "US citizen charged after GrapheneOS phone wipes during airport search",
+   "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+   "points": 517,
+   "time": "2026-07-26T22:21:41Z"
   },
   {
-   "title": "Did They Ghost You?",
-   "url": "https://didtheyghostyou.com/",
-   "points": 355,
-   "time": "2026-07-25T20:18:03Z"
+   "title": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
+   "url": "https://swag.htmx.org/en-cad/products/htmx-4-the-game",
+   "points": 408,
+   "time": "2026-07-26T12:00:11Z"
   },
   {
-   "title": "Zero roadkill as Amazon canopy bridges secure 15,000 crossings",
-   "url": "https://news.mongabay.com/2026/07/zero-roadkill-as-amazon-canopy-bridges-secure-15000-crossings/",
-   "points": 333,
-   "time": "2026-07-22T15:29:44Z"
+   "title": "PGSimCity - How PostgreSQL Works",
+   "url": "https://nikolays.github.io/PGSimCity/",
+   "points": 403,
+   "time": "2026-07-27T00:19:04Z"
   },
   {
-   "title": "The new rules of context engineering for Claude 5 generation models",
-   "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
-   "points": 257,
-   "time": "2026-07-25T20:42:35Z"
+   "title": "French firefighters face 'pyrocumulonimbus' for first time",
+   "url": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time",
+   "points": 286,
+   "time": "2026-07-26T17:49:44Z"
   },
   {
-   "title": "Turn And Face The Strange",
-   "url": "https://fly.io/blog/kurt-scott-money-sprites/",
-   "points": 181,
-   "time": "2026-07-25T20:43:11Z"
+   "title": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
+   "url": "https://beyondloom.com/decker/",
+   "points": 280,
+   "time": "2026-07-26T18:23:06Z"
   }
  ],
  "models": [
   {
    "id": "baidu/Unlimited-OCR",
    "pipeline": "image-text-to-text",
-   "downloads": 2564264,
-   "likes": 3122
+   "downloads": 2593460,
+   "likes": 3241
   },
   {
    "id": "poolside/Laguna-S-2.1",
    "pipeline": "text-generation",
-   "downloads": 45260,
-   "likes": 668
+   "downloads": 56445,
+   "likes": 708
   },
   {
    "id": "upstage/Solar-Open2-250B",
    "pipeline": "text-generation",
-   "downloads": 2784,
-   "likes": 573
+   "downloads": 3305,
+   "likes": 606
   },
   {
    "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 483845,
-   "likes": 559
-  },
-  {
-   "id": "thinkingmachines/Inkling",
-   "pipeline": "image-text-to-text",
-   "downloads": 31575,
-   "likes": 1572
+   "downloads": 552026,
+   "likes": 651
   },
   {
    "id": "Nanbeige/Nanbeige4.2-3B",
    "pipeline": "text-generation",
-   "downloads": 11573,
-   "likes": 412
+   "downloads": 14049,
+   "likes": 453
+  },
+  {
+   "id": "thinkingmachines/Inkling",
+   "pipeline": "image-text-to-text",
+   "downloads": 34511,
+   "likes": 1582
   },
   {
    "id": "microsoft/Mage-Flow",
    "pipeline": "text-to-image",
-   "downloads": 1156,
-   "likes": 288
-  },
-  {
-   "id": "prism-ml/Ternary-Bonsai-27B-gguf",
-   "pipeline": "text-generation",
-   "downloads": 611685,
-   "likes": 1031
+   "downloads": 1375,
+   "likes": 346
   },
   {
    "id": "zai-org/GLM-5.2",
    "pipeline": "text-generation",
-   "downloads": 707029,
-   "likes": 4449
+   "downloads": 827191,
+   "likes": 4488
   },
   {
-   "id": "Motif-Technologies/Motif-3-Beta",
+   "id": "prism-ml/Ternary-Bonsai-27B-gguf",
    "pipeline": "text-generation",
-   "downloads": 2270,
-   "likes": 192
+   "downloads": 631970,
+   "likes": 1053
+  },
+  {
+   "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
+   "pipeline": "text-generation",
+   "downloads": 3764,
+   "likes": 204
   }
  ],
  "trending": [
   {
-   "name": "andrewyng/openworker",
-   "url": "https://github.com/andrewyng/openworker",
-   "stars": 5364,
+   "name": "slvDev/esp32-ai",
+   "url": "https://github.com/slvDev/esp32-ai",
+   "stars": 1478,
    "lang": "Python",
    "desc": ""
   },
   {
    "name": "Jakubantalik/thinking-orbs",
    "url": "https://github.com/Jakubantalik/thinking-orbs",
-   "stars": 1032,
+   "stars": 1114,
    "lang": "TypeScript",
    "desc": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light"
   },
   {
-   "name": "slvDev/esp32-ai",
-   "url": "https://github.com/slvDev/esp32-ai",
-   "stars": 914,
-   "lang": "Python",
-   "desc": ""
-  },
-  {
-   "name": "powerycy/goutoujunshi",
-   "url": "https://github.com/powerycy/goutoujunshi",
-   "stars": 891,
-   "lang": "Python",
-   "desc": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。"
-  },
-  {
-   "name": "Blaizzy/nativ",
-   "url": "https://github.com/Blaizzy/nativ",
-   "stars": 887,
-   "lang": "Swift",
-   "desc": "Local AI, native to your Mac. Chat, serve, monitor, and connect MLX models from one macOS app."
-  },
-  {
-   "name": "pireel/pireel",
-   "url": "https://github.com/pireel/pireel",
-   "stars": 756,
-   "lang": "TypeScript",
-   "desc": "Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser"
-  },
-  {
    "name": "mikiarlo3/ai-copywriter",
    "url": "https://github.com/mikiarlo3/ai-copywriter",
-   "stars": 651,
+   "stars": 871,
    "lang": "Python",
    "desc": "An AI copywriter that uses real copywriting skills + real marketing knowledge with human tone."
   },
   {
+   "name": "mshumer/Claude-of-Duty",
+   "url": "https://github.com/mshumer/Claude-of-Duty",
+   "stars": 759,
+   "lang": "JavaScript",
+   "desc": "A Call of Duty-quality FPS in Three.js, built from a single prompt."
+  },
+  {
+   "name": "vercel-labs/scriptc",
+   "url": "https://github.com/vercel-labs/scriptc",
+   "stars": 704,
+   "lang": "TypeScript",
+   "desc": "TypeScript-to-Native Compiler"
+  },
+  {
+   "name": "makecindy/cindy",
+   "url": "https://github.com/makecindy/cindy",
+   "stars": 677,
+   "lang": "TypeScript",
+   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+  },
+  {
    "name": "gnipbao/story-to-handdrawn-video",
    "url": "https://github.com/gnipbao/story-to-handdrawn-video",
-   "stars": 633,
+   "stars": 656,
    "lang": "JavaScript",
    "desc": "Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track)."
+  },
+  {
+   "name": "hahhforest/pi-textbook",
+   "url": "https://github.com/hahhforest/pi-textbook",
+   "stars": 520,
+   "lang": "TypeScript",
+   "desc": "《动手学 Pi》：沿 15 个真实 checkpoint 从零构建 Pi-style Agent"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 176899,
+   "stars": 176963,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-07-25T16:09:58Z"
+   "pushed": "2026-07-27T00:02:27Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 146748,
+   "stars": 146862,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-07-24T22:59:54Z"
+   "pushed": "2026-07-27T06:34:05Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 142600,
+   "stars": 142647,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-07-25T08:41:10Z"
+   "pushed": "2026-07-27T01:24:03Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 139100,
+   "stars": 139231,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-07-25T01:35:55Z"
@@ -254,15 +254,15 @@
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 121597,
+   "stars": 121709,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-07-26T05:20:15Z"
+   "pushed": "2026-07-27T06:13:59Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 113504,
+   "stars": 113543,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-07-23T03:43:21Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 91410,
+   "stars": 91436,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-07-25T19:50:40Z"
@@ -278,7 +278,7 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 88568,
+   "stars": 88668,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
    "pushed": "2026-07-23T22:47:38Z"
@@ -286,56 +286,56 @@
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 54701,
+   "stars": 54790,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-07-26T05:57:10Z"
+   "pushed": "2026-07-27T04:05:24Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 50947,
+   "stars": 51028,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-07-26T04:13:33Z"
+   "pushed": "2026-07-27T04:17:27Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 35388,
+   "stars": 35695,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-07-26T05:58:56Z"
+   "pushed": "2026-07-27T04:44:51Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 30217,
+   "stars": 31341,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-07-26T00:46:43Z"
+   "pushed": "2026-07-27T03:23:43Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 26442,
+   "stars": 26719,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-07-25T18:53:05Z"
+   "pushed": "2026-07-26T23:15:13Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 624,
+   "stars": 645,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Data Science",
-  "title": "A/B Testing",
-  "desc": "Randomly split users between two versions and compare them statistically. Never call a winner without understanding p-values and sample size.",
-  "link": "https://en.wikipedia.org/wiki/A/B_testing"
+  "cat": "Dev",
+  "title": "Event-Driven Architecture",
+  "desc": "Services publish and subscribe to events (Kafka, RabbitMQ) instead of calling each other directly. You gain loose coupling; debugging and ordering get harder.",
+  "link": "https://martinfowler.com/articles/201701-event-driven.html"
  }
 }
