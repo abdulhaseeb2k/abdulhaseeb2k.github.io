@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-28T05:52:50.683225+00:00",
+ "generated_at": "2026-07-29T05:57:05.655791+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,175 +62,175 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Our position on open-weights models",
-   "url": "https://www.anthropic.com/news/position-open-weights-models",
-   "points": 687,
-   "time": "2026-07-27T22:03:49Z"
+   "title": "New HIV vaccine shows unprecedented success in preclinical study",
+   "url": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
+   "points": 609,
+   "time": "2026-07-28T13:12:01Z"
   },
   {
-   "title": "Benchmarking Opus 5 on SlopCodeBench",
-   "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md",
-   "points": 213,
-   "time": "2026-07-27T22:37:52Z"
+   "title": "Substack writers, you need a website",
+   "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/",
+   "points": 480,
+   "time": "2026-07-28T16:58:31Z"
   },
   {
-   "title": "Watching Go's new garbage collector move through the heap",
-   "url": "https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html",
-   "points": 193,
-   "time": "2026-07-25T07:55:19Z"
+   "title": "Codex Security",
+   "url": "https://github.com/openai/codex-security",
+   "points": 446,
+   "time": "2026-07-28T20:52:55Z"
   },
   {
-   "title": "Glue bonds to nonstick surfaces and wipes clean with ethanol",
-   "url": "https://cen.acs.org/materials/adhesives/glue-bonds-nonstick-surfaces-wipes-clean/104/web/2026/07",
-   "points": 164,
-   "time": "2026-07-23T13:08:52Z"
+   "title": "Kimi K3 Architecture Overview and Notes",
+   "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html",
+   "points": 364,
+   "time": "2026-07-28T15:48:34Z"
   },
   {
-   "title": "Using an open model feels surprisingly good",
-   "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
-   "points": 164,
-   "time": "2026-07-28T02:37:14Z"
+   "title": "Delayed Gratification – Proud to Be 'Last to Breaking News'",
+   "url": "https://www.slow-journalism.com/",
+   "points": 267,
+   "time": "2026-07-28T15:50:38Z"
   },
   {
-   "title": "Astronauts describe persistent 'observer' sensation after 6 month missions",
-   "url": "https://spacedaily.com/sd-v-astronauts-returning-from-six-month-missions-describe-a-persistent-observer-sensation-the-feeling-of-watching-their-own-lives-from-a-half-step-outside-the-frame-weeks-after-theyr/",
-   "points": 153,
-   "time": "2026-07-27T23:19:19Z"
+   "title": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+   "url": "https://github.com/twalichiewicz/HNewhere",
+   "points": 219,
+   "time": "2026-07-28T22:09:06Z"
   }
  ],
  "models": [
   {
    "id": "moonshotai/Kimi-K3",
    "pipeline": "image-text-to-text",
-   "downloads": 2850,
-   "likes": 6811
-  },
-  {
-   "id": "poolside/Laguna-S-2.1",
-   "pipeline": "text-generation",
-   "downloads": 63605,
-   "likes": 765
+   "downloads": 99214,
+   "likes": 8196
   },
   {
    "id": "baidu/Unlimited-OCR",
    "pipeline": "image-text-to-text",
-   "downloads": 2645773,
-   "likes": 3348
-  },
-  {
-   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 634146,
-   "likes": 768
+   "downloads": 2694935,
+   "likes": 3437
   },
   {
    "id": "upstage/Solar-Open2-250B",
    "pipeline": "text-generation",
-   "downloads": 3761,
-   "likes": 635
+   "downloads": 4804,
+   "likes": 664
+  },
+  {
+   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 736692,
+   "likes": 865
+  },
+  {
+   "id": "poolside/Laguna-S-2.1",
+   "pipeline": "text-generation",
+   "downloads": 67286,
+   "likes": 804
   },
   {
    "id": "Nanbeige/Nanbeige4.2-3B",
    "pipeline": "text-generation",
-   "downloads": 16518,
-   "likes": 496
+   "downloads": 18933,
+   "likes": 532
   },
   {
    "id": "microsoft/Mage-Flow",
    "pipeline": "text-to-image",
-   "downloads": 1691,
-   "likes": 396
-  },
-  {
-   "id": "thinkingmachines/Inkling",
-   "pipeline": "image-text-to-text",
-   "downloads": 36196,
-   "likes": 1612
-  },
-  {
-   "id": "zai-org/GLM-5.2",
-   "pipeline": "text-generation",
-   "downloads": 1003547,
-   "likes": 4560
+   "downloads": 2007,
+   "likes": 422
   },
   {
    "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
    "pipeline": "text-generation",
-   "downloads": 5312,
-   "likes": 245
+   "downloads": 6275,
+   "likes": 293
+  },
+  {
+   "id": "owensong/Inflect-Micro-v2",
+   "pipeline": "text-to-speech",
+   "downloads": 645,
+   "likes": 272
+  },
+  {
+   "id": "zai-org/GLM-5.2",
+   "pipeline": "text-generation",
+   "downloads": 1267198,
+   "likes": 4612
   }
  ],
  "trending": [
   {
    "name": "MoonshotAI/Kimi-K3",
    "url": "https://github.com/MoonshotAI/Kimi-K3",
-   "stars": 2232,
+   "stars": 3642,
    "lang": "",
    "desc": "Open Frontier Intelligence"
   },
   {
-   "name": "vercel-labs/scriptc",
-   "url": "https://github.com/vercel-labs/scriptc",
-   "stars": 1863,
-   "lang": "TypeScript",
-   "desc": "TypeScript-to-Native Compiler"
-  },
-  {
    "name": "slvDev/esp32-ai",
    "url": "https://github.com/slvDev/esp32-ai",
-   "stars": 1814,
+   "stars": 2115,
    "lang": "Python",
    "desc": ""
   },
   {
    "name": "mshumer/Claude-of-Duty",
    "url": "https://github.com/mshumer/Claude-of-Duty",
-   "stars": 1070,
+   "stars": 1881,
    "lang": "JavaScript",
    "desc": "A Call of Duty-quality FPS in Three.js, built from a single prompt."
   },
   {
    "name": "kvcache-ai/AgentENV",
    "url": "https://github.com/kvcache-ai/AgentENV",
-   "stars": 994,
+   "stars": 1502,
    "lang": "Rust",
    "desc": "AgentENV (AENV) is a distributed platform for running agent environments at scale."
   },
   {
    "name": "mikiarlo3/ai-copywriter",
    "url": "https://github.com/mikiarlo3/ai-copywriter",
-   "stars": 952,
+   "stars": 997,
    "lang": "Python",
    "desc": "An AI copywriter that uses real copywriting skills + real marketing knowledge with human tone."
   },
   {
-   "name": "makecindy/cindy",
-   "url": "https://github.com/makecindy/cindy",
-   "stars": 902,
-   "lang": "TypeScript",
-   "desc": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
-  },
-  {
    "name": "VictorTaelin/OptMem",
    "url": "https://github.com/VictorTaelin/OptMem",
-   "stars": 667,
+   "stars": 824,
    "lang": "Python",
    "desc": "Permanent memory for AI agents. A 426-token prompt, a script, plug and play."
+  },
+  {
+   "name": "MoonshotAI/MoonEP",
+   "url": "https://github.com/MoonshotAI/MoonEP",
+   "stars": 813,
+   "lang": "Python",
+   "desc": "MoonEP: A Perfectly Balanced Expert Parallelism Library via Dynamic Redundant Experts"
+  },
+  {
+   "name": "fuadmefleh/Shared-Claude-Chats",
+   "url": "https://github.com/fuadmefleh/Shared-Claude-Chats",
+   "stars": 761,
+   "lang": "Python",
+   "desc": "An archive of public Claude and Grok conversations, exported from their share links as plain markdown, plus the two scripts that produce it."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 177059,
+   "stars": 177155,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-07-28T00:29:20Z"
+   "pushed": "2026-07-29T02:06:29Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 147007,
+   "stars": 147152,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
    "pushed": "2026-07-27T23:39:39Z"
@@ -238,15 +238,15 @@
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 142750,
+   "stars": 142836,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-07-27T18:56:26Z"
+   "pushed": "2026-07-29T00:59:10Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 139353,
+   "stars": 139446,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-07-25T01:35:55Z"
@@ -254,71 +254,71 @@
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 121827,
+   "stars": 121927,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-07-28T05:41:07Z"
+   "pushed": "2026-07-28T23:53:21Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 113609,
+   "stars": 113653,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-07-23T03:43:21Z"
+   "pushed": "2026-07-29T04:32:42Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 91470,
+   "stars": 91517,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-07-25T19:50:40Z"
+   "pushed": "2026-07-29T05:49:15Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 88778,
+   "stars": 88896,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-07-23T22:47:38Z"
+   "pushed": "2026-07-29T03:01:17Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 54875,
+   "stars": 54966,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-07-28T05:34:20Z"
+   "pushed": "2026-07-29T05:49:40Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 51111,
+   "stars": 51183,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-07-28T04:02:43Z"
+   "pushed": "2026-07-29T05:44:15Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 35991,
+   "stars": 36295,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-07-28T02:53:04Z"
+   "pushed": "2026-07-29T05:31:04Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 32362,
+   "stars": 33395,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-07-28T05:42:47Z"
+   "pushed": "2026-07-29T02:22:21Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 27064,
+   "stars": 27415,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-07-27T23:02:07Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 682,
+   "stars": 743,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Zero Trust",
-  "desc": "The 'inside the network means trusted' model is dead — every request is verified, even internal ones. Identity-based access instead of a VPN perimeter.",
-  "link": "https://www.nist.gov/publications/zero-trust-architecture"
+  "cat": "AI",
+  "title": "Context Window",
+  "desc": "How much text a model can 'see' at once. A large window fits a whole codebase or document set — but content in the middle of long contexts tends to get missed ('lost in the middle').",
+  "link": "https://huggingface.co/blog"
  }
 }
