@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-02T06:07:17.134474+00:00",
+ "generated_at": "2026-08-03T06:28:58.666894+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,167 +62,167 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "How Google helped destroy adoption of RSS feeds (2023)",
-   "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
-   "points": 482,
-   "time": "2026-08-01T18:07:07Z"
+   "title": "Karpathy’s Pelican",
+   "url": "https://twitter.com/karpathy/status/2083749667410727319",
+   "points": 531,
+   "time": "2026-08-02T04:05:56Z"
   },
   {
-   "title": "Diátaxis",
-   "url": "https://diataxis.fr/",
-   "points": 268,
-   "time": "2026-08-01T20:33:27Z"
+   "title": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+   "url": "https://qwen.ai/blog?id=qwen3.8",
+   "points": 382,
+   "time": "2026-08-03T02:16:09Z"
   },
   {
-   "title": "Seedance 2.5",
-   "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-   "points": 261,
-   "time": "2026-08-01T20:45:12Z"
+   "title": "How the words we teach English language learners changed",
+   "url": "https://pudding.cool/2026/07/essential-words/",
+   "points": 208,
+   "time": "2026-08-02T15:41:08Z"
   },
   {
-   "title": "NetBSD 11.0",
-   "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
-   "points": 252,
-   "time": "2026-08-01T17:56:41Z"
+   "title": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+   "url": "https://github.com/wie-project/kakehashi",
+   "points": 205,
+   "time": "2026-08-02T16:26:40Z"
   },
   {
-   "title": "AI financial advice is surprisingly good, especially if you ask right questions",
-   "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
-   "points": 251,
-   "time": "2026-08-01T22:25:12Z"
+   "title": "Developers are attached to tools because tools encode trust",
+   "url": "https://stackoverflow.blog/2026/07/29/developers-are-attached-to-tools-because-tools-encode-trust/",
+   "points": 190,
+   "time": "2026-07-29T14:25:54Z"
   },
   {
-   "title": "The Art of 64-bit Assembly",
-   "url": "https://nostarch.com/art-64-bit-assembly-v2",
-   "points": 215,
-   "time": "2026-08-01T14:09:00Z"
+   "title": "Meshdiff – visually compare two STL versions in the browser, client-side",
+   "url": "https://meshdiff.com/",
+   "points": 188,
+   "time": "2026-08-02T11:34:41Z"
   }
  ],
  "models": [
   {
    "id": "moonshotai/Kimi-K3",
    "pipeline": "image-text-to-text",
-   "downloads": 559924,
-   "likes": 9509
+   "downloads": 837202,
+   "likes": 9700
   },
   {
    "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
    "pipeline": "text-generation",
-   "downloads": 15366,
-   "likes": 1480
+   "downloads": 156173,
+   "likes": 1840
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-H3",
+   "pipeline": "image-text-to-video",
+   "downloads": 0,
+   "likes": 580
   },
   {
    "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 1173001,
-   "likes": 1248
+   "downloads": 1372285,
+   "likes": 1368
   },
   {
    "id": "baidu/Unlimited-OCR",
    "pipeline": "image-text-to-text",
-   "downloads": 2457387,
-   "likes": 3720
+   "downloads": 2536284,
+   "likes": 3800
   },
   {
    "id": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
    "pipeline": "",
-   "downloads": 4048,
-   "likes": 297
-  },
-  {
-   "id": "owensong/Inflect-Micro-v2",
-   "pipeline": "text-to-speech",
-   "downloads": 1565,
-   "likes": 365
-  },
-  {
-   "id": "zai-org/GLM-5.2",
-   "pipeline": "text-generation",
-   "downloads": 1683442,
-   "likes": 4738
+   "downloads": 48707,
+   "likes": 364
   },
   {
    "id": "unsloth/Kimi-K3-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 41337,
-   "likes": 243
-  },
-  {
-   "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
-   "pipeline": "text-generation",
-   "downloads": 10771,
-   "likes": 392
+   "downloads": 88481,
+   "likes": 266
   },
   {
    "id": "thinkingmachines/Inkling-Small",
    "pipeline": "image-text-to-text",
-   "downloads": 3998,
-   "likes": 214
+   "downloads": 6839,
+   "likes": 247
+  },
+  {
+   "id": "zai-org/GLM-5.2",
+   "pipeline": "text-generation",
+   "downloads": 2050533,
+   "likes": 4773
+  },
+  {
+   "id": "Kwaipilot/KAT-Coder-V2.5-Dev",
+   "pipeline": "text-generation",
+   "downloads": 13164,
+   "likes": 416
   }
  ],
  "trending": [
   {
-   "name": "MoonshotAI/Kimi-K3",
-   "url": "https://github.com/MoonshotAI/Kimi-K3",
-   "stars": 7835,
-   "lang": "",
-   "desc": "Open Frontier Intelligence"
-  },
-  {
    "name": "yc-software/qm",
    "url": "https://github.com/yc-software/qm",
-   "stars": 5338,
+   "stars": 7794,
    "lang": "TypeScript",
    "desc": "Multiplayer agent harness for work"
   },
   {
    "name": "bashalarmistalt/decimen-optical-transfer",
    "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
-   "stars": 3158,
+   "stars": 3839,
    "lang": "TypeScript",
    "desc": ""
-  },
-  {
-   "name": "QwenAudio/qwen-audio-agent",
-   "url": "https://github.com/QwenAudio/qwen-audio-agent",
-   "stars": 1481,
-   "lang": "JavaScript",
-   "desc": "A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents"
-  },
-  {
-   "name": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-   "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-   "stars": 1181,
-   "lang": "",
-   "desc": "FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）"
   },
   {
    "name": "trycompai/crm",
    "url": "https://github.com/trycompai/crm",
-   "stars": 916,
+   "stars": 1997,
    "lang": "TypeScript",
-   "desc": ""
+   "desc": "An open-source, agentic-first CRM."
   },
   {
-   "name": "xikhar/persona",
-   "url": "https://github.com/xikhar/persona",
-   "stars": 771,
-   "lang": "JavaScript",
-   "desc": "Bringing real-time voice to life."
+   "name": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+   "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+   "stars": 1737,
+   "lang": "",
+   "desc": "FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）"
   },
   {
    "name": "sqliteai/waste",
    "url": "https://github.com/sqliteai/waste",
-   "stars": 720,
+   "stars": 1220,
    "lang": "C",
    "desc": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free"
+  },
+  {
+   "name": "WilonityDev/WilonityLoader",
+   "url": "https://github.com/WilonityDev/WilonityLoader",
+   "stars": 1217,
+   "lang": "",
+   "desc": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, PUBG, R6S, A"
+  },
+  {
+   "name": "microsoft/skill-recorder",
+   "url": "https://github.com/microsoft/skill-recorder",
+   "stars": 992,
+   "lang": "TypeScript",
+   "desc": "Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then bu"
+  },
+  {
+   "name": "xikhar/persona",
+   "url": "https://github.com/xikhar/persona",
+   "stars": 797,
+   "lang": "JavaScript",
+   "desc": "Bringing real-time voice to life."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 177537,
+   "stars": 177642,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
    "pushed": "2026-07-31T23:59:29Z"
@@ -230,23 +230,23 @@
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 147560,
+   "stars": 147671,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-01T07:57:17Z"
+   "pushed": "2026-08-02T20:39:10Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 143199,
+   "stars": 143270,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-01T09:41:15Z"
+   "pushed": "2026-08-02T22:01:07Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 139946,
+   "stars": 140049,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-07-25T01:35:55Z"
@@ -254,15 +254,15 @@
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 122366,
+   "stars": 122497,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-01T23:19:41Z"
+   "pushed": "2026-08-03T06:25:01Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 114340,
+   "stars": 115003,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-01T08:23:49Z"
@@ -270,72 +270,72 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 91706,
+   "stars": 91744,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-07-29T10:26:20Z"
+   "pushed": "2026-08-03T03:09:55Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 89274,
+   "stars": 89370,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-02T03:25:43Z"
+   "pushed": "2026-08-02T17:15:20Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 55308,
+   "stars": 55397,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-02T05:05:08Z"
+   "pushed": "2026-08-03T03:42:11Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 51482,
+   "stars": 51554,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-02T04:11:46Z"
+   "pushed": "2026-08-03T04:14:18Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 37223,
+   "stars": 38109,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-08-02T05:32:26Z"
+   "pushed": "2026-08-03T05:48:27Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 37008,
+   "stars": 37169,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-01T05:49:09Z"
+   "pushed": "2026-08-03T04:10:21Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 27995,
+   "stars": 28144,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-07-30T23:23:45Z"
+   "pushed": "2026-08-02T12:45:39Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 892,
+   "stars": 912,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "Fine-tuning vs RAG",
-  "desc": "Fine-tuning changes a model's behavior and style; RAG gives it new knowledge. Use RAG for facts, fine-tuning for tone/format — combining both is common.",
-  "link": "https://huggingface.co/docs/transformers/training"
+  "cat": "Data Science",
+  "title": "Embeddings",
+  "desc": "Converting text or images into vectors of numbers where similar things end up close together. Semantic search, RAG, and recommendations all run on this.",
+  "link": "https://huggingface.co/blog/getting-started-with-embeddings"
  }
 }
