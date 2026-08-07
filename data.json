@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T05:54:36.785922+00:00",
+ "generated_at": "2026-08-07T04:58:27.553398+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,175 +62,175 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Discovery Loop",
-   "url": "https://www.discoveryloop.com/",
-   "points": 672,
-   "time": "2026-08-05T16:19:44Z"
+   "title": "Mario Meets Pareto",
+   "url": "https://www.mayerowitz.io/blog/mario-meets-pareto",
+   "points": 943,
+   "time": "2026-08-06T11:24:53Z"
   },
   {
-   "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-   "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-   "points": 579,
-   "time": "2026-08-05T16:05:31Z"
+   "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+   "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+   "points": 484,
+   "time": "2026-08-06T20:23:11Z"
   },
   {
-   "title": "Cloudflare OS: an open platform for agents, apps, and work",
-   "url": "https://blog.cloudflare.com/cloudflare-os/",
-   "points": 523,
-   "time": "2026-08-05T13:58:53Z"
+   "title": "GitHub Actions and Pages are experiencing degraded availability",
+   "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+   "points": 358,
+   "time": "2026-08-06T15:49:38Z"
   },
   {
-   "title": "Zed DeltaDB",
-   "url": "https://zed.dev/deltadb",
-   "points": 357,
-   "time": "2026-08-05T18:52:54Z"
+   "title": "Almost no skill required to cook a steak",
+   "url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/",
+   "points": 308,
+   "time": "2026-08-06T15:30:48Z"
   },
   {
-   "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
-   "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+   "title": "Taste Is All That's Left",
+   "url": "https://notashelf.dev/posts/taste-is-all-thats-left",
+   "points": 287,
+   "time": "2026-08-06T17:01:33Z"
+  },
+  {
+   "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+   "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
    "points": 272,
-   "time": "2026-08-05T18:18:56Z"
-  },
-  {
-   "title": "I'm switching my phone from Android to Linux",
-   "url": "https://runarcn.no/android-to-linux/",
-   "points": 265,
-   "time": "2026-08-05T19:50:13Z"
+   "time": "2026-08-06T11:58:07Z"
   }
  ],
  "models": [
   {
    "id": "MiniMaxAI/MiniMax-H3",
    "pipeline": "image-text-to-video",
-   "downloads": 10841,
-   "likes": 2551
+   "downloads": 12102,
+   "likes": 2783
   },
   {
    "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
    "pipeline": "text-generation",
-   "downloads": 433284,
-   "likes": 2527
+   "downloads": 617900,
+   "likes": 2666
   },
   {
    "id": "moonshotai/Kimi-K3",
    "pipeline": "image-text-to-text",
-   "downloads": 1125935,
-   "likes": 10140
+   "downloads": 1258043,
+   "likes": 10217
   },
   {
    "id": "Comfy-Org/MiniMax-H3",
    "pipeline": "",
-   "downloads": 2,
-   "likes": 772
-  },
-  {
-   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 1633405,
-   "likes": 1603
+   "downloads": 2295377,
+   "likes": 859
   },
   {
    "id": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
    "pipeline": "",
-   "downloads": 111678,
-   "likes": 503
+   "downloads": 145105,
+   "likes": 559
   },
   {
-   "id": "thinkingmachines/Inkling-Small",
+   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 15500,
-   "likes": 313
-  },
-  {
-   "id": "LiquidAI/LFM2.5-2.6B",
-   "pipeline": "text-generation",
-   "downloads": 47393,
-   "likes": 293
+   "downloads": 2087189,
+   "likes": 1659
   },
   {
    "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
    "pipeline": "image-text-to-text",
    "downloads": 0,
-   "likes": 296
+   "likes": 346
+  },
+  {
+   "id": "LiquidAI/LFM2.5-2.6B",
+   "pipeline": "text-generation",
+   "downloads": 73573,
+   "likes": 340
+  },
+  {
+   "id": "larryvrh/MiniMax-H3-Turbo-Lora",
+   "pipeline": "text-to-video",
+   "downloads": 0,
+   "likes": 327
   },
   {
    "id": "baidu/Unlimited-OCR",
    "pipeline": "image-text-to-text",
-   "downloads": 2703366,
-   "likes": 3911
+   "downloads": 2791862,
+   "likes": 3935
   }
  ],
  "trending": [
   {
-   "name": "trycompai/crm",
-   "url": "https://github.com/trycompai/crm",
-   "stars": 6554,
-   "lang": "TypeScript",
-   "desc": "An open-source, agentic-first CRM."
-  },
-  {
    "name": "firecrawl/anydoc",
    "url": "https://github.com/firecrawl/anydoc",
-   "stars": 5632,
+   "stars": 8977,
    "lang": "Rust",
    "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings."
   },
   {
    "name": "FareedKhan-dev/kimi-k3-in-c",
    "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-   "stars": 2631,
+   "stars": 2906,
    "lang": "C",
    "desc": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU."
   },
   {
    "name": "imsai-sh/zhuzhiliao",
    "url": "https://github.com/imsai-sh/zhuzhiliao",
-   "stars": 2136,
+   "stars": 2324,
    "lang": "HTML",
    "desc": "竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。"
   },
   {
-   "name": "genspark-ai/genoffice",
-   "url": "https://github.com/genspark-ai/genoffice",
-   "stars": 1860,
-   "lang": "TypeScript",
-   "desc": "An AI-native office suite for macOS and Windows: word processor, spreadsheet, presentations, and PDF."
-  },
-  {
    "name": "thebuggeddev/anatomy",
    "url": "https://github.com/thebuggeddev/anatomy",
-   "stars": 1669,
+   "stars": 1887,
    "lang": "TypeScript",
    "desc": "An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol"
   },
   {
    "name": "DannyMac180/sol-advisor",
    "url": "https://github.com/DannyMac180/sol-advisor",
-   "stars": 1505,
+   "stars": 1727,
    "lang": "Shell",
    "desc": "Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review."
   },
   {
    "name": "KKKKhazix/human-writing",
    "url": "https://github.com/KKKKhazix/human-writing",
-   "stars": 1273,
+   "stars": 1676,
    "lang": "Python",
    "desc": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。"
+  },
+  {
+   "name": "Binaryify/open-kimi-ppt-skill",
+   "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
+   "stars": 1493,
+   "lang": "Python",
+   "desc": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX wi"
+  },
+  {
+   "name": "ZzzLc0405/photo-abstract-editorial",
+   "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
+   "stars": 1138,
+   "lang": "",
+   "desc": ""
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 177883,
+   "stars": 177957,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-05T23:31:59Z"
+   "pushed": "2026-08-07T04:56:13Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 147992,
+   "stars": 148090,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
    "pushed": "2026-08-05T20:05:47Z"
@@ -238,31 +238,31 @@
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 143517,
+   "stars": 143582,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-06T02:02:19Z"
+   "pushed": "2026-08-07T04:20:39Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 140414,
+   "stars": 140524,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-08-06T00:52:37Z"
+   "pushed": "2026-08-07T04:00:59Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 122848,
+   "stars": 122940,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-06T01:33:36Z"
+   "pushed": "2026-08-07T04:52:52Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 116671,
+   "stars": 116831,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-06T03:44:01Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 91866,
+   "stars": 91906,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-03T03:09:55Z"
@@ -278,7 +278,7 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 89772,
+   "stars": 89897,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
    "pushed": "2026-08-05T18:34:03Z"
@@ -286,39 +286,39 @@
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 55668,
+   "stars": 55766,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-06T05:39:39Z"
+   "pushed": "2026-08-07T04:49:44Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 51746,
+   "stars": 51808,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-06T04:03:16Z"
+   "pushed": "2026-08-07T03:58:34Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 40982,
+   "stars": 41837,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-08-06T05:19:58Z"
+   "pushed": "2026-08-07T04:26:48Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 37644,
+   "stars": 37894,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-06T02:44:25Z"
+   "pushed": "2026-08-07T04:13:11Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 28735,
+   "stars": 29123,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-02T12:45:39Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 958,
+   "stars": 1015,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "Agents & Tool Use",
-  "desc": "An LLM doesn't just write text — it calls tools (search, code execution, APIs) and reacts to the results. MCP is becoming the open standard for this.",
-  "link": "https://modelcontextprotocol.io"
+  "cat": "Dev",
+  "title": "Database Indexing",
+  "desc": "Without an index, a query scans the whole table. The right index means milliseconds; the wrong one means minutes. Run EXPLAIN to see what your query is really doing.",
+  "link": "https://use-the-index-luke.com/"
  }
 }
