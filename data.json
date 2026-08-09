@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-08T04:13:34.693608+00:00",
+ "generated_at": "2026-08-09T04:21:29.355378+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,191 +62,191 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "New Mexico court orders Meta to pay $567m over harms to children’s mental health",
-   "url": "https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta",
-   "points": 739,
-   "time": "2026-08-07T00:06:28Z"
+   "title": "“Code was never the hard part” is an insult to all programmers",
+   "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers",
+   "points": 623,
+   "time": "2026-08-08T14:32:33Z"
   },
   {
-   "title": "DeepSeek V4 Flash 0731",
-   "url": "https://arcprize.org/results/deepseek-v4-flash-0731",
-   "points": 514,
-   "time": "2026-08-07T17:56:20Z"
+   "title": "Danish high schoolers will have to verbally defend written assignments",
+   "url": "https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/",
+   "points": 535,
+   "time": "2026-08-08T18:09:31Z"
   },
   {
-   "title": "What happens if an entire class of workers loses faith in their careers",
-   "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/",
-   "points": 493,
-   "time": "2026-08-07T12:42:27Z"
+   "title": "Timeline of the OpenAI accidental attack against Hugging Face",
+   "url": "https://simonwillison.net/2026/Aug/7/openai-timeline/",
+   "points": 369,
+   "time": "2026-08-08T10:57:44Z"
   },
   {
-   "title": "Oracle bans AI-generated code from OpenJDK",
-   "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
-   "points": 417,
-   "time": "2026-08-07T17:36:30Z"
+   "title": "_for-sale DNS records",
+   "url": "https://specification.website/spec/foundations/for-sale-dns/",
+   "points": 367,
+   "time": "2026-08-08T13:26:51Z"
   },
   {
-   "title": "A year of fighting scrapers on my 1.5 million-page website",
-   "url": "https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/",
-   "points": 397,
-   "time": "2026-08-07T14:51:57Z"
+   "title": "Fastmail offers EU data region",
+   "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/",
+   "points": 346,
+   "time": "2026-08-08T16:04:51Z"
   },
   {
-   "title": "2027 memory capacity is reportedly sold out",
-   "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out",
-   "points": 282,
-   "time": "2026-08-07T07:58:24Z"
+   "title": "US Military's cyber command unit grapples with cluster of deaths by suicide",
+   "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-military-s-cyber-command-unit-grapples-with-cluster-of-deaths-by-suicide",
+   "points": 268,
+   "time": "2026-08-08T10:04:25Z"
   }
  ],
  "models": [
   {
    "id": "MiniMaxAI/MiniMax-H3",
    "pipeline": "image-text-to-video",
-   "downloads": 18112,
-   "likes": 2978
+   "downloads": 26693,
+   "likes": 3121
   },
   {
    "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
    "pipeline": "text-generation",
-   "downloads": 702709,
-   "likes": 2761
+   "downloads": 785771,
+   "likes": 2865
   },
   {
    "id": "Comfy-Org/MiniMax-H3",
    "pipeline": "",
-   "downloads": 3139920,
-   "likes": 950
+   "downloads": 3943176,
+   "likes": 1010
   },
   {
    "id": "moonshotai/Kimi-K3",
    "pipeline": "image-text-to-text",
-   "downloads": 1308186,
-   "likes": 10292
-  },
-  {
-   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 2217339,
-   "likes": 1715
+   "downloads": 1388105,
+   "likes": 10346
   },
   {
    "id": "larryvrh/MiniMax-H3-Turbo-Lora",
    "pipeline": "text-to-video",
    "downloads": 0,
-   "likes": 429
+   "likes": 493
+  },
+  {
+   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 2345190,
+   "likes": 1767
   },
   {
    "id": "LiquidAI/LFM2.5-2.6B",
    "pipeline": "text-generation",
-   "downloads": 77973,
-   "likes": 386
+   "downloads": 81522,
+   "likes": 418
   },
   {
    "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
    "pipeline": "image-text-to-text",
    "downloads": 0,
-   "likes": 385
+   "likes": 405
   },
   {
    "id": "unsloth/DeepSeek-V4-Flash-0731-GGUF",
    "pipeline": "",
-   "downloads": 161253,
-   "likes": 591
+   "downloads": 175093,
+   "likes": 608
   },
   {
    "id": "deepgrove/maple-preview",
    "pipeline": "text-generation",
-   "downloads": 686,
-   "likes": 233
+   "downloads": 896,
+   "likes": 257
   }
  ],
  "trending": [
   {
    "name": "firecrawl/anydoc",
    "url": "https://github.com/firecrawl/anydoc",
-   "stars": 11218,
+   "stars": 12211,
    "lang": "Rust",
    "desc": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings."
   },
   {
-   "name": "thebuggeddev/anatomy",
-   "url": "https://github.com/thebuggeddev/anatomy",
-   "stars": 1991,
-   "lang": "TypeScript",
-   "desc": "An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol"
-  },
-  {
    "name": "KKKKhazix/human-writing",
    "url": "https://github.com/KKKKhazix/human-writing",
-   "stars": 1899,
+   "stars": 1996,
    "lang": "Python",
    "desc": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。"
   },
   {
-   "name": "Binaryify/open-kimi-ppt-skill",
-   "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
-   "stars": 1587,
-   "lang": "",
-   "desc": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX wi"
-  },
-  {
    "name": "ZzzLc0405/photo-abstract-editorial",
    "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
-   "stars": 1509,
+   "stars": 1766,
    "lang": "",
    "desc": ""
   },
   {
-   "name": "Accio-org/RealReplicaBench",
-   "url": "https://github.com/Accio-org/RealReplicaBench",
-   "stars": 1040,
-   "lang": "HTML",
-   "desc": "RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services"
+   "name": "Binaryify/open-kimi-ppt-skill",
+   "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
+   "stars": 1591,
+   "lang": "",
+   "desc": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX wi"
   },
   {
    "name": "mikiarlo3/awesome-growth-hacking-skills",
    "url": "https://github.com/mikiarlo3/awesome-growth-hacking-skills",
-   "stars": 728,
+   "stars": 769,
    "lang": "Shell",
    "desc": "Find agentic growth hacking skills for Claude, ChatGPT, Manus | by enso.bot"
   },
   {
-   "name": "magicrew/doc7",
-   "url": "https://github.com/magicrew/doc7",
-   "stars": 698,
-   "lang": "Go",
-   "desc": "Turn documents into AI-ready Markdown with visual understanding"
+   "name": "0xwilliamortiz/claude-red",
+   "url": "https://github.com/0xwilliamortiz/claude-red",
+   "stars": 681,
+   "lang": "JavaScript",
+   "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file"
+  },
+  {
+   "name": "google-gemma/gemma-translator",
+   "url": "https://github.com/google-gemma/gemma-translator",
+   "stars": 592,
+   "lang": "JavaScript",
+   "desc": ""
+  },
+  {
+   "name": "wumingqi60/lingxi",
+   "url": "https://github.com/wumingqi60/lingxi",
+   "stars": 585,
+   "lang": "TypeScript",
+   "desc": "灵犀跨境-开源共建版"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 178027,
+   "stars": 178089,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-08T02:33:37Z"
+   "pushed": "2026-08-09T02:44:57Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 148192,
+   "stars": 148266,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-07T07:24:21Z"
+   "pushed": "2026-08-09T00:48:30Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 143661,
+   "stars": 143754,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-08T02:29:49Z"
+   "pushed": "2026-08-08T10:53:48Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 140618,
+   "stars": 140744,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-08-08T02:48:04Z"
@@ -254,15 +254,15 @@
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 123037,
+   "stars": 123146,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-07T23:48:57Z"
+   "pushed": "2026-08-08T23:26:29Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 116952,
+   "stars": 117094,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-06T03:44:01Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 91950,
+   "stars": 91983,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-03T03:09:55Z"
@@ -278,47 +278,47 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 90011,
+   "stars": 90117,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-08T02:21:53Z"
+   "pushed": "2026-08-09T03:49:37Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 55843,
+   "stars": 55914,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-08T04:10:30Z"
+   "pushed": "2026-08-09T04:20:40Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 51869,
+   "stars": 51942,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-08T03:31:48Z"
+   "pushed": "2026-08-09T03:33:41Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 42665,
+   "stars": 43556,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-08-08T03:43:05Z"
+   "pushed": "2026-08-09T04:09:02Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 38082,
+   "stars": 38223,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-08T04:11:15Z"
+   "pushed": "2026-08-09T00:43:24Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 29369,
+   "stars": 29482,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-02T12:45:39Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1059,
+   "stars": 1099,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "Mixture of Experts (MoE)",
-  "desc": "The model contains many small 'expert' networks; a router sends each token to only 1-2 of them. This is why models like DeepSeek and Mixtral stay fast despite being huge.",
-  "link": "https://huggingface.co/blog/moe"
+  "cat": "Data Science",
+  "title": "Feature Engineering",
+  "desc": "Turning raw data into meaningful model inputs — extracting day-of-week from dates, encoding categories, building ratios. It often matters more than the choice of model.",
+  "link": "https://developers.google.com/machine-learning/crash-course"
  }
 }
