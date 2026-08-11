@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10T04:42:49.086785+00:00",
+ "generated_at": "2026-08-11T04:23:30.482303+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "How I use LLMs to learn complex topics",
-   "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
-   "points": 506,
-   "time": "2026-08-09T19:16:49Z"
+   "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+   "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+   "points": 1065,
+   "time": "2026-08-10T10:10:02Z"
   },
   {
-   "title": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
-   "url": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html",
-   "points": 432,
-   "time": "2026-08-09T15:11:20Z"
+   "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+   "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+   "points": 420,
+   "time": "2026-08-10T14:06:22Z"
   },
   {
-   "title": "Everything you do is being recorded",
-   "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/",
-   "points": 241,
-   "time": "2026-08-09T11:30:48Z"
+   "title": "The UK's War on Anonymity Has Come to America",
+   "url": "https://www.effort.news/uk-lobby",
+   "points": 397,
+   "time": "2026-08-10T23:45:50Z"
   },
   {
-   "title": "Taxi drivers rarely die of Alzheimer's",
-   "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650",
-   "points": 224,
-   "time": "2026-08-09T15:21:46Z"
+   "title": "Sonic Pi v5",
+   "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
+   "points": 329,
+   "time": "2026-08-07T10:26:34Z"
   },
   {
-   "title": "Cool URIs Don't Change (1998)",
-   "url": "https://www.w3.org/Provider/Style/URI",
-   "points": 209,
-   "time": "2026-08-09T14:32:53Z"
+   "title": "Squeak 6.1",
+   "url": "https://squeak.org/release_notes/6.1/",
+   "points": 236,
+   "time": "2026-08-10T12:15:53Z"
   },
   {
-   "title": "Ask HN: What are you working on? (August 2026)",
-   "url": "https://news.ycombinator.com/item?id=49233423",
-   "points": 203,
-   "time": "2026-08-09T17:23:22Z"
+   "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+   "url": "https://cactuscompute.com/needle",
+   "points": 226,
+   "time": "2026-08-10T17:22:07Z"
   }
  ],
  "models": [
   {
    "id": "MiniMaxAI/MiniMax-H3",
    "pipeline": "image-text-to-video",
-   "downloads": 35295,
-   "likes": 3278
+   "downloads": 47468,
+   "likes": 3448
   },
   {
    "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
    "pipeline": "text-generation",
-   "downloads": 868576,
-   "likes": 2962
+   "downloads": 954441,
+   "likes": 3077
+  },
+  {
+   "id": "meta-models/Muse-Glimmer-30B",
+   "pipeline": "image-text-to-text",
+   "downloads": 0,
+   "likes": 792
   },
   {
    "id": "Comfy-Org/MiniMax-H3",
    "pipeline": "",
-   "downloads": 4947943,
-   "likes": 1090
-  },
-  {
-   "id": "moonshotai/Kimi-K3",
-   "pipeline": "image-text-to-text",
-   "downloads": 1456459,
-   "likes": 10409
+   "downloads": 6009639,
+   "likes": 1156
   },
   {
    "id": "larryvrh/MiniMax-H3-Turbo-Lora",
    "pipeline": "text-to-video",
    "downloads": 0,
-   "likes": 552
+   "likes": 603
   },
   {
    "id": "LiquidAI/LFM2.5-2.6B",
    "pipeline": "text-generation",
-   "downloads": 85651,
-   "likes": 457
+   "downloads": 89680,
+   "likes": 493
+  },
+  {
+   "id": "moonshotai/Kimi-K3",
+   "pipeline": "image-text-to-text",
+   "downloads": 1510032,
+   "likes": 10477
+  },
+  {
+   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 2439083,
+   "likes": 1866
   },
   {
    "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
    "pipeline": "image-text-to-text",
    "downloads": 0,
-   "likes": 422
-  },
-  {
-   "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 2390692,
-   "likes": 1812
+   "likes": 442
   },
   {
    "id": "deepgrove/maple-preview",
    "pipeline": "text-generation",
-   "downloads": 1089,
-   "likes": 290
-  },
-  {
-   "id": "nvidia/NVIDIA-NemotronLabs-VoiceChat-11B",
-   "pipeline": "",
-   "downloads": 543,
-   "likes": 266
+   "downloads": 1344,
+   "likes": 315
   }
  ],
  "trending": [
   {
    "name": "KKKKhazix/human-writing",
    "url": "https://github.com/KKKKhazix/human-writing",
-   "stars": 2142,
+   "stars": 2311,
    "lang": "Python",
    "desc": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。"
   },
   {
-   "name": "ZzzLc0405/photo-abstract-editorial",
-   "url": "https://github.com/ZzzLc0405/photo-abstract-editorial",
-   "stars": 2013,
-   "lang": "",
-   "desc": ""
-  },
-  {
    "name": "Binaryify/open-kimi-ppt-skill",
    "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
-   "stars": 1607,
+   "stars": 1606,
    "lang": "",
    "desc": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX wi"
   },
   {
    "name": "ShawnPana/phone-harness",
    "url": "https://github.com/ShawnPana/phone-harness",
-   "stars": 972,
+   "stars": 1354,
    "lang": "Python",
    "desc": "let your agent control your phone"
   },
   {
-   "name": "mikiarlo3/awesome-growth-hacking-skills",
-   "url": "https://github.com/mikiarlo3/awesome-growth-hacking-skills",
-   "stars": 800,
-   "lang": "Shell",
-   "desc": "Find agentic growth hacking skills for Claude, ChatGPT, Manus | by enso.bot"
+   "name": "oil-oil/oil-motion",
+   "url": "https://github.com/oil-oil/oil-motion",
+   "stars": 1252,
+   "lang": "Python",
+   "desc": "Create smooth, responsive interactive web animations."
   },
   {
-   "name": "0xwilliamortiz/claude-red",
-   "url": "https://github.com/0xwilliamortiz/claude-red",
-   "stars": 712,
-   "lang": "JavaScript",
-   "desc": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file"
-  },
-  {
-   "name": "xoreaxeaxeax/asm-hall-of-shame",
-   "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-   "stars": 671,
-   "lang": "C",
-   "desc": "Racing to the bottom of CPU performance"
+   "name": "SMNETSTUDIO/WeChat-AI",
+   "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+   "stars": 971,
+   "lang": "TypeScript",
+   "desc": ""
   },
   {
    "name": "MengTo/kage",
    "url": "https://github.com/MengTo/kage",
-   "stars": 645,
+   "stars": 783,
    "lang": "HTML",
    "desc": "An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js."
+  },
+  {
+   "name": "xoreaxeaxeax/asm-hall-of-shame",
+   "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+   "stars": 734,
+   "lang": "C",
+   "desc": "Racing to the bottom of CPU performance"
+  },
+  {
+   "name": "eternityspring/shuohao-skills",
+   "url": "https://github.com/eternityspring/shuohao-skills",
+   "stars": 654,
+   "lang": "JavaScript",
+   "desc": "AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles, model sheets, adaptation outlines. Runs in C"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 178154,
+   "stars": 178238,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-09T17:38:49Z"
+   "pushed": "2026-08-10T22:53:06Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 148342,
+   "stars": 148435,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-10T00:13:05Z"
+   "pushed": "2026-08-11T04:20:55Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 143836,
+   "stars": 143933,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-09T17:31:19Z"
+   "pushed": "2026-08-11T02:00:05Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 140852,
+   "stars": 140968,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-08-08T02:48:04Z"
+   "pushed": "2026-08-10T22:56:52Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 123235,
+   "stars": 123384,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-09T23:29:07Z"
+   "pushed": "2026-08-11T04:21:33Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 117207,
+   "stars": 117390,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-06T03:44:01Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 92021,
+   "stars": 92067,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-03T03:09:55Z"
@@ -278,47 +278,47 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 90232,
+   "stars": 90345,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-10T03:13:28Z"
+   "pushed": "2026-08-10T22:58:03Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 55981,
+   "stars": 56069,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-10T01:23:22Z"
+   "pushed": "2026-08-11T03:33:37Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 52011,
+   "stars": 52086,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-10T03:35:45Z"
+   "pushed": "2026-08-11T03:33:33Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 44418,
+   "stars": 45295,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-08-10T03:34:21Z"
+   "pushed": "2026-08-11T01:35:02Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 38322,
+   "stars": 38452,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-10T03:52:04Z"
+   "pushed": "2026-08-11T03:30:20Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 29605,
+   "stars": 29731,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-02T12:45:39Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1119,
+   "stars": 1144,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "Idempotency",
-  "desc": "An operation that gives the same result no matter how many times you run it. Critical for APIs and retry logic — a non-idempotent payment endpoint can double-charge.",
-  "link": "https://en.wikipedia.org/wiki/Idempotence"
+  "cat": "Security",
+  "title": "Prompt Injection",
+  "desc": "The #1 attack on LLM apps: instructions hidden in untrusted content (a web page, an email) hijack the model. Fix: treat tool output as data, never as commands.",
+  "link": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
  }
 }
