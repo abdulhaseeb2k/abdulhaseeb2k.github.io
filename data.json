@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-11T04:23:30.482303+00:00",
+ "generated_at": "2026-08-12T04:51:43.450182+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
-   "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-   "points": 1065,
-   "time": "2026-08-10T10:10:02Z"
+   "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+   "url": "https://stolen-thoughts.com/",
+   "points": 554,
+   "time": "2026-08-11T13:22:00Z"
   },
   {
-   "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
-   "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
-   "points": 420,
-   "time": "2026-08-10T14:06:22Z"
+   "title": "England set to be one of the first countries to eliminate hepatitis C",
+   "url": "https://www.bbc.com/news/articles/c75gk620r22o",
+   "points": 503,
+   "time": "2026-08-11T12:41:59Z"
   },
   {
-   "title": "The UK's War on Anonymity Has Come to America",
-   "url": "https://www.effort.news/uk-lobby",
-   "points": 397,
-   "time": "2026-08-10T23:45:50Z"
+   "title": "Compression is prediction",
+   "url": "https://ngrok.com/blog/compression-is-prediction",
+   "points": 376,
+   "time": "2026-08-11T19:49:44Z"
   },
   {
-   "title": "Sonic Pi v5",
-   "url": "https://www.patreon.com/samaaron/posts/sonic-pi-v5-166001392",
-   "points": 329,
-   "time": "2026-08-07T10:26:34Z"
+   "title": "OpenAI’s head of ethics leaves less than a year after joining",
+   "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0",
+   "points": 344,
+   "time": "2026-08-11T12:23:07Z"
   },
   {
-   "title": "Squeak 6.1",
-   "url": "https://squeak.org/release_notes/6.1/",
-   "points": 236,
-   "time": "2026-08-10T12:15:53Z"
+   "title": "Mojo 1.0",
+   "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+   "points": 336,
+   "time": "2026-08-11T16:56:46Z"
   },
   {
-   "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
-   "url": "https://cactuscompute.com/needle",
-   "points": 226,
-   "time": "2026-08-10T17:22:07Z"
+   "title": "Nvidia's Risky Business",
+   "url": "https://stratechery.com/2026/nvidias-risky-business/",
+   "points": 316,
+   "time": "2026-08-11T10:02:00Z"
   }
  ],
  "models": [
   {
    "id": "MiniMaxAI/MiniMax-H3",
    "pipeline": "image-text-to-video",
-   "downloads": 47468,
-   "likes": 3448
-  },
-  {
-   "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-   "pipeline": "text-generation",
-   "downloads": 954441,
-   "likes": 3077
+   "downloads": 59368,
+   "likes": 3606
   },
   {
    "id": "meta-models/Muse-Glimmer-30B",
    "pipeline": "image-text-to-text",
    "downloads": 0,
-   "likes": 792
+   "likes": 1122
   },
   {
-   "id": "Comfy-Org/MiniMax-H3",
-   "pipeline": "",
-   "downloads": 6009639,
-   "likes": 1156
+   "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+   "pipeline": "text-generation",
+   "downloads": 1048685,
+   "likes": 3169
   },
   {
    "id": "larryvrh/MiniMax-H3-Turbo-Lora",
    "pipeline": "text-to-video",
    "downloads": 0,
-   "likes": 603
+   "likes": 660
   },
   {
-   "id": "LiquidAI/LFM2.5-2.6B",
-   "pipeline": "text-generation",
-   "downloads": 89680,
-   "likes": 493
+   "id": "Comfy-Org/MiniMax-H3",
+   "pipeline": "",
+   "downloads": 6798796,
+   "likes": 1221
   },
   {
    "id": "moonshotai/Kimi-K3",
    "pipeline": "image-text-to-text",
-   "downloads": 1510032,
-   "likes": 10477
+   "downloads": 1565484,
+   "likes": 10535
+  },
+  {
+   "id": "LiquidAI/LFM2.5-2.6B",
+   "pipeline": "text-generation",
+   "downloads": 93668,
+   "likes": 556
+  },
+  {
+   "id": "lightx2v/Minimax-h3-Turbo",
+   "pipeline": "image-to-video",
+   "downloads": 20376,
+   "likes": 357
   },
   {
    "id": "DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 2439083,
-   "likes": 1866
+   "downloads": 2521093,
+   "likes": 1908
   },
   {
-   "id": "ethanfel/Qwen3-VL-32B-Ultra-Heretic-H3-ComfyUI-INT8-ConvRot",
+   "id": "unsloth/Muse-Glimmer-30B-GGUF",
    "pipeline": "image-text-to-text",
    "downloads": 0,
-   "likes": 442
-  },
-  {
-   "id": "deepgrove/maple-preview",
-   "pipeline": "text-generation",
-   "downloads": 1344,
    "likes": 315
   }
  ],
  "trending": [
   {
-   "name": "KKKKhazix/human-writing",
-   "url": "https://github.com/KKKKhazix/human-writing",
-   "stars": 2311,
-   "lang": "Python",
-   "desc": "让 AI 写的中文读起来像一个具体的人在说话。通用创作与改稿 Skill，开箱即用。"
-  },
-  {
-   "name": "Binaryify/open-kimi-ppt-skill",
-   "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
-   "stars": 1606,
-   "lang": "",
-   "desc": "非官方 Kimi Slides Skill：让 AI Agent 生成可编辑 PPTD + PPTX，并附带本地浏览器编辑器 Unofficial Kimi Slides skill for AI agents — generate editable PPTD + PPTX wi"
-  },
-  {
    "name": "ShawnPana/phone-harness",
    "url": "https://github.com/ShawnPana/phone-harness",
-   "stars": 1354,
+   "stars": 1528,
    "lang": "Python",
    "desc": "let your agent control your phone"
   },
   {
    "name": "oil-oil/oil-motion",
    "url": "https://github.com/oil-oil/oil-motion",
-   "stars": 1252,
+   "stars": 1493,
    "lang": "Python",
    "desc": "Create smooth, responsive interactive web animations."
   },
   {
    "name": "SMNETSTUDIO/WeChat-AI",
    "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-   "stars": 971,
+   "stars": 1461,
    "lang": "TypeScript",
    "desc": ""
   },
   {
+   "name": "antirez/h3.c",
+   "url": "https://github.com/antirez/h3.c",
+   "stars": 1335,
+   "lang": "C",
+   "desc": "MiniMax H3 inference engine for Mac computers"
+  },
+  {
+   "name": "eternityspring/shuohao-skills",
+   "url": "https://github.com/eternityspring/shuohao-skills",
+   "stars": 969,
+   "lang": "JavaScript",
+   "desc": "AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles, model sheets, adaptation outlines. Runs in C"
+  },
+  {
+   "name": "sohaibdevv/youtube-music",
+   "url": "https://github.com/sohaibdevv/youtube-music",
+   "stars": 836,
+   "lang": "TypeScript",
+   "desc": "A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and cu"
+  },
+  {
    "name": "MengTo/kage",
    "url": "https://github.com/MengTo/kage",
-   "stars": 783,
+   "stars": 824,
    "lang": "HTML",
    "desc": "An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js."
   },
   {
    "name": "xoreaxeaxeax/asm-hall-of-shame",
    "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
-   "stars": 734,
+   "stars": 772,
    "lang": "C",
    "desc": "Racing to the bottom of CPU performance"
-  },
-  {
-   "name": "eternityspring/shuohao-skills",
-   "url": "https://github.com/eternityspring/shuohao-skills",
-   "stars": 654,
-   "lang": "JavaScript",
-   "desc": "AI 短剧制作的 skill 集合：拆角色、出设定图、排大纲 | Agent skills for AI short-drama production — character bibles, model sheets, adaptation outlines. Runs in C"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 178238,
+   "stars": 178311,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-10T22:53:06Z"
+   "pushed": "2026-08-12T04:47:53Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 148435,
+   "stars": 148524,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-11T04:20:55Z"
+   "pushed": "2026-08-11T23:44:35Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 143933,
+   "stars": 144033,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-11T02:00:05Z"
+   "pushed": "2026-08-12T04:45:03Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 140968,
+   "stars": 141118,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-08-10T22:56:52Z"
+   "pushed": "2026-08-11T19:50:58Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 123384,
+   "stars": 123523,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-11T04:21:33Z"
+   "pushed": "2026-08-12T04:47:38Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 117390,
+   "stars": 117540,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-06T03:44:01Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 92067,
+   "stars": 92114,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-03T03:09:55Z"
@@ -278,47 +278,47 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 90345,
+   "stars": 90466,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-10T22:58:03Z"
+   "pushed": "2026-08-12T00:04:39Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 56069,
+   "stars": 56148,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-11T03:33:37Z"
+   "pushed": "2026-08-12T04:50:14Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 52086,
+   "stars": 52162,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-11T03:33:33Z"
+   "pushed": "2026-08-12T03:45:03Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 45295,
+   "stars": 46036,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works ",
-   "pushed": "2026-08-11T01:35:02Z"
+   "pushed": "2026-08-12T04:39:04Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 38452,
+   "stars": 38607,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-11T03:30:20Z"
+   "pushed": "2026-08-12T01:34:05Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 29731,
+   "stars": 29841,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-02T12:45:39Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1144,
+   "stars": 1178,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Prompt Injection",
-  "desc": "The #1 attack on LLM apps: instructions hidden in untrusted content (a web page, an email) hijack the model. Fix: treat tool output as data, never as commands.",
-  "link": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+  "cat": "AI",
+  "title": "RAG (Retrieval-Augmented Generation)",
+  "desc": "Retrieve relevant chunks from your own documents and feed them to the model as context before it answers. Less hallucination, and it works on private data.",
+  "link": "https://huggingface.co/learn"
  }
 }
