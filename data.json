@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T04:56:06.285304+00:00",
+ "generated_at": "2026-08-14T04:52:50.575934+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Tailscale Traces Database Corruption to 16y/o SQLite WAL-Reset Bug",
-   "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
-   "points": 886,
-   "time": "2026-08-12T14:22:30Z"
+   "title": "Gemini 3.7 Flash",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+   "points": 696,
+   "time": "2026-08-13T17:23:22Z"
   },
   {
-   "title": "DeepSeek V4 Pro 0813",
-   "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
-   "points": 817,
-   "time": "2026-08-12T16:04:50Z"
+   "title": "DeepSeek Harness developer preview",
+   "url": "https://deepseek.com/harness/en/",
+   "points": 597,
+   "time": "2026-08-13T12:58:02Z"
   },
   {
-   "title": "AI is removing the middle class of software engineering?",
-   "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
-   "points": 789,
-   "time": "2026-08-12T13:20:05Z"
+   "title": "Spaghettifying DRAM",
+   "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+   "points": 538,
+   "time": "2026-08-13T14:17:13Z"
   },
   {
-   "title": "Qwen3.8-2.4T",
-   "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
-   "points": 544,
-   "time": "2026-08-12T15:01:17Z"
+   "title": "Accelerating GPT-5.6 Sol Ultrafast",
+   "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+   "points": 496,
+   "time": "2026-08-13T18:10:02Z"
   },
   {
-   "title": "Grok 4.6",
-   "url": "https://x.ai/news/grok-4-6",
-   "points": 464,
-   "time": "2026-08-12T15:32:50Z"
+   "title": "Choose Boring Technology (2015)",
+   "url": "https://mcfunley.com/choose-boring-technology",
+   "points": 292,
+   "time": "2026-08-13T17:48:13Z"
   },
   {
-   "title": "2026 Eclipse Webcams",
-   "url": "https://jonty.github.io/2026_eclipse_webcams/",
-   "points": 462,
-   "time": "2026-08-12T11:53:01Z"
+   "title": "Mistral OCR 4.1",
+   "url": "https://docs.mistral.ai/models/ocr-4-1",
+   "points": 279,
+   "time": "2026-08-13T17:05:12Z"
   }
  ],
  "models": [
   {
    "id": "meta-models/Muse-Glimmer-30B",
    "pipeline": "image-text-to-text",
-   "downloads": 0,
-   "likes": 1317
+   "downloads": 121042,
+   "likes": 1436
   },
   {
    "id": "MiniMaxAI/MiniMax-H3",
    "pipeline": "image-text-to-video",
-   "downloads": 83484,
-   "likes": 3737
+   "downloads": 1605940,
+   "likes": 3840
+  },
+  {
+   "id": "Qwen/Qwen3.8-2.4T-A95B",
+   "pipeline": "text-generation",
+   "downloads": 1012,
+   "likes": 806
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 57287,
+   "likes": 743
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+   "pipeline": "text-generation",
+   "downloads": 1431587,
+   "likes": 3331
+  },
+  {
+   "id": "lightx2v/Minimax-h3-Turbo",
+   "pipeline": "image-to-video",
+   "downloads": 91455,
+   "likes": 466
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-Music3",
+   "pipeline": "text-to-audio",
+   "downloads": 25,
+   "likes": 397
+  },
+  {
+   "id": "unsloth/Muse-Glimmer-30B-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 352023,
+   "likes": 392
   },
   {
    "id": "larryvrh/MiniMax-H3-Turbo-Lora",
    "pipeline": "text-to-video",
    "downloads": 0,
-   "likes": 703
-  },
-  {
-   "id": "Qwen/Qwen3.8-2.4T-A95B",
-   "pipeline": "text-generation",
-   "downloads": 978,
-   "likes": 574
-  },
-  {
-   "id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-   "pipeline": "text-generation",
-   "downloads": 1048685,
-   "likes": 3252
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 39,
-   "likes": 588
+   "likes": 726
   },
   {
    "id": "Comfy-Org/MiniMax-H3",
    "pipeline": "",
-   "downloads": 6798796,
-   "likes": 1264
-  },
-  {
-   "id": "lightx2v/Minimax-h3-Turbo",
-   "pipeline": "image-to-video",
-   "downloads": 20376,
-   "likes": 416
-  },
-  {
-   "id": "unsloth/Muse-Glimmer-30B-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 0,
-   "likes": 370
-  },
-  {
-   "id": "moonshotai/Kimi-K3",
-   "pipeline": "image-text-to-text",
-   "downloads": 1565484,
-   "likes": 10585
+   "downloads": 10365210,
+   "likes": 1295
   }
  ],
  "trending": [
   {
+   "name": "deepseek-ai/deepseek-harness",
+   "url": "https://github.com/deepseek-ai/deepseek-harness",
+   "stars": 68490,
+   "lang": "TypeScript",
+   "desc": "DeepSeek Harness: Everything is a Plugin."
+  },
+  {
    "name": "guillaumemeyer/watermarks-remover",
    "url": "https://github.com/guillaumemeyer/watermarks-remover",
-   "stars": 2839,
+   "stars": 5756,
    "lang": "Python",
    "desc": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/M"
   },
   {
-   "name": "ShawnPana/phone-harness",
-   "url": "https://github.com/ShawnPana/phone-harness",
-   "stars": 1662,
-   "lang": "Python",
-   "desc": "let your agent control your phone"
-  },
-  {
-   "name": "oil-oil/oil-motion",
-   "url": "https://github.com/oil-oil/oil-motion",
-   "stars": 1635,
-   "lang": "Python",
-   "desc": "Create smooth, responsive interactive web animations."
-  },
-  {
    "name": "antirez/h3.c",
    "url": "https://github.com/antirez/h3.c",
-   "stars": 1632,
+   "stars": 1798,
    "lang": "C",
    "desc": "MiniMax H3 inference engine for Mac computers"
   },
   {
    "name": "SMNETSTUDIO/WeChat-AI",
    "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-   "stars": 1595,
+   "stars": 1692,
    "lang": "TypeScript",
    "desc": ""
   },
   {
-   "name": "Flaminis/Dalaran",
-   "url": "https://github.com/Flaminis/Dalaran",
-   "stars": 894,
-   "lang": "Rust",
-   "desc": "Dalaran — Apache-2.0, robotics-first visualization and data infrastructure for multimodal time-series. ROS 2 native, reads existing .rrd rec"
+   "name": "xoreaxeaxeax/skitter-creek-bath-salts",
+   "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+   "stars": 1112,
+   "lang": "C",
+   "desc": "Unlocking _everything_ on the CPU with DRAM scrambling"
   },
   {
-   "name": "MengTo/kage",
-   "url": "https://github.com/MengTo/kage",
-   "stars": 864,
-   "lang": "HTML",
-   "desc": "An interactive five-chapter night walk through a Kyoto mountain temple, rendered live in Three.js."
+   "name": "Leutenegger/book-to-skill",
+   "url": "https://github.com/Leutenegger/book-to-skill",
+   "stars": 1039,
+   "lang": "Python",
+   "desc": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
   },
   {
-   "name": "sohaibdevv/youtube-music",
-   "url": "https://github.com/sohaibdevv/youtube-music",
-   "stars": 851,
+   "name": "zhu1090093659/dsh-web-ui",
+   "url": "https://github.com/zhu1090093659/dsh-web-ui",
+   "stars": 951,
    "lang": "TypeScript",
-   "desc": "A lightweight, ad‑free client for streaming music from YouTube Music. No subscription required. Supports background playback, search, and cu"
+   "desc": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token st"
+  },
+  {
+   "name": "gvzdv/claudish-to-english",
+   "url": "https://github.com/gvzdv/claudish-to-english",
+   "stars": 949,
+   "lang": "Shell",
+   "desc": ""
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 178395,
+   "stars": 178502,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-12T23:45:56Z"
+   "pushed": "2026-08-13T22:38:02Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 148633,
+   "stars": 148737,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-13T00:13:48Z"
+   "pushed": "2026-08-14T04:08:43Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 144124,
+   "stars": 144209,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-13T02:31:03Z"
+   "pushed": "2026-08-14T02:16:57Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 141265,
+   "stars": 141392,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-08-12T20:56:21Z"
+   "pushed": "2026-08-13T23:29:59Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 123734,
+   "stars": 123846,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-13T04:54:01Z"
+   "pushed": "2026-08-13T22:47:13Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 117634,
+   "stars": 117707,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-13T03:43:40Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 92181,
+   "stars": 92270,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-03T03:09:55Z"
@@ -278,47 +278,47 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 90574,
+   "stars": 90677,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-13T01:59:22Z"
+   "pushed": "2026-08-14T02:52:05Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 56215,
+   "stars": 56297,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-13T04:47:33Z"
+   "pushed": "2026-08-14T04:51:51Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 52222,
+   "stars": 52274,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-13T03:47:44Z"
+   "pushed": "2026-08-14T03:46:03Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 46727,
+   "stars": 47400,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 330+ providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cl",
-   "pushed": "2026-08-13T04:36:48Z"
+   "pushed": "2026-08-14T04:10:49Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 38728,
+   "stars": 38858,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-13T01:16:50Z"
+   "pushed": "2026-08-14T04:11:37Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 29942,
+   "stars": 30045,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-02T12:45:39Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1204,
+   "stars": 1231,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Data Science",
-  "title": "Data Leakage",
-  "desc": "When training data contains information that won't exist at prediction time — the model aces the test set and fails in production. Keep your train/test split time-aware.",
-  "link": "https://scikit-learn.org/stable/common_pitfalls.html"
+  "cat": "Dev",
+  "title": "CAP Theorem",
+  "desc": "In a distributed system you can't have Consistency, Availability, and Partition-tolerance all at once. During a network partition you must choose between C and A.",
+  "link": "https://en.wikipedia.org/wiki/CAP_theorem"
  }
 }
