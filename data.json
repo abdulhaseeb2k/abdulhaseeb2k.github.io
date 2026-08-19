@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-18T03:49:00.496349+00:00",
+ "generated_at": "2026-08-19T03:50:32.669254+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "AI;DR (AI; Didn't Read)",
-   "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
-   "points": 667,
-   "time": "2026-08-17T19:47:15Z"
+   "title": "The Amazon tax",
+   "url": "https://seths.blog/2026/08/the-amazon-tax/",
+   "points": 997,
+   "time": "2026-08-18T13:22:38Z"
   },
   {
-   "title": "A Preview of DuckDB v2.0",
-   "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights",
-   "points": 567,
-   "time": "2026-08-17T13:46:27Z"
+   "title": "Universal health coverage could save $1T and 114k lives a year: study",
+   "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
+   "points": 760,
+   "time": "2026-08-17T15:49:57Z"
   },
   {
-   "title": "Ask HN: Alternatives to GitHub",
-   "url": "https://news.ycombinator.com/item?id=49331033",
-   "points": 517,
-   "time": "2026-08-17T13:59:17Z"
+   "title": "Memory prices climb 500% in 12 months",
+   "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
+   "points": 522,
+   "time": "2026-08-17T17:52:37Z"
   },
   {
-   "title": "Olo (Color)",
-   "url": "https://en.wikipedia.org/wiki/Olo_(color)",
-   "points": 349,
-   "time": "2026-08-12T10:26:14Z"
+   "title": "Cursor launches Origin, GitHub alternative",
+   "url": "https://cursor.com/changelog/origin-code-hosting",
+   "points": 502,
+   "time": "2026-08-17T17:02:44Z"
   },
   {
-   "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
-   "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-   "points": 329,
-   "time": "2026-08-17T14:18:38Z"
+   "title": "Beware Management Consultants",
+   "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
+   "points": 466,
+   "time": "2026-08-18T19:29:51Z"
   },
   {
-   "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
-   "url": "https://blog.roboflow.com/openai-gpt-5-6/",
-   "points": 311,
-   "time": "2026-08-17T12:09:42Z"
+   "title": "Using the railway network as a flatbed scanner",
+   "url": "https://philo.gay/linecam/",
+   "points": 412,
+   "time": "2026-08-18T12:43:54Z"
   }
  ],
  "models": [
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 415039,
-   "likes": 10769
+   "downloads": 665513,
+   "likes": 11181
   },
   {
    "id": "unsloth/Qwen3.8-27B-GGUF",
    "pipeline": "",
-   "downloads": 2727609,
-   "likes": 1658
+   "downloads": 3561466,
+   "likes": 1840
   },
   {
    "id": "Qwen/Qwen3.8-2.4T-A95B",
    "pipeline": "text-generation",
-   "downloads": 9465,
-   "likes": 1043
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 465529,
-   "likes": 1121
+   "downloads": 11212,
+   "likes": 1069
   },
   {
    "id": "MiniMaxAI/MiniMax-Music3",
    "pipeline": "text-to-audio",
-   "downloads": 10375,
-   "likes": 912
+   "downloads": 11745,
+   "likes": 970
   },
   {
-   "id": "meta-models/Muse-Glimmer-30B",
-   "pipeline": "image-text-to-text",
-   "downloads": 334099,
-   "likes": 1663
-  },
-  {
-   "id": "MiniMaxAI/MiniMax-H3",
-   "pipeline": "image-text-to-video",
-   "downloads": 2403238,
-   "likes": 4094
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 503632,
+   "likes": 1235
   },
   {
    "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
    "pipeline": "text-generation",
-   "downloads": 25006,
-   "likes": 577
+   "downloads": 30985,
+   "likes": 606
   },
   {
    "id": "Qwen/Qwen3.8-27B-FP8",
    "pipeline": "image-text-to-text",
-   "downloads": 495646,
-   "likes": 533
+   "downloads": 741011,
+   "likes": 566
+  },
+  {
+   "id": "meta-models/Muse-Glimmer-30B",
+   "pipeline": "image-text-to-text",
+   "downloads": 384097,
+   "likes": 1684
   },
   {
    "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
    "pipeline": "image-text-to-text",
-   "downloads": 15812,
-   "likes": 450
+   "downloads": 45465,
+   "likes": 544
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-H3",
+   "pipeline": "image-text-to-video",
+   "downloads": 2855539,
+   "likes": 4149
   }
  ],
  "trending": [
   {
    "name": "deepseek-ai/deepseek-harness",
    "url": "https://github.com/deepseek-ai/deepseek-harness",
-   "stars": 152677,
+   "stars": 161897,
    "lang": "TypeScript",
    "desc": "DeepSeek Harness: Everything is a Plugin."
   },
   {
    "name": "anywhere-labs/deepseek-harness-desktop",
    "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-   "stars": 12178,
+   "stars": 13959,
    "lang": "TypeScript",
    "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。"
   },
   {
    "name": "awesome-dsh-plugin/awesome-dsh-plugin",
    "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-   "stars": 7826,
+   "stars": 9163,
    "lang": "Python",
    "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表"
   },
   {
    "name": "yjh051108/dsh-routing-suite",
    "url": "https://github.com/yjh051108/dsh-routing-suite",
-   "stars": 5507,
+   "stars": 6101,
    "lang": "PowerShell",
    "desc": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (me"
   },
   {
-   "name": "zhu1090093659/dsh-web-ui",
-   "url": "https://github.com/zhu1090093659/dsh-web-ui",
-   "stars": 4222,
-   "lang": "TypeScript",
-   "desc": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token st"
-  },
-  {
    "name": "xiaobright/dsh-anchored-standard",
    "url": "https://github.com/xiaobright/dsh-anchored-standard",
-   "stars": 3458,
+   "stars": 3579,
    "lang": "JavaScript",
    "desc": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)"
   },
   {
-   "name": "dmmulroy/anti-slop",
-   "url": "https://github.com/dmmulroy/anti-slop",
-   "stars": 2410,
+   "name": "yetone/cumora",
+   "url": "https://github.com/yetone/cumora",
+   "stars": 2457,
    "lang": "TypeScript",
-   "desc": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns"
+   "desc": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / C"
   },
   {
    "name": "cordiverse/paper",
    "url": "https://github.com/cordiverse/paper",
-   "stars": 2149,
+   "stars": 2312,
    "lang": "",
    "desc": "A Programming Paradigm for Spatiotemporal Composability"
+  },
+  {
+   "name": "ccch1mneyyy/dsh-TUI",
+   "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+   "stars": 2002,
+   "lang": "TypeScript",
+   "desc": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 178824,
+   "stars": 178908,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-16T16:49:36Z"
+   "pushed": "2026-08-19T03:04:24Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 149071,
+   "stars": 149180,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-17T20:56:30Z"
+   "pushed": "2026-08-19T02:37:21Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 144429,
+   "stars": 144509,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-18T01:51:37Z"
+   "pushed": "2026-08-19T00:14:32Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 141793,
+   "stars": 141919,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-08-17T20:20:58Z"
+   "pushed": "2026-08-18T20:38:54Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 124414,
+   "stars": 124580,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-17T22:43:55Z"
+   "pushed": "2026-08-18T23:55:28Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 117961,
+   "stars": 118046,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-13T03:43:40Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 92495,
+   "stars": 92546,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-17T21:28:42Z"
@@ -278,64 +278,64 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 91029,
+   "stars": 91178,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-17T15:46:17Z"
+   "pushed": "2026-08-19T03:04:10Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 56577,
+   "stars": 56695,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-18T03:01:35Z"
+   "pushed": "2026-08-19T03:49:15Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 52511,
+   "stars": 52592,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-18T03:18:19Z"
+   "pushed": "2026-08-19T03:19:22Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 49915,
+   "stars": 50561,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 340 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-08-18T03:36:34Z"
+   "pushed": "2026-08-19T01:36:39Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 39297,
+   "stars": 39447,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-17T22:55:58Z"
+   "pushed": "2026-08-19T02:34:32Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 30462,
+   "stars": 30537,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-08-02T12:45:39Z"
+   "pushed": "2026-08-19T01:04:15Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1342,
+   "stars": 1368,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "Event-Driven Architecture",
-  "desc": "Services publish and subscribe to events (Kafka, RabbitMQ) instead of calling each other directly. You gain loose coupling; debugging and ordering get harder.",
-  "link": "https://martinfowler.com/articles/201701-event-driven.html"
+  "cat": "Security",
+  "title": "Zero Trust",
+  "desc": "The 'inside the network means trusted' model is dead — every request is verified, even internal ones. Identity-based access instead of a VPN perimeter.",
+  "link": "https://www.nist.gov/publications/zero-trust-architecture"
  }
 }
