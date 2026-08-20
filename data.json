@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T03:50:32.669254+00:00",
+ "generated_at": "2026-08-20T03:50:51.633850+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,215 +62,215 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "The Amazon tax",
-   "url": "https://seths.blog/2026/08/the-amazon-tax/",
-   "points": 997,
-   "time": "2026-08-18T13:22:38Z"
+   "title": "A joke domain purchase turned in geopolitical warfare",
+   "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+   "points": 793,
+   "time": "2026-08-19T11:21:50Z"
   },
   {
-   "title": "Universal health coverage could save $1T and 114k lives a year: study",
-   "url": "https://ysph.yale.edu/news-article/universal-health-coverage-could-save-one-trillion-dollars-and-114000-lives-every-year/",
-   "points": 760,
-   "time": "2026-08-17T15:49:57Z"
+   "title": "OpenRouter is joining Stripe",
+   "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/",
+   "points": 700,
+   "time": "2026-08-19T17:32:38Z"
   },
   {
-   "title": "Memory prices climb 500% in 12 months",
-   "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
-   "points": 522,
-   "time": "2026-08-17T17:52:37Z"
+   "title": "Remote workers report the highest well-being in study of 7,700 employees",
+   "url": "https://www.colorado.edu/today/2026/08/12/remote-workers-report-highest-well-being-study-7700-employees",
+   "points": 530,
+   "time": "2026-08-19T15:32:08Z"
   },
   {
-   "title": "Cursor launches Origin, GitHub alternative",
-   "url": "https://cursor.com/changelog/origin-code-hosting",
-   "points": 502,
-   "time": "2026-08-17T17:02:44Z"
+   "title": "Go 1.27",
+   "url": "https://go.dev/blog/go1.27",
+   "points": 494,
+   "time": "2026-08-19T18:33:49Z"
   },
   {
-   "title": "Beware Management Consultants",
-   "url": "https://about.iceland.co.uk/our-story/the-dark-ages/beware-management-consultants/",
-   "points": 466,
-   "time": "2026-08-18T19:29:51Z"
+   "title": "Geolocating a random island using geometry and CUDA programming",
+   "url": "https://yassa9.github.io/osint/gralhix-004/",
+   "points": 423,
+   "time": "2026-08-19T12:19:52Z"
   },
   {
-   "title": "Using the railway network as a flatbed scanner",
-   "url": "https://philo.gay/linecam/",
-   "points": 412,
-   "time": "2026-08-18T12:43:54Z"
+   "title": "Google replaced Git tags for certain source code with obtaining via Google Drive",
+   "url": "https://grapheneos.social/@GrapheneOS/117057099753905023",
+   "points": 348,
+   "time": "2026-08-19T17:47:29Z"
   }
  ],
  "models": [
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 665513,
-   "likes": 11181
+   "downloads": 1006235,
+   "likes": 11513
   },
   {
    "id": "unsloth/Qwen3.8-27B-GGUF",
    "pipeline": "",
-   "downloads": 3561466,
-   "likes": 1840
-  },
-  {
-   "id": "Qwen/Qwen3.8-2.4T-A95B",
-   "pipeline": "text-generation",
-   "downloads": 11212,
-   "likes": 1069
+   "downloads": 4318134,
+   "likes": 2112
   },
   {
    "id": "MiniMaxAI/MiniMax-Music3",
    "pipeline": "text-to-audio",
-   "downloads": 11745,
-   "likes": 970
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 503632,
-   "likes": 1235
+   "downloads": 13138,
+   "likes": 1050
   },
   {
    "id": "deepseek-ai/DeepSeek-V4-Pro-0813",
    "pipeline": "text-generation",
-   "downloads": 30985,
-   "likes": 606
+   "downloads": 37583,
+   "likes": 642
   },
   {
    "id": "Qwen/Qwen3.8-27B-FP8",
    "pipeline": "image-text-to-text",
-   "downloads": 741011,
-   "likes": 566
-  },
-  {
-   "id": "meta-models/Muse-Glimmer-30B",
-   "pipeline": "image-text-to-text",
-   "downloads": 384097,
-   "likes": 1684
+   "downloads": 1063646,
+   "likes": 602
   },
   {
    "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
    "pipeline": "image-text-to-text",
-   "downloads": 45465,
-   "likes": 544
+   "downloads": 60078,
+   "likes": 619
   },
   {
-   "id": "MiniMaxAI/MiniMax-H3",
-   "pipeline": "image-text-to-video",
-   "downloads": 2855539,
-   "likes": 4149
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 555993,
+   "likes": 1334
+  },
+  {
+   "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+   "pipeline": "image-text-to-text",
+   "downloads": 27,
+   "likes": 612
+  },
+  {
+   "id": "Qwen/Qwen3.8-2.4T-A95B",
+   "pipeline": "text-generation",
+   "downloads": 12699,
+   "likes": 1103
+  },
+  {
+   "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+   "pipeline": "text-generation",
+   "downloads": 766812,
+   "likes": 467
   }
  ],
  "trending": [
   {
-   "name": "deepseek-ai/deepseek-harness",
-   "url": "https://github.com/deepseek-ai/deepseek-harness",
-   "stars": 161897,
-   "lang": "TypeScript",
-   "desc": "DeepSeek Harness: Everything is a Plugin."
-  },
-  {
-   "name": "anywhere-labs/deepseek-harness-desktop",
-   "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-   "stars": 13959,
-   "lang": "TypeScript",
-   "desc": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。"
-  },
-  {
-   "name": "awesome-dsh-plugin/awesome-dsh-plugin",
-   "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-   "stars": 9163,
-   "lang": "Python",
-   "desc": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表"
-  },
-  {
    "name": "yjh051108/dsh-routing-suite",
    "url": "https://github.com/yjh051108/dsh-routing-suite",
-   "stars": 6101,
+   "stars": 6341,
    "lang": "PowerShell",
    "desc": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (me"
   },
   {
    "name": "xiaobright/dsh-anchored-standard",
    "url": "https://github.com/xiaobright/dsh-anchored-standard",
-   "stars": 3579,
+   "stars": 3640,
    "lang": "JavaScript",
    "desc": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)"
   },
   {
    "name": "yetone/cumora",
    "url": "https://github.com/yetone/cumora",
-   "stars": 2457,
+   "stars": 2716,
    "lang": "TypeScript",
    "desc": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / C"
   },
   {
-   "name": "cordiverse/paper",
-   "url": "https://github.com/cordiverse/paper",
-   "stars": 2312,
+   "name": "s1dashu/ip-as-logo-skill",
+   "url": "https://github.com/s1dashu/ip-as-logo-skill",
+   "stars": 2252,
    "lang": "",
-   "desc": "A Programming Paradigm for Spatiotemporal Composability"
+   "desc": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos."
   },
   {
-   "name": "ccch1mneyyy/dsh-TUI",
-   "url": "https://github.com/ccch1mneyyy/dsh-TUI",
-   "stars": 2002,
+   "name": "dsh-market/dsh-market",
+   "url": "https://github.com/dsh-market/dsh-market",
+   "stars": 1297,
    "lang": "TypeScript",
-   "desc": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style"
+   "desc": "The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场"
+  },
+  {
+   "name": "cinderline/northcinder",
+   "url": "https://github.com/cinderline/northcinder",
+   "stars": 1193,
+   "lang": "JavaScript",
+   "desc": "Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail."
+  },
+  {
+   "name": "alchaincyf/deepseek-harness-orange-book",
+   "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
+   "stars": 1087,
+   "lang": "HTML",
+   "desc": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载"
+  },
+  {
+   "name": "ZSvirt/zsvirt",
+   "url": "https://github.com/ZSvirt/zsvirt",
+   "stars": 1082,
+   "lang": "Java",
+   "desc": "Core IaaS engine and cloud infrastructure foundation of ZSvirt"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 178908,
+   "stars": 178994,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-19T03:04:24Z"
+   "pushed": "2026-08-20T01:59:26Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 149180,
+   "stars": 149292,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-19T02:37:21Z"
+   "pushed": "2026-08-20T01:15:01Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 144509,
+   "stars": 144590,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-19T00:14:32Z"
+   "pushed": "2026-08-19T22:35:36Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 141919,
+   "stars": 142047,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-08-18T20:38:54Z"
+   "pushed": "2026-08-20T00:54:41Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 124580,
+   "stars": 124758,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-18T23:55:28Z"
+   "pushed": "2026-08-20T03:40:20Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 118046,
+   "stars": 118137,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-08-13T03:43:40Z"
+   "pushed": "2026-08-20T03:43:12Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 92546,
+   "stars": 92582,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-17T21:28:42Z"
@@ -278,64 +278,64 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 91178,
+   "stars": 91279,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-19T03:04:10Z"
+   "pushed": "2026-08-20T01:20:51Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 56695,
+   "stars": 56790,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-19T03:49:15Z"
+   "pushed": "2026-08-20T03:50:48Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 52592,
+   "stars": 52666,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-19T03:19:22Z"
+   "pushed": "2026-08-20T03:19:01Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 50561,
+   "stars": 51328,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 340 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-08-19T01:36:39Z"
+   "pushed": "2026-08-20T03:50:39Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 39447,
+   "stars": 39596,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-19T02:34:32Z"
+   "pushed": "2026-08-19T23:41:54Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 30537,
+   "stars": 30589,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-08-19T01:04:15Z"
+   "pushed": "2026-08-19T22:23:57Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1368,
+   "stars": 1404,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Zero Trust",
-  "desc": "The 'inside the network means trusted' model is dead — every request is verified, even internal ones. Identity-based access instead of a VPN perimeter.",
-  "link": "https://www.nist.gov/publications/zero-trust-architecture"
+  "cat": "AI",
+  "title": "Context Window",
+  "desc": "How much text a model can 'see' at once. A large window fits a whole codebase or document set — but content in the middle of long contexts tends to get missed ('lost in the middle').",
+  "link": "https://huggingface.co/blog"
  }
 }
