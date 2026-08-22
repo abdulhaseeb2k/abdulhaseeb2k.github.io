@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-21T03:53:54.744859+00:00",
+ "generated_at": "2026-08-22T03:46:19.808633+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Aaron Swartz was prosecuted for scraping, while Meta does it without consequence",
-   "url": "https://blog.curiousquail.com/im-upset-again-about-a-co-creator-of-rss-being-prosecuted-for-something-meta-is-doing-with-little-consequence/",
-   "points": 1162,
-   "time": "2026-08-20T20:07:26Z"
+   "title": "Kagi added a setting for removing paywalled links from search results",
+   "url": "https://kagi.com/changelog#11296",
+   "points": 1042,
+   "time": "2026-08-21T13:56:37Z"
   },
   {
-   "title": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
-   "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-   "points": 921,
-   "time": "2026-08-20T10:08:52Z"
+   "title": "Felony charges for citizen deleting phone data at US Border",
+   "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+   "points": 624,
+   "time": "2026-08-21T12:10:13Z"
   },
   {
-   "title": "HTML Can Do That",
-   "url": "https://chrisburnell.com/html-can-do-that/",
-   "points": 621,
-   "time": "2026-08-19T15:11:36Z"
+   "title": "Felony Bench",
+   "url": "https://www.felonybench.com/",
+   "points": 574,
+   "time": "2026-08-21T15:17:04Z"
   },
   {
-   "title": "I like 'em thick: an apology to my English teachers",
-   "url": "https://www.experimental-history.com/p/i-like-em-thick",
-   "points": 608,
-   "time": "2026-08-18T15:50:52Z"
+   "title": "I accidentally logged hundreds of thousands of phone calls to military bases",
+   "url": "https://lina.sh/blog/hijacking-e164-arpa",
+   "points": 471,
+   "time": "2026-08-21T13:11:28Z"
   },
   {
-   "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
-   "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
-   "points": 531,
-   "time": "2026-08-20T12:04:38Z"
+   "title": "Kobo can run apps now",
+   "url": "https://bandarlabs.github.io/Cobalt/",
+   "points": 456,
+   "time": "2026-08-21T16:25:25Z"
   },
   {
-   "title": "Malicious Rust crate Arrayref runs a build-time payload",
-   "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/",
-   "points": 416,
-   "time": "2026-08-20T13:23:12Z"
+   "title": "I'm becoming AI-blind",
+   "url": "https://cymerys.com/w/im-becoming-ai-blind",
+   "points": 291,
+   "time": "2026-08-21T11:48:05Z"
   }
  ],
  "models": [
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 1373584,
-   "likes": 11769
+   "downloads": 1726651,
+   "likes": 11983
   },
   {
    "id": "unsloth/Qwen3.8-27B-GGUF",
    "pipeline": "",
-   "downloads": 5126652,
-   "likes": 2374
-  },
-  {
-   "id": "MiniMaxAI/MiniMax-Music3",
-   "pipeline": "text-to-audio",
-   "downloads": 14471,
-   "likes": 1116
-  },
-  {
-   "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-   "pipeline": "image-text-to-text",
-   "downloads": 2628,
-   "likes": 720
-  },
-  {
-   "id": "Qwen/Qwen3.8-27B-FP8",
-   "pipeline": "image-text-to-text",
-   "downloads": 1517643,
-   "likes": 634
+   "downloads": 5804917,
+   "likes": 2520
   },
   {
    "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
    "pipeline": "image-text-to-text",
-   "downloads": 76109,
-   "likes": 684
+   "downloads": 107520,
+   "likes": 839
   },
   {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 611825,
-   "likes": 1422
+   "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+   "pipeline": "image-text-to-text",
+   "downloads": 18193,
+   "likes": 826
   },
   {
    "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
    "pipeline": "text-generation",
-   "downloads": 979768,
-   "likes": 521
+   "downloads": 1126222,
+   "likes": 573
   },
   {
-   "id": "MiniMaxAI/MiniMax-H3",
-   "pipeline": "image-text-to-video",
-   "downloads": 3308673,
-   "likes": 4247
+   "id": "MiniMaxAI/MiniMax-Music3",
+   "pipeline": "text-to-audio",
+   "downloads": 15678,
+   "likes": 1165
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 654175,
+   "likes": 1503
+  },
+  {
+   "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+   "pipeline": "text-generation",
+   "downloads": 123956,
+   "likes": 455
   },
   {
    "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 268258,
-   "likes": 371
+   "downloads": 357225,
+   "likes": 426
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-H3",
+   "pipeline": "image-text-to-video",
+   "downloads": 3614443,
+   "likes": 4297
   }
  ],
  "trending": [
   {
    "name": "s1dashu/ip-as-logo-skill",
    "url": "https://github.com/s1dashu/ip-as-logo-skill",
-   "stars": 3206,
+   "stars": 3512,
    "lang": "",
    "desc": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos."
   },
   {
    "name": "yetone/cumora",
    "url": "https://github.com/yetone/cumora",
-   "stars": 2788,
+   "stars": 2870,
    "lang": "TypeScript",
    "desc": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / C"
   },
   {
    "name": "CopilotKit/OpenBot",
    "url": "https://github.com/CopilotKit/OpenBot",
-   "stars": 1724,
+   "stars": 2149,
    "lang": "TypeScript",
    "desc": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and "
   },
   {
    "name": "cinderline/northcinder",
    "url": "https://github.com/cinderline/northcinder",
-   "stars": 1200,
+   "stars": 1203,
    "lang": "JavaScript",
    "desc": "Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail."
   },
   {
    "name": "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
    "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
-   "stars": 1037,
+   "stars": 1035,
    "lang": "",
    "desc": "DeepSeek V4 × J-Space capability realization report — benchmark evidence that J-Space reduces capability-realization loss on DeepSeek V4 (Fl"
   },
   {
-   "name": "Leutenegger/watermarks-remover",
-   "url": "https://github.com/Leutenegger/watermarks-remover",
-   "stars": 926,
+   "name": "wang2122/sprix-sage-router",
+   "url": "https://github.com/wang2122/sprix-sage-router",
+   "stars": 1009,
    "lang": "Python",
-   "desc": "Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/"
+   "desc": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks."
   },
   {
    "name": "vvxw/deploy-vercel",
    "url": "https://github.com/vvxw/deploy-vercel",
-   "stars": 835,
+   "stars": 1006,
    "lang": "JavaScript",
    "desc": "Install Command：npm install"
   },
   {
-   "name": "Leutenegger/vanity-eth",
-   "url": "https://github.com/Leutenegger/vanity-eth",
-   "stars": 801,
+   "name": "Leutenegger/watermarks-remover",
+   "url": "https://github.com/Leutenegger/watermarks-remover",
+   "stars": 930,
    "lang": "Python",
-   "desc": "Offline vanity address generator for Bitcoin and Ethereum. CPU multi-process search with interactive CLI menu. Supports Legacy, Nested SegWi"
+   "desc": "Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 179071,
+   "stars": 179136,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-21T01:59:47Z"
+   "pushed": "2026-08-22T02:40:54Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 149406,
+   "stars": 149525,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-20T20:37:53Z"
+   "pushed": "2026-08-21T22:51:21Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 144677,
+   "stars": 144741,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-21T01:57:38Z"
+   "pushed": "2026-08-21T18:38:05Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 142173,
+   "stars": 142317,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-08-20T20:33:50Z"
+   "pushed": "2026-08-21T19:54:23Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 124910,
+   "stars": 125067,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-21T03:49:09Z"
+   "pushed": "2026-08-22T01:17:51Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 118232,
+   "stars": 118295,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-20T03:43:12Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 92628,
+   "stars": 92666,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-17T21:28:42Z"
@@ -278,64 +278,64 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 91376,
+   "stars": 91466,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-20T16:23:20Z"
+   "pushed": "2026-08-21T23:43:00Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 56882,
+   "stars": 56971,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-21T03:48:27Z"
+   "pushed": "2026-08-22T03:46:11Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 52727,
+   "stars": 52787,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-21T03:22:00Z"
+   "pushed": "2026-08-22T03:17:27Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 52049,
+   "stars": 52760,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 340 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-08-21T03:29:01Z"
+   "pushed": "2026-08-22T01:32:20Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 39723,
+   "stars": 39820,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-21T00:58:53Z"
+   "pushed": "2026-08-21T16:32:06Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 30640,
+   "stars": 30676,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-08-19T22:23:57Z"
+   "pushed": "2026-08-21T22:37:46Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1465,
+   "stars": 1545,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Data Science",
-  "title": "Overfitting vs Underfitting",
-  "desc": "Overfit: the model memorized the training data and fails on new data. Underfit: it never learned the pattern. Fixes: regularization, more data, cross-validation.",
-  "link": "https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html"
+  "cat": "Dev",
+  "title": "SOLID Principles",
+  "desc": "Five OOP design rules (Single responsibility, Open/closed, Liskov, Interface segregation, Dependency inversion) that keep code maintainable as it grows.",
+  "link": "https://en.wikipedia.org/wiki/SOLID"
  }
 }
