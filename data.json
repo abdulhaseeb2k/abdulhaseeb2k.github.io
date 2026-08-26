@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-25T03:52:19.490182+00:00",
+ "generated_at": "2026-08-26T03:56:23.377833+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -19,7 +19,7 @@
    "title": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
    "url": "https://news.ycombinator.com/item?id=48356312",
    "points": 103,
-   "comments": 28,
+   "comments": 27,
    "time": "2026-06-01T13:05:02Z"
   },
   {
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "How Europe is killing makers and micro-entrepreneurs",
-   "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
-   "points": 1108,
-   "time": "2026-08-24T13:05:25Z"
+   "title": "Dolly Parton has died",
+   "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+   "points": 1320,
+   "time": "2026-08-25T18:02:22Z"
   },
   {
-   "title": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
-   "url": "https://twitter.com/lemire/status/2091894299289874926",
-   "points": 764,
-   "time": "2026-08-24T15:08:17Z"
+   "title": "Apple introduces M6 and M5 Ultra",
+   "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+   "points": 1019,
+   "time": "2026-08-25T13:01:22Z"
   },
   {
-   "title": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
-   "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-   "points": 598,
-   "time": "2026-08-24T15:28:04Z"
+   "title": "New Mac Studio with M5 Max and M5 Ultra",
+   "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/",
+   "points": 723,
+   "time": "2026-08-25T13:03:17Z"
   },
   {
-   "title": "I were 17, I'd learn how to build LLMs from scratch",
-   "url": "https://twitter.com/paulg/status/2091544343589060625",
-   "points": 525,
-   "time": "2026-08-23T20:38:09Z"
+   "title": "Nitter and XCancel receive cease and desist notices",
+   "url": "https://github.com/zedeus/nitter/issues/1442",
+   "points": 716,
+   "time": "2026-08-25T17:08:21Z"
   },
   {
-   "title": "Oceans hit highest temperature on record",
-   "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
-   "points": 445,
-   "time": "2026-08-24T19:19:08Z"
+   "title": "My Friend Aaron",
+   "url": "https://rorz.io/writing/my-friend-aaron",
+   "points": 482,
+   "time": "2026-08-25T16:53:33Z"
   },
   {
-   "title": "The entire city of San Francisco as a video game",
-   "url": "https://sf.thijs.gg/",
-   "points": 377,
-   "time": "2026-08-24T17:05:38Z"
+   "title": "New Mac mini, featuring M6 and M5 Pro",
+   "url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/",
+   "points": 453,
+   "time": "2026-08-25T13:13:00Z"
   }
  ],
  "models": [
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 2645226,
-   "likes": 12534
+   "downloads": 2945415,
+   "likes": 12735
   },
   {
    "id": "unsloth/Qwen3.8-27B-GGUF",
    "pipeline": "",
-   "downloads": 7009063,
-   "likes": 2844
-  },
-  {
-   "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-   "pipeline": "image-text-to-text",
-   "downloads": 57947,
-   "likes": 1036
+   "downloads": 7334695,
+   "likes": 2925
   },
   {
    "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
    "pipeline": "text-generation",
-   "downloads": 312627,
-   "likes": 700
+   "downloads": 389747,
+   "likes": 760
+  },
+  {
+   "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
+   "pipeline": "image-text-to-text",
+   "downloads": 68855,
+   "likes": 1102
   },
   {
    "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
    "pipeline": "image-text-to-text",
-   "downloads": 224114,
-   "likes": 1101
-  },
-  {
-   "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 761975,
-   "likes": 586
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 790378,
-   "likes": 1729
+   "downloads": 249744,
+   "likes": 1154
   },
   {
    "id": "ornith-ai/Ornith-1.5-35B-A3B",
    "pipeline": "text-generation",
-   "downloads": 60294,
-   "likes": 402
+   "downloads": 70158,
+   "likes": 424
   },
   {
-   "id": "JonathanColetti/Qwen3.8-27B-Uncensored-GGUF",
+   "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 832185,
+   "likes": 625
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 833845,
+   "likes": 1803
+  },
+  {
+   "id": "ornith-ai/Ornith-1.5-35B-A3B-GGUF",
    "pipeline": "text-generation",
-   "downloads": 1456700,
-   "likes": 692
+   "downloads": 1156903,
+   "likes": 298
   },
   {
    "id": "MiniMaxAI/MiniMax-Music3",
    "pipeline": "text-to-audio",
-   "downloads": 18065,
-   "likes": 1229
+   "downloads": 18705,
+   "likes": 1248
   }
  ],
  "trending": [
   {
    "name": "MengTo/threeui",
    "url": "https://github.com/MengTo/threeui",
-   "stars": 3601,
+   "stars": 3978,
    "lang": "HTML",
    "desc": "Open-source ThreeUI Community catalog with live interactive components and complete Community source."
   },
   {
    "name": "b-nnett/grok-bot-0.18-reconstructed",
    "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
-   "stars": 1954,
+   "stars": 2597,
    "lang": "TypeScript",
    "desc": "Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS"
   },
   {
-   "name": "duty1g/x64dbg-mcp-server",
-   "url": "https://github.com/duty1g/x64dbg-mcp-server",
-   "stars": 1255,
-   "lang": "Zig",
-   "desc": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Conne"
-  },
-  {
    "name": "tobi/walgit",
    "url": "https://github.com/tobi/walgit",
-   "stars": 1110,
+   "stars": 1610,
    "lang": "Rust",
    "desc": ""
   },
   {
+   "name": "duty1g/x64dbg-mcp-server",
+   "url": "https://github.com/duty1g/x64dbg-mcp-server",
+   "stars": 1398,
+   "lang": "Zig",
+   "desc": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Conne"
+  },
+  {
    "name": "cclank/lanshu-create-ai-presenter-video",
    "url": "https://github.com/cclank/lanshu-create-ai-presenter-video",
-   "stars": 847,
+   "stars": 929,
    "lang": "Python",
    "desc": "Provider-neutral Codex Skill for producing verified AI presenter videos from a script and an authorized presenter image."
   },
   {
-   "name": "ShadowAqueduct/watermark-remover",
-   "url": "https://github.com/ShadowAqueduct/watermark-remover",
-   "stars": 776,
-   "lang": "Python",
-   "desc": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF"
-  },
-  {
    "name": "nateherkai/scroll-craft",
    "url": "https://github.com/nateherkai/scroll-craft",
-   "stars": 665,
+   "stars": 923,
    "lang": "JavaScript",
    "desc": "Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its ow"
   },
   {
-   "name": "missuo/herdrm",
-   "url": "https://github.com/missuo/herdrm",
-   "stars": 623,
-   "lang": "Swift",
-   "desc": "Native macOS console for herdr — all your coding agents and their live terminals, across devices"
+   "name": "ShadowAqueduct/watermark-remover",
+   "url": "https://github.com/ShadowAqueduct/watermark-remover",
+   "stars": 792,
+   "lang": "Python",
+   "desc": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF"
+  },
+  {
+   "name": "ApodexAI/FrontierAgent",
+   "url": "https://github.com/ApodexAI/FrontierAgent",
+   "stars": 663,
+   "lang": "Python",
+   "desc": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS "
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 179362,
+   "stars": 179436,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-25T03:23:29Z"
+   "pushed": "2026-08-26T02:34:15Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 149817,
+   "stars": 149928,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-25T01:15:56Z"
+   "pushed": "2026-08-26T01:45:36Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 144929,
+   "stars": 145000,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-25T03:51:56Z"
+   "pushed": "2026-08-26T00:03:20Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 142902,
+   "stars": 143023,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-08-25T03:38:22Z"
+   "pushed": "2026-08-25T22:31:52Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 125490,
+   "stars": 125659,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-24T21:53:10Z"
+   "pushed": "2026-08-26T03:36:18Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 118495,
+   "stars": 118558,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-20T03:43:12Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 92759,
+   "stars": 92825,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-17T21:28:42Z"
@@ -278,39 +278,39 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 91738,
+   "stars": 91848,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-23T22:58:45Z"
+   "pushed": "2026-08-25T23:38:17Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 57187,
+   "stars": 57274,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-25T03:49:04Z"
+   "pushed": "2026-08-26T03:51:57Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 54530,
+   "stars": 55315,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claud",
-   "pushed": "2026-08-25T02:46:46Z"
+   "pushed": "2026-08-26T03:38:45Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 52937,
+   "stars": 52988,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-25T03:19:45Z"
+   "pushed": "2026-08-26T03:23:01Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 40439,
+   "stars": 40650,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
    "pushed": "2026-08-24T16:02:51Z"
@@ -318,7 +318,7 @@
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 30796,
+   "stars": 30840,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-22T23:01:11Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1685,
+   "stars": 1723,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Data Science",
-  "title": "Embeddings",
-  "desc": "Converting text or images into vectors of numbers where similar things end up close together. Semantic search, RAG, and recommendations all run on this.",
-  "link": "https://huggingface.co/blog/getting-started-with-embeddings"
+  "cat": "Dev",
+  "title": "CI/CD",
+  "desc": "Automatic tests on every commit (CI) and automatic deployment (CD). GitHub Actions is exactly this — this very site now updates daily through it!",
+  "link": "https://docs.github.com/en/actions"
  }
 }
