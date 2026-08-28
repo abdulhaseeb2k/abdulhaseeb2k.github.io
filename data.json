@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-27T13:59:44.440849+00:00",
+ "generated_at": "2026-08-28T15:11:00.739412+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Nvidia agrees to acquire Hugging Face for $13B",
-   "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-   "points": 1476,
-   "time": "2026-08-27T01:12:55Z"
+   "title": "Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+   "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+   "points": 849,
+   "time": "2026-08-27T17:17:57Z"
   },
   {
-   "title": "GLM-5.3-Flash",
-   "url": "https://z.ai/blog/glm-5.3-flash",
-   "points": 1085,
-   "time": "2026-08-26T14:08:50Z"
+   "title": "Small Models Have Arrived",
+   "url": "https://calv.info/small-models-have-arrived",
+   "points": 731,
+   "time": "2026-08-27T15:56:58Z"
   },
   {
-   "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
-   "url": "https://github.com/SenteLabsAI/OpenExecutive",
-   "points": 780,
-   "time": "2026-08-27T01:46:22Z"
+   "title": "507 Mechanical Movements",
+   "url": "https://507movements.com/",
+   "points": 641,
+   "time": "2026-08-27T14:08:18Z"
   },
   {
-   "title": "U.S. State Department pauses immigrant visa applications",
-   "url": "https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23",
-   "points": 685,
-   "time": "2026-08-26T17:22:16Z"
+   "title": "Gemini-3.5-Transcribe",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+   "points": 332,
+   "time": "2026-08-27T18:03:42Z"
   },
   {
-   "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
-   "url": "https://github.com/tailscale/tailcat",
-   "points": 624,
-   "time": "2026-08-26T17:42:22Z"
+   "title": "\"IT WoRKs BeTter in the App \"",
+   "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/",
+   "points": 314,
+   "time": "2026-08-28T12:32:16Z"
   },
   {
-   "title": "Twitter Viewer – View Twitter Without Account",
-   "url": "https://twitterwebviewer.com/",
-   "points": 536,
-   "time": "2026-08-26T14:11:39Z"
+   "title": "We found a division by zero bug in FFmpeg with a vibecoded fuzzer",
+   "url": "https://code.ffmpeg.org/FFmpeg/FFmpeg/issues/24290",
+   "points": 276,
+   "time": "2026-08-27T17:53:40Z"
   }
  ],
  "models": [
@@ -103,166 +103,166 @@
    "id": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "image-text-to-text",
    "downloads": 4810,
-   "likes": 3854
+   "likes": 4079
   },
   {
    "id": "zai-org/GLM-5.3-Flash",
    "pipeline": "text-generation",
    "downloads": 34,
-   "likes": 1206
+   "likes": 1447
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "downloads": 3457687,
-   "likes": 12976
+   "likes": 13097
+  },
+  {
+   "id": "zai-org/GLM-5.3",
+   "pipeline": "text-generation",
+   "downloads": 0,
+   "likes": 853
   },
   {
    "id": "unsloth/Qwen3.8-27B-GGUF",
    "pipeline": "",
    "downloads": 7758790,
-   "likes": 3041
-  },
-  {
-   "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-   "pipeline": "text-generation",
-   "downloads": 509270,
-   "likes": 830
+   "likes": 3113
   },
   {
    "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
    "pipeline": "image-text-to-text",
    "downloads": 4354,
-   "likes": 422
+   "likes": 493
+  },
+  {
+   "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+   "pipeline": "text-generation",
+   "downloads": 509270,
+   "likes": 872
   },
   {
    "id": "orcarouter/Qwen3.8-27B-Uncensored-FP8",
    "pipeline": "image-text-to-text",
    "downloads": 273577,
-   "likes": 1197
-  },
-  {
-   "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-   "pipeline": "image-text-to-text",
-   "downloads": 83352,
-   "likes": 1153
+   "likes": 1217
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
    "downloads": 912729,
-   "likes": 1904
+   "likes": 1969
   },
   {
-   "id": "HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF",
+   "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
    "pipeline": "image-text-to-text",
-   "downloads": 938219,
-   "likes": 674
+   "downloads": 83352,
+   "likes": 1177
   }
  ],
  "trending": [
   {
-   "name": "MengTo/threeui",
-   "url": "https://github.com/MengTo/threeui",
-   "stars": 4275,
-   "lang": "HTML",
-   "desc": "Open-source ThreeUI Community catalog with live interactive components and complete Community source."
+   "name": "HEJustinSun/my-girlfriend-jingtian-latex",
+   "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+   "stars": 3530,
+   "lang": "TeX",
+   "desc": ""
   },
   {
    "name": "b-nnett/grok-bot-0.18-reconstructed",
    "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
-   "stars": 3305,
+   "stars": 3398,
    "lang": "TypeScript",
    "desc": "Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS"
   },
   {
    "name": "tobi/walgit",
    "url": "https://github.com/tobi/walgit",
-   "stars": 2220,
+   "stars": 2284,
    "lang": "Rust",
    "desc": ""
   },
   {
    "name": "duty1g/x64dbg-mcp-server",
    "url": "https://github.com/duty1g/x64dbg-mcp-server",
-   "stars": 1499,
+   "stars": 1642,
    "lang": "Zig",
    "desc": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Conne"
   },
   {
+   "name": "sapientinc/PRAXIST",
+   "url": "https://github.com/sapientinc/PRAXIST",
+   "stars": 1414,
+   "lang": "Python",
+   "desc": "Autonomous research system for measurable, computer-executable research."
+  },
+  {
    "name": "ApodexAI/FrontierAgent",
    "url": "https://github.com/ApodexAI/FrontierAgent",
-   "stars": 1089,
+   "stars": 1203,
    "lang": "Python",
    "desc": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS "
   },
   {
    "name": "nateherkai/scroll-craft",
    "url": "https://github.com/nateherkai/scroll-craft",
-   "stars": 1057,
+   "stars": 1132,
    "lang": "JavaScript",
    "desc": "Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its ow"
   },
   {
    "name": "bryllim/workout-guide",
    "url": "https://github.com/bryllim/workout-guide",
-   "stars": 895,
+   "stars": 956,
    "lang": "Astro",
    "desc": "302 open exercise illustrations and a framework-neutral npm package by Bryl Lim"
-  },
-  {
-   "name": "ShadowAqueduct/watermark-remover",
-   "url": "https://github.com/ShadowAqueduct/watermark-remover",
-   "stars": 815,
-   "lang": "Python",
-   "desc": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 179555,
+   "stars": 179634,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-08-27T06:16:40Z"
+   "pushed": "2026-08-28T00:03:45Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 150098,
+   "stars": 150217,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-26T01:45:36Z"
+   "pushed": "2026-08-27T23:24:19Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 145120,
+   "stars": 145187,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-27T13:21:02Z"
+   "pushed": "2026-08-28T11:55:00Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 143162,
+   "stars": 143274,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-08-26T23:06:39Z"
+   "pushed": "2026-08-28T00:49:15Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 125901,
+   "stars": 126076,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-27T13:48:27Z"
+   "pushed": "2026-08-28T14:52:49Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 118650,
+   "stars": 118698,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-27T12:02:05Z"
@@ -270,15 +270,15 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 92877,
+   "stars": 92957,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-08-26T20:37:13Z"
+   "pushed": "2026-08-27T21:09:23Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 92066,
+   "stars": 92466,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
    "pushed": "2026-08-26T22:04:47Z"
@@ -286,39 +286,39 @@
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 57396,
+   "stars": 57483,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-27T13:31:29Z"
+   "pushed": "2026-08-28T14:54:21Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 56661,
+   "stars": 57343,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claud",
-   "pushed": "2026-08-27T11:24:16Z"
+   "pushed": "2026-08-28T14:30:36Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 53071,
+   "stars": 53126,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-27T09:07:04Z"
+   "pushed": "2026-08-28T09:11:06Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 40851,
+   "stars": 40973,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-27T12:54:27Z"
+   "pushed": "2026-08-28T14:41:47Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 30917,
+   "stars": 30954,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-27T10:35:01Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1784,
+   "stars": 1816,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "SSRF (Server-Side Request Forgery)",
-  "desc": "An attacker makes your server hit internal URLs (cloud metadata, internal APIs). Validate URL inputs and block internal IP ranges.",
-  "link": "https://owasp.org/www-community/attacks/Server_Side_Request_Forgery"
+  "cat": "AI",
+  "title": "Agents & Tool Use",
+  "desc": "An LLM doesn't just write text — it calls tools (search, code execution, APIs) and reacts to the results. MCP is becoming the open standard for this.",
+  "link": "https://modelcontextprotocol.io"
  }
 }
