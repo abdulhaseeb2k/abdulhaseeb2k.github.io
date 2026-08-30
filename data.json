@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-29T09:53:34.241655+00:00",
+ "generated_at": "2026-08-30T09:04:26.635471+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,167 +62,167 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "GUIs should be fully keyboard-driven",
-   "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html",
-   "points": 800,
-   "time": "2026-08-28T15:17:09Z"
+   "title": "Tether: iMessage, SMS, etc. on Linux",
+   "url": "https://zackbartel.com/blog/2026/08/tether/",
+   "points": 453,
+   "time": "2026-08-24T05:09:23Z"
   },
   {
-   "title": "GLM-5.3 is now open-weight",
-   "url": "https://huggingface.co/zai-org/GLM-5.3",
-   "points": 696,
-   "time": "2026-08-28T15:20:13Z"
+   "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+   "url": "https://github.com/Lakr233/vphone-cli",
+   "points": 400,
+   "time": "2026-08-28T23:02:21Z"
   },
   {
-   "title": "Htmx 4.0",
-   "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released",
-   "points": 656,
-   "time": "2026-08-28T13:28:56Z"
+   "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+   "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+   "points": 381,
+   "time": "2026-08-29T17:19:47Z"
   },
   {
-   "title": "U.S. sanctions against the A/I Collective",
-   "url": "https://www.inventati.org/",
-   "points": 597,
-   "time": "2026-08-28T12:58:53Z"
+   "title": "EVE Online moves to Python 3",
+   "url": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
+   "points": 350,
+   "time": "2026-08-25T13:04:55Z"
   },
   {
-   "title": "Our decision on Cursor following its acquisition by SpaceX",
-   "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-   "points": 520,
-   "time": "2026-08-29T01:47:53Z"
+   "title": "Glacier Mice",
+   "url": "https://en.wikipedia.org/wiki/Glacier_mice",
+   "points": 293,
+   "time": "2026-08-24T18:58:13Z"
   },
   {
-   "title": "Inception-style curved map for turn-by-turn directions",
-   "url": "https://www.orbify.eu/demo/",
-   "points": 501,
-   "time": "2026-08-28T12:29:05Z"
+   "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+   "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
+   "points": 290,
+   "time": "2026-08-29T23:17:17Z"
   }
  ],
  "models": [
   {
    "id": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "image-text-to-text",
-   "downloads": 52341,
-   "likes": 4203
+   "downloads": 121976,
+   "likes": 4322
   },
   {
    "id": "zai-org/GLM-5.3-Flash",
    "pipeline": "text-generation",
-   "downloads": 189793,
-   "likes": 1547
+   "downloads": 346516,
+   "likes": 1646
   },
   {
    "id": "zai-org/GLM-5.3",
    "pipeline": "text-generation",
-   "downloads": 8804,
-   "likes": 1197
+   "downloads": 50116,
+   "likes": 1299
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 4028839,
-   "likes": 13175
+   "downloads": 4511348,
+   "likes": 13286
   },
   {
    "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 188061,
-   "likes": 536
+   "downloads": 328195,
+   "likes": 580
   },
   {
    "id": "unsloth/Qwen3.8-27B-GGUF",
    "pipeline": "",
-   "downloads": 8363481,
-   "likes": 3161
-  },
-  {
-   "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-   "pipeline": "text-generation",
-   "downloads": 645554,
-   "likes": 885
+   "downloads": 8839153,
+   "likes": 3192
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 1044661,
-   "likes": 2043
+   "downloads": 1137181,
+   "likes": 2168
   },
   {
-   "id": "orcarouter/Qwen3.8-27B-Uncensored-MLX",
-   "pipeline": "image-text-to-text",
-   "downloads": 97508,
-   "likes": 1196
+   "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+   "pipeline": "text-generation",
+   "downloads": 725757,
+   "likes": 930
   },
   {
    "id": "tencent/Hy4-preview",
    "pipeline": "text-generation",
-   "downloads": 1394,
-   "likes": 259
+   "downloads": 2123,
+   "likes": 292
+  },
+  {
+   "id": "unsloth/GLM-5.3-Flash-GGUF",
+   "pipeline": "text-generation",
+   "downloads": 45936,
+   "likes": 278
   }
  ],
  "trending": [
   {
    "name": "HEJustinSun/my-girlfriend-jingtian-latex",
    "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
-   "stars": 3803,
+   "stars": 4065,
    "lang": "TeX",
-   "desc": ""
-  },
-  {
-   "name": "b-nnett/grok-bot-0.18-reconstructed",
-   "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
-   "stars": 3414,
-   "lang": "TypeScript",
-   "desc": "Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS"
-  },
-  {
-   "name": "tobi/walgit",
-   "url": "https://github.com/tobi/walgit",
-   "stars": 2311,
-   "lang": "Rust",
    "desc": ""
   },
   {
    "name": "sapientinc/PRAXIST",
    "url": "https://github.com/sapientinc/PRAXIST",
-   "stars": 2064,
+   "stars": 3228,
    "lang": "Python",
    "desc": "Autonomous research system for measurable, computer-executable research."
   },
   {
+   "name": "XiaoDuoYa/codex-with-chatgpt",
+   "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+   "stars": 1121,
+   "lang": "TypeScript",
+   "desc": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness."
+  },
+  {
    "name": "wide-trace/open-higgsfield",
    "url": "https://github.com/wide-trace/open-higgsfield",
-   "stars": 1010,
+   "stars": 1092,
    "lang": "TypeScript",
    "desc": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery."
   },
   {
    "name": "bryllim/workout-guide",
    "url": "https://github.com/bryllim/workout-guide",
-   "stars": 988,
+   "stars": 1011,
    "lang": "Astro",
    "desc": "302 open exercise illustrations and a framework-neutral npm package by Bryl Lim"
   },
   {
    "name": "Tencent/WeMM-Embedding",
    "url": "https://github.com/Tencent/WeMM-Embedding",
-   "stars": 872,
+   "stars": 917,
    "lang": "Python",
    "desc": "WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understandin"
   },
   {
-   "name": "ShadowAqueduct/watermark-remover",
-   "url": "https://github.com/ShadowAqueduct/watermark-remover",
-   "stars": 830,
-   "lang": "Python",
-   "desc": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF"
+   "name": "MetaMask-AI/metamask-desktop",
+   "url": "https://github.com/MetaMask-AI/metamask-desktop",
+   "stars": 873,
+   "lang": "CSS",
+   "desc": "🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites"
+  },
+  {
+   "name": "amosblomqvist/learn",
+   "url": "https://github.com/amosblomqvist/learn",
+   "stars": 815,
+   "lang": "TypeScript",
+   "desc": "My AI learning system."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 179688,
+   "stars": 179766,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
    "pushed": "2026-08-29T03:47:58Z"
@@ -230,23 +230,23 @@
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 150285,
+   "stars": 150386,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-29T00:31:09Z"
+   "pushed": "2026-08-29T20:14:33Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 145230,
+   "stars": 145266,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-29T08:14:11Z"
+   "pushed": "2026-08-30T08:14:57Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 143342,
+   "stars": 143427,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-08-28T18:19:32Z"
@@ -254,15 +254,15 @@
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 126173,
+   "stars": 126309,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-29T09:51:42Z"
+   "pushed": "2026-08-30T08:34:39Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 118727,
+   "stars": 118778,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-27T12:02:05Z"
@@ -270,55 +270,55 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 93018,
+   "stars": 93082,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-08-27T21:09:23Z"
+   "pushed": "2026-08-29T22:03:27Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 92538,
+   "stars": 92607,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-29T09:37:37Z"
+   "pushed": "2026-08-29T23:41:05Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 57747,
+   "stars": 58262,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claud",
-   "pushed": "2026-08-29T09:50:09Z"
+   "pushed": "2026-08-30T08:30:10Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 57520,
+   "stars": 57574,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-29T09:50:16Z"
+   "pushed": "2026-08-30T07:57:19Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 53159,
+   "stars": 53209,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-29T09:08:53Z"
+   "pushed": "2026-08-30T06:15:44Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 41053,
+   "stars": 41192,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-29T09:32:19Z"
+   "pushed": "2026-08-29T23:33:22Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 30984,
+   "stars": 31007,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-27T10:35:01Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1839,
+   "stars": 1862,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "Database Indexing",
-  "desc": "Without an index, a query scans the whole table. The right index means milliseconds; the wrong one means minutes. Run EXPLAIN to see what your query is really doing.",
-  "link": "https://use-the-index-luke.com/"
+  "cat": "AI",
+  "title": "Mixture of Experts (MoE)",
+  "desc": "The model contains many small 'expert' networks; a router sends each token to only 1-2 of them. This is why models like DeepSeek and Mixtral stay fast despite being huge.",
+  "link": "https://huggingface.co/blog/moe"
  }
 }
