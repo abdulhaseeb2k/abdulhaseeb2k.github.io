@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-30T09:04:26.635471+00:00",
+ "generated_at": "2026-08-31T09:32:27.317033+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Tether: iMessage, SMS, etc. on Linux",
-   "url": "https://zackbartel.com/blog/2026/08/tether/",
-   "points": 453,
-   "time": "2026-08-24T05:09:23Z"
+   "title": "Creepy Crawlies",
+   "url": "https://people.kernel.org/monsieuricon/creepy-crawlies",
+   "points": 1152,
+   "time": "2026-08-29T17:49:01Z"
   },
   {
-   "title": "Boot a Virtual iPhone via Apple's Virtualization.framework",
-   "url": "https://github.com/Lakr233/vphone-cli",
-   "points": 400,
-   "time": "2026-08-28T23:02:21Z"
+   "title": "“I just chose words carefully”",
+   "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/",
+   "points": 773,
+   "time": "2026-08-30T22:49:48Z"
   },
   {
-   "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
-   "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-   "points": 381,
-   "time": "2026-08-29T17:19:47Z"
+   "title": "Haiku R1/beta6 has been released",
+   "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+   "points": 319,
+   "time": "2026-08-30T16:01:10Z"
   },
   {
-   "title": "EVE Online moves to Python 3",
-   "url": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
-   "points": 350,
-   "time": "2026-08-25T13:04:55Z"
+   "title": "Hacking IKEA Furniture",
+   "url": "https://greenlightning.eu/diy/hacking-ikea-furniture/",
+   "points": 315,
+   "time": "2026-08-30T11:39:43Z"
   },
   {
-   "title": "Glacier Mice",
-   "url": "https://en.wikipedia.org/wiki/Glacier_mice",
-   "points": 293,
-   "time": "2026-08-24T18:58:13Z"
+   "title": "Arbitrary code execution in QubesOS via copy-to-VM error reporting backchannel",
+   "url": "https://www.qubes-os.org/news/2026/08/29/qsb-118/",
+   "points": 234,
+   "time": "2026-08-30T08:51:39Z"
   },
   {
-   "title": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
-   "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/",
-   "points": 290,
-   "time": "2026-08-29T23:17:17Z"
+   "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+   "url": "https://arxiv.org/abs/1804.07389",
+   "points": 203,
+   "time": "2026-08-30T08:23:26Z"
   }
  ],
  "models": [
@@ -103,126 +103,126 @@
    "id": "Qwen/Qwen3.8-Flash-Next",
    "pipeline": "image-text-to-text",
    "downloads": 121976,
-   "likes": 4322
+   "likes": 4436
   },
   {
    "id": "zai-org/GLM-5.3-Flash",
    "pipeline": "text-generation",
    "downloads": 346516,
-   "likes": 1646
+   "likes": 1757
   },
   {
    "id": "zai-org/GLM-5.3",
    "pipeline": "text-generation",
    "downloads": 50116,
-   "likes": 1299
+   "likes": 1375
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
    "downloads": 4511348,
-   "likes": 13286
+   "likes": 13396
   },
   {
    "id": "unsloth/Qwen3.8-Flash-Next-GGUF",
    "pipeline": "image-text-to-text",
    "downloads": 328195,
-   "likes": 580
+   "likes": 613
   },
   {
    "id": "unsloth/Qwen3.8-27B-GGUF",
    "pipeline": "",
    "downloads": 8839153,
-   "likes": 3192
+   "likes": 3256
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 1137181,
-   "likes": 2168
-  },
-  {
-   "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
-   "pipeline": "text-generation",
-   "downloads": 725757,
-   "likes": 930
+   "downloads": 1182585,
+   "likes": 2298
   },
   {
    "id": "tencent/Hy4-preview",
    "pipeline": "text-generation",
    "downloads": 2123,
-   "likes": 292
+   "likes": 329
   },
   {
    "id": "unsloth/GLM-5.3-Flash-GGUF",
    "pipeline": "text-generation",
    "downloads": 45936,
-   "likes": 278
+   "likes": 300
+  },
+  {
+   "id": "OBLITERATUS/Qwen3.8-27B-OBLITERATED",
+   "pipeline": "text-generation",
+   "downloads": 725757,
+   "likes": 958
   }
  ],
  "trending": [
   {
-   "name": "HEJustinSun/my-girlfriend-jingtian-latex",
-   "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
-   "stars": 4065,
-   "lang": "TeX",
-   "desc": ""
-  },
-  {
    "name": "sapientinc/PRAXIST",
    "url": "https://github.com/sapientinc/PRAXIST",
-   "stars": 3228,
+   "stars": 4815,
    "lang": "Python",
    "desc": "Autonomous research system for measurable, computer-executable research."
   },
   {
+   "name": "HEJustinSun/my-girlfriend-jingtian-latex",
+   "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+   "stars": 4175,
+   "lang": "TeX",
+   "desc": ""
+  },
+  {
    "name": "XiaoDuoYa/codex-with-chatgpt",
    "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
-   "stars": 1121,
+   "stars": 1615,
    "lang": "TypeScript",
    "desc": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness."
   },
   {
-   "name": "wide-trace/open-higgsfield",
-   "url": "https://github.com/wide-trace/open-higgsfield",
-   "stars": 1092,
-   "lang": "TypeScript",
-   "desc": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery."
-  },
-  {
-   "name": "bryllim/workout-guide",
-   "url": "https://github.com/bryllim/workout-guide",
-   "stars": 1011,
-   "lang": "Astro",
-   "desc": "302 open exercise illustrations and a framework-neutral npm package by Bryl Lim"
-  },
-  {
-   "name": "Tencent/WeMM-Embedding",
-   "url": "https://github.com/Tencent/WeMM-Embedding",
-   "stars": 917,
-   "lang": "Python",
-   "desc": "WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understandin"
-  },
-  {
    "name": "MetaMask-AI/metamask-desktop",
    "url": "https://github.com/MetaMask-AI/metamask-desktop",
-   "stars": 873,
+   "stars": 1228,
    "lang": "CSS",
    "desc": "🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites"
   },
   {
-   "name": "amosblomqvist/learn",
-   "url": "https://github.com/amosblomqvist/learn",
-   "stars": 815,
+   "name": "wide-trace/open-higgsfield",
+   "url": "https://github.com/wide-trace/open-higgsfield",
+   "stars": 1108,
    "lang": "TypeScript",
-   "desc": "My AI learning system."
+   "desc": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery."
+  },
+  {
+   "name": "Nanako0129/sepia",
+   "url": "https://github.com/Nanako0129/sepia",
+   "stars": 1059,
+   "lang": "",
+   "desc": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for"
+  },
+  {
+   "name": "Tencent/WeMM-Embedding",
+   "url": "https://github.com/Tencent/WeMM-Embedding",
+   "stars": 958,
+   "lang": "Python",
+   "desc": "WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understandin"
+  },
+  {
+   "name": "tradecatlabs/shulihuazixuecongshu",
+   "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
+   "stars": 816,
+   "lang": "Python",
+   "desc": ""
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 179766,
+   "stars": 179823,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
    "pushed": "2026-08-29T03:47:58Z"
@@ -230,23 +230,23 @@
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 150386,
+   "stars": 150471,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-08-29T20:14:33Z"
+   "pushed": "2026-08-31T05:53:31Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 145266,
+   "stars": 145323,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-08-30T08:14:57Z"
+   "pushed": "2026-08-31T08:19:33Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 143427,
+   "stars": 143524,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-08-28T18:19:32Z"
@@ -254,15 +254,15 @@
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 126309,
+   "stars": 126466,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-08-30T08:34:39Z"
+   "pushed": "2026-08-31T09:19:20Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 118778,
+   "stars": 118856,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-08-27T12:02:05Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 93082,
+   "stars": 93532,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-08-29T22:03:27Z"
@@ -278,47 +278,47 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 92607,
+   "stars": 92702,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-08-29T23:41:05Z"
+   "pushed": "2026-08-31T04:19:18Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 58262,
+   "stars": 58911,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claud",
-   "pushed": "2026-08-30T08:30:10Z"
+   "pushed": "2026-08-31T06:10:51Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 57574,
+   "stars": 57657,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-08-30T07:57:19Z"
+   "pushed": "2026-08-31T08:01:55Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 53209,
+   "stars": 53267,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-08-30T06:15:44Z"
+   "pushed": "2026-08-31T09:14:28Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 41192,
+   "stars": 41395,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-08-29T23:33:22Z"
+   "pushed": "2026-08-31T09:18:12Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31007,
+   "stars": 31030,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-27T10:35:01Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 1862,
+   "stars": 1890,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "Mixture of Experts (MoE)",
-  "desc": "The model contains many small 'expert' networks; a router sends each token to only 1-2 of them. This is why models like DeepSeek and Mixtral stay fast despite being huge.",
-  "link": "https://huggingface.co/blog/moe"
+  "cat": "Data Science",
+  "title": "Feature Engineering",
+  "desc": "Turning raw data into meaningful model inputs — extracting day-of-week from dates, encoding categories, building ratios. It often matters more than the choice of model.",
+  "link": "https://developers.google.com/machine-learning/crash-course"
  }
 }
