@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-09T07:59:56.738634+00:00",
+ "generated_at": "2026-09-10T07:59:17.163173+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,215 +62,215 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Navier-Stokes – Tristan Buckmaster [pdf]",
-   "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
-   "points": 1582,
-   "time": "2026-09-08T05:42:28Z"
+   "title": "iPhone Duo",
+   "url": "https://www.apple.com/iphone-duo/",
+   "points": 1160,
+   "time": "2026-09-09T18:15:43Z"
   },
   {
-   "title": "On the Navier–Stokes Millennium Prize Problem",
-   "url": "https://openai.com/index/navier-stokes-solution/",
-   "points": 1247,
-   "time": "2026-09-08T17:13:21Z"
+   "title": "Shopify acquires Tailwind",
+   "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+   "points": 1008,
+   "time": "2026-09-09T13:27:11Z"
   },
   {
-   "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-   "points": 549,
-   "time": "2026-09-08T14:55:45Z"
+   "title": "What do Visa and Mastercard do? An intro to card networks",
+   "url": "https://tautology.town/2026/06/01/card-networks.html",
+   "points": 500,
+   "time": "2026-09-08T18:11:05Z"
   },
   {
-   "title": "We built our house for LAN parties (2024)",
-   "url": "https://lanparty.house/",
-   "points": 501,
-   "time": "2026-09-05T18:44:40Z"
+   "title": "AirPods 5",
+   "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+   "points": 443,
+   "time": "2026-09-09T17:39:24Z"
   },
   {
-   "title": "I resigned from Anthropic today",
-   "url": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
-   "points": 485,
-   "time": "2026-09-09T00:40:40Z"
+   "title": "Desert Ant Labs: local, fast models that run on device",
+   "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+   "points": 435,
+   "time": "2026-09-09T11:39:46Z"
   },
   {
-   "title": "Muse – Meta’s personal AI agent",
-   "url": "https://ai.meta.com/muse/",
-   "points": 476,
-   "time": "2026-09-08T19:25:00Z"
+   "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
+   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+   "points": 403,
+   "time": "2026-09-09T14:37:47Z"
   }
  ],
  "models": [
   {
-   "id": "XHToken/Spark-X2.5-4B",
-   "pipeline": "text-generation",
-   "downloads": 10661,
-   "likes": 933
-  },
-  {
    "id": "openbmb/MiniCPM5-2B",
    "pipeline": "text-generation",
    "downloads": 2879,
-   "likes": 772
+   "likes": 1002
   },
   {
-   "id": "Qwen/Qwen3.8-27B",
-   "pipeline": "image-text-to-text",
-   "downloads": 6712160,
-   "likes": 14432
+   "id": "XHToken/Spark-X2.5-4B",
+   "pipeline": "text-generation",
+   "downloads": 10661,
+   "likes": 1025
   },
   {
    "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
    "pipeline": "image-text-to-text",
    "downloads": 479597,
-   "likes": 680
+   "likes": 750
+  },
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "pipeline": "image-text-to-text",
+   "downloads": 6712160,
+   "likes": 14547
+  },
+  {
+   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "pipeline": "image-text-to-text",
+   "downloads": 0,
+   "likes": 463
   },
   {
    "id": "google/timesfm-3.0-pytorch",
    "pipeline": "time-series-forecasting",
    "downloads": 444052,
-   "likes": 660
+   "likes": 699
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
    "downloads": 1644796,
-   "likes": 3205
-  },
-  {
-   "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 348753,
-   "likes": 381
+   "likes": 3294
   },
   {
    "id": "unsloth/Qwen3.8-27B-GGUF",
    "pipeline": "",
    "downloads": 10675683,
-   "likes": 3729
-  },
-  {
-   "id": "Qwen/Qwen3.8-Flash-Next",
-   "pipeline": "image-text-to-text",
-   "downloads": 503263,
-   "likes": 5025
+   "likes": 3802
   },
   {
    "id": "sentence-transformers/all-MiniLM-L6-v2",
    "pipeline": "sentence-similarity",
-   "downloads": 253331994,
-   "likes": 5663
+   "downloads": 254324263,
+   "likes": 5724
+  },
+  {
+   "id": "openai-community/gpt2",
+   "pipeline": "text-generation",
+   "downloads": 14981665,
+   "likes": 3866
   }
  ],
  "trending": [
   {
    "name": "ashemag/human-atlas",
    "url": "https://github.com/ashemag/human-atlas",
-   "stars": 2592,
+   "stars": 2942,
    "lang": "TypeScript",
    "desc": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views."
   },
   {
-   "name": "Albert-Weasker/niubigeo",
-   "url": "https://github.com/Albert-Weasker/niubigeo",
-   "stars": 2185,
-   "lang": "TypeScript",
-   "desc": "Open-source AI brand visibility and competitor reports"
-  },
-  {
    "name": "Rion-Wu-tech/wechat-intelligence-hub",
    "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
-   "stars": 1976,
+   "stars": 2038,
    "lang": "Python",
    "desc": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportun"
   },
   {
    "name": "openai/NavierStokesAndEuler",
    "url": "https://github.com/openai/NavierStokesAndEuler",
-   "stars": 1193,
+   "stars": 1615,
    "lang": "Lean",
    "desc": "Lean certificates accompanying Navier-Stokes and Euler results"
   },
   {
-   "name": "EverettFish/holo-card-studio",
-   "url": "https://github.com/EverettFish/holo-card-studio",
-   "stars": 1185,
-   "lang": "Python",
-   "desc": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requ"
-  },
-  {
    "name": "vinzdg/codenotch",
    "url": "https://github.com/vinzdg/codenotch",
-   "stars": 1159,
+   "stars": 1308,
    "lang": "Swift",
    "desc": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge."
   },
   {
+   "name": "EverettFish/holo-card-studio",
+   "url": "https://github.com/EverettFish/holo-card-studio",
+   "stars": 1277,
+   "lang": "Python",
+   "desc": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requ"
+  },
+  {
    "name": "anthropics/fermats-last-theorem",
    "url": "https://github.com/anthropics/fermats-last-theorem",
-   "stars": 986,
+   "stars": 1005,
    "lang": "Lean",
    "desc": ""
   },
   {
-   "name": "danielblnc/DLSS-NR-on-AMD",
-   "url": "https://github.com/danielblnc/DLSS-NR-on-AMD",
-   "stars": 945,
+   "name": "sdli1995/dlssg_for_sm86",
+   "url": "https://github.com/sdli1995/dlssg_for_sm86",
+   "stars": 922,
    "lang": "",
-   "desc": "Run DLSS 5 Neural Rendering on your AMD GPU. Magic!"
+   "desc": "Here is a dlssg for RTX30 Series GPU "
+  },
+  {
+   "name": "donvito/codex-astra-luna-orchestrator",
+   "url": "https://github.com/donvito/codex-astra-luna-orchestrator",
+   "stars": 832,
+   "lang": "Python",
+   "desc": "Use Astra as orchestrator and Luna for subagents in Codex"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 180497,
+   "stars": 180547,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-09-09T00:30:49Z"
+   "pushed": "2026-09-09T23:33:50Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 151413,
+   "stars": 151510,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-09-09T03:18:49Z"
+   "pushed": "2026-09-10T03:34:27Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 145988,
+   "stars": 146049,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-09-09T02:25:17Z"
+   "pushed": "2026-09-09T21:21:59Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 144506,
+   "stars": 144602,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-09-08T23:55:14Z"
+   "pushed": "2026-09-10T06:06:11Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 127581,
+   "stars": 127691,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-09-09T07:44:58Z"
+   "pushed": "2026-09-10T07:51:18Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 119436,
+   "stars": 119462,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-09-05T08:42:29Z"
+   "pushed": "2026-09-10T01:09:32Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 94675,
+   "stars": 94724,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-08T13:25:58Z"
@@ -278,47 +278,47 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 93542,
+   "stars": 93592,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-09-09T06:11:28Z"
+   "pushed": "2026-09-10T06:36:19Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 63124,
+   "stars": 63679,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-09-09T03:29:42Z"
+   "pushed": "2026-09-10T01:18:13Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 58339,
+   "stars": 58419,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-09-09T07:52:09Z"
+   "pushed": "2026-09-10T07:58:20Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 53733,
+   "stars": 53800,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-09-09T06:17:26Z"
+   "pushed": "2026-09-10T06:17:17Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 42727,
+   "stars": 42813,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-09-09T05:38:13Z"
+   "pushed": "2026-09-09T23:11:20Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31274,
+   "stars": 31302,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-08-27T10:35:01Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 2693,
+   "stars": 2745,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "Event-Driven Architecture",
-  "desc": "Services publish and subscribe to events (Kafka, RabbitMQ) instead of calling each other directly. You gain loose coupling; debugging and ordering get harder.",
-  "link": "https://martinfowler.com/articles/201701-event-driven.html"
+  "cat": "Security",
+  "title": "Zero Trust",
+  "desc": "The 'inside the network means trusted' model is dead — every request is verified, even internal ones. Identity-based access instead of a VPN perimeter.",
+  "link": "https://www.nist.gov/publications/zero-trust-architecture"
  }
 }
