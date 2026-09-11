@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-10T07:59:17.163173+00:00",
+ "generated_at": "2026-09-11T07:55:41.404330+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -64,156 +64,156 @@
   {
    "title": "iPhone Duo",
    "url": "https://www.apple.com/iphone-duo/",
-   "points": 1160,
+   "points": 1444,
    "time": "2026-09-09T18:15:43Z"
   },
   {
-   "title": "Shopify acquires Tailwind",
-   "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
-   "points": 1008,
-   "time": "2026-09-09T13:27:11Z"
+   "title": "Shopify is moving from React Native back to Swift and Kotlin",
+   "url": "https://shopify.engineering/back-to-native",
+   "points": 1005,
+   "time": "2026-09-10T14:09:31Z"
   },
   {
-   "title": "What do Visa and Mastercard do? An intro to card networks",
-   "url": "https://tautology.town/2026/06/01/card-networks.html",
-   "points": 500,
-   "time": "2026-09-08T18:11:05Z"
+   "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+   "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+   "points": 788,
+   "time": "2026-09-10T06:49:43Z"
   },
   {
-   "title": "AirPods 5",
-   "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
-   "points": 443,
-   "time": "2026-09-09T17:39:24Z"
+   "title": "Rust is tier-1 language at Microsoft",
+   "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+   "points": 658,
+   "time": "2026-09-10T13:39:16Z"
   },
   {
-   "title": "Desert Ant Labs: local, fast models that run on device",
-   "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
-   "points": 435,
-   "time": "2026-09-09T11:39:46Z"
+   "title": "Don't let anyone take away your big box of cables",
+   "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/",
+   "points": 470,
+   "time": "2026-09-10T15:27:22Z"
   },
   {
-   "title": "GPT-6 Astra, looped transformers, and hidden reasoning",
-   "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-   "points": 403,
-   "time": "2026-09-09T14:37:47Z"
+   "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+   "url": "https://cognition.com/blog/swe-2",
+   "points": 405,
+   "time": "2026-09-10T15:29:47Z"
   }
  ],
  "models": [
   {
+   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "pipeline": "image-text-to-text",
+   "downloads": 6,
+   "likes": 1553
+  },
+  {
    "id": "openbmb/MiniCPM5-2B",
    "pipeline": "text-generation",
-   "downloads": 2879,
-   "likes": 1002
+   "downloads": 42289,
+   "likes": 1140
   },
   {
    "id": "XHToken/Spark-X2.5-4B",
    "pipeline": "text-generation",
-   "downloads": 10661,
-   "likes": 1025
-  },
-  {
-   "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 479597,
-   "likes": 750
+   "downloads": 15930,
+   "likes": 1074
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 6712160,
-   "likes": 14547
+   "downloads": 7322476,
+   "likes": 14679
   },
   {
-   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 0,
-   "likes": 463
+   "downloads": 614850,
+   "likes": 807
   },
   {
-   "id": "google/timesfm-3.0-pytorch",
-   "pipeline": "time-series-forecasting",
-   "downloads": 444052,
-   "likes": 699
+   "id": "nex-agi/Nex-N2.5-mini",
+   "pipeline": "text-generation",
+   "downloads": 2444,
+   "likes": 665
+  },
+  {
+   "id": "nex-agi/Nex-N2.5-Pro",
+   "pipeline": "text-generation",
+   "downloads": 3,
+   "likes": 588
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 1644796,
-   "likes": 3294
+   "downloads": 1740572,
+   "likes": 3406
   },
   {
    "id": "unsloth/Qwen3.8-27B-GGUF",
    "pipeline": "",
-   "downloads": 10675683,
-   "likes": 3802
+   "downloads": 11127203,
+   "likes": 3860
   },
   {
-   "id": "sentence-transformers/all-MiniLM-L6-v2",
-   "pipeline": "sentence-similarity",
-   "downloads": 254324263,
-   "likes": 5724
-  },
-  {
-   "id": "openai-community/gpt2",
-   "pipeline": "text-generation",
-   "downloads": 14981665,
-   "likes": 3866
+   "id": "google/timesfm-3.0-pytorch",
+   "pipeline": "time-series-forecasting",
+   "downloads": 483787,
+   "likes": 719
   }
  ],
  "trending": [
   {
    "name": "ashemag/human-atlas",
    "url": "https://github.com/ashemag/human-atlas",
-   "stars": 2942,
+   "stars": 3147,
    "lang": "TypeScript",
    "desc": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views."
   },
   {
-   "name": "Rion-Wu-tech/wechat-intelligence-hub",
-   "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
-   "stars": 2038,
-   "lang": "Python",
-   "desc": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportun"
-  },
-  {
    "name": "openai/NavierStokesAndEuler",
    "url": "https://github.com/openai/NavierStokesAndEuler",
-   "stars": 1615,
+   "stars": 1741,
    "lang": "Lean",
    "desc": "Lean certificates accompanying Navier-Stokes and Euler results"
   },
   {
+   "name": "sdli1995/dlssg_for_sm86",
+   "url": "https://github.com/sdli1995/dlssg_for_sm86",
+   "stars": 1568,
+   "lang": "",
+   "desc": "Here is a dlssg for RTX30 Series GPU "
+  },
+  {
    "name": "vinzdg/codenotch",
    "url": "https://github.com/vinzdg/codenotch",
-   "stars": 1308,
+   "stars": 1413,
    "lang": "Swift",
    "desc": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge."
   },
   {
    "name": "EverettFish/holo-card-studio",
    "url": "https://github.com/EverettFish/holo-card-studio",
-   "stars": 1277,
+   "stars": 1372,
    "lang": "Python",
    "desc": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requ"
   },
   {
-   "name": "anthropics/fermats-last-theorem",
-   "url": "https://github.com/anthropics/fermats-last-theorem",
-   "stars": 1005,
-   "lang": "Lean",
-   "desc": ""
+   "name": "yang0/handraw-style",
+   "url": "https://github.com/yang0/handraw-style",
+   "stars": 1205,
+   "lang": "HTML",
+   "desc": "手绘风格编号画廊与双语提示词 Skill"
   },
   {
-   "name": "sdli1995/dlssg_for_sm86",
-   "url": "https://github.com/sdli1995/dlssg_for_sm86",
-   "stars": 922,
-   "lang": "",
-   "desc": "Here is a dlssg for RTX30 Series GPU "
+   "name": "Edge0-AI/Edge0",
+   "url": "https://github.com/Edge0-AI/Edge0",
+   "stars": 1123,
+   "lang": "Python",
+   "desc": ""
   },
   {
    "name": "donvito/codex-astra-luna-orchestrator",
    "url": "https://github.com/donvito/codex-astra-luna-orchestrator",
-   "stars": 832,
+   "stars": 946,
    "lang": "Python",
    "desc": "Use Astra as orchestrator and Luna for subagents in Codex"
   }
@@ -222,47 +222,47 @@
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 180547,
+   "stars": 180636,
    "lang": "Go",
    "desc": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-09-09T23:33:50Z"
+   "pushed": "2026-09-11T06:09:40Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 151510,
+   "stars": 151599,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-09-10T03:34:27Z"
+   "pushed": "2026-09-10T23:05:38Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 146049,
+   "stars": 146110,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-09-09T21:21:59Z"
+   "pushed": "2026-09-10T21:16:27Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 144602,
+   "stars": 144702,
    "lang": "Python",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-09-10T06:06:11Z"
+   "pushed": "2026-09-10T20:30:53Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 127691,
+   "stars": 127805,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-09-10T07:51:18Z"
+   "pushed": "2026-09-11T07:52:51Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 119462,
+   "stars": 119525,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-09-10T01:09:32Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 94724,
+   "stars": 94784,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-08T13:25:58Z"
@@ -278,64 +278,64 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 93592,
+   "stars": 93655,
    "lang": "JavaScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-09-10T06:36:19Z"
+   "pushed": "2026-09-11T07:54:42Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 63679,
+   "stars": 64483,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-09-10T01:18:13Z"
+   "pushed": "2026-09-10T22:06:48Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 58419,
+   "stars": 58492,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-09-10T07:58:20Z"
+   "pushed": "2026-09-11T07:54:20Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 53800,
+   "stars": 53858,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-09-10T06:17:17Z"
+   "pushed": "2026-09-11T06:16:33Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 42813,
+   "stars": 42921,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-09-09T23:11:20Z"
+   "pushed": "2026-09-10T08:21:44Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31302,
+   "stars": 31319,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-08-27T10:35:01Z"
+   "pushed": "2026-09-10T10:34:39Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 2745,
+   "stars": 2791,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Zero Trust",
-  "desc": "The 'inside the network means trusted' model is dead — every request is verified, even internal ones. Identity-based access instead of a VPN perimeter.",
-  "link": "https://www.nist.gov/publications/zero-trust-architecture"
+  "cat": "AI",
+  "title": "Context Window",
+  "desc": "How much text a model can 'see' at once. A large window fits a whole codebase or document set — but content in the middle of long contexts tends to get missed ('lost in the middle').",
+  "link": "https://huggingface.co/blog"
  }
 }
