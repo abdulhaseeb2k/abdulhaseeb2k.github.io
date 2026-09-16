@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T08:31:48.779365+00:00",
+ "generated_at": "2026-09-16T08:25:52.718358+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,280 +62,280 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Steam Frame starts at $1059",
-   "url": "https://store.steampowered.com/hardware/steamframe",
-   "points": 654,
-   "time": "2026-09-14T17:27:55Z"
+   "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+   "url": "https://github.com/arnegiacomo/fugleramme",
+   "points": 1597,
+   "time": "2026-09-15T12:31:10Z"
   },
   {
-   "title": "XCancel service is suspended until further notice",
-   "url": "https://xcancel.com/#",
-   "points": 602,
-   "time": "2026-09-14T09:51:50Z"
+   "title": "Introducing System One Models and Jev",
+   "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "points": 1292,
+   "time": "2026-09-15T19:25:03Z"
   },
   {
-   "title": "iOS 27, iPadOS 27, and macOS 27",
-   "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
-   "points": 580,
-   "time": "2026-09-14T17:50:29Z"
+   "title": "An update on Wayback Machine access",
+   "url": "https://blog.archive.org/2026/09/15/an-update-on-wayback-machine-access/",
+   "points": 511,
+   "time": "2026-09-15T17:52:18Z"
   },
   {
-   "title": "Dario, Please",
-   "url": "https://pop.rdi.sh/dario-please/",
-   "points": 507,
-   "time": "2026-09-14T14:50:32Z"
+   "title": "Suspected sabotage causes major Netherlands rail disruption",
+   "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+   "points": 479,
+   "time": "2026-09-15T10:22:46Z"
   },
   {
-   "title": "OpenAI bots knew about the RubyGems caching vulnerability",
-   "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
-   "points": 448,
-   "time": "2026-09-14T12:40:57Z"
+   "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+   "points": 393,
+   "time": "2026-09-15T17:38:18Z"
   },
   {
-   "title": "Pion, an agent designed to run any company autonomously",
-   "url": "https://andonlabs.com/blog/why-we-built-pion",
-   "points": 389,
-   "time": "2026-09-14T17:16:06Z"
+   "title": "Let's make quality the norm again",
+   "url": "https://www.forbrukerradet.no/short-life/",
+   "points": 377,
+   "time": "2026-09-15T10:00:16Z"
   }
  ],
  "models": [
   {
    "id": "deepseek-ai/DeepSeek-V4.1-Flash",
    "pipeline": "image-text-to-text",
-   "downloads": 288414,
-   "likes": 2541
+   "downloads": 325712,
+   "likes": 2755
   },
   {
    "id": "Edge0/Edge0-35B-A3B-preview",
    "pipeline": "text-generation",
-   "downloads": 8109,
-   "likes": 2260
+   "downloads": 17853,
+   "likes": 2971
   },
   {
    "id": "openbmb/MiniCPM5-2B",
    "pipeline": "text-generation",
-   "downloads": 206774,
-   "likes": 1414
-  },
-  {
-   "id": "nex-agi/Nex-N2.5-mini",
-   "pipeline": "text-generation",
-   "downloads": 4543,
-   "likes": 788
+   "downloads": 271754,
+   "likes": 1480
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 7703400,
-   "likes": 15185
+   "downloads": 7702543,
+   "likes": 15313
   },
   {
-   "id": "nex-agi/Nex-N2.5-Pro",
+   "id": "nex-agi/Nex-N2.5-mini",
    "pipeline": "text-generation",
-   "downloads": 30489,
-   "likes": 637
+   "downloads": 5202,
+   "likes": 813
   },
   {
    "id": "m-a-p/YuE2-3B",
    "pipeline": "text-to-audio",
-   "downloads": 5186,
-   "likes": 503
+   "downloads": 6716,
+   "likes": 585
+  },
+  {
+   "id": "nex-agi/Nex-N2.5-Pro",
+   "pipeline": "text-generation",
+   "downloads": 30881,
+   "likes": 655
   },
   {
    "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 819784,
-   "likes": 1066
+   "downloads": 884926,
+   "likes": 1150
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 1559653,
-   "likes": 3899
+   "downloads": 1580077,
+   "likes": 4032
   },
   {
    "id": "TokenRhythm/NeoHorse-1-4B",
    "pipeline": "text-generation",
-   "downloads": 9520,
-   "likes": 1868
+   "downloads": 11904,
+   "likes": 2088
   }
  ],
  "trending": [
   {
    "name": "Chuloo/mural",
    "url": "https://github.com/Chuloo/mural",
-   "stars": 894,
+   "stars": 1122,
    "lang": "Kotlin",
    "desc": "The language app you eventually delete. A native iPhone companion for learning through conversation."
   },
   {
+   "name": "ai-sucks-butt/ai-sucks-butt",
+   "url": "https://github.com/ai-sucks-butt/ai-sucks-butt",
+   "stars": 1033,
+   "lang": "Python",
+   "desc": "If you think AI sucks, star the repo."
+  },
+  {
    "name": "sumimakito/Mac-Duo",
    "url": "https://github.com/sumimakito/Mac-Duo",
-   "stars": 880,
+   "stars": 925,
    "lang": "Swift",
    "desc": "Wish you could bring the iPhone Duo effect to your MacBook?"
   },
   {
-   "name": "kruzovic7/ai-data-extractor",
-   "url": "https://github.com/kruzovic7/ai-data-extractor",
-   "stars": 813,
-   "lang": "Python",
-   "desc": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more."
-  },
-  {
    "name": "yifanzhang-pro/recurrent-looped-tranformer",
    "url": "https://github.com/yifanzhang-pro/recurrent-looped-tranformer",
-   "stars": 767,
+   "stars": 841,
    "lang": "HTML",
    "desc": "Official Project Page for Recurrent Looped Transformer (RLT)"
   },
   {
+   "name": "kruzovic7/ai-data-extractor",
+   "url": "https://github.com/kruzovic7/ai-data-extractor",
+   "stars": 823,
+   "lang": "Python",
+   "desc": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more."
+  },
+  {
+   "name": "zjwzcx/Awesome-Astra-Embodied-AI",
+   "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+   "stars": 729,
+   "lang": "",
+   "desc": "GPT-6 Astra for embodied AI and robotics."
+  },
+  {
    "name": "angusdevgo/IDM_Pro_Tool",
    "url": "https://github.com/angusdevgo/IDM_Pro_Tool",
-   "stars": 699,
+   "stars": 717,
    "lang": "C#",
    "desc": "IDM激活与状态维护工具"
   },
   {
    "name": "eternityspring/reelbench-skills",
    "url": "https://github.com/eternityspring/reelbench-skills",
-   "stars": 688,
+   "stars": 701,
    "lang": "HTML",
    "desc": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill"
-  },
-  {
-   "name": "ArasTey/lunel",
-   "url": "https://github.com/ArasTey/lunel",
-   "stars": 666,
-   "lang": "Python",
-   "desc": ""
-  },
-  {
-   "name": "nftechie/stonkfly",
-   "url": "https://github.com/nftechie/stonkfly",
-   "stars": 665,
-   "lang": "Python",
-   "desc": "A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 181010,
+   "stars": 181105,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-09-15T06:32:32Z"
+   "pushed": "2026-09-16T00:37:09Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 152104,
+   "stars": 152248,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-09-14T21:57:14Z"
+   "pushed": "2026-09-16T04:34:26Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 146357,
+   "stars": 146428,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-09-15T08:31:17Z"
+   "pushed": "2026-09-16T08:17:36Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 145103,
+   "stars": 145236,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-09-15T00:42:25Z"
+   "pushed": "2026-09-16T04:36:04Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 128276,
+   "stars": 128393,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-09-15T08:10:41Z"
+   "pushed": "2026-09-16T08:00:02Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 119753,
+   "stars": 119840,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-09-10T01:09:32Z"
+   "pushed": "2026-09-15T19:29:22Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95022,
+   "stars": 95067,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-09-13T07:49:46Z"
+   "pushed": "2026-09-15T23:17:39Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 93920,
+   "stars": 94006,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-09-13T09:42:20Z"
+   "pushed": "2026-09-16T01:00:29Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 66330,
+   "stars": 66741,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-09-15T04:06:16Z"
+   "pushed": "2026-09-16T07:09:18Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 58762,
+   "stars": 58859,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-09-15T08:17:38Z"
+   "pushed": "2026-09-16T08:19:43Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 54079,
+   "stars": 54139,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-09-15T06:17:56Z"
+   "pushed": "2026-09-16T06:17:25Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 43294,
+   "stars": 43465,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-09-14T21:38:55Z"
+   "pushed": "2026-09-16T02:32:40Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31443,
+   "stars": 31487,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-09-13T23:59:36Z"
+   "pushed": "2026-09-15T21:35:00Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 2945,
+   "stars": 2969,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "Fine-tuning vs RAG",
-  "desc": "Fine-tuning changes a model's behavior and style; RAG gives it new knowledge. Use RAG for facts, fine-tuning for tone/format — combining both is common.",
-  "link": "https://huggingface.co/docs/transformers/training"
+  "cat": "Data Science",
+  "title": "Embeddings",
+  "desc": "Converting text or images into vectors of numbers where similar things end up close together. Semantic search, RAG, and recommendations all run on this.",
+  "link": "https://huggingface.co/blog/getting-started-with-embeddings"
  }
 }
