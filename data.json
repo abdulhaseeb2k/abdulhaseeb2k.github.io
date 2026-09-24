@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T08:25:29.123991+00:00",
+ "generated_at": "2026-09-24T08:17:49.493259+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Claude Opus 5.5",
-   "url": "https://www.anthropic.com/claude-opus-5-5",
-   "points": 1502,
-   "time": "2026-09-22T16:29:05Z"
+   "title": "Italian parliament votes for return to nuclear energy",
+   "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
+   "points": 754,
+   "time": "2026-09-23T17:06:16Z"
   },
   {
-   "title": "GPT-6 Sol and Luna",
-   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
-   "points": 1493,
-   "time": "2026-09-22T18:00:34Z"
+   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+   "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "points": 628,
+   "time": "2026-09-23T18:06:47Z"
   },
   {
-   "title": "Apple has added persistent 'ads' to iOS, and it's driving users crazy",
-   "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
-   "points": 708,
-   "time": "2026-09-22T14:30:12Z"
+   "title": "Fixing the Portobello Police Station Clock",
+   "url": "https://pointinthecloud.com/2026-04-11-211700.html",
+   "points": 434,
+   "time": "2026-09-23T15:18:53Z"
   },
   {
-   "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
-   "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-   "points": 650,
-   "time": "2026-09-22T13:52:15Z"
+   "title": "Meta VR Glasses",
+   "url": "https://www.meta.com/vr-glasses/",
+   "points": 377,
+   "time": "2026-09-23T23:47:56Z"
   },
   {
-   "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
-   "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
-   "points": 621,
-   "time": "2026-09-22T19:03:38Z"
+   "title": "Linux support is coming to Snapdragon X2 Series",
+   "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+   "points": 366,
+   "time": "2026-09-23T22:38:16Z"
   },
   {
-   "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
-   "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
-   "points": 588,
-   "time": "2026-09-22T17:46:02Z"
+   "title": "Gemini 3.8 text-to-speech",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+   "points": 300,
+   "time": "2026-09-23T15:29:23Z"
   }
  ],
  "models": [
@@ -103,174 +103,174 @@
    "id": "convaiinnovations/laya",
    "pipeline": "text-classification",
    "downloads": 0,
-   "likes": 2740
+   "likes": 3220
   },
   {
    "id": "Qwen/Qwen-Image-2.1",
    "pipeline": "text-to-image",
-   "downloads": 16242,
-   "likes": 1869
+   "downloads": 28407,
+   "likes": 2093
   },
   {
    "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
    "pipeline": "text-generation",
-   "downloads": 2569604,
-   "likes": 1904
+   "downloads": 2815979,
+   "likes": 1972
   },
   {
    "id": "XingChen-AGI/Xing4.0-29B-A4B",
    "pipeline": "text-generation",
-   "downloads": 30627,
-   "likes": 1441
+   "downloads": 39009,
+   "likes": 1639
   },
   {
    "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
    "pipeline": "text-to-image",
-   "downloads": 182313,
-   "likes": 1250
-  },
-  {
-   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-   "pipeline": "image-text-to-text",
-   "downloads": 542014,
-   "likes": 3633
-  },
-  {
-   "id": "Qwen/Qwen3.8-27B",
-   "pipeline": "image-text-to-text",
-   "downloads": 7079646,
-   "likes": 16090
+   "downloads": 350678,
+   "likes": 1509
   },
   {
    "id": "Comfy-Org/Qwen-Image-2.1",
    "pipeline": "",
-   "downloads": 1429925,
-   "likes": 586
+   "downloads": 2220609,
+   "likes": 645
   },
   {
    "id": "Altworld/Hemmingway-1",
    "pipeline": "text-generation",
-   "downloads": 2745,
-   "likes": 522
+   "downloads": 3787,
+   "likes": 597
   },
   {
-   "id": "harshatheg/Qwen-2.5-1B-RLCD",
-   "pipeline": "text-generation",
+   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "pipeline": "image-text-to-text",
+   "downloads": 570909,
+   "likes": 3684
+  },
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "pipeline": "image-text-to-text",
+   "downloads": 6912469,
+   "likes": 16163
+  },
+  {
+   "id": "AlexWortega/openjev",
+   "pipeline": "text-classification",
    "downloads": 0,
-   "likes": 552
+   "likes": 538
   }
  ],
  "trending": [
   {
    "name": "NandhaKishorM/laya",
    "url": "https://github.com/NandhaKishorM/laya",
-   "stars": 18201,
+   "stars": 21547,
    "lang": "Python",
    "desc": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ langua"
   },
   {
    "name": "zai-org/ZCode",
    "url": "https://github.com/zai-org/ZCode",
-   "stars": 6427,
+   "stars": 6628,
    "lang": "TypeScript",
    "desc": "Z.ai's coding agent harness. Powerful, intelligent, extensible."
   },
   {
-   "name": "tamaratran/fast-jev-compaction",
-   "url": "https://github.com/tamaratran/fast-jev-compaction",
-   "stars": 6419,
-   "lang": "TypeScript",
-   "desc": "Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale "
-  },
-  {
    "name": "mizorewww/laya-mlx",
    "url": "https://github.com/mizorewww/laya-mlx",
-   "stars": 5684,
+   "stars": 6088,
    "lang": "Python",
    "desc": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API."
   },
   {
-   "name": "jaredpalmer/kev",
-   "url": "https://github.com/jaredpalmer/kev",
-   "stars": 4934,
-   "lang": "Python",
-   "desc": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own"
-  },
-  {
    "name": "jev-chat/jev-chat-jarvis",
    "url": "https://github.com/jev-chat/jev-chat-jarvis",
-   "stars": 4712,
+   "stars": 5502,
    "lang": "Kotlin",
    "desc": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。"
   },
   {
-   "name": "TianyuCodings/NanoJev",
-   "url": "https://github.com/TianyuCodings/NanoJev",
-   "stars": 2047,
-   "lang": "Python",
-   "desc": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline."
+   "name": "unreallabsai/unreal-agent",
+   "url": "https://github.com/unreallabsai/unreal-agent",
+   "stars": 1803,
+   "lang": "Go",
+   "desc": "Async-first agent harness"
   },
   {
    "name": "bespokelabsai/nimble",
    "url": "https://github.com/bespokelabsai/nimble",
-   "stars": 1658,
+   "stars": 1709,
    "lang": "Python",
    "desc": "Local typed decisions, contrastive data curation, and model evaluation."
+  },
+  {
+   "name": "mizorewww/laya-coreml",
+   "url": "https://github.com/mizorewww/laya-coreml",
+   "stars": 1404,
+   "lang": "Python",
+   "desc": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and ener"
+  },
+  {
+   "name": "newliver666/apk-reverse",
+   "url": "https://github.com/newliver666/apk-reverse",
+   "stars": 1363,
+   "lang": "Python",
+   "desc": "Suitable for Android APK reverse engineering analysis"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 181507,
+   "stars": 181566,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-09-23T07:56:56Z"
+   "pushed": "2026-09-24T03:46:00Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 152878,
+   "stars": 152971,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-09-22T20:57:10Z"
+   "pushed": "2026-09-24T04:15:30Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 147716,
+   "stars": 147855,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-09-22T16:38:13Z"
+   "pushed": "2026-09-24T02:54:38Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 146917,
+   "stars": 146965,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-09-23T08:17:35Z"
+   "pushed": "2026-09-24T02:17:39Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 129274,
+   "stars": 129380,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-09-23T08:10:09Z"
+   "pushed": "2026-09-24T08:08:14Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 120339,
+   "stars": 120406,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-09-18T13:48:35Z"
+   "pushed": "2026-09-24T03:43:20Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95445,
+   "stars": 95475,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-23T06:38:45Z"
@@ -278,47 +278,47 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 94513,
+   "stars": 94574,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-09-22T17:46:57Z"
+   "pushed": "2026-09-24T01:11:26Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 69402,
+   "stars": 69707,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-09-23T04:58:45Z"
+   "pushed": "2026-09-24T07:47:04Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 59450,
+   "stars": 59525,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-09-23T08:23:21Z"
+   "pushed": "2026-09-24T08:17:58Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 54471,
+   "stars": 54527,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-09-23T06:17:52Z"
+   "pushed": "2026-09-24T06:17:38Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 44248,
+   "stars": 44725,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-09-22T01:04:09Z"
+   "pushed": "2026-09-24T02:51:00Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31725,
+   "stars": 31756,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-09-18T19:41:29Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 3486,
+   "stars": 3525,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "Idempotency",
-  "desc": "An operation that gives the same result no matter how many times you run it. Critical for APIs and retry logic — a non-idempotent payment endpoint can double-charge.",
-  "link": "https://en.wikipedia.org/wiki/Idempotence"
+  "cat": "Security",
+  "title": "Prompt Injection",
+  "desc": "The #1 attack on LLM apps: instructions hidden in untrusted content (a web page, an email) hijack the model. Fix: treat tool output as data, never as commands.",
+  "link": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
  }
 }
