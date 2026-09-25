@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T08:17:49.493259+00:00",
+ "generated_at": "2026-09-25T08:40:23.665023+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Italian parliament votes for return to nuclear energy",
-   "url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-   "points": 754,
-   "time": "2026-09-23T17:06:16Z"
+   "title": "F-Droid 2.0",
+   "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+   "points": 1213,
+   "time": "2026-09-24T15:26:12Z"
   },
   {
-   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-   "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-   "points": 628,
-   "time": "2026-09-23T18:06:47Z"
+   "title": "Show HN: Make cursed fonts like Times New Bastard",
+   "url": "https://bastardica.mitpit.com",
+   "points": 672,
+   "time": "2026-09-23T22:53:28Z"
   },
   {
-   "title": "Fixing the Portobello Police Station Clock",
-   "url": "https://pointinthecloud.com/2026-04-11-211700.html",
-   "points": 434,
-   "time": "2026-09-23T15:18:53Z"
+   "title": "Two-tier encryption in the UK",
+   "url": "https://macanorak.com/two-tier-encryption-in-the-uk/",
+   "points": 445,
+   "time": "2026-09-24T10:39:19Z"
   },
   {
-   "title": "Meta VR Glasses",
-   "url": "https://www.meta.com/vr-glasses/",
-   "points": 377,
-   "time": "2026-09-23T23:47:56Z"
+   "title": "Why is the liver so weirdly regenerative?",
+   "url": "https://dynomight.substack.com/p/liver",
+   "points": 394,
+   "time": "2026-09-24T16:23:00Z"
   },
   {
-   "title": "Linux support is coming to Snapdragon X2 Series",
-   "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-   "points": 366,
-   "time": "2026-09-23T22:38:16Z"
+   "title": "Rails World 2026 Opening Keynote [video]",
+   "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
+   "points": 325,
+   "time": "2026-09-23T15:33:33Z"
   },
   {
-   "title": "Gemini 3.8 text-to-speech",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-   "points": 300,
-   "time": "2026-09-23T15:29:23Z"
+   "title": "My weird new hobby: Wandering around Tokyo on Google Maps",
+   "url": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
+   "points": 322,
+   "time": "2026-09-22T17:49:46Z"
   }
  ],
  "models": [
@@ -103,166 +103,166 @@
    "id": "convaiinnovations/laya",
    "pipeline": "text-classification",
    "downloads": 0,
-   "likes": 3220
+   "likes": 3486
   },
   {
    "id": "Qwen/Qwen-Image-2.1",
    "pipeline": "text-to-image",
-   "downloads": 28407,
-   "likes": 2093
-  },
-  {
-   "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-   "pipeline": "text-generation",
-   "downloads": 2815979,
-   "likes": 1972
-  },
-  {
-   "id": "XingChen-AGI/Xing4.0-29B-A4B",
-   "pipeline": "text-generation",
-   "downloads": 39009,
-   "likes": 1639
+   "downloads": 37618,
+   "likes": 2240
   },
   {
    "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
    "pipeline": "text-to-image",
-   "downloads": 350678,
-   "likes": 1509
+   "downloads": 575697,
+   "likes": 1677
+  },
+  {
+   "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "pipeline": "text-generation",
+   "downloads": 2991233,
+   "likes": 2051
+  },
+  {
+   "id": "XingChen-AGI/Xing4.0-29B-A4B",
+   "pipeline": "text-generation",
+   "downloads": 41923,
+   "likes": 1649
   },
   {
    "id": "Comfy-Org/Qwen-Image-2.1",
    "pipeline": "",
-   "downloads": 2220609,
-   "likes": 645
+   "downloads": 2858923,
+   "likes": 699
   },
   {
    "id": "Altworld/Hemmingway-1",
    "pipeline": "text-generation",
-   "downloads": 3787,
-   "likes": 597
-  },
-  {
-   "id": "deepseek-ai/DeepSeek-V4.1-Flash",
-   "pipeline": "image-text-to-text",
-   "downloads": 570909,
-   "likes": 3684
+   "downloads": 4541,
+   "likes": 645
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 6912469,
-   "likes": 16163
+   "downloads": 6765008,
+   "likes": 16235
   },
   {
-   "id": "AlexWortega/openjev",
-   "pipeline": "text-classification",
-   "downloads": 0,
-   "likes": 538
+   "id": "TaichuAI/ZDTaichu5.0-9B",
+   "pipeline": "image-text-to-text",
+   "downloads": 8313,
+   "likes": 1042
+  },
+  {
+   "id": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "pipeline": "text-generation",
+   "downloads": 9841,
+   "likes": 485
   }
  ],
  "trending": [
   {
-   "name": "NandhaKishorM/laya",
-   "url": "https://github.com/NandhaKishorM/laya",
-   "stars": 21547,
-   "lang": "Python",
-   "desc": "Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ langua"
-  },
-  {
    "name": "zai-org/ZCode",
    "url": "https://github.com/zai-org/ZCode",
-   "stars": 6628,
+   "stars": 6732,
    "lang": "TypeScript",
    "desc": "Z.ai's coding agent harness. Powerful, intelligent, extensible."
   },
   {
+   "name": "jev-chat/jev-chat-jarvis",
+   "url": "https://github.com/jev-chat/jev-chat-jarvis",
+   "stars": 6357,
+   "lang": "Kotlin",
+   "desc": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。"
+  },
+  {
    "name": "mizorewww/laya-mlx",
    "url": "https://github.com/mizorewww/laya-mlx",
-   "stars": 6088,
+   "stars": 6268,
    "lang": "Python",
    "desc": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API."
   },
   {
-   "name": "jev-chat/jev-chat-jarvis",
-   "url": "https://github.com/jev-chat/jev-chat-jarvis",
-   "stars": 5502,
-   "lang": "Kotlin",
-   "desc": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。"
-  },
-  {
    "name": "unreallabsai/unreal-agent",
    "url": "https://github.com/unreallabsai/unreal-agent",
-   "stars": 1803,
+   "stars": 1890,
    "lang": "Go",
    "desc": "Async-first agent harness"
   },
   {
-   "name": "bespokelabsai/nimble",
-   "url": "https://github.com/bespokelabsai/nimble",
-   "stars": 1709,
-   "lang": "Python",
-   "desc": "Local typed decisions, contrastive data curation, and model evaluation."
-  },
-  {
    "name": "mizorewww/laya-coreml",
    "url": "https://github.com/mizorewww/laya-coreml",
-   "stars": 1404,
+   "stars": 1443,
    "lang": "Python",
    "desc": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and ener"
   },
   {
    "name": "newliver666/apk-reverse",
    "url": "https://github.com/newliver666/apk-reverse",
-   "stars": 1363,
+   "stars": 1439,
    "lang": "Python",
    "desc": "Suitable for Android APK reverse engineering analysis"
+  },
+  {
+   "name": "driceroland/Search",
+   "url": "https://github.com/driceroland/Search",
+   "stars": 1311,
+   "lang": "Swift",
+   "desc": "A small, fast WebKit browser for macOS, by Office Commun."
+  },
+  {
+   "name": "deepopen-com/deepopen",
+   "url": "https://github.com/deepopen-com/deepopen",
+   "stars": 1013,
+   "lang": "Python",
+   "desc": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. "
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 181566,
+   "stars": 181669,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-09-24T03:46:00Z"
+   "pushed": "2026-09-25T02:27:55Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 152971,
+   "stars": 153113,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-09-24T04:15:30Z"
+   "pushed": "2026-09-25T05:06:56Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 147855,
+   "stars": 148008,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-09-24T02:54:38Z"
+   "pushed": "2026-09-25T02:35:26Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 146965,
+   "stars": 147025,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-09-24T02:17:39Z"
+   "pushed": "2026-09-25T08:30:22Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 129380,
+   "stars": 129466,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-09-24T08:08:14Z"
+   "pushed": "2026-09-25T08:36:35Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 120406,
+   "stars": 120507,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-09-24T03:43:20Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95475,
+   "stars": 95501,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-23T06:38:45Z"
@@ -278,39 +278,39 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 94574,
+   "stars": 94654,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-09-24T01:11:26Z"
+   "pushed": "2026-09-25T01:11:49Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 69707,
+   "stars": 70012,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-09-24T07:47:04Z"
+   "pushed": "2026-09-25T08:08:30Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 59525,
+   "stars": 59592,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-09-24T08:17:58Z"
+   "pushed": "2026-09-25T08:24:02Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 54527,
+   "stars": 54585,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-09-24T06:17:38Z"
+   "pushed": "2026-09-25T06:17:55Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 44725,
+   "stars": 44863,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
    "pushed": "2026-09-24T02:51:00Z"
@@ -318,7 +318,7 @@
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31756,
+   "stars": 31775,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-09-18T19:41:29Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 3525,
+   "stars": 3568,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Prompt Injection",
-  "desc": "The #1 attack on LLM apps: instructions hidden in untrusted content (a web page, an email) hijack the model. Fix: treat tool output as data, never as commands.",
-  "link": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+  "cat": "AI",
+  "title": "RAG (Retrieval-Augmented Generation)",
+  "desc": "Retrieve relevant chunks from your own documents and feed them to the model as context before it answers. Less hallucination, and it works on private data.",
+  "link": "https://huggingface.co/learn"
  }
 }
