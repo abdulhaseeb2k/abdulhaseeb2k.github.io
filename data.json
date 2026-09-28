@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-27T09:05:35.495076+00:00",
+ "generated_at": "2026-09-28T09:33:57.880705+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
-   "url": "https://github.com/InfinityLoop1308/PipePipe",
-   "points": 409,
-   "time": "2026-09-25T10:55:40Z"
+   "title": "When did Google get so weird?",
+   "url": "https://sancho.bearblog.dev/google-weird/",
+   "points": 1269,
+   "time": "2026-09-27T20:12:54Z"
   },
   {
-   "title": "Fifteen years later, the Apple Cards origin story",
-   "url": "https://lexontech.org/fifteen-years-later-the-apple-cards-origin-story",
-   "points": 393,
-   "time": "2026-09-26T09:13:41Z"
+   "title": "Owed a billion dollars in Nvidia stock",
+   "url": "https://colo.to/nvidia-stock-narrative.html",
+   "points": 668,
+   "time": "2026-09-28T02:05:13Z"
   },
   {
-   "title": "Does Georgism work? Five years later",
-   "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
-   "points": 322,
-   "time": "2026-09-25T13:48:38Z"
+   "title": "Ember-1",
+   "url": "https://fireworks.ai/blog/ember-1",
+   "points": 457,
+   "time": "2026-09-27T17:31:53Z"
   },
   {
-   "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
-   "url": "https://github.com/reladraw/reladraw",
-   "points": 296,
-   "time": "2026-09-26T17:10:40Z"
+   "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+   "url": "https://loficities.com/",
+   "points": 244,
+   "time": "2026-09-27T18:44:30Z"
   },
   {
-   "title": "ASML says it sold 'absolutely nothing' in Europe in 2026",
-   "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand",
-   "points": 269,
-   "time": "2026-09-25T13:49:06Z"
+   "title": "In an $80 motel room, a discovery to shed light on the origins of life",
+   "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
+   "points": 244,
+   "time": "2026-09-27T14:30:55Z"
   },
   {
-   "title": "DeepSeek Elastic Compute (DSec)",
-   "url": "https://arxiv.org/abs/2609.22978",
-   "points": 238,
-   "time": "2026-09-26T18:22:41Z"
+   "title": "Don't couple your Go code to GitHub",
+   "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+   "points": 239,
+   "time": "2026-09-27T16:50:58Z"
   }
  ],
  "models": [
@@ -103,166 +103,166 @@
    "id": "convaiinnovations/laya",
    "pipeline": "text-classification",
    "downloads": 0,
-   "likes": 3958
-  },
-  {
-   "id": "Qwen/Qwen-Image-2.1",
-   "pipeline": "text-to-image",
-   "downloads": 48361,
-   "likes": 2424
+   "likes": 4190
   },
   {
    "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
    "pipeline": "text-to-image",
-   "downloads": 876673,
-   "likes": 1984
+   "downloads": 1062921,
+   "likes": 2149
   },
   {
-   "id": "XingChen-AGI/Xing4.0-29B-A4B",
-   "pipeline": "text-generation",
-   "downloads": 43947,
-   "likes": 1753
+   "id": "Qwen/Qwen-Image-2.1",
+   "pipeline": "text-to-image",
+   "downloads": 58693,
+   "likes": 2531
   },
   {
    "id": "Edge0/Audio8-ASR-Infinite",
    "pipeline": "automatic-speech-recognition",
-   "downloads": 7859,
-   "likes": 857
+   "downloads": 19963,
+   "likes": 1297
   },
   {
-   "id": "Comfy-Org/Qwen-Image-2.1",
-   "pipeline": "",
-   "downloads": 3641785,
-   "likes": 789
-  },
-  {
-   "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "id": "XingChen-AGI/Xing4.0-29B-A4B",
    "pipeline": "text-generation",
-   "downloads": 3247527,
-   "likes": 2151
+   "downloads": 45834,
+   "likes": 1787
   },
   {
    "id": "Altworld/Hemmingway-1",
    "pipeline": "text-generation",
-   "downloads": 5590,
-   "likes": 719
+   "downloads": 7478,
+   "likes": 751
   },
   {
    "id": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
    "pipeline": "text-generation",
-   "downloads": 74497,
-   "likes": 534
+   "downloads": 76518,
+   "likes": 566
+  },
+  {
+   "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "pipeline": "text-generation",
+   "downloads": 3457124,
+   "likes": 2212
+  },
+  {
+   "id": "XingChen-AGI/TeleOCR",
+   "pipeline": "image-text-to-text",
+   "downloads": 27904,
+   "likes": 637
   },
   {
    "id": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
    "pipeline": "image-text-to-text",
-   "downloads": 7905,
-   "likes": 507
+   "downloads": 9994,
+   "likes": 530
   }
  ],
  "trending": [
   {
-   "name": "jev-chat/jev-chat-jarvis",
-   "url": "https://github.com/jev-chat/jev-chat-jarvis",
-   "stars": 6724,
-   "lang": "Kotlin",
-   "desc": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。"
-  },
-  {
-   "name": "unreallabsai/unreal-agent",
-   "url": "https://github.com/unreallabsai/unreal-agent",
-   "stars": 1974,
-   "lang": "Go",
-   "desc": "Async-first agent harness"
-  },
-  {
    "name": "Contrastive-LM/CLM",
    "url": "https://github.com/Contrastive-LM/CLM",
-   "stars": 1695,
+   "stars": 2074,
    "lang": "Python",
    "desc": ""
   },
   {
    "name": "tobi/disktree",
    "url": "https://github.com/tobi/disktree",
-   "stars": 1397,
+   "stars": 1726,
    "lang": "Rust",
    "desc": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI."
   },
   {
+   "name": "mexicat/pdoom-video",
+   "url": "https://github.com/mexicat/pdoom-video",
+   "stars": 1479,
+   "lang": "TypeScript",
+   "desc": "Code-rendered music video for \"I'm Upping My P(doom)\""
+  },
+  {
    "name": "yetone/magpie",
    "url": "https://github.com/yetone/magpie",
-   "stars": 1140,
+   "stars": 1450,
    "lang": "Go",
    "desc": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."
   },
   {
    "name": "JohnHeibel/PDoomVideo",
    "url": "https://github.com/JohnHeibel/PDoomVideo",
-   "stars": 1101,
+   "stars": 1330,
    "lang": "JavaScript",
    "desc": "Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)"
   },
   {
-   "name": "deepopen-com/deepopen",
-   "url": "https://github.com/deepopen-com/deepopen",
-   "stars": 1043,
-   "lang": "Python",
-   "desc": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. "
-  },
-  {
    "name": "mikehasa/golive-skill",
    "url": "https://github.com/mikehasa/golive-skill",
-   "stars": 989,
+   "stars": 1027,
    "lang": "TypeScript",
    "desc": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-depend"
+  },
+  {
+   "name": "dzhng/jevgrep",
+   "url": "https://github.com/dzhng/jevgrep",
+   "stars": 1012,
+   "lang": "TypeScript",
+   "desc": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context."
+  },
+  {
+   "name": "kryvora-network/kryvora-node",
+   "url": "https://github.com/kryvora-network/kryvora-node",
+   "stars": 1008,
+   "lang": "Go",
+   "desc": "Reference client daemon and verification worker for Kryvora Network nodes."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 181797,
+   "stars": 181840,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-09-26T14:29:55Z"
+   "pushed": "2026-09-27T23:43:06Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 153302,
+   "stars": 153416,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-09-26T03:28:13Z"
+   "pushed": "2026-09-28T03:59:54Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 148262,
+   "stars": 148413,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-09-26T22:04:19Z"
+   "pushed": "2026-09-27T22:20:45Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 147142,
+   "stars": 147188,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-09-27T08:52:24Z"
+   "pushed": "2026-09-28T09:26:17Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 129647,
+   "stars": 129750,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-09-27T08:59:08Z"
+   "pushed": "2026-09-28T09:29:55Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 120641,
+   "stars": 120708,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-09-24T03:43:20Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95570,
+   "stars": 95615,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-27T02:12:17Z"
@@ -278,15 +278,15 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 94765,
+   "stars": 94820,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-09-26T18:37:33Z"
+   "pushed": "2026-09-27T21:46:34Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 70590,
+   "stars": 70892,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
    "pushed": "2026-09-27T05:01:55Z"
@@ -294,31 +294,31 @@
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 59696,
+   "stars": 59769,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-09-27T09:01:02Z"
+   "pushed": "2026-09-28T09:01:49Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 54664,
+   "stars": 54732,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-09-27T06:17:00Z"
+   "pushed": "2026-09-28T09:18:07Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 45004,
+   "stars": 45198,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-09-27T09:02:35Z"
+   "pushed": "2026-09-28T01:02:56Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31809,
+   "stars": 31819,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-09-18T19:41:29Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 3635,
+   "stars": 3676,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "CAP Theorem",
-  "desc": "In a distributed system you can't have Consistency, Availability, and Partition-tolerance all at once. During a network partition you must choose between C and A.",
-  "link": "https://en.wikipedia.org/wiki/CAP_theorem"
+  "cat": "Security",
+  "title": "Supply Chain Attack",
+  "desc": "The attacker doesn't hack you — they hack your dependency (an npm/pip package). Use lockfiles, run `npm audit`, and vet unknown packages before installing.",
+  "link": "https://owasp.org/www-project-dependency-check/"
  }
 }
