@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T09:38:32.666547+00:00",
+ "generated_at": "2026-09-30T09:30:11.789833+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "When did Google get so weird?",
-   "url": "https://sancho.bearblog.dev/google-weird/",
-   "points": 1882,
-   "time": "2026-09-27T20:12:54Z"
+   "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+   "points": 936,
+   "time": "2026-09-29T17:06:45Z"
   },
   {
-   "title": "Sonnet 5.5",
-   "url": "https://www.anthropic.com/claude-sonnet-5-5",
-   "points": 779,
-   "time": "2026-09-28T17:58:11Z"
+   "title": "Dots: Always-on agents",
+   "url": "https://openai.com/index/introducing-dots/",
+   "points": 614,
+   "time": "2026-09-29T17:07:57Z"
   },
   {
-   "title": "Pirating the Pirates",
-   "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
-   "points": 582,
-   "time": "2026-09-28T15:54:15Z"
+   "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+   "url": "https://github.com/ninjahawk/livenerf",
+   "points": 602,
+   "time": "2026-09-29T22:36:14Z"
   },
   {
-   "title": "Updated Google Maps shows destruction of the city of Rafah",
-   "url": "https://twitter.com/AliAbunimah/status/2103890594137309425",
-   "points": 542,
-   "time": "2026-09-28T15:32:18Z"
+   "title": "America.gov",
+   "url": "https://america.gov/",
+   "points": 552,
+   "time": "2026-09-29T14:04:57Z"
   },
   {
-   "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
-   "url": "https://github.com/firelex/jeff",
-   "points": 494,
-   "time": "2026-09-28T20:23:36Z"
+   "title": "How Delhi cut electricity loss from 50 to 5 percent",
+   "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+   "points": 518,
+   "time": "2026-09-29T12:43:29Z"
   },
   {
-   "title": "It's Time to Investigate the AI Labs",
-   "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
-   "points": 491,
-   "time": "2026-09-28T19:53:35Z"
+   "title": "PS5 Relapse Exploit",
+   "url": "https://github.com/ntfargo/Relapse-Exploit",
+   "points": 308,
+   "time": "2026-09-29T15:44:41Z"
   }
  ],
  "models": [
@@ -103,166 +103,166 @@
    "id": "convaiinnovations/laya",
    "pipeline": "text-classification",
    "downloads": 0,
-   "likes": 4397
+   "likes": 4560
   },
   {
    "id": "Edge0/Audio8-ASR-Infinite",
    "pipeline": "automatic-speech-recognition",
-   "downloads": 19963,
-   "likes": 1456
+   "downloads": 23674,
+   "likes": 1559
   },
   {
    "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
    "pipeline": "text-to-image",
-   "downloads": 1062921,
-   "likes": 2326
-  },
-  {
-   "id": "Qwen/Qwen-Image-2.1",
-   "pipeline": "text-to-image",
-   "downloads": 58693,
-   "likes": 2618
+   "downloads": 1152523,
+   "likes": 2477
   },
   {
    "id": "XingChen-AGI/TeleOCR",
    "pipeline": "image-text-to-text",
-   "downloads": 27904,
-   "likes": 830
+   "downloads": 30383,
+   "likes": 931
   },
   {
-   "id": "XingChen-AGI/Xing4.0-29B-A4B",
-   "pipeline": "text-generation",
-   "downloads": 45834,
-   "likes": 1803
+   "id": "Qwen/Qwen-Image-2.1",
+   "pipeline": "text-to-image",
+   "downloads": 64362,
+   "likes": 2681
   },
   {
    "id": "Contrastive-LM/CLM-v0.1-8B",
    "pipeline": "text-ranking",
-   "downloads": 1271,
-   "likes": 504
+   "downloads": 1910,
+   "likes": 542
   },
   {
    "id": "nvidia/Nemotron-3-Diarization",
    "pipeline": "voice-activity-detection",
-   "downloads": 26428,
-   "likes": 487
-  },
-  {
-   "id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
-   "pipeline": "text-generation",
-   "downloads": 3457124,
-   "likes": 2249
+   "downloads": 30931,
+   "likes": 530
   },
   {
    "id": "TaichuAI/ZDTaichu5.0-9B",
    "pipeline": "image-text-to-text",
-   "downloads": 11738,
-   "likes": 1808
+   "downloads": 11836,
+   "likes": 2068
+  },
+  {
+   "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
+   "pipeline": "text-to-image",
+   "downloads": 190649,
+   "likes": 436
+  },
+  {
+   "id": "XingChen-AGI/Xing4.0-29B-A4B",
+   "pipeline": "text-generation",
+   "downloads": 46557,
+   "likes": 1810
   }
  ],
  "trending": [
   {
-   "name": "Contrastive-LM/CLM",
-   "url": "https://github.com/Contrastive-LM/CLM",
-   "stars": 2378,
-   "lang": "Python",
-   "desc": ""
-  },
-  {
    "name": "KKKKhazix/AIHOT",
    "url": "https://github.com/KKKKhazix/AIHOT",
-   "stars": 2201,
+   "stars": 3762,
    "lang": "TypeScript",
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。"
   },
   {
+   "name": "Niko1221/Strata",
+   "url": "https://github.com/Niko1221/Strata",
+   "stars": 2090,
+   "lang": "C++",
+   "desc": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on "
+  },
+  {
    "name": "mexicat/pdoom-video",
    "url": "https://github.com/mexicat/pdoom-video",
-   "stars": 1858,
+   "stars": 2030,
    "lang": "TypeScript",
    "desc": "Code-rendered music video for \"I'm Upping My P(doom)\""
   },
   {
    "name": "tobi/disktree",
    "url": "https://github.com/tobi/disktree",
-   "stars": 1857,
+   "stars": 1942,
    "lang": "Rust",
    "desc": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI."
   },
   {
-   "name": "yetone/magpie",
-   "url": "https://github.com/yetone/magpie",
-   "stars": 1809,
-   "lang": "Go",
-   "desc": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."
-  },
-  {
    "name": "dzhng/jevgrep",
    "url": "https://github.com/dzhng/jevgrep",
-   "stars": 1578,
+   "stars": 1831,
    "lang": "TypeScript",
    "desc": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context."
   },
   {
-   "name": "Niko1221/Strata",
-   "url": "https://github.com/Niko1221/Strata",
-   "stars": 1281,
-   "lang": "C++",
-   "desc": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on "
+   "name": "shihabal3amri/DiPlay",
+   "url": "https://github.com/shihabal3amri/DiPlay",
+   "stars": 1207,
+   "lang": "Kotlin",
+   "desc": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview."
   },
   {
-   "name": "mikehasa/golive-skill",
-   "url": "https://github.com/mikehasa/golive-skill",
-   "stars": 1080,
-   "lang": "TypeScript",
-   "desc": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-depend"
+   "name": "firelex/jeff",
+   "url": "https://github.com/firelex/jeff",
+   "stars": 1124,
+   "lang": "Python",
+   "desc": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification"
+  },
+  {
+   "name": "feitangyuan/onetake",
+   "url": "https://github.com/feitangyuan/onetake",
+   "stars": 1017,
+   "lang": "Python",
+   "desc": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an orac"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 181894,
+   "stars": 181944,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-09-29T01:43:26Z"
+   "pushed": "2026-09-30T02:33:25Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 153500,
+   "stars": 153600,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-09-28T03:59:54Z"
+   "pushed": "2026-09-29T16:25:29Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 148531,
+   "stars": 148636,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-09-29T08:21:39Z"
+   "pushed": "2026-09-30T09:23:08Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 147238,
+   "stars": 147303,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-09-29T08:33:48Z"
+   "pushed": "2026-09-30T08:33:03Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 129843,
+   "stars": 129944,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-09-29T09:36:14Z"
+   "pushed": "2026-09-30T09:17:03Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 120763,
+   "stars": 120820,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-09-24T03:43:20Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95657,
+   "stars": 95698,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-27T02:12:17Z"
@@ -278,39 +278,39 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 94885,
+   "stars": 94973,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-09-28T22:37:31Z"
+   "pushed": "2026-09-30T09:30:10Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 71204,
+   "stars": 71558,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-09-29T09:35:15Z"
+   "pushed": "2026-09-30T09:11:09Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 59845,
+   "stars": 59912,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-09-29T09:35:26Z"
+   "pushed": "2026-09-30T09:29:32Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 54786,
+   "stars": 54833,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-09-29T09:12:19Z"
+   "pushed": "2026-09-30T09:11:04Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 45421,
+   "stars": 45519,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
    "pushed": "2026-09-28T22:55:27Z"
@@ -318,7 +318,7 @@
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31843,
+   "stars": 31865,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-09-18T19:41:29Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 3719,
+   "stars": 3759,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "Quantization",
-  "desc": "Compressing model weights from 16-bit to 4/8-bit — 4x smaller, faster, with a small quality cost. It's how 70B models run on consumer GPUs (GGUF, AWQ).",
-  "link": "https://huggingface.co/docs/optimum/concept_guides/quantization"
+  "cat": "Data Science",
+  "title": "A/B Testing",
+  "desc": "Randomly split users between two versions and compare them statistically. Never call a winner without understanding p-values and sample size.",
+  "link": "https://en.wikipedia.org/wiki/A/B_testing"
  }
 }
