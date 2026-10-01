@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T09:30:11.789833+00:00",
+ "generated_at": "2026-10-01T09:56:58.841571+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,215 +62,215 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-   "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
-   "points": 936,
-   "time": "2026-09-29T17:06:45Z"
+   "title": "Gemini 4 Argon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "points": 1391,
+   "time": "2026-09-30T20:04:37Z"
   },
   {
-   "title": "Dots: Always-on agents",
-   "url": "https://openai.com/index/introducing-dots/",
-   "points": 614,
-   "time": "2026-09-29T17:07:57Z"
+   "title": "Singapore govt dating app uses Gale-Shapley stable marriage algorithm",
+   "url": "https://twitter.com/tuakdotsol/status/2105105417760391258",
+   "points": 388,
+   "time": "2026-09-30T09:27:04Z"
   },
   {
-   "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
-   "url": "https://github.com/ninjahawk/livenerf",
-   "points": 602,
-   "time": "2026-09-29T22:36:14Z"
+   "title": "A brief history of the Bloomberg terminal",
+   "url": "https://spectrum.ieee.org/bloomberg-terminal",
+   "points": 290,
+   "time": "2026-09-30T14:34:07Z"
   },
   {
-   "title": "America.gov",
-   "url": "https://america.gov/",
-   "points": 552,
-   "time": "2026-09-29T14:04:57Z"
+   "title": "The last time my family was replaced by technology",
+   "url": "https://manuel.darcemont.fr/posts/the-last-time-my-family-was-replaced-by-technology/",
+   "points": 242,
+   "time": "2026-09-30T13:06:11Z"
   },
   {
-   "title": "How Delhi cut electricity loss from 50 to 5 percent",
-   "url": "https://spectrum.ieee.org/delhi-electricity-loss",
-   "points": 518,
-   "time": "2026-09-29T12:43:29Z"
+   "title": "Why the Bronze Age Collapsed",
+   "url": "https://www.worksinprogress.news/p/why-really-caused-the-bronze-age",
+   "points": 237,
+   "time": "2026-09-29T10:10:18Z"
   },
   {
-   "title": "PS5 Relapse Exploit",
-   "url": "https://github.com/ntfargo/Relapse-Exploit",
-   "points": 308,
-   "time": "2026-09-29T15:44:41Z"
+   "title": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
+   "url": "https://www.thespacereview.com/article/4951/1",
+   "points": 221,
+   "time": "2026-09-30T22:03:04Z"
   }
  ],
  "models": [
   {
+   "id": "Edge0/Audio8-ASR-Infinite",
+   "pipeline": "automatic-speech-recognition",
+   "downloads": 27228,
+   "likes": 1983
+  },
+  {
    "id": "convaiinnovations/laya",
    "pipeline": "text-classification",
    "downloads": 0,
-   "likes": 4560
-  },
-  {
-   "id": "Edge0/Audio8-ASR-Infinite",
-   "pipeline": "automatic-speech-recognition",
-   "downloads": 23674,
-   "likes": 1559
-  },
-  {
-   "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-   "pipeline": "text-to-image",
-   "downloads": 1152523,
-   "likes": 2477
+   "likes": 4727
   },
   {
    "id": "XingChen-AGI/TeleOCR",
    "pipeline": "image-text-to-text",
-   "downloads": 30383,
-   "likes": 931
+   "downloads": 31584,
+   "likes": 1125
   },
   {
-   "id": "Qwen/Qwen-Image-2.1",
+   "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
    "pipeline": "text-to-image",
-   "downloads": 64362,
-   "likes": 2681
+   "downloads": 1303476,
+   "likes": 2620
   },
   {
    "id": "Contrastive-LM/CLM-v0.1-8B",
    "pipeline": "text-ranking",
-   "downloads": 1910,
-   "likes": 542
+   "downloads": 2720,
+   "likes": 582
+  },
+  {
+   "id": "Qwen/Qwen-Image-2.1",
+   "pipeline": "text-to-image",
+   "downloads": 76938,
+   "likes": 2734
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 1588619,
+   "likes": 5765
+  },
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "pipeline": "image-text-to-text",
+   "downloads": 6950834,
+   "likes": 16683
   },
   {
    "id": "nvidia/Nemotron-3-Diarization",
    "pipeline": "voice-activity-detection",
-   "downloads": 30931,
-   "likes": 530
+   "downloads": 40936,
+   "likes": 573
   },
   {
-   "id": "TaichuAI/ZDTaichu5.0-9B",
-   "pipeline": "image-text-to-text",
-   "downloads": 11836,
-   "likes": 2068
-  },
-  {
-   "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
-   "pipeline": "text-to-image",
-   "downloads": 190649,
-   "likes": 436
-  },
-  {
-   "id": "XingChen-AGI/Xing4.0-29B-A4B",
-   "pipeline": "text-generation",
-   "downloads": 46557,
-   "likes": 1810
+   "id": "SupersonicLabs/Julia-1",
+   "pipeline": "text-classification",
+   "downloads": 2556,
+   "likes": 325
   }
  ],
  "trending": [
   {
    "name": "KKKKhazix/AIHOT",
    "url": "https://github.com/KKKKhazix/AIHOT",
-   "stars": 3762,
+   "stars": 4268,
    "lang": "TypeScript",
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。"
   },
   {
-   "name": "Niko1221/Strata",
-   "url": "https://github.com/Niko1221/Strata",
-   "stars": 2090,
-   "lang": "C++",
-   "desc": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on "
-  },
-  {
-   "name": "mexicat/pdoom-video",
-   "url": "https://github.com/mexicat/pdoom-video",
-   "stars": 2030,
-   "lang": "TypeScript",
-   "desc": "Code-rendered music video for \"I'm Upping My P(doom)\""
-  },
-  {
-   "name": "tobi/disktree",
-   "url": "https://github.com/tobi/disktree",
-   "stars": 1942,
-   "lang": "Rust",
-   "desc": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI."
+   "name": "feder-cr/dots",
+   "url": "https://github.com/feder-cr/dots",
+   "stars": 1983,
+   "lang": "Python",
+   "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked."
   },
   {
    "name": "dzhng/jevgrep",
    "url": "https://github.com/dzhng/jevgrep",
-   "stars": 1831,
+   "stars": 1935,
    "lang": "TypeScript",
    "desc": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context."
   },
   {
-   "name": "shihabal3amri/DiPlay",
-   "url": "https://github.com/shihabal3amri/DiPlay",
-   "stars": 1207,
-   "lang": "Kotlin",
-   "desc": "Independent CarPlay receiver for compatible Android head units. Wired and wireless public preview."
+   "name": "Louis-CFM/coucou",
+   "url": "https://github.com/Louis-CFM/coucou",
+   "stars": 1915,
+   "lang": "Swift",
+   "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions."
+  },
+  {
+   "name": "kaankiziltug/logo-design-skill",
+   "url": "https://github.com/kaankiziltug/logo-design-skill",
+   "stars": 1225,
+   "lang": "HTML",
+   "desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,4"
   },
   {
    "name": "firelex/jeff",
    "url": "https://github.com/firelex/jeff",
-   "stars": 1124,
+   "stars": 1219,
    "lang": "Python",
    "desc": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification"
   },
   {
-   "name": "feitangyuan/onetake",
-   "url": "https://github.com/feitangyuan/onetake",
-   "stars": 1017,
+   "name": "yihui-dev/awesome-opus5-5-videos",
+   "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+   "stars": 1167,
+   "lang": "",
+   "desc": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Ski"
+  },
+  {
+   "name": "rehan-remade/universal-modder",
+   "url": "https://github.com/rehan-remade/universal-modder",
+   "stars": 1128,
    "lang": "Python",
-   "desc": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an orac"
+   "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 181944,
+   "stars": 181999,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-09-30T02:33:25Z"
+   "pushed": "2026-09-30T20:25:24Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 153600,
+   "stars": 153696,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-09-29T16:25:29Z"
+   "pushed": "2026-10-01T04:38:23Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 148636,
+   "stars": 148769,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-09-30T09:23:08Z"
+   "pushed": "2026-10-01T05:23:04Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 147303,
+   "stars": 147345,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-09-30T08:33:03Z"
+   "pushed": "2026-10-01T09:16:18Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 129944,
+   "stars": 130030,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-09-30T09:17:03Z"
+   "pushed": "2026-10-01T09:55:12Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 120820,
+   "stars": 120881,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-09-24T03:43:20Z"
+   "pushed": "2026-10-01T03:45:43Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95698,
+   "stars": 95737,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-27T02:12:17Z"
@@ -278,47 +278,47 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 94973,
+   "stars": 95056,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-09-30T09:30:10Z"
+   "pushed": "2026-10-01T09:09:50Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 71558,
+   "stars": 71888,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-09-30T09:11:09Z"
+   "pushed": "2026-09-30T14:38:11Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 59912,
+   "stars": 59974,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-09-30T09:29:32Z"
+   "pushed": "2026-10-01T09:56:51Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 54833,
+   "stars": 54878,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-09-30T09:11:04Z"
+   "pushed": "2026-10-01T09:12:57Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 45519,
+   "stars": 45592,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-09-28T22:55:27Z"
+   "pushed": "2026-09-30T22:34:54Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31865,
+   "stars": 31882,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-09-18T19:41:29Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 3759,
+   "stars": 3800,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Data Science",
-  "title": "A/B Testing",
-  "desc": "Randomly split users between two versions and compare them statistically. Never call a winner without understanding p-values and sample size.",
-  "link": "https://en.wikipedia.org/wiki/A/B_testing"
+  "cat": "Dev",
+  "title": "Event-Driven Architecture",
+  "desc": "Services publish and subscribe to events (Kafka, RabbitMQ) instead of calling each other directly. You gain loose coupling; debugging and ordering get harder.",
+  "link": "https://martinfowler.com/articles/201701-event-driven.html"
  }
 }
