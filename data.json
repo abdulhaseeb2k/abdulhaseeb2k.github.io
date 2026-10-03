@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T09:32:59.423105+00:00",
+ "generated_at": "2026-10-03T09:00:05.274134+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Pi 1.0",
-   "url": "https://earendil.com/posts/pi-1-0/",
-   "points": 1257,
-   "time": "2026-10-01T19:33:05Z"
+   "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+   "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+   "points": 616,
+   "time": "2026-10-01T22:23:07Z"
   },
   {
-   "title": "StreetComplete on iOS is now in public beta",
-   "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
-   "points": 563,
-   "time": "2026-10-01T10:59:57Z"
+   "title": "Mike Tomlin spent 12 years building a Minecraft city",
+   "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+   "points": 446,
+   "time": "2026-10-01T18:20:18Z"
   },
   {
-   "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
-   "url": "https://blog.cloudflare.com/clef-decision-models/",
-   "points": 505,
-   "time": "2026-10-01T16:18:57Z"
+   "title": "Apple Pass Designer",
+   "url": "https://developer.apple.com/pass-designer/",
+   "points": 410,
+   "time": "2026-10-02T19:06:56Z"
   },
   {
-   "title": "Pi Durable",
-   "url": "https://earendil.com/posts/pi-durable/",
-   "points": 370,
-   "time": "2026-10-01T19:24:08Z"
+   "title": "FLUX 3 Image",
+   "url": "https://bfl.ai/models/flux-3-image",
+   "points": 340,
+   "time": "2026-10-01T19:24:29Z"
   },
   {
-   "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
-   "url": "https://blog.gitbutler.com/git-3-sha-256",
-   "points": 365,
-   "time": "2026-10-01T16:57:03Z"
+   "title": "The Legend of von Neumann (1973) [pdf]",
+   "url": "https://gwern.net/doc/math/1973-halmos.pdf",
+   "points": 276,
+   "time": "2026-10-02T13:18:32Z"
   },
   {
-   "title": "RIP, vector database",
-   "url": "https://turbopuffer.com/blog/rip-vector-database",
-   "points": 324,
-   "time": "2026-10-01T16:01:56Z"
+   "title": "Extra Big Ass Intelligence",
+   "url": "https://www.extrabigassintelligence.com/",
+   "points": 274,
+   "time": "2026-10-03T03:19:10Z"
   }
  ],
  "models": [
@@ -103,117 +103,117 @@
    "id": "convaiinnovations/laya",
    "pipeline": "text-classification",
    "downloads": 0,
-   "likes": 4887
-  },
-  {
-   "id": "XingChen-AGI/TeleOCR",
-   "pipeline": "image-text-to-text",
-   "downloads": 32675,
-   "likes": 1240
-  },
-  {
-   "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
-   "pipeline": "text-to-image",
-   "downloads": 1376248,
-   "likes": 2748
+   "likes": 5018
   },
   {
    "id": "Cloudflare/clef",
    "pipeline": "image-text-to-text",
    "downloads": 824,
-   "likes": 481
+   "likes": 851
+  },
+  {
+   "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "pipeline": "text-to-image",
+   "downloads": 1376248,
+   "likes": 2863
   },
   {
    "id": "Contrastive-LM/CLM-v0.1-8B",
    "pipeline": "text-ranking",
    "downloads": 2951,
-   "likes": 632
-  },
-  {
-   "id": "Qwen/Qwen-Image-2.1",
-   "pipeline": "text-to-image",
-   "downloads": 81738,
-   "likes": 2807
+   "likes": 675
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
    "downloads": 1584129,
-   "likes": 5888
+   "likes": 6023
   },
   {
-   "id": "Qwen/Qwen3.8-27B",
-   "pipeline": "image-text-to-text",
-   "downloads": 6934867,
-   "likes": 16745
+   "id": "Qwen/Qwen-Image-2.1",
+   "pipeline": "text-to-image",
+   "downloads": 81738,
+   "likes": 2853
   },
   {
    "id": "SupersonicLabs/Julia-1",
    "pipeline": "text-classification",
    "downloads": 2909,
-   "likes": 349
+   "likes": 376
   },
   {
-   "id": "Viggle/Qwen-Image-2.1-viggle-turbo",
-   "pipeline": "text-to-image",
-   "downloads": 240660,
-   "likes": 512
+   "id": "Qwen/Qwen3.8-27B",
+   "pipeline": "image-text-to-text",
+   "downloads": 6934867,
+   "likes": 16825
+  },
+  {
+   "id": "Cloudflare/clef-flash",
+   "pipeline": "image-text-to-text",
+   "downloads": 1303,
+   "likes": 290
+  },
+  {
+   "id": "PSRben/VisionHOPE",
+   "pipeline": "image-classification",
+   "downloads": 1279,
+   "likes": 377
   }
  ],
  "trending": [
   {
    "name": "KKKKhazix/AIHOT",
    "url": "https://github.com/KKKKhazix/AIHOT",
-   "stars": 4850,
+   "stars": 5035,
    "lang": "TypeScript",
    "desc": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。"
   },
   {
    "name": "Louis-CFM/coucou",
    "url": "https://github.com/Louis-CFM/coucou",
-   "stars": 2651,
+   "stars": 3077,
    "lang": "Swift",
    "desc": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude "
   },
   {
    "name": "feder-cr/dots",
    "url": "https://github.com/feder-cr/dots",
-   "stars": 2414,
+   "stars": 2564,
    "lang": "Python",
    "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked."
   },
   {
-   "name": "dzhng/jevgrep",
-   "url": "https://github.com/dzhng/jevgrep",
-   "stars": 2027,
-   "lang": "TypeScript",
-   "desc": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context."
-  },
-  {
    "name": "rehan-remade/universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
-   "stars": 1737,
+   "stars": 2292,
    "lang": "Python",
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal"
   },
   {
-   "name": "kaankiziltug/logo-design-skill",
-   "url": "https://github.com/kaankiziltug/logo-design-skill",
-   "stars": 1401,
-   "lang": "HTML",
-   "desc": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,4"
+   "name": "CopilotKit/OpenDots",
+   "url": "https://github.com/CopilotKit/OpenDots",
+   "stars": 1770,
+   "lang": "TypeScript",
+   "desc": "Your always-on AI coworkers that move between text, calls, and Slack."
   },
   {
    "name": "yihui-dev/awesome-opus5-5-videos",
    "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
-   "stars": 1329,
+   "stars": 1484,
    "lang": "",
    "desc": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Ski"
   },
   {
+   "name": "wy51ai/floorplan-3d",
+   "url": "https://github.com/wy51ai/floorplan-3d",
+   "stars": 1342,
+   "lang": "HTML",
+   "desc": ""
+  },
+  {
    "name": "firelex/jeff",
    "url": "https://github.com/firelex/jeff",
-   "stars": 1292,
+   "stars": 1336,
    "lang": "Python",
    "desc": "Millisecond decisions, any domain: a 0.8B open \"System 1\" model that picks between your options with calibrated probabilities. One base, swa"
   }
@@ -222,15 +222,15 @@
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 182046,
+   "stars": 182080,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-02T06:12:46Z"
+   "pushed": "2026-10-03T04:09:34Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 153786,
+   "stars": 153849,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
    "pushed": "2026-10-02T04:50:55Z"
@@ -238,31 +238,31 @@
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 148916,
+   "stars": 149020,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-10-01T18:43:10Z"
+   "pushed": "2026-10-03T06:16:55Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 147378,
+   "stars": 147393,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-02T08:35:17Z"
+   "pushed": "2026-10-03T08:31:42Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 130123,
+   "stars": 130192,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-02T09:30:04Z"
+   "pushed": "2026-10-03T06:44:45Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 120930,
+   "stars": 120964,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-10-01T03:45:43Z"
@@ -270,7 +270,7 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95765,
+   "stars": 95770,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-27T02:12:17Z"
@@ -278,42 +278,42 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 95161,
+   "stars": 95214,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-02T02:17:39Z"
+   "pushed": "2026-10-03T06:33:20Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 72191,
+   "stars": 72462,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-10-02T09:12:05Z"
+   "pushed": "2026-10-02T18:26:57Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 60031,
+   "stars": 60072,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-02T09:09:22Z"
+   "pushed": "2026-10-03T08:53:03Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 54932,
+   "stars": 54987,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-02T09:11:29Z"
+   "pushed": "2026-10-03T06:18:54Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 45657,
+   "stars": 45713,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-10-02T04:50:31Z"
+   "pushed": "2026-10-02T23:46:03Z"
   },
   {
    "name": "tirth8205/code-review-graph",
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 3861,
+   "stars": 3922,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Zero Trust",
-  "desc": "The 'inside the network means trusted' model is dead — every request is verified, even internal ones. Identity-based access instead of a VPN perimeter.",
-  "link": "https://www.nist.gov/publications/zero-trust-architecture"
+  "cat": "AI",
+  "title": "Context Window",
+  "desc": "How much text a model can 'see' at once. A large window fits a whole codebase or document set — but content in the middle of long contexts tends to get missed ('lost in the middle').",
+  "link": "https://huggingface.co/blog"
  }
 }
