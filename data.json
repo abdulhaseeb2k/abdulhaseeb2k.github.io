@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T10:13:03.429315+00:00",
+ "generated_at": "2026-10-06T09:58:10.163231+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,223 +62,223 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Tell HN: Bob Cringely has died",
-   "url": "https://news.ycombinator.com/item?id=49949438",
-   "points": 875,
-   "time": "2026-10-04T00:50:52Z"
+   "title": "Anthropic reported diary entry to police, woman faces felony charge",
+   "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+   "points": 732,
+   "time": "2026-10-05T05:37:40Z"
   },
   {
-   "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
-   "url": "https://github.com/Niko1221/Strata",
-   "points": 807,
-   "time": "2026-10-04T12:51:53Z"
+   "title": "Web Search API",
+   "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+   "points": 548,
+   "time": "2026-10-05T10:47:06Z"
   },
   {
-   "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
-   "url": "https://github.com/omlahore/RemoveMacAI",
-   "points": 576,
-   "time": "2026-10-04T19:42:25Z"
+   "title": "Beam: Reflection's 501B open-weight model",
+   "url": "https://reflection.ai/blog/introducing-beam",
+   "points": 456,
+   "time": "2026-10-05T19:16:35Z"
   },
   {
-   "title": "Improper redaction reveals Google Data Center water and electricity usage",
-   "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/",
-   "points": 397,
-   "time": "2026-10-04T19:37:05Z"
+   "title": "ChatGPT is adding real cartoonists' signatures to fake New Yorker cartoons",
+   "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons/",
+   "points": 439,
+   "time": "2026-10-05T22:46:45Z"
   },
   {
-   "title": "What is going on with ceiling fans",
-   "url": "https://mcmansionhell.com/post/829127919552151552/what-is-going-on-with-ceiling-fans",
-   "points": 312,
-   "time": "2026-10-01T03:52:10Z"
+   "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+   "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+   "points": 356,
+   "time": "2026-10-05T21:00:21Z"
   },
   {
-   "title": "Why don't more developers “use the platform”?",
-   "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
-   "points": 301,
-   "time": "2026-10-04T04:10:47Z"
+   "title": "Apple and a hacker's future",
+   "url": "https://stratechery.com/2026/apple-and-a-hackers-future/",
+   "points": 258,
+   "time": "2026-10-05T10:05:02Z"
   }
  ],
  "models": [
   {
    "id": "Cloudflare/clef",
    "pipeline": "image-text-to-text",
-   "downloads": 5416,
-   "likes": 1296
-  },
-  {
-   "id": "convaiinnovations/laya",
-   "pipeline": "text-classification",
-   "downloads": 11733,
-   "likes": 5192
+   "downloads": 7255,
+   "likes": 1557
   },
   {
    "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
    "pipeline": "text-to-image",
-   "downloads": 1638838,
-   "likes": 3183
+   "downloads": 1721760,
+   "likes": 3324
+  },
+  {
+   "id": "autotrust/JEV-27B-VL",
+   "pipeline": "image-text-to-text",
+   "downloads": 1525286,
+   "likes": 818
   },
   {
    "id": "Aleph-Alpha/Kolibri-1",
    "pipeline": "text-generation",
-   "downloads": 2453,
-   "likes": 494
+   "downloads": 4138,
+   "likes": 661
   },
   {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 1645444,
-   "likes": 6374
+   "id": "convaiinnovations/laya",
+   "pipeline": "text-classification",
+   "downloads": 20386,
+   "likes": 5260
   },
   {
    "id": "Cloudflare/clef-flash",
    "pipeline": "image-text-to-text",
-   "downloads": 8075,
-   "likes": 459
+   "downloads": 10638,
+   "likes": 553
   },
   {
-   "id": "Qwen/Qwen3.8-27B",
-   "pipeline": "image-text-to-text",
-   "downloads": 6758884,
-   "likes": 16967
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 1679035,
+   "likes": 6553
+  },
+  {
+   "id": "autotrust/GEV-26B-Decide",
+   "pipeline": "text-classification",
+   "downloads": 854574,
+   "likes": 527
   },
   {
    "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
    "pipeline": "text-generation",
-   "downloads": 18863,
-   "likes": 354
+   "downloads": 30585,
+   "likes": 424
   },
   {
-   "id": "PSRben/VisionHOPE",
-   "pipeline": "image-classification",
-   "downloads": 1654,
-   "likes": 410
-  },
-  {
-   "id": "Qwen/Qwen-Image-2.1",
-   "pipeline": "text-to-image",
-   "downloads": 94556,
-   "likes": 2959
+   "id": "Qwen/Qwen3.8-27B",
+   "pipeline": "image-text-to-text",
+   "downloads": 6768060,
+   "likes": 17063
   }
  ],
  "trending": [
   {
    "name": "rehan-remade/universal-modder",
    "url": "https://github.com/rehan-remade/universal-modder",
-   "stars": 3489,
+   "stars": 4102,
    "lang": "Python",
    "desc": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal"
   },
   {
-   "name": "CopilotKit/OpenDots",
-   "url": "https://github.com/CopilotKit/OpenDots",
-   "stars": 3378,
-   "lang": "TypeScript",
-   "desc": "Your always-on AI coworkers that move between text, calls, and Slack."
+   "name": "storytold/photocraft",
+   "url": "https://github.com/storytold/photocraft",
+   "stars": 2372,
+   "lang": "Rust",
+   "desc": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust"
   },
   {
-   "name": "feder-cr/dots",
-   "url": "https://github.com/feder-cr/dots",
-   "stars": 2610,
-   "lang": "Python",
-   "desc": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked."
+   "name": "QingYunA/answer-me-with-html",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
+   "stars": 1582,
+   "lang": "JavaScript",
+   "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。"
   },
   {
    "name": "nanaism/yomiyasu",
    "url": "https://github.com/nanaism/yomiyasu",
-   "stars": 1459,
+   "stars": 1561,
    "lang": "Python",
    "desc": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese"
   },
   {
-   "name": "wy51ai/floorplan-3d",
-   "url": "https://github.com/wy51ai/floorplan-3d",
-   "stars": 1411,
-   "lang": "HTML",
-   "desc": ""
-  },
-  {
-   "name": "storytold/photocraft",
-   "url": "https://github.com/storytold/photocraft",
-   "stars": 1316,
-   "lang": "Rust",
+   "name": "kargulstudio/sales-crm",
+   "url": "https://github.com/kargulstudio/sales-crm",
+   "stars": 1533,
+   "lang": "TypeScript",
    "desc": ""
   },
   {
    "name": "facebookincubator/muse-gadget-sdk",
    "url": "https://github.com/facebookincubator/muse-gadget-sdk",
-   "stars": 1310,
+   "stars": 1482,
    "lang": "C",
    "desc": "Open source SDK to build Muse gadgets"
   },
   {
-   "name": "QingYunA/answer-me-with-html",
-   "url": "https://github.com/QingYunA/answer-me-with-html",
-   "stars": 1254,
-   "lang": "JavaScript",
-   "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。"
+   "name": "CAPCOM-TD-OSS/REDox",
+   "url": "https://github.com/CAPCOM-TD-OSS/REDox",
+   "stars": 1098,
+   "lang": "C#",
+   "desc": "High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game "
+  },
+  {
+   "name": "chasmlol/SkyCraft",
+   "url": "https://github.com/chasmlol/SkyCraft",
+   "stars": 998,
+   "lang": "C++",
+   "desc": "Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim's world (SKSE plugin + Fabric mod)."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 182218,
+   "stars": 182307,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-04T23:16:41Z"
+   "pushed": "2026-10-06T02:02:41Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 153978,
+   "stars": 154060,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-10-05T10:01:20Z"
+   "pushed": "2026-10-05T19:57:08Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 149455,
+   "stars": 149559,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-10-05T01:04:13Z"
+   "pushed": "2026-10-06T03:55:19Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 147457,
+   "stars": 147493,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-05T08:41:46Z"
+   "pushed": "2026-10-06T08:48:16Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 130346,
+   "stars": 130441,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-05T10:04:17Z"
+   "pushed": "2026-10-06T09:56:31Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 121020,
+   "stars": 121064,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-10-01T03:45:43Z"
+   "pushed": "2026-10-05T10:44:17Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 96327,
+   "stars": 96820,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-05T10:03:33Z"
+   "pushed": "2026-10-06T09:48:50Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95834,
+   "stars": 95863,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-09-27T02:12:17Z"
@@ -286,39 +286,39 @@
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 73135,
+   "stars": 73444,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-10-02T18:26:57Z"
+   "pushed": "2026-10-05T18:35:40Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 60143,
+   "stars": 60208,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-05T10:12:02Z"
+   "pushed": "2026-10-06T09:56:36Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 55088,
+   "stars": 55133,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-05T09:19:41Z"
+   "pushed": "2026-10-06T09:12:16Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 45803,
+   "stars": 45864,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-10-05T05:38:28Z"
+   "pushed": "2026-10-06T05:54:27Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31923,
+   "stars": 31935,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-09-18T19:41:29Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 4057,
+   "stars": 4131,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "SOLID Principles",
-  "desc": "Five OOP design rules (Single responsibility, Open/closed, Liskov, Interface segregation, Dependency inversion) that keep code maintainable as it grows.",
-  "link": "https://en.wikipedia.org/wiki/SOLID"
+  "cat": "Security",
+  "title": "OWASP Top 10",
+  "desc": "The official list of the 10 most common web app vulnerabilities — injection, broken auth, SSRF, and more. Every web developer should know it by heart.",
+  "link": "https://owasp.org/www-project-top-ten/"
  }
 }
