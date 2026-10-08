@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T10:02:58.462052+00:00",
+ "generated_at": "2026-10-08T10:16:26.554961+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,215 +62,215 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Mistral Large 4",
-   "url": "https://mistral.ai/news/mistral-large-4/\\",
-   "points": 1812,
-   "time": "2026-10-06T13:15:49Z"
+   "title": "Margaret Hamilton has died",
+   "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+   "points": 1539,
+   "time": "2026-10-07T21:16:18Z"
   },
   {
    "title": "Sharing AI progress in mathematics",
    "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-   "points": 919,
+   "points": 1281,
    "time": "2026-10-06T22:17:21Z"
   },
   {
-   "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-   "points": 327,
-   "time": "2026-10-06T16:03:49Z"
+   "title": "Claude Haiku 5.5",
+   "url": "https://www.anthropic.com/claude-haiku-5-5",
+   "points": 884,
+   "time": "2026-10-07T18:01:32Z"
   },
   {
-   "title": "Decisions API is in public beta",
-   "url": "https://developers.openai.com/api/docs/guides/decisions",
-   "points": 298,
-   "time": "2026-10-06T20:57:25Z"
+   "title": "GPT‑6 and Intelligent UI for everyone",
+   "url": "https://openai.com/index/gpt-6-for-everyone/",
+   "points": 638,
+   "time": "2026-10-07T18:00:58Z"
   },
   {
-   "title": "OpenTPU – An open-source AI accelerator, developed by AI",
-   "url": "https://github.com/FeSens/openTPU",
-   "points": 289,
-   "time": "2026-10-06T16:23:25Z"
+   "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+   "url": "https://bigwords.page/",
+   "points": 508,
+   "time": "2026-10-07T15:44:21Z"
   },
   {
-   "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
-   "url": "https://github.com/boykopovar/AnyPS5",
-   "points": 260,
-   "time": "2026-10-06T23:28:08Z"
+   "title": "Animated ASCII Art for Web Pages",
+   "url": "https://ascii.rest/",
+   "points": 359,
+   "time": "2026-10-07T15:05:37Z"
   }
  ],
  "models": [
   {
-   "id": "Cloudflare/clef",
-   "pipeline": "image-text-to-text",
-   "downloads": 9513,
-   "likes": 1740
-  },
-  {
    "id": "autotrust/JEV-27B-VL",
    "pipeline": "image-text-to-text",
-   "downloads": 1529210,
-   "likes": 1291
+   "downloads": 1533034,
+   "likes": 2448
+  },
+  {
+   "id": "Cloudflare/clef",
+   "pipeline": "image-text-to-text",
+   "downloads": 10874,
+   "likes": 1857
   },
   {
    "id": "autotrust/GEV-26B-Decide",
    "pipeline": "text-classification",
-   "downloads": 895867,
-   "likes": 909
-  },
-  {
-   "id": "Aleph-Alpha/Kolibri-1",
-   "pipeline": "text-generation",
-   "downloads": 5775,
-   "likes": 744
+   "downloads": 903866,
+   "likes": 1565
   },
   {
    "id": "google/embeddinggemma-2",
    "pipeline": "feature-extraction",
-   "downloads": 7562,
-   "likes": 721
+   "downloads": 21148,
+   "likes": 1080
+  },
+  {
+   "id": "Aleph-Alpha/Kolibri-1",
+   "pipeline": "text-generation",
+   "downloads": 6777,
+   "likes": 794
   },
   {
    "id": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
    "pipeline": "text-to-image",
-   "downloads": 1820627,
-   "likes": 3490
-  },
-  {
-   "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
-   "pipeline": "text-generation",
-   "downloads": 33633,
-   "likes": 597
+   "downloads": 1933066,
+   "likes": 3629
   },
   {
    "id": "Cloudflare/clef-flash",
    "pipeline": "image-text-to-text",
-   "downloads": 15722,
-   "likes": 625
+   "downloads": 17587,
+   "likes": 676
+  },
+  {
+   "id": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+   "pipeline": "text-generation",
+   "downloads": 36481,
+   "likes": 638
+  },
+  {
+   "id": "jialinyyzz/humanizer",
+   "pipeline": "text-generation",
+   "downloads": 23439,
+   "likes": 549
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 1674291,
-   "likes": 6717
-  },
-  {
-   "id": "convaiinnovations/laya",
-   "pipeline": "text-classification",
-   "downloads": 28497,
-   "likes": 5303
+   "downloads": 1688807,
+   "likes": 6846
   }
  ],
  "trending": [
   {
    "name": "openai/math",
    "url": "https://github.com/openai/math",
-   "stars": 6223,
+   "stars": 11080,
    "lang": "Lean",
    "desc": ""
   },
   {
    "name": "QingYunA/answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
-   "stars": 1876,
+   "stars": 2268,
    "lang": "JavaScript",
    "desc": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。"
   },
   {
-   "name": "kargulstudio/sales-crm",
-   "url": "https://github.com/kargulstudio/sales-crm",
-   "stars": 1610,
-   "lang": "TypeScript",
-   "desc": ""
-  },
-  {
-   "name": "facebookincubator/muse-gadget-sdk",
-   "url": "https://github.com/facebookincubator/muse-gadget-sdk",
-   "stars": 1597,
-   "lang": "C",
-   "desc": "Open source SDK to build Muse gadgets"
-  },
-  {
-   "name": "deadinside28/bloodborne_pc",
-   "url": "https://github.com/deadinside28/bloodborne_pc",
-   "stars": 1392,
-   "lang": "C++",
-   "desc": ""
-  },
-  {
-   "name": "storytold/effectcraft",
-   "url": "https://github.com/storytold/effectcraft",
-   "stars": 1135,
-   "lang": "Rust",
-   "desc": ""
-  },
-  {
    "name": "alchaincyf/huashu-art-motion",
    "url": "https://github.com/alchaincyf/huashu-art-motion",
-   "stars": 1077,
+   "stars": 2165,
    "lang": "JavaScript",
    "desc": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。"
   },
   {
-   "name": "lucasmarkes/hairline",
-   "url": "https://github.com/lucasmarkes/hairline",
-   "stars": 909,
+   "name": "facebookincubator/muse-gadget-sdk",
+   "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+   "stars": 1742,
+   "lang": "C",
+   "desc": "Open source SDK to build Muse gadgets"
+  },
+  {
+   "name": "kargulstudio/sales-crm",
+   "url": "https://github.com/kargulstudio/sales-crm",
+   "stars": 1648,
    "lang": "TypeScript",
-   "desc": "Six isometric line figures that answer the pointer. For React and for anything with a DOM."
+   "desc": ""
+  },
+  {
+   "name": "mizorewww/x_gift_bot",
+   "url": "https://github.com/mizorewww/x_gift_bot",
+   "stars": 1033,
+   "lang": "Go",
+   "desc": "X Premium gift CLI and redemption site"
+  },
+  {
+   "name": "sganggs/Stronghold-Protocol",
+   "url": "https://github.com/sganggs/Stronghold-Protocol",
+   "stars": 959,
+   "lang": "JavaScript",
+   "desc": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）"
+  },
+  {
+   "name": "Jakeschincariol/replica-skill",
+   "url": "https://github.com/Jakeschincariol/replica-skill",
+   "stars": 950,
+   "lang": "Python",
+   "desc": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 182440,
+   "stars": 182552,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-07T04:39:34Z"
+   "pushed": "2026-10-08T00:22:14Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 154126,
+   "stars": 154208,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-10-07T10:01:49Z"
+   "pushed": "2026-10-08T09:53:51Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 149692,
+   "stars": 149832,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-10-07T00:13:58Z"
+   "pushed": "2026-10-08T05:03:54Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 147524,
+   "stars": 147570,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-07T09:26:03Z"
+   "pushed": "2026-10-08T09:51:36Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 130558,
+   "stars": 130664,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-07T09:40:40Z"
+   "pushed": "2026-10-08T10:14:38Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 121103,
+   "stars": 121159,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-10-07T01:42:48Z"
+   "pushed": "2026-10-08T03:45:38Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 97373,
+   "stars": 98008,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
    "pushed": "2026-10-07T00:57:45Z"
@@ -278,47 +278,47 @@
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 95894,
+   "stars": 95920,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-09-27T02:12:17Z"
+   "pushed": "2026-10-08T10:12:16Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 73776,
+   "stars": 74085,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-10-06T23:52:16Z"
+   "pushed": "2026-10-08T10:10:16Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 60271,
+   "stars": 60350,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-07T09:52:18Z"
+   "pushed": "2026-10-08T10:14:57Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 55185,
+   "stars": 55235,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-07T09:12:39Z"
+   "pushed": "2026-10-08T09:14:17Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 45934,
+   "stars": 46118,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries",
-   "pushed": "2026-10-07T00:33:23Z"
+   "pushed": "2026-10-07T23:48:52Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 31944,
+   "stars": 31972,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-10-06T19:33:08Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 4205,
+   "stars": 4268,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "Fine-tuning vs RAG",
-  "desc": "Fine-tuning changes a model's behavior and style; RAG gives it new knowledge. Use RAG for facts, fine-tuning for tone/format — combining both is common.",
-  "link": "https://huggingface.co/docs/transformers/training"
+  "cat": "Data Science",
+  "title": "Embeddings",
+  "desc": "Converting text or images into vectors of numbers where similar things end up close together. Semantic search, RAG, and recommendations all run on this.",
+  "link": "https://huggingface.co/blog/getting-started-with-embeddings"
  }
 }
