@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T08:00:49.758640+00:00",
+ "generated_at": "2026-10-17T07:38:46.135634+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,223 +62,223 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Muse Spark Open",
-   "url": "https://research.meta.ai/blog/muse-spark-open",
-   "points": 778,
-   "time": "2026-10-15T17:47:39Z"
+   "title": "Tesla Roadster",
+   "url": "https://www.tesla.com/roadster",
+   "points": 1368,
+   "time": "2026-10-16T01:32:45Z"
   },
   {
-   "title": "Neural networks are clean",
-   "url": "https://already-clean.goodfire.com/",
-   "points": 652,
-   "time": "2026-10-15T16:04:01Z"
+   "title": "Claude reveals ECDSA curve origins",
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "points": 833,
+   "time": "2026-10-16T18:55:59Z"
   },
   {
-   "title": "Wayland desktop for Linux with skeuomorphic design",
-   "url": "https://github.com/fyzugx/DEsk",
-   "points": 592,
-   "time": "2026-10-15T13:23:44Z"
+   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
+   "points": 477,
+   "time": "2026-10-16T17:08:38Z"
   },
   {
-   "title": "What I self-host",
-   "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
-   "points": 440,
-   "time": "2026-10-15T20:23:25Z"
+   "title": "How the Claude Code team does code review",
+   "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+   "points": 319,
+   "time": "2026-10-16T19:04:47Z"
   },
   {
-   "title": "Jev meets the Trolley Problem",
-   "url": "https://zachlandes.com/trolley-problem/",
-   "points": 433,
-   "time": "2026-10-15T16:24:52Z"
+   "title": "I love software rendering",
+   "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
+   "points": 318,
+   "time": "2026-10-16T12:52:08Z"
   },
   {
-   "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
-   "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
-   "points": 327,
-   "time": "2026-10-15T19:21:38Z"
+   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+   "points": 302,
+   "time": "2026-10-16T13:43:48Z"
   }
  ],
  "models": [
   {
    "id": "google/embeddinggemma-2",
    "pipeline": "feature-extraction",
-   "downloads": 144280,
-   "likes": 2439
+   "downloads": 151258,
+   "likes": 2527
   },
   {
    "id": "jialinyyzz/humanizer",
    "pipeline": "text-generation",
-   "downloads": 75253,
-   "likes": 1772
-  },
-  {
-   "id": "Qwen/Qwen-Image-2.1-Turbo",
-   "pipeline": "text-to-image",
-   "downloads": 15315,
-   "likes": 901
+   "downloads": 85612,
+   "likes": 1845
   },
   {
    "id": "openbmb/MiniCPM-V-4.7-35B-A3B",
    "pipeline": "image-text-to-text",
-   "downloads": 9278,
-   "likes": 807
+   "downloads": 17553,
+   "likes": 860
   },
   {
    "id": "fishaudio/drama-3",
    "pipeline": "text-to-speech",
-   "downloads": 4048,
-   "likes": 500
+   "downloads": 6158,
+   "likes": 568
   },
   {
-   "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "id": "Qwen/Qwen-Image-2.1-Turbo",
    "pipeline": "text-to-image",
-   "downloads": 2415278,
-   "likes": 4402
+   "downloads": 17421,
+   "likes": 948
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 1866657,
-   "likes": 7979
+   "downloads": 1920611,
+   "likes": 8116
   },
   {
-   "id": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "pipeline": "text-to-image",
-   "downloads": 296253,
-   "likes": 504
+   "downloads": 2477554,
+   "likes": 4453
+  },
+  {
+   "id": "meta-models/Muse-Spark-Open-816B-A42B",
+   "pipeline": "image-text-to-text",
+   "downloads": 815,
+   "likes": 458
+  },
+  {
+   "id": "black-forest-labs/flux-3-image-klein-comfy",
+   "pipeline": "image-to-image",
+   "downloads": 73767,
+   "likes": 500
   },
   {
    "id": "LiquidAI/LFM2.5-24B-A2B",
    "pipeline": "text-generation",
-   "downloads": 6286,
-   "likes": 397
-  },
-  {
-   "id": "baidu/Unlimited-OCR",
-   "pipeline": "image-text-to-text",
-   "downloads": 1163009,
-   "likes": 4720
+   "downloads": 9356,
+   "likes": 436
   }
  ],
  "trending": [
   {
    "name": "jhaizhou-ops/d2r-mobile",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-   "stars": 3361,
+   "stars": 3584,
    "lang": "C",
    "desc": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy na"
   },
   {
    "name": "onehumanbeing/esp32-iphone-agent",
    "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-   "stars": 2677,
+   "stars": 2910,
    "lang": "C",
    "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer acc"
   },
   {
-   "name": "liseami/CCBaga",
-   "url": "https://github.com/liseami/CCBaga",
-   "stars": 2360,
-   "lang": "Rust",
-   "desc": ""
-  },
-  {
    "name": "Arekejoker/qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2251,
+   "stars": 2564,
    "lang": "Python",
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
   },
   {
+   "name": "liseami/CCBaga",
+   "url": "https://github.com/liseami/CCBaga",
+   "stars": 2448,
+   "lang": "Rust",
+   "desc": ""
+  },
+  {
    "name": "HeyPuter/everything",
    "url": "https://github.com/HeyPuter/everything",
-   "stars": 1431,
+   "stars": 1820,
    "lang": "JavaScript",
    "desc": "We're rebuilding and open-sourcing the world’s software from scratch."
   },
   {
-   "name": "shaongitbd/doory",
-   "url": "https://github.com/shaongitbd/doory",
-   "stars": 1359,
-   "lang": "TypeScript",
-   "desc": "Open source canva alternative"
-  },
-  {
    "name": "ahwootech/BRUTAL",
    "url": "https://github.com/ahwootech/BRUTAL",
-   "stars": 1298,
+   "stars": 1625,
    "lang": "C#",
    "desc": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libr"
   },
   {
    "name": "chenglou/handwired",
    "url": "https://github.com/chenglou/handwired",
-   "stars": 1266,
+   "stars": 1614,
    "lang": "TypeScript",
    "desc": "Turn your regular JavaScript code into a neural net."
+  },
+  {
+   "name": "deeplethe/solid-glass",
+   "url": "https://github.com/deeplethe/solid-glass",
+   "stars": 1558,
+   "lang": "TypeScript",
+   "desc": "A design system for AI applications. Material, physical, tactile, technical."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 183393,
+   "stars": 183535,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-16T01:09:43Z"
+   "pushed": "2026-10-17T01:45:48Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 155861,
+   "stars": 155943,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-10-16T00:20:55Z"
+   "pushed": "2026-10-16T14:59:01Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 151136,
+   "stars": 151300,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-10-15T19:22:05Z"
+   "pushed": "2026-10-16T20:53:06Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 147909,
+   "stars": 147961,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-15T20:15:17Z"
+   "pushed": "2026-10-16T19:28:43Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 131346,
+   "stars": 131448,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-16T07:55:53Z"
+   "pushed": "2026-10-17T07:25:32Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 121446,
+   "stars": 121496,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-10-15T03:45:24Z"
+   "pushed": "2026-10-16T23:53:46Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 101133,
+   "stars": 101272,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-16T07:41:08Z"
+   "pushed": "2026-10-17T06:37:52Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 96433,
+   "stars": 96495,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-10-15T06:32:19Z"
@@ -286,56 +286,56 @@
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 77129,
+   "stars": 77459,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-10-16T06:10:31Z"
+   "pushed": "2026-10-17T07:26:38Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 61361,
+   "stars": 61413,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-16T08:00:48Z"
+   "pushed": "2026-10-17T07:35:39Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 55796,
+   "stars": 55866,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-16T06:16:35Z"
+   "pushed": "2026-10-17T06:14:45Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 46680,
+   "stars": 46736,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 162 languages, sub-ms queries",
-   "pushed": "2026-10-16T00:11:04Z"
+   "pushed": "2026-10-16T23:28:27Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32183,
+   "stars": 32211,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-10-15T13:23:36Z"
+   "pushed": "2026-10-16T11:20:26Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 4782,
+   "stars": 4856,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Prompt Injection",
-  "desc": "The #1 attack on LLM apps: instructions hidden in untrusted content (a web page, an email) hijack the model. Fix: treat tool output as data, never as commands.",
-  "link": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
+  "cat": "AI",
+  "title": "RAG (Retrieval-Augmented Generation)",
+  "desc": "Retrieve relevant chunks from your own documents and feed them to the model as context before it answers. Less hallucination, and it works on private data.",
+  "link": "https://huggingface.co/learn"
  }
 }
