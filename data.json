@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T07:38:46.135634+00:00",
+ "generated_at": "2026-10-18T07:54:08.903544+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,175 +62,175 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Tesla Roadster",
-   "url": "https://www.tesla.com/roadster",
-   "points": 1368,
-   "time": "2026-10-16T01:32:45Z"
+   "title": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "points": 825,
+   "time": "2026-10-17T08:21:25Z"
   },
   {
-   "title": "Claude reveals ECDSA curve origins",
-   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "points": 833,
-   "time": "2026-10-16T18:55:59Z"
+   "title": "Solar surpasses nuclear power globally for first time",
+   "url": "https://www.pv-magazine.com/2026/09/29/solar-surpasses-nuclear-power-globally-for-first-time/",
+   "points": 577,
+   "time": "2026-10-17T14:01:01Z"
   },
   {
-   "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
-   "url": "https://www.mercor.com/research/labor-index/benchmark-map/",
-   "points": 477,
-   "time": "2026-10-16T17:08:38Z"
+   "title": "You could have invented transformers from memory",
+   "url": "https://alexwang.ai/posts/associative-memory/",
+   "points": 547,
+   "time": "2026-10-16T19:01:17Z"
   },
   {
-   "title": "How the Claude Code team does code review",
-   "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-   "points": 319,
-   "time": "2026-10-16T19:04:47Z"
+   "title": "Bleached corals thrive within days when touching healthy neighbour",
+   "url": "https://www.nature.com/articles/d41586-026-03266-x",
+   "points": 421,
+   "time": "2026-10-16T23:38:27Z"
   },
   {
-   "title": "I love software rendering",
-   "url": "https://www.jamesfmackenzie.com/2026/10/13/i-love-software-rendering/",
-   "points": 318,
-   "time": "2026-10-16T12:52:08Z"
+   "title": "Pele – Mermaid diagrams as themeable SVG",
+   "url": "https://pele.run/",
+   "points": 394,
+   "time": "2026-10-17T15:55:09Z"
   },
   {
-   "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
-   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
-   "points": 302,
-   "time": "2026-10-16T13:43:48Z"
+   "title": "Furifont, a Japanese font that shows furigana",
+   "url": "https://furifont.antfu.me/",
+   "points": 330,
+   "time": "2026-10-15T08:48:30Z"
   }
  ],
  "models": [
   {
+   "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "pipeline": "image-text-to-text",
+   "downloads": 0,
+   "likes": 1118
+  },
+  {
    "id": "google/embeddinggemma-2",
    "pipeline": "feature-extraction",
-   "downloads": 151258,
-   "likes": 2527
+   "downloads": 158490,
+   "likes": 2616
   },
   {
    "id": "jialinyyzz/humanizer",
    "pipeline": "text-generation",
-   "downloads": 85612,
-   "likes": 1845
+   "downloads": 95870,
+   "likes": 1910
   },
   {
    "id": "openbmb/MiniCPM-V-4.7-35B-A3B",
    "pipeline": "image-text-to-text",
-   "downloads": 17553,
-   "likes": 860
+   "downloads": 36252,
+   "likes": 908
   },
   {
    "id": "fishaudio/drama-3",
    "pipeline": "text-to-speech",
-   "downloads": 6158,
-   "likes": 568
-  },
-  {
-   "id": "Qwen/Qwen-Image-2.1-Turbo",
-   "pipeline": "text-to-image",
-   "downloads": 17421,
-   "likes": 948
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 1920611,
-   "likes": 8116
-  },
-  {
-   "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
-   "pipeline": "text-to-image",
-   "downloads": 2477554,
-   "likes": 4453
-  },
-  {
-   "id": "meta-models/Muse-Spark-Open-816B-A42B",
-   "pipeline": "image-text-to-text",
-   "downloads": 815,
-   "likes": 458
+   "downloads": 8193,
+   "likes": 638
   },
   {
    "id": "black-forest-labs/flux-3-image-klein-comfy",
    "pipeline": "image-to-image",
-   "downloads": 73767,
-   "likes": 500
+   "downloads": 224108,
+   "likes": 706
+  },
+  {
+   "id": "meta-models/Muse-Spark-Open-816B-A42B",
+   "pipeline": "image-text-to-text",
+   "downloads": 1600,
+   "likes": 519
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 1993003,
+   "likes": 8265
   },
   {
    "id": "LiquidAI/LFM2.5-24B-A2B",
    "pipeline": "text-generation",
-   "downloads": 9356,
-   "likes": 436
+   "downloads": 11926,
+   "likes": 452
+  },
+  {
+   "id": "black-forest-labs/flux-3-image-klein",
+   "pipeline": "image-to-image",
+   "downloads": 46123,
+   "likes": 461
   }
  ],
  "trending": [
   {
    "name": "jhaizhou-ops/d2r-mobile",
    "url": "https://github.com/jhaizhou-ops/d2r-mobile",
-   "stars": 3584,
+   "stars": 3749,
    "lang": "C",
    "desc": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy na"
   },
   {
-   "name": "onehumanbeing/esp32-iphone-agent",
-   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-   "stars": 2910,
-   "lang": "C",
-   "desc": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer acc"
-  },
-  {
    "name": "Arekejoker/qwen21-nsfw-pose-skill",
    "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 2564,
+   "stars": 2677,
    "lang": "Python",
    "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
   },
   {
-   "name": "liseami/CCBaga",
-   "url": "https://github.com/liseami/CCBaga",
-   "stars": 2448,
-   "lang": "Rust",
-   "desc": ""
-  },
-  {
    "name": "HeyPuter/everything",
    "url": "https://github.com/HeyPuter/everything",
-   "stars": 1820,
+   "stars": 2101,
    "lang": "JavaScript",
    "desc": "We're rebuilding and open-sourcing the world’s software from scratch."
   },
   {
+   "name": "deeplethe/solid-glass",
+   "url": "https://github.com/deeplethe/solid-glass",
+   "stars": 1895,
+   "lang": "TypeScript",
+   "desc": "A design system for AI applications. Material, physical, tactile, technical."
+  },
+  {
    "name": "ahwootech/BRUTAL",
    "url": "https://github.com/ahwootech/BRUTAL",
-   "stars": 1625,
+   "stars": 1819,
    "lang": "C#",
    "desc": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libr"
   },
   {
    "name": "chenglou/handwired",
    "url": "https://github.com/chenglou/handwired",
-   "stars": 1614,
+   "stars": 1689,
    "lang": "TypeScript",
    "desc": "Turn your regular JavaScript code into a neural net."
   },
   {
-   "name": "deeplethe/solid-glass",
-   "url": "https://github.com/deeplethe/solid-glass",
-   "stars": 1558,
+   "name": "Supermedo/uncharted_pc",
+   "url": "https://github.com/Supermedo/uncharted_pc",
+   "stars": 1320,
+   "lang": "C++",
+   "desc": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
+  },
+  {
+   "name": "Caho1/open-claude-ui",
+   "url": "https://github.com/Caho1/open-claude-ui",
+   "stars": 1156,
    "lang": "TypeScript",
-   "desc": "A design system for AI applications. Material, physical, tactile, technical."
+   "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 183535,
+   "stars": 183680,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-17T01:45:48Z"
+   "pushed": "2026-10-18T06:06:02Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 155943,
+   "stars": 156017,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
    "pushed": "2026-10-16T14:59:01Z"
@@ -238,87 +238,87 @@
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 151300,
+   "stars": 152140,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-10-16T20:53:06Z"
+   "pushed": "2026-10-17T23:14:51Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 147961,
+   "stars": 148009,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-16T19:28:43Z"
+   "pushed": "2026-10-17T08:50:05Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 131448,
+   "stars": 131552,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-17T07:25:32Z"
+   "pushed": "2026-10-18T04:03:32Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 121496,
+   "stars": 121549,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-10-16T23:53:46Z"
+   "pushed": "2026-10-17T14:57:18Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 101272,
+   "stars": 101482,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-17T06:37:52Z"
+   "pushed": "2026-10-18T07:16:56Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 96495,
+   "stars": 96538,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-10-15T06:32:19Z"
+   "pushed": "2026-10-18T02:37:56Z"
   },
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 77459,
+   "stars": 77841,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 359 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Clau",
-   "pushed": "2026-10-17T07:26:38Z"
+   "pushed": "2026-10-18T07:21:23Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 61413,
+   "stars": 61460,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-17T07:35:39Z"
+   "pushed": "2026-10-18T07:47:21Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 55866,
+   "stars": 55922,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-17T06:14:45Z"
+   "pushed": "2026-10-18T06:15:03Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 46736,
+   "stars": 46797,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 162 languages, sub-ms queries",
-   "pushed": "2026-10-16T23:28:27Z"
+   "pushed": "2026-10-18T04:12:12Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32211,
+   "stars": 32228,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-10-16T11:20:26Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 4856,
+   "stars": 4919,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "RAG (Retrieval-Augmented Generation)",
-  "desc": "Retrieve relevant chunks from your own documents and feed them to the model as context before it answers. Less hallucination, and it works on private data.",
-  "link": "https://huggingface.co/learn"
+  "cat": "Data Science",
+  "title": "Data Leakage",
+  "desc": "When training data contains information that won't exist at prediction time — the model aces the test set and fails in production. Keep your train/test split time-aware.",
+  "link": "https://scikit-learn.org/stable/common_pitfalls.html"
  }
 }
