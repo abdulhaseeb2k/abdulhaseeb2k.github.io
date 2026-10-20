@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T08:39:44.892688+00:00",
+ "generated_at": "2026-10-20T08:20:45.571249+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,158 +62,158 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Someone behind the software",
-   "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
-   "points": 434,
-   "time": "2026-10-18T16:32:00Z"
+   "title": "It's still ok to enjoy programming",
+   "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+   "points": 579,
+   "time": "2026-10-17T19:53:20Z"
   },
   {
-   "title": "RepRapMicron",
-   "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
-   "points": 387,
-   "time": "2026-10-18T13:48:48Z"
+   "title": "Wine ported to OpenBSD",
+   "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+   "points": 555,
+   "time": "2026-10-19T13:35:34Z"
   },
   {
-   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
-   "url": "https://arxiv.org/abs/2610.18861",
-   "points": 379,
-   "time": "2026-10-18T20:48:14Z"
+   "title": "I built a drone with only one motor [video]",
+   "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+   "points": 521,
+   "time": "2026-10-19T09:05:07Z"
   },
   {
-   "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
-   "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
-   "points": 354,
-   "time": "2026-10-17T23:26:35Z"
+   "title": "MiniMax M3.1 Flash",
+   "url": "https://www.minimax.io/blog/minimax-m31f",
+   "points": 457,
+   "time": "2026-10-19T16:39:09Z"
   },
   {
-   "title": "macOS 15.8.2 Breaks OpenGL",
-   "url": "https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550",
-   "points": 251,
-   "time": "2026-10-18T15:26:06Z"
+   "title": "Starcraft: Ashfall",
+   "url": "https://starcraft-shooter-2026.pages.dev/",
+   "points": 431,
+   "time": "2026-10-19T01:18:02Z"
   },
   {
-   "title": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
-   "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
-   "points": 225,
-   "time": "2026-10-18T01:38:08Z"
+   "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
+   "url": "https://news.ycombinator.com/item?id=50151036",
+   "points": 415,
+   "time": "2026-10-19T11:24:34Z"
   }
  ],
  "models": [
   {
    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "pipeline": "image-text-to-text",
-   "downloads": 10233,
-   "likes": 1488
-  },
-  {
-   "id": "openbmb/MiniCPM-V-4.7-35B-A3B",
-   "pipeline": "image-text-to-text",
-   "downloads": 57935,
-   "likes": 1025
-  },
-  {
-   "id": "google/embeddinggemma-2",
-   "pipeline": "feature-extraction",
-   "downloads": 164339,
-   "likes": 2678
-  },
-  {
-   "id": "fishaudio/drama-3",
-   "pipeline": "text-to-speech",
-   "downloads": 9620,
-   "likes": 719
+   "downloads": 17924,
+   "likes": 1774
   },
   {
    "id": "black-forest-labs/flux-3-image-klein-comfy",
    "pipeline": "image-to-image",
-   "downloads": 338036,
-   "likes": 848
+   "downloads": 393062,
+   "likes": 1009
+  },
+  {
+   "id": "fishaudio/drama-3",
+   "pipeline": "text-to-speech",
+   "downloads": 11795,
+   "likes": 787
+  },
+  {
+   "id": "openbmb/MiniCPM-V-4.7-35B-A3B",
+   "pipeline": "image-text-to-text",
+   "downloads": 76410,
+   "likes": 1072
+  },
+  {
+   "id": "google/embeddinggemma-2",
+   "pipeline": "feature-extraction",
+   "downloads": 167750,
+   "likes": 2736
   },
   {
    "id": "jialinyyzz/humanizer",
    "pipeline": "text-generation",
-   "downloads": 103709,
-   "likes": 1962
+   "downloads": 109937,
+   "likes": 2006
   },
   {
    "id": "meta-models/Muse-Spark-Open-816B-A42B",
    "pipeline": "image-text-to-text",
-   "downloads": 1809,
-   "likes": 559
+   "downloads": 2109,
+   "likes": 590
   },
   {
    "id": "LiquidAI/LFM2.5-24B-A2B",
    "pipeline": "text-generation",
-   "downloads": 13007,
-   "likes": 479
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 2012496,
-   "likes": 8413
+   "downloads": 14151,
+   "likes": 504
   },
   {
    "id": "black-forest-labs/flux-3-image-klein",
    "pipeline": "image-to-image",
-   "downloads": 52315,
-   "likes": 500
+   "downloads": 62006,
+   "likes": 536
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 2019834,
+   "likes": 8523
   }
  ],
  "trending": [
   {
-   "name": "Arekejoker/qwen21-nsfw-pose-skill",
-   "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
-   "stars": 3212,
-   "lang": "Python",
-   "desc": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw"
-  },
-  {
-   "name": "Gathin23/tv-vibehack",
-   "url": "https://github.com/Gathin23/tv-vibehack",
-   "stars": 2908,
+   "name": "Gathin23/cleanyourtv",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "stars": 7530,
    "lang": "Java",
-   "desc": "Your TV, minus the ads. Debloat any Android TV or Google TV over Wi-Fi and swap the ad-filled home screen for a clean Apple TV-style launche"
+   "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
   },
   {
    "name": "feder-cr/git-ai",
    "url": "https://github.com/feder-cr/git-ai",
-   "stars": 2338,
+   "stars": 2484,
    "lang": "Go",
    "desc": "Git designed for AI agents."
   },
   {
-   "name": "HeyPuter/everything",
-   "url": "https://github.com/HeyPuter/everything",
-   "stars": 2261,
-   "lang": "JavaScript",
-   "desc": "We're rebuilding and open-sourcing the world’s software from scratch."
+   "name": "ly05010419/MacNativeGames",
+   "url": "https://github.com/ly05010419/MacNativeGames",
+   "stars": 2181,
+   "lang": "C",
+   "desc": ""
   },
   {
    "name": "ahwootech/BRUTAL",
    "url": "https://github.com/ahwootech/BRUTAL",
-   "stars": 1935,
+   "stars": 2014,
    "lang": "C#",
    "desc": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libr"
   },
   {
    "name": "chenglou/handwired",
    "url": "https://github.com/chenglou/handwired",
-   "stars": 1758,
+   "stars": 1829,
    "lang": "TypeScript",
    "desc": "Turn your regular JavaScript code into a neural net."
   },
   {
+   "name": "Leonxlnx/earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "stars": 1677,
+   "lang": "Python",
+   "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
+  },
+  {
    "name": "Supermedo/uncharted_pc",
    "url": "https://github.com/Supermedo/uncharted_pc",
-   "stars": 1487,
+   "stars": 1633,
    "lang": "C++",
    "desc": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
   },
   {
    "name": "Caho1/open-claude-ui",
    "url": "https://github.com/Caho1/open-claude-ui",
-   "stars": 1220,
+   "stars": 1269,
    "lang": "TypeScript",
    "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。"
   }
@@ -222,63 +222,63 @@
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 183791,
+   "stars": 183918,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-18T18:44:30Z"
+   "pushed": "2026-10-20T01:51:51Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 156133,
+   "stars": 156231,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-10-18T20:02:00Z"
+   "pushed": "2026-10-19T14:13:24Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 152311,
+   "stars": 152821,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-10-18T22:26:53Z"
+   "pushed": "2026-10-19T23:06:46Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 148063,
+   "stars": 148114,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-19T08:34:08Z"
+   "pushed": "2026-10-20T08:16:41Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 131665,
+   "stars": 131769,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-19T08:17:54Z"
+   "pushed": "2026-10-20T08:06:54Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 121610,
+   "stars": 121675,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-10-17T14:57:18Z"
+   "pushed": "2026-10-19T09:10:07Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 101686,
+   "stars": 101861,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-19T08:10:06Z"
+   "pushed": "2026-10-20T01:28:51Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 96591,
+   "stars": 96640,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-10-18T02:37:56Z"
@@ -286,39 +286,39 @@
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 78261,
+   "stars": 78668,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-10-19T07:21:28Z"
+   "pushed": "2026-10-20T07:46:42Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 61541,
+   "stars": 61628,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-19T08:21:30Z"
+   "pushed": "2026-10-20T08:20:44Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 55991,
+   "stars": 56059,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-19T06:22:34Z"
+   "pushed": "2026-10-20T06:16:28Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 46895,
+   "stars": 46982,
    "lang": "C",
    "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 162 languages, sub-ms queries",
-   "pushed": "2026-10-19T05:45:45Z"
+   "pushed": "2026-10-20T04:36:05Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32254,
+   "stars": 32273,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-10-16T11:20:26Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 4986,
+   "stars": 5078,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "CAP Theorem",
-  "desc": "In a distributed system you can't have Consistency, Availability, and Partition-tolerance all at once. During a network partition you must choose between C and A.",
-  "link": "https://en.wikipedia.org/wiki/CAP_theorem"
+  "cat": "Security",
+  "title": "Supply Chain Attack",
+  "desc": "The attacker doesn't hack you — they hack your dependency (an npm/pip package). Use lockfiles, run `npm audit`, and vet unknown packages before installing.",
+  "link": "https://owasp.org/www-project-dependency-check/"
  }
 }
