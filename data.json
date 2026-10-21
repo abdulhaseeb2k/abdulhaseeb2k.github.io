@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T08:20:45.571249+00:00",
+ "generated_at": "2026-10-21T08:24:29.492635+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,223 +62,223 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "It's still ok to enjoy programming",
-   "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
-   "points": 579,
-   "time": "2026-10-17T19:53:20Z"
+   "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "points": 2236,
+   "time": "2026-10-20T09:08:54Z"
   },
   {
-   "title": "Wine ported to OpenBSD",
-   "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
-   "points": 555,
-   "time": "2026-10-19T13:35:34Z"
+   "title": "eMudhra intermediate CA compromise",
+   "url": "https://emudhra.we-have-a-problem.com/",
+   "points": 898,
+   "time": "2026-10-20T13:58:33Z"
   },
   {
-   "title": "I built a drone with only one motor [video]",
-   "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
-   "points": 521,
-   "time": "2026-10-19T09:05:07Z"
+   "title": "Show HN: SimCity, but with Permits",
+   "url": "https://permit.petercai.com/",
+   "points": 765,
+   "time": "2026-10-20T18:29:09Z"
   },
   {
-   "title": "MiniMax M3.1 Flash",
-   "url": "https://www.minimax.io/blog/minimax-m31f",
-   "points": 457,
-   "time": "2026-10-19T16:39:09Z"
+   "title": "Upcoming critical PHP security release (CVE-2026-109618 / -109619)",
+   "url": "https://news-web.php.net/php.announce/509",
+   "points": 642,
+   "time": "2026-10-20T20:15:50Z"
   },
   {
-   "title": "Starcraft: Ashfall",
-   "url": "https://starcraft-shooter-2026.pages.dev/",
-   "points": 431,
-   "time": "2026-10-19T01:18:02Z"
+   "title": "Voxtral 3",
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "points": 641,
+   "time": "2026-10-20T16:02:07Z"
   },
   {
-   "title": "Ask HN: How to deal with shipping AI-written code you don't understand?",
-   "url": "https://news.ycombinator.com/item?id=50151036",
-   "points": 415,
-   "time": "2026-10-19T11:24:34Z"
+   "title": "Apple broke an essential presentation feature of iPads",
+   "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/",
+   "points": 549,
+   "time": "2026-10-20T12:17:28Z"
   }
  ],
  "models": [
   {
    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "pipeline": "image-text-to-text",
-   "downloads": 17924,
-   "likes": 1774
+   "downloads": 27737,
+   "likes": 2037
   },
   {
    "id": "black-forest-labs/flux-3-image-klein-comfy",
    "pipeline": "image-to-image",
-   "downloads": 393062,
-   "likes": 1009
+   "downloads": 439528,
+   "likes": 1115
   },
   {
    "id": "fishaudio/drama-3",
    "pipeline": "text-to-speech",
-   "downloads": 11795,
-   "likes": 787
-  },
-  {
-   "id": "openbmb/MiniCPM-V-4.7-35B-A3B",
-   "pipeline": "image-text-to-text",
-   "downloads": 76410,
-   "likes": 1072
-  },
-  {
-   "id": "google/embeddinggemma-2",
-   "pipeline": "feature-extraction",
-   "downloads": 167750,
-   "likes": 2736
-  },
-  {
-   "id": "jialinyyzz/humanizer",
-   "pipeline": "text-generation",
-   "downloads": 109937,
-   "likes": 2006
+   "downloads": 13495,
+   "likes": 851
   },
   {
    "id": "meta-models/Muse-Spark-Open-816B-A42B",
    "pipeline": "image-text-to-text",
-   "downloads": 2109,
-   "likes": 590
-  },
-  {
-   "id": "LiquidAI/LFM2.5-24B-A2B",
-   "pipeline": "text-generation",
-   "downloads": 14151,
-   "likes": 504
+   "downloads": 2592,
+   "likes": 614
   },
   {
    "id": "black-forest-labs/flux-3-image-klein",
    "pipeline": "image-to-image",
-   "downloads": 62006,
-   "likes": 536
+   "downloads": 78897,
+   "likes": 574
+  },
+  {
+   "id": "google/embeddinggemma-2",
+   "pipeline": "feature-extraction",
+   "downloads": 172474,
+   "likes": 2782
+  },
+  {
+   "id": "OpenMOSS-Team/MOSS-Image-SFT",
+   "pipeline": "text-to-image",
+   "downloads": 4547,
+   "likes": 509
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 2019834,
-   "likes": 8523
+   "downloads": 2039447,
+   "likes": 8659
+  },
+  {
+   "id": "jialinyyzz/humanizer",
+   "pipeline": "text-generation",
+   "downloads": 115341,
+   "likes": 2034
+  },
+  {
+   "id": "OpenMOSS-Team/MOSS-Image-Base",
+   "pipeline": "text-to-image",
+   "downloads": 3558,
+   "likes": 443
   }
  ],
  "trending": [
   {
+   "name": "deepseek-ai/DeepInfer",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "stars": 15843,
+   "lang": "Python",
+   "desc": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
+  },
+  {
    "name": "Gathin23/cleanyourtv",
    "url": "https://github.com/Gathin23/cleanyourtv",
-   "stars": 7530,
+   "stars": 14452,
    "lang": "Java",
    "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
   },
   {
-   "name": "feder-cr/git-ai",
-   "url": "https://github.com/feder-cr/git-ai",
-   "stars": 2484,
-   "lang": "Go",
-   "desc": "Git designed for AI agents."
-  },
-  {
    "name": "ly05010419/MacNativeGames",
    "url": "https://github.com/ly05010419/MacNativeGames",
-   "stars": 2181,
+   "stars": 3208,
    "lang": "C",
    "desc": ""
   },
   {
-   "name": "ahwootech/BRUTAL",
-   "url": "https://github.com/ahwootech/BRUTAL",
-   "stars": 2014,
-   "lang": "C#",
-   "desc": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libr"
-  },
-  {
-   "name": "chenglou/handwired",
-   "url": "https://github.com/chenglou/handwired",
-   "stars": 1829,
-   "lang": "TypeScript",
-   "desc": "Turn your regular JavaScript code into a neural net."
+   "name": "simbasjungles/free-my-tv",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "stars": 2137,
+   "lang": "Java",
+   "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo."
   },
   {
    "name": "Leonxlnx/earshot",
    "url": "https://github.com/Leonxlnx/earshot",
-   "stars": 1677,
+   "stars": 2009,
    "lang": "Python",
    "desc": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source."
   },
   {
-   "name": "Supermedo/uncharted_pc",
-   "url": "https://github.com/Supermedo/uncharted_pc",
-   "stars": 1633,
-   "lang": "C++",
-   "desc": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
+   "name": "chenglou/handwired",
+   "url": "https://github.com/chenglou/handwired",
+   "stars": 1863,
+   "lang": "TypeScript",
+   "desc": "Turn your regular JavaScript code into a neural net."
   },
   {
-   "name": "Caho1/open-claude-ui",
-   "url": "https://github.com/Caho1/open-claude-ui",
-   "stars": 1269,
-   "lang": "TypeScript",
-   "desc": "基于 REA 深度拆解并高保真还原 Claude 官方桌面端 UI。还原 30 个独立 React 组件与 8 项硬核交互物理算法，附带 3000+ 行逆向分析手册。"
+   "name": "xiaoyang111222/cn-math-taxonomy",
+   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+   "stars": 1780,
+   "lang": "Python",
+   "desc": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中），课标对齐、人教版，1244 知识点、5123 题、自适应诊断"
+  },
+  {
+   "name": "Supermedo/uncharted_pc",
+   "url": "https://github.com/Supermedo/uncharted_pc",
+   "stars": 1742,
+   "lang": "C++",
+   "desc": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 183918,
+   "stars": 184126,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-20T01:51:51Z"
+   "pushed": "2026-10-21T03:20:37Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 156231,
+   "stars": 156330,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-10-19T14:13:24Z"
+   "pushed": "2026-10-21T07:44:12Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 152821,
+   "stars": 152710,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-10-19T23:06:46Z"
+   "pushed": "2026-10-21T03:16:31Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 148114,
+   "stars": 148184,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-20T08:16:41Z"
+   "pushed": "2026-10-21T08:16:28Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 131769,
+   "stars": 131886,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-20T08:06:54Z"
+   "pushed": "2026-10-21T07:54:46Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 121675,
+   "stars": 121791,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-10-19T09:10:07Z"
+   "pushed": "2026-10-21T03:15:24Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 101861,
+   "stars": 102026,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-20T01:28:51Z"
+   "pushed": "2026-10-21T00:47:38Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 96640,
+   "stars": 96683,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-10-18T02:37:56Z"
@@ -286,39 +286,39 @@
   {
    "name": "diegosouzapw/OmniRoute",
    "url": "https://github.com/diegosouzapw/OmniRoute",
-   "stars": 78668,
+   "stars": 79102,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-10-20T07:46:42Z"
+   "pushed": "2026-10-21T08:24:31Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 61628,
+   "stars": 61699,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-20T08:20:44Z"
+   "pushed": "2026-10-21T08:21:54Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 56059,
+   "stars": 56141,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-20T06:16:28Z"
+   "pushed": "2026-10-21T06:16:32Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 46982,
+   "stars": 47069,
    "lang": "C",
-   "desc": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 162 languages, sub-ms queries",
-   "pushed": "2026-10-20T04:36:05Z"
+   "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
+   "pushed": "2026-10-21T01:44:39Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32273,
+   "stars": 32294,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-10-16T11:20:26Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 5078,
+   "stars": 5153,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Supply Chain Attack",
-  "desc": "The attacker doesn't hack you — they hack your dependency (an npm/pip package). Use lockfiles, run `npm audit`, and vet unknown packages before installing.",
-  "link": "https://owasp.org/www-project-dependency-check/"
+  "cat": "AI",
+  "title": "Quantization",
+  "desc": "Compressing model weights from 16-bit to 4/8-bit — 4x smaller, faster, with a small quality cost. It's how 70B models run on consumer GPUs (GGUF, AWQ).",
+  "link": "https://huggingface.co/docs/optimum/concept_guides/quantization"
  }
 }
