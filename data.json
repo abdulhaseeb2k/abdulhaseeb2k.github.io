@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T08:27:02.799187+00:00",
+ "generated_at": "2026-10-23T08:23:05.749610+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,158 +62,158 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "PHP 8.2.35",
-   "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-   "points": 1018,
-   "time": "2026-10-21T13:45:33Z"
+   "title": "Quad9 to exit France",
+   "url": "https://quad9.net/news/blog/au-revoir-france/",
+   "points": 1168,
+   "time": "2026-10-22T14:32:38Z"
   },
   {
-   "title": "Today's PHP security release, and how we're strengthening security",
-   "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
-   "points": 724,
-   "time": "2026-10-21T15:48:56Z"
+   "title": "eMudhra to exit global SSL/TLS certificate business",
+   "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+   "points": 1036,
+   "time": "2026-10-22T13:33:39Z"
   },
   {
-   "title": "EA is shutting down BioWare",
-   "url": "https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware",
-   "points": 618,
-   "time": "2026-10-21T17:29:33Z"
+   "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+   "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+   "points": 537,
+   "time": "2026-10-22T02:18:41Z"
   },
   {
-   "title": "Meta ordered to pay $25B penalty in New Mexico Cambridge Analytica case",
-   "url": "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
-   "points": 518,
-   "time": "2026-10-21T17:45:13Z"
+   "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+   "url": "https://news.ycombinator.com/item?id=50193416",
+   "points": 524,
+   "time": "2026-10-22T10:11:44Z"
   },
   {
-   "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-   "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-   "points": 503,
-   "time": "2026-10-21T14:00:26Z"
+   "title": "Docker is weird",
+   "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+   "points": 423,
+   "time": "2026-10-22T23:45:56Z"
   },
   {
-   "title": "There isn't an easy exploit for this PHP vulnerability",
-   "url": "https://eliastaylor.com/noexploit/",
-   "points": 491,
-   "time": "2026-10-21T23:13:27Z"
+   "title": "Run full iOS 16.5 firmware on Android Devices",
+   "url": "https://github.com/oosexgang/hackios-xnu-kernel",
+   "points": 418,
+   "time": "2026-10-22T15:26:22Z"
   }
  ],
  "models": [
   {
    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "pipeline": "image-text-to-text",
-   "downloads": 42122,
-   "likes": 2229
+   "downloads": 51911,
+   "likes": 2436
   },
   {
    "id": "black-forest-labs/flux-3-image-klein-comfy",
    "pipeline": "image-to-image",
-   "downloads": 490447,
-   "likes": 1222
+   "downloads": 512524,
+   "likes": 1328
   },
   {
-   "id": "meta-models/Muse-Spark-Open-816B-A42B",
-   "pipeline": "image-text-to-text",
-   "downloads": 2891,
-   "likes": 644
-  },
-  {
-   "id": "black-forest-labs/flux-3-image-klein",
-   "pipeline": "image-to-image",
-   "downloads": 92604,
-   "likes": 614
-  },
-  {
-   "id": "fishaudio/drama-3",
-   "pipeline": "text-to-speech",
-   "downloads": 15274,
-   "likes": 898
+   "id": "RecursiveSI/flint",
+   "pipeline": "text-generation",
+   "downloads": 420,
+   "likes": 592
   },
   {
    "id": "OpenMOSS-Team/MOSS-Image-SFT",
    "pipeline": "text-to-image",
-   "downloads": 5840,
-   "likes": 544
+   "downloads": 6890,
+   "likes": 605
   },
   {
    "id": "OpenMOSS-Team/MOSS-Image-Base",
    "pipeline": "text-to-image",
-   "downloads": 4344,
-   "likes": 476
+   "downloads": 5013,
+   "likes": 502
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 2057942,
-   "likes": 8795
+   "downloads": 2054990,
+   "likes": 8937
+  },
+  {
+   "id": "fishaudio/drama-3",
+   "pipeline": "text-to-speech",
+   "downloads": 16305,
+   "likes": 928
+  },
+  {
+   "id": "Comfy-Org/MOSS-Image",
+   "pipeline": "",
+   "downloads": 1463386,
+   "likes": 380
+  },
+  {
+   "id": "XHToken/Spark-X2.6-4B",
+   "pipeline": "text-generation",
+   "downloads": 482,
+   "likes": 376
   },
   {
    "id": "google/embeddinggemma-2",
    "pipeline": "feature-extraction",
-   "downloads": 179734,
-   "likes": 2823
-  },
-  {
-   "id": "jialinyyzz/humanizer",
-   "pipeline": "text-generation",
-   "downloads": 120930,
-   "likes": 2075
+   "downloads": 185259,
+   "likes": 2856
   }
  ],
  "trending": [
   {
    "name": "Gathin23/cleanyourtv",
    "url": "https://github.com/Gathin23/cleanyourtv",
-   "stars": 21131,
+   "stars": 25666,
    "lang": "Java",
    "desc": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home."
   },
   {
-   "name": "deepseek-ai/DeepInfer",
-   "url": "https://github.com/deepseek-ai/DeepInfer",
-   "stars": 18891,
-   "lang": "Python",
-   "desc": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models"
-  },
-  {
    "name": "ly05010419/MacNativeGames",
    "url": "https://github.com/ly05010419/MacNativeGames",
-   "stars": 4160,
+   "stars": 4662,
    "lang": "C",
    "desc": ""
   },
   {
    "name": "simbasjungles/free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
-   "stars": 2933,
+   "stars": 3620,
    "lang": "Java",
    "desc": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo."
   },
   {
    "name": "pengchujin/aerial-tv",
    "url": "https://github.com/pengchujin/aerial-tv",
-   "stars": 2626,
+   "stars": 3481,
    "lang": "Kotlin",
    "desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
   },
   {
    "name": "xiaoyang111222/cn-math-taxonomy",
    "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
-   "stars": 2105,
+   "stars": 2468,
    "lang": "Python",
-   "desc": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1503 知识点、6159 题、自适应诊断"
+   "desc": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。"
   },
   {
    "name": "tek-sys-hub/Rubix-lang",
    "url": "https://github.com/tek-sys-hub/Rubix-lang",
-   "stars": 1895,
+   "stars": 1908,
    "lang": "Assembly",
    "desc": "The 100% Pure x86-64 Assembly Systems Language"
   },
   {
+   "name": "ikow/php2shell-poc",
+   "url": "https://github.com/ikow/php2shell-poc",
+   "stars": 1605,
+   "lang": "Python",
+   "desc": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc"
+  },
+  {
    "name": "JoasASantos/REA-Prompts",
    "url": "https://github.com/JoasASantos/REA-Prompts",
-   "stars": 1396,
+   "stars": 1525,
    "lang": "",
    "desc": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
   }
@@ -222,95 +222,95 @@
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 184249,
+   "stars": 184395,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-22T02:25:02Z"
+   "pushed": "2026-10-23T08:04:06Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 156406,
+   "stars": 156524,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-10-22T04:00:57Z"
+   "pushed": "2026-10-23T02:06:00Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 152807,
+   "stars": 152949,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-10-22T04:34:54Z"
+   "pushed": "2026-10-22T22:18:56Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 148247,
+   "stars": 148308,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-22T08:16:59Z"
+   "pushed": "2026-10-23T08:16:24Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 131981,
+   "stars": 132090,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-22T08:19:59Z"
+   "pushed": "2026-10-23T08:07:17Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 121869,
+   "stars": 121955,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-10-22T03:45:18Z"
+   "pushed": "2026-10-22T13:00:23Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 102208,
+   "stars": 102392,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-22T07:11:28Z"
+   "pushed": "2026-10-23T05:17:53Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 96738,
+   "stars": 96778,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-10-18T02:37:56Z"
+   "pushed": "2026-10-23T08:23:00Z"
   },
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 79572,
+   "stars": 80026,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-10-22T08:07:25Z"
+   "pushed": "2026-10-23T04:09:16Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 61782,
+   "stars": 61878,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-22T02:13:37Z"
+   "pushed": "2026-10-23T07:56:08Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 56221,
+   "stars": 56294,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-22T06:16:42Z"
+   "pushed": "2026-10-23T06:17:11Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 47169,
+   "stars": 47285,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
    "pushed": "2026-10-22T02:01:25Z"
@@ -318,7 +318,7 @@
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32317,
+   "stars": 32335,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-10-16T11:20:26Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 5211,
+   "stars": 5285,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Data Science",
-  "title": "A/B Testing",
-  "desc": "Randomly split users between two versions and compare them statistically. Never call a winner without understanding p-values and sample size.",
-  "link": "https://en.wikipedia.org/wiki/A/B_testing"
+  "cat": "Dev",
+  "title": "Event-Driven Architecture",
+  "desc": "Services publish and subscribe to events (Kafka, RabbitMQ) instead of calling each other directly. You gain loose coupling; debugging and ordering get harder.",
+  "link": "https://martinfowler.com/articles/201701-event-driven.html"
  }
 }
