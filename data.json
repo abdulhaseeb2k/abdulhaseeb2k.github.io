@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T07:58:56.469609+00:00",
+ "generated_at": "2026-10-25T08:15:15.133461+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -64,181 +64,181 @@
   {
    "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
    "url": "https://edjefferson.com/localwiki/",
-   "points": 1359,
+   "points": 1580,
    "time": "2026-10-22T23:01:18Z"
   },
   {
-   "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-   "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-   "points": 876,
-   "time": "2026-10-23T16:59:08Z"
+   "title": "Show HN: Steal My Bitcoin",
+   "url": "https://stealmybitcoin.com/",
+   "points": 463,
+   "time": "2026-10-24T20:30:31Z"
   },
   {
-   "title": "Today, we hacked what we'd set out to hack: the iPhone",
-   "url": "https://blog.calif.io/p/iphone",
-   "points": 848,
-   "time": "2026-10-23T16:21:50Z"
-  },
-  {
-   "title": "Apple Music 404 Not Found",
-   "url": "https://music.apple.com/this-url-doesnt-exist",
-   "points": 735,
-   "time": "2026-10-23T12:28:47Z"
-  },
-  {
-   "title": "Canadians are running out of time to oppose Bill C-22",
-   "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill",
-   "points": 401,
-   "time": "2026-10-22T22:43:19Z"
-  },
-  {
-   "title": "Dessa: Conversation Model trained only on speech",
-   "url": "https://block.xyz/dessa",
+   "title": "We should be more ambitious with the software we build",
+   "url": "https://danluu.com/ambitious/",
    "points": 363,
-   "time": "2026-10-23T19:09:54Z"
+   "time": "2026-10-24T21:47:31Z"
+  },
+  {
+   "title": "The Goose Programming Language",
+   "url": "https://aardappel.github.io/goose/",
+   "points": 361,
+   "time": "2026-10-24T19:06:55Z"
+  },
+  {
+   "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+   "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+   "points": 329,
+   "time": "2026-10-24T23:11:54Z"
+  },
+  {
+   "title": "I don't understand quantum physics (2018)",
+   "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+   "points": 308,
+   "time": "2026-10-24T09:53:26Z"
   }
  ],
  "models": [
   {
    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "pipeline": "image-text-to-text",
-   "downloads": 57715,
-   "likes": 2627
+   "downloads": 73215,
+   "likes": 2845
   },
   {
    "id": "RecursiveSI/flint",
    "pipeline": "text-generation",
-   "downloads": 1904,
-   "likes": 708
+   "downloads": 4795,
+   "likes": 793
   },
   {
    "id": "black-forest-labs/flux-3-image-klein-comfy",
    "pipeline": "image-to-image",
-   "downloads": 534837,
-   "likes": 1433
-  },
-  {
-   "id": "OpenMOSS-Team/MOSS-Image-SFT",
-   "pipeline": "text-to-image",
-   "downloads": 7658,
-   "likes": 662
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 2026951,
-   "likes": 9073
+   "downloads": 590742,
+   "likes": 1528
   },
   {
    "id": "XHToken/Spark-X2.6-4B",
    "pipeline": "text-generation",
-   "downloads": 1060,
-   "likes": 423
+   "downloads": 2537,
+   "likes": 462
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 2087721,
+   "likes": 9218
+  },
+  {
+   "id": "OpenMOSS-Team/MOSS-Image-SFT",
+   "pipeline": "text-to-image",
+   "downloads": 9717,
+   "likes": 704
   },
   {
    "id": "fishaudio/drama-3",
    "pipeline": "text-to-speech",
-   "downloads": 17017,
-   "likes": 957
-  },
-  {
-   "id": "OpenMOSS-Team/MOSS-Image-Base",
-   "pipeline": "text-to-image",
-   "downloads": 5618,
-   "likes": 524
+   "downloads": 19831,
+   "likes": 996
   },
   {
    "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
    "pipeline": "text-to-image",
-   "downloads": 2398071,
-   "likes": 4920
+   "downloads": 2303585,
+   "likes": 4991
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-M3.1-Flash",
+   "pipeline": "image-text-to-text",
+   "downloads": 5789,
+   "likes": 328
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 7710011,
-   "likes": 18303
+   "downloads": 7851161,
+   "likes": 18358
   }
  ],
  "trending": [
   {
    "name": "pengchujin/aerial-tv",
    "url": "https://github.com/pengchujin/aerial-tv",
-   "stars": 4047,
+   "stars": 4567,
    "lang": "Kotlin",
    "desc": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs."
   },
   {
    "name": "simbasjungles/free-my-tv",
    "url": "https://github.com/simbasjungles/free-my-tv",
-   "stars": 4035,
+   "stars": 4372,
    "lang": "Java",
    "desc": "A fast, ad-free home screen for Google TV, LG webOS and Samsung Tizen. One button to undo."
   },
   {
-   "name": "xiaoyang111222/cn-math-taxonomy",
-   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
-   "stars": 2937,
-   "lang": "Python",
-   "desc": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。"
-  },
-  {
    "name": "JoasASantos/REA-Prompts",
    "url": "https://github.com/JoasASantos/REA-Prompts",
-   "stars": 1825,
+   "stars": 2228,
    "lang": "",
    "desc": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program"
   },
   {
    "name": "EthanArbuckle/fairplay-decrypt",
    "url": "https://github.com/EthanArbuckle/fairplay-decrypt",
-   "stars": 1741,
+   "stars": 2022,
    "lang": "C",
    "desc": "Offline FairPlay App Store IPA decryption with independent key derivation"
   },
   {
+   "name": "xevrion/hatchzip",
+   "url": "https://github.com/xevrion/hatchzip",
+   "stars": 1794,
+   "lang": "Rust",
+   "desc": "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, "
+  },
+  {
    "name": "ikow/php2shell-poc",
    "url": "https://github.com/ikow/php2shell-poc",
-   "stars": 1712,
+   "stars": 1768,
    "lang": "Python",
    "desc": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc"
   },
   {
-   "name": "alchaincyf/huashu-motion",
-   "url": "https://github.com/alchaincyf/huashu-motion",
-   "stars": 1560,
-   "lang": "JavaScript",
-   "desc": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it."
+   "name": "wesbos/3d-model-anything",
+   "url": "https://github.com/wesbos/3d-model-anything",
+   "stars": 1766,
+   "lang": "Swift",
+   "desc": "Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser."
   },
   {
-   "name": "humblemuzzu/dumbtv",
-   "url": "https://github.com/humblemuzzu/dumbtv",
-   "stars": 1412,
-   "lang": "Java",
-   "desc": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home scre"
+   "name": "JustAResearcher/gpu-unlock-ada",
+   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+   "stars": 1452,
+   "lang": "C",
+   "desc": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 184589,
+   "stars": 184688,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-23T23:17:57Z"
+   "pushed": "2026-10-24T18:03:30Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 156612,
+   "stars": 156678,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-10-24T06:04:47Z"
+   "pushed": "2026-10-25T08:07:12Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 153205,
+   "stars": 153322,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-10-24T02:18:59Z"
@@ -246,23 +246,23 @@
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 148349,
+   "stars": 148405,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-24T01:56:18Z"
+   "pushed": "2026-10-25T08:14:57Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 132185,
+   "stars": 132276,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-24T07:45:22Z"
+   "pushed": "2026-10-25T08:02:05Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 122040,
+   "stars": 122125,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-10-24T04:53:49Z"
@@ -270,15 +270,15 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 102634,
+   "stars": 102913,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-24T06:56:29Z"
+   "pushed": "2026-10-25T07:44:43Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 96810,
+   "stars": 96838,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-10-23T18:57:44Z"
@@ -286,31 +286,31 @@
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 80500,
+   "stars": 80883,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-10-24T00:40:22Z"
+   "pushed": "2026-10-25T08:03:22Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 61941,
+   "stars": 61994,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-24T07:42:39Z"
+   "pushed": "2026-10-25T07:46:38Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 56378,
+   "stars": 56463,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-24T06:15:28Z"
+   "pushed": "2026-10-25T06:15:09Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 47371,
+   "stars": 47431,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
    "pushed": "2026-10-24T05:45:26Z"
@@ -318,7 +318,7 @@
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32357,
+   "stars": 32380,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-10-16T11:20:26Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 5327,
+   "stars": 5371,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Zero Trust",
-  "desc": "The 'inside the network means trusted' model is dead — every request is verified, even internal ones. Identity-based access instead of a VPN perimeter.",
-  "link": "https://www.nist.gov/publications/zero-trust-architecture"
+  "cat": "AI",
+  "title": "Context Window",
+  "desc": "How much text a model can 'see' at once. A large window fits a whole codebase or document set — but content in the middle of long contexts tends to get missed ('lost in the middle').",
+  "link": "https://huggingface.co/blog"
  }
 }
