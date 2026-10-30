@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T09:41:24.123608+00:00",
+ "generated_at": "2026-10-30T09:47:17.825138+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,223 +62,223 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Why is this fingerprinting script creating bioweapons?",
-   "url": "https://nullpt.rs/fingerprinting-bioweapons",
-   "points": 1206,
-   "time": "2026-10-28T17:13:29Z"
+   "title": "Patrick Stewart has died",
+   "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+   "points": 2971,
+   "time": "2026-10-29T19:41:39Z"
   },
   {
-   "title": "Apple's git still trusts the compromised eMudhra certificates",
-   "url": "https://emudhra.we-have-a-problem.com/apple.html",
-   "points": 1132,
-   "time": "2026-10-28T11:03:40Z"
+   "title": "We're releasing the weights of Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "points": 1463,
+   "time": "2026-10-29T14:13:21Z"
   },
   {
-   "title": "Gemini 4 Carbon",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-   "points": 930,
-   "time": "2026-10-28T17:01:23Z"
+   "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+   "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+   "points": 1336,
+   "time": "2026-10-29T21:38:59Z"
   },
   {
-   "title": "MacBook Pro with PROLED XDR Display and Touch",
-   "url": "https://www.apple.com/macbook-pro/proled-xdr-display/",
-   "points": 578,
-   "time": "2026-10-28T17:10:37Z"
+   "title": "LLM Voice",
+   "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+   "points": 477,
+   "time": "2026-10-29T14:57:55Z"
   },
   {
-   "title": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
-   "url": "https://www.circuithub.com/post/unveiling-the-grid",
-   "points": 499,
-   "time": "2026-10-26T13:13:31Z"
+   "title": "H.264 Is Magic (2016)",
+   "url": "https://sidbala.com/h-264-is-magic/",
+   "points": 433,
+   "time": "2026-10-29T15:53:03Z"
   },
   {
-   "title": "CNC Stone Carving",
-   "url": "https://carmelitegothic.com/cnc-stone-carving/",
-   "points": 470,
-   "time": "2026-10-28T14:38:22Z"
+   "title": "If IPv4 were land",
+   "url": "https://iptrust.co/blog/if-ipv4-were-land",
+   "points": 282,
+   "time": "2026-10-29T12:19:00Z"
   }
  ],
  "models": [
   {
    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "pipeline": "image-text-to-text",
-   "downloads": 116770,
-   "likes": 3665
+   "downloads": 131062,
+   "likes": 3916
   },
   {
    "id": "Nanbeige/Nanbeige4.3-33B",
    "pipeline": "text-generation",
-   "downloads": 7412,
-   "likes": 746
-  },
-  {
-   "id": "RecursiveSI/flint",
-   "pipeline": "text-generation",
-   "downloads": 14047,
-   "likes": 1217
-  },
-  {
-   "id": "XHToken/Spark-X2.6-4B",
-   "pipeline": "text-generation",
-   "downloads": 8222,
-   "likes": 882
-  },
-  {
-   "id": "tencent/Hy-SimulMT-30B-A3B-FP8",
-   "pipeline": "translation",
-   "downloads": 165,
-   "likes": 451
+   "downloads": 9655,
+   "likes": 784
   },
   {
    "id": "LiquidAI/LFM3-1.7B",
    "pipeline": "text-generation",
-   "downloads": 8892,
-   "likes": 430
+   "downloads": 15885,
+   "likes": 509
   },
   {
-   "id": "MiniMaxAI/MiniMax-M3.1-Flash",
-   "pipeline": "image-text-to-text",
-   "downloads": 13247,
-   "likes": 472
+   "id": "RecursiveSI/flint",
+   "pipeline": "text-generation",
+   "downloads": 16598,
+   "likes": 1249
   },
   {
    "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
    "pipeline": "text-generation",
-   "downloads": 1377570,
-   "likes": 461
+   "downloads": 1578937,
+   "likes": 488
+  },
+  {
+   "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "pipeline": "automatic-speech-recognition",
+   "downloads": 4276,
+   "likes": 443
+  },
+  {
+   "id": "baidu/Unlimited-OCR-2",
+   "pipeline": "image-text-to-text",
+   "downloads": 18141,
+   "likes": 427
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 2234788,
-   "likes": 9767
+   "downloads": 2335172,
+   "likes": 9889
+  },
+  {
+   "id": "XHToken/Spark-X2.6-4B",
+   "pipeline": "text-generation",
+   "downloads": 10163,
+   "likes": 913
   },
   {
    "id": "black-forest-labs/flux-3-image-klein-comfy",
    "pipeline": "image-to-image",
-   "downloads": 798943,
-   "likes": 1987
+   "downloads": 832197,
+   "likes": 2070
   }
  ],
  "trending": [
   {
-   "name": "rddmwmddr/android-ad-cleaner",
-   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
-   "stars": 4565,
-   "lang": "Python",
-   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
-  },
-  {
-   "name": "JustAResearcher/gpu-unlock-ada",
-   "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
-   "stars": 4462,
-   "lang": "C",
-   "desc": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally"
-  },
-  {
    "name": "unclebob/ub-mode",
    "url": "https://github.com/unclebob/ub-mode",
-   "stars": 4115,
+   "stars": 5096,
    "lang": "",
    "desc": ""
   },
   {
-   "name": "designfuchen/word-atlas",
-   "url": "https://github.com/designfuchen/word-atlas",
-   "stars": 3164,
-   "lang": "TypeScript",
-   "desc": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
+   "name": "rddmwmddr/android-ad-cleaner",
+   "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+   "stars": 4917,
+   "lang": "Python",
+   "desc": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。"
   },
   {
    "name": "interplains/Zero-Breach-Toolkit",
    "url": "https://github.com/interplains/Zero-Breach-Toolkit",
-   "stars": 3062,
+   "stars": 3710,
    "lang": "Python",
    "desc": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backup"
   },
   {
    "name": "anhao/ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
-   "stars": 2451,
+   "stars": 3634,
    "lang": "HTML",
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
   },
   {
+   "name": "designfuchen/word-atlas",
+   "url": "https://github.com/designfuchen/word-atlas",
+   "stars": 3303,
+   "lang": "TypeScript",
+   "desc": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
+  },
+  {
    "name": "t3dotgg/tstack",
    "url": "https://github.com/t3dotgg/tstack",
-   "stars": 2310,
+   "stars": 2428,
    "lang": "Python",
    "desc": "The agent skills I use every day. Works with Claude Code and Codex."
   },
   {
-   "name": "enesozturk/dimensional-drawing",
-   "url": "https://github.com/enesozturk/dimensional-drawing",
-   "stars": 1491,
-   "lang": "HTML",
-   "desc": "Create Apple style dimensional drawings of UI components."
+   "name": "andyhuo520/digital-human-koubo",
+   "url": "https://github.com/andyhuo520/digital-human-koubo",
+   "stars": 1526,
+   "lang": "TypeScript",
+   "desc": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agen"
+  },
+  {
+   "name": "ccch1mneyyy/dsh-Go",
+   "url": "https://github.com/ccch1mneyyy/dsh-Go",
+   "stars": 1357,
+   "lang": "Dart",
+   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 185186,
+   "stars": 185311,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-29T03:46:43Z"
+   "pushed": "2026-10-30T01:53:49Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 157117,
+   "stars": 157229,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-10-29T09:08:02Z"
+   "pushed": "2026-10-30T09:41:21Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 153801,
+   "stars": 153908,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-10-27T22:22:38Z"
+   "pushed": "2026-10-30T01:06:26Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 148673,
+   "stars": 148705,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-29T09:03:09Z"
+   "pushed": "2026-10-30T08:26:32Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 132716,
+   "stars": 132817,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-29T09:28:04Z"
+   "pushed": "2026-10-30T09:17:02Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 122381,
+   "stars": 122452,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-10-29T03:46:37Z"
+   "pushed": "2026-10-29T12:12:03Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 104141,
+   "stars": 105199,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-29T00:48:27Z"
+   "pushed": "2026-10-30T03:07:33Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 97020,
+   "stars": 97064,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-10-23T18:57:44Z"
@@ -286,31 +286,31 @@
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 82372,
+   "stars": 82673,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-10-29T08:12:27Z"
+   "pushed": "2026-10-29T13:17:45Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 62293,
+   "stars": 62360,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-29T09:40:29Z"
+   "pushed": "2026-10-30T09:40:01Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 56799,
+   "stars": 56894,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-29T09:08:35Z"
+   "pushed": "2026-10-30T09:08:22Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 47761,
+   "stars": 47824,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
    "pushed": "2026-10-29T06:53:11Z"
@@ -318,24 +318,24 @@
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32465,
+   "stars": 32494,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-10-16T11:20:26Z"
+   "pushed": "2026-10-29T10:34:29Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 5561,
+   "stars": 5605,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "AI",
-  "title": "Fine-tuning vs RAG",
-  "desc": "Fine-tuning changes a model's behavior and style; RAG gives it new knowledge. Use RAG for facts, fine-tuning for tone/format — combining both is common.",
-  "link": "https://huggingface.co/docs/transformers/training"
+  "cat": "Data Science",
+  "title": "Embeddings",
+  "desc": "Converting text or images into vectors of numbers where similar things end up close together. Semantic search, RAG, and recommendations all run on this.",
+  "link": "https://huggingface.co/blog/getting-started-with-embeddings"
  }
 }
