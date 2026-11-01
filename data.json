@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T09:26:58.608022+00:00",
+ "generated_at": "2026-11-01T10:15:49.827327+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,183 +62,183 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-   "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-   "points": 888,
-   "time": "2026-10-30T07:09:12Z"
+   "title": "HackerTube: YouTube built from videos recommended by HN",
+   "url": "https://karpathy.bearblog.dev/hacker-tube/",
+   "points": 1321,
+   "time": "2026-10-31T19:56:53Z"
   },
   {
-   "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
-   "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
-   "points": 445,
-   "time": "2026-10-30T12:50:01Z"
+   "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+   "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+   "points": 508,
+   "time": "2026-10-31T19:16:30Z"
   },
   {
-   "title": "Northflank Breached",
-   "url": "https://status.northflank.com",
-   "points": 430,
-   "time": "2026-10-30T15:10:31Z"
+   "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+   "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+   "points": 442,
+   "time": "2026-10-31T22:41:06Z"
   },
   {
-   "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
-   "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
-   "points": 309,
-   "time": "2026-10-30T10:06:15Z"
+   "title": "Anthropic blocks users for anything touching training larger models",
+   "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+   "points": 354,
+   "time": "2026-10-31T19:39:19Z"
   },
   {
-   "title": "My favourite PowerMac is a Nintendo Wii",
-   "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
-   "points": 308,
-   "time": "2026-10-30T17:25:15Z"
+   "title": "Do the math: How we took over ChatGPT accounts",
+   "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+   "points": 332,
+   "time": "2026-10-31T10:30:11Z"
   },
   {
-   "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
-   "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
-   "points": 304,
-   "time": "2026-10-30T20:23:30Z"
+   "title": "Jepsen: ParticleDB 1.1.4",
+   "url": "https://jepsen.io/analyses/particledb-1.1.4",
+   "points": 265,
+   "time": "2026-10-31T13:39:52Z"
   }
  ],
  "models": [
   {
    "id": "Nanbeige/Nanbeige4.3-33B",
    "pipeline": "text-generation",
-   "downloads": 13832,
-   "likes": 813
+   "downloads": 15795,
+   "likes": 942
   },
   {
    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "pipeline": "image-text-to-text",
-   "downloads": 156373,
-   "likes": 4045
+   "downloads": 170353,
+   "likes": 4150
   },
   {
    "id": "LiquidAI/LFM3-1.7B",
    "pipeline": "text-generation",
-   "downloads": 32933,
-   "likes": 590
+   "downloads": 37568,
+   "likes": 647
   },
   {
    "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
    "pipeline": "automatic-speech-recognition",
-   "downloads": 24357,
-   "likes": 511
-  },
-  {
-   "id": "baidu/Unlimited-OCR-2",
-   "pipeline": "image-text-to-text",
-   "downloads": 69231,
-   "likes": 464
+   "downloads": 29364,
+   "likes": 561
   },
   {
    "id": "mistralai/Mistral-Large-4-1T-A52B",
    "pipeline": "image-text-to-text",
-   "downloads": 2945,
-   "likes": 1364
+   "downloads": 4576,
+   "likes": 1414
+  },
+  {
+   "id": "baidu/Unlimited-OCR-2",
+   "pipeline": "image-text-to-text",
+   "downloads": 109519,
+   "likes": 486
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 2441077,
-   "likes": 10001
-  },
-  {
-   "id": "RecursiveSI/flint",
-   "pipeline": "text-generation",
-   "downloads": 23079,
-   "likes": 1267
-  },
-  {
-   "id": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-   "pipeline": "text-generation",
-   "downloads": 2076624,
-   "likes": 510
+   "downloads": 2431846,
+   "likes": 10127
   },
   {
    "id": "ccore/Qwen3.5-4B-3D-Coder",
    "pipeline": "",
-   "downloads": 29615,
-   "likes": 355
+   "downloads": 44825,
+   "likes": 423
+  },
+  {
+   "id": "XHToken/Spark-X2.6-4B",
+   "pipeline": "text-generation",
+   "downloads": 16707,
+   "likes": 940
+  },
+  {
+   "id": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "pipeline": "text-to-image",
+   "downloads": 2548468,
+   "likes": 5436
   }
  ],
  "trending": [
   {
-   "name": "unclebob/ub-mode",
-   "url": "https://github.com/unclebob/ub-mode",
-   "stars": 5491,
-   "lang": "",
-   "desc": ""
-  },
-  {
    "name": "anhao/ai-pose-gallery-zh",
    "url": "https://github.com/anhao/ai-pose-gallery-zh",
-   "stars": 4304,
+   "stars": 4956,
    "lang": "TypeScript",
    "desc": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊"
   },
   {
-   "name": "interplains/Zero-Breach-Toolkit",
-   "url": "https://github.com/interplains/Zero-Breach-Toolkit",
-   "stars": 3921,
-   "lang": "Python",
-   "desc": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backup"
-  },
-  {
-   "name": "designfuchen/word-atlas",
-   "url": "https://github.com/designfuchen/word-atlas",
-   "stars": 3459,
+   "name": "deepseek-ai/dsh-superagent-prototype",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "stars": 4827,
    "lang": "TypeScript",
-   "desc": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset."
-  },
-  {
-   "name": "ccch1mneyyy/dsh-Go",
-   "url": "https://github.com/ccch1mneyyy/dsh-Go",
-   "stars": 3061,
-   "lang": "Dart",
-   "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。"
-  },
-  {
-   "name": "wangzan101/Mika",
-   "url": "https://github.com/wangzan101/Mika",
-   "stars": 1995,
-   "lang": "Kotlin",
-   "desc": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you."
+   "desc": "Towards a More Autonomous Agent System"
   },
   {
    "name": "heydamir/unslop",
    "url": "https://github.com/heydamir/unslop",
-   "stars": 1980,
+   "stars": 4032,
    "lang": "JavaScript",
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
   },
   {
+   "name": "wangzan101/Mika",
+   "url": "https://github.com/wangzan101/Mika",
+   "stars": 3216,
+   "lang": "Kotlin",
+   "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you."
+  },
+  {
    "name": "valentderah/totk-pc-recomp",
    "url": "https://github.com/valentderah/totk-pc-recomp",
-   "stars": 1970,
+   "stars": 2840,
    "lang": "C",
    "desc": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included."
+  },
+  {
+   "name": "patch-gg/pixelfx",
+   "url": "https://github.com/patch-gg/pixelfx",
+   "stars": 1893,
+   "lang": "JavaScript",
+   "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
+  },
+  {
+   "name": "paipiange/nvzhuang",
+   "url": "https://github.com/paipiange/nvzhuang",
+   "stars": 1819,
+   "lang": "Go",
+   "desc": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang"
+  },
+  {
+   "name": "aschmelyun/print-my-profile-pic",
+   "url": "https://github.com/aschmelyun/print-my-profile-pic",
+   "stars": 1672,
+   "lang": "",
+   "desc": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 185421,
+   "stars": 185525,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-10-30T21:34:59Z"
+   "pushed": "2026-10-31T22:46:17Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 157335,
+   "stars": 157439,
    "lang": "Python",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-10-31T09:23:29Z"
+   "pushed": "2026-11-01T10:11:12Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 154009,
+   "stars": 154114,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
    "pushed": "2026-10-31T01:01:35Z"
@@ -246,39 +246,39 @@
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 148758,
+   "stars": 148802,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-10-31T08:15:40Z"
+   "pushed": "2026-11-01T09:10:04Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 132924,
+   "stars": 133031,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-10-31T06:57:32Z"
+   "pushed": "2026-11-01T09:03:30Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 122559,
+   "stars": 122697,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-10-31T04:53:59Z"
+   "pushed": "2026-11-01T01:51:43Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 106845,
+   "stars": 108366,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-10-31T08:56:15Z"
+   "pushed": "2026-11-01T05:21:17Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 97107,
+   "stars": 97146,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-10-23T18:57:44Z"
@@ -286,39 +286,39 @@
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 82989,
+   "stars": 83368,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-10-31T05:58:07Z"
+   "pushed": "2026-11-01T03:38:21Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 62428,
+   "stars": 62478,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-10-31T09:01:50Z"
+   "pushed": "2026-11-01T09:30:08Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 56953,
+   "stars": 57010,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-10-31T09:06:09Z"
+   "pushed": "2026-11-01T09:06:22Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 47883,
+   "stars": 47925,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
-   "pushed": "2026-10-31T08:47:33Z"
+   "pushed": "2026-11-01T09:09:53Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32516,
+   "stars": 32527,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-10-29T10:34:29Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 5660,
+   "stars": 5704,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "CI/CD",
-  "desc": "Automatic tests on every commit (CI) and automatic deployment (CD). GitHub Actions is exactly this — this very site now updates daily through it!",
-  "link": "https://docs.github.com/en/actions"
+  "cat": "Security",
+  "title": "SSRF (Server-Side Request Forgery)",
+  "desc": "An attacker makes your server hit internal URLs (cloud metadata, internal APIs). Validate URL inputs and block internal IP ranges.",
+  "link": "https://owasp.org/www-community/attacks/Server_Side_Request_Forgery"
  }
 }
