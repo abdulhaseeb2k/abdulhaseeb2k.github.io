@@ -1,0 +1,13 @@
+{
+  "_help": "Projects shown on the site that are NOT public GitHub repos (private repos, store-only apps). Public repos appear automatically - don't list them here. Link types: chrome, edge, firefox, playstore, appstore, download, web. A 'download' link must point to a public file (e.g. a release asset on a PUBLIC repo) - assets on private repos can't be downloaded by visitors. A project with no links shows as 'Coming soon'.",
+  "projects": [
+    {
+      "name": "Snapchat-Streak-Recoverer-Extension",
+      "description": "Chrome extension that fills and submits the Snapchat streak support form for your friends, with profiles and cloud sync.",
+      "language": "JavaScript",
+      "platforms": ["Extension"],
+      "updated": "2026-11-03",
+      "links": []
+    }
+  ]
+}

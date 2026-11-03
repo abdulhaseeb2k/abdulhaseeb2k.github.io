@@ -347,6 +347,7 @@
         <a href="https://github.com/abdulhaseeb2k" target="_blank" rel="noopener">GitHub</a>
         <a href="https://www.linkedin.com/in/abdulhaseeb2k" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://twitter.com/Abdulhaseeb085" target="_blank" rel="noopener">X / Twitter</a>
+        <a href="donate/">❤ Support</a>
       </div>
     </div>
     <div class="head-stats">
@@ -592,6 +593,35 @@ function assetButtons(repoName) {
   return `<div class="release-actions">${btns}</div>`;
 }
 
+// ---------- Private / store-only projects (projects.json) ----------
+const LINK_LABEL = {
+  chrome: "🧩 Chrome Web Store", edge: "🧩 Edge Add-ons", firefox: "🦊 Firefox Add-ons",
+  playstore: "▶ Google Play", appstore: " App Store", web: "🌐 Open App"
+};
+
+function manualToRepo(p) {
+  return {
+    name: p.name, description: p.description || "", language: p.language || "",
+    stargazers_count: 0, forks_count: 0, pushed_at: p.updated || "",
+    html_url: (p.links || [])[0]?.url || "", _manual: true,
+    _links: p.links || [], _plats: p.platforms || []
+  };
+}
+
+function storeButtons(r, sm) {
+  if (!r._links.length) return `<span class="chip">🚀 Coming soon</span>`;
+  return r._links.map(l => {
+    let cls = "btn-primary", label = LINK_LABEL[l.type];
+    if (!label) {
+      const n = (l.url || "").toLowerCase();
+      cls = "btn-installer"; label = "⬇ " + esc(l.label || "Download");
+      if (n.endsWith(".apk")) { cls = "btn-apk"; label = sm ? "📱 APK" : "📱 Download APK"; }
+      else if (/\.(exe|msi)$/.test(n)) label = sm ? "💻 Installer" : "💻 Download Installer";
+    }
+    return `<a class="btn ${sm ? "btn-sm " : ""}${cls}" href="${esc(l.url)}" target="_blank" rel="noopener">${label}</a>`;
+  }).join("");
+}
+
 // ---------- Platform detection & project grouping ----------
 const PLAT_TOKENS = {
   extension: "Extension", chrome: "Extension", firefox: "Extension", edge: "Extension", addon: "Extension",
@@ -616,6 +646,7 @@ function baseAndPlats(repo) {
     else if (/\.(exe|msi|dmg|deb|rpm|appimage)$/.test(n)) plats.add("Desktop");
     else if (n.endsWith(".crx")) plats.add("Extension");
   }
+  for (const p of (repo._plats || [])) plats.add(p);
   if (plats.has("App") && plats.has("Android")) plats.delete("App");
   if (!plats.size) {
     const L = repo.language || "";
@@ -684,7 +715,7 @@ function groupCard(g, i) {
   const items = g.items;
   const totStars = items.reduce((s, it) => s + it.repo.stargazers_count, 0);
   const totForks = items.reduce((s, it) => s + it.repo.forks_count, 0);
-  const latest = items.map(it => it.repo.pushed_at).sort().pop();
+  const latest = items.map(it => it.repo.pushed_at).filter(Boolean).sort().pop();
   const PLAT_DESC = /extension|chrome|firefox|addon|android|apk|play store|app store|desktop|windows|electron|linux|macos|\bios\b|iphone|version of|port of|\bfor (android|ios|windows|desktop|chrome|mac)\b/i;
   const allDescs = items.map(it => it.repo.description || "").filter(Boolean);
   const allPlats = [...new Set(items.flatMap(it => it.plats))];
@@ -702,11 +733,18 @@ function groupCard(g, i) {
         <span>⭐ ${totStars}</span>
         <span>🍴 ${totForks}</span>
         ${totDl ? `<span class="dl-chip">⬇ ${fmtNum(totDl)} downloads</span>` : ""}
-        <span class="chip">Updated ${timeAgo(latest)}</span>
+        ${latest ? `<span class="chip">Updated ${timeAgo(latest)}</span>` : ""}
       </div>
       <div class="variants">
         ${items.map(it => {
           const r = it.repo;
+          if (r._manual) return `
+          <div class="sub-card">
+            <div class="sub-head">${platChips(it.plats)}</div>
+            <span class="sub-name">${esc(r.name)}</span>
+            <div class="sub-desc">${esc(r.description)}</div>
+            <div class="sub-actions">${storeButtons(r, true)}</div>
+          </div>`;
           return `
           <div class="sub-card">
             <div class="sub-head">${platChips(it.plats)}</div>
@@ -731,6 +769,17 @@ function groupCard(g, i) {
 
 function singleCard(entry, i) {
   const r = entry.repo;
+  if (r._manual) return `
+    <div class="card" style="animation-delay:${Math.min(i * 70, 500)}ms">
+      <h2>${r.html_url ? `<a href="${esc(r.html_url)}" target="_blank" rel="noopener">${esc(r.name)}</a>` : esc(r.name)}</h2>
+      <div class="desc">${esc(r.description) || "No description provided."}</div>
+      <div class="meta">
+        ${platChips(entry.plats)}
+        ${r.language ? `<span><span class="lang-dot" style="background:${LANG_COLORS[r.language] || "#8b949e"}"></span>${esc(r.language)}</span>` : ""}
+        ${r.pushed_at ? `<span class="chip">Updated ${timeAgo(r.pushed_at)}</span>` : ""}
+      </div>
+      <div class="actions">${storeButtons(r, false)}</div>
+    </div>`;
   return `
     <div class="card" style="animation-delay:${Math.min(i * 70, 500)}ms">
       <h2><a href="${r.html_url}" target="_blank" rel="noopener">${esc(r.name)}</a></h2>
@@ -765,7 +814,7 @@ function render(list) {
 }
 
 function loadReleases() {
-  Promise.allSettled(repos.map(r =>
+  Promise.allSettled(repos.filter(r => !r._manual).map(r =>
     fetch(`https://api.github.com/repos/${USERNAME}/${r.name}/releases?per_page=100`)
       .then(res => res.ok ? res.json() : [])
       .then(rels => {
@@ -804,20 +853,28 @@ fetch(`https://api.github.com/search/issues?q=user:${USERNAME}+is:issue+state:op
     document.getElementById("feedbackBody").innerHTML = `<div class="w-error">Could not load.</div>`;
   });
 
+// Private / store-only projects are listed by hand in projects.json
+const manualReq = fetch("projects.json?v=" + Math.floor(Date.now() / 3600000))
+  .then(r => r.ok ? r.json() : {})
+  .then(d => (d.projects || []).map(manualToRepo))
+  .catch(() => []);
+
 fetch(`https://api.github.com/users/${USERNAME}/repos?sort=updated&per_page=100`)
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then(data => {
+  .then(async data => {
     // Hidden from the grid: this site's repo + the profile README repo.
     // Add any other repo names here to hide them.
     const HIDDEN = [`${USERNAME}.github.io`.toLowerCase(), USERNAME.toLowerCase()];
-    repos = data.filter(r => !r.fork && !HIDDEN.includes(r.name.toLowerCase()));
+    repos = [...data.filter(r => !r.fork && !HIDDEN.includes(r.name.toLowerCase())), ...await manualReq];
     render(repos);
     loadReleases();
     stats.stars = data.reduce((s, r) => s + r.stargazers_count, 0);
     renderStats();
   })
-  .catch(() => {
-    statusEl.textContent = "Could not load projects. Please refresh the page.";
+  .catch(async () => {
+    repos = await manualReq;
+    render(repos);
+    if (!repos.length) statusEl.textContent = "Could not load projects. Please refresh the page.";
   });
 
 // ---------- Header stats (mono readout) ----------
