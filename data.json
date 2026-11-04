@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T10:38:55.907269+00:00",
+ "generated_at": "2026-11-04T10:41:38.977994+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Astra can read and write weights to improve Qwen",
-   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "points": 2664,
-   "time": "2026-11-02T18:21:28Z"
+   "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+   "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+   "points": 1301,
+   "time": "2026-11-03T17:22:37Z"
   },
   {
-   "title": "Show HN: Subvocal – Talk to your computer without making noise",
-   "url": "https://news.ycombinator.com/item?id=50340088",
-   "points": 704,
-   "time": "2026-11-02T17:16:17Z"
+   "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+   "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+   "points": 988,
+   "time": "2026-11-03T12:21:17Z"
   },
   {
-   "title": "If you love a website, back it up",
-   "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
-   "points": 554,
-   "time": "2026-11-02T13:25:35Z"
+   "title": "Jailbreaking my car's navigation system just so I can change the time",
+   "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+   "points": 824,
+   "time": "2026-11-02T16:29:19Z"
   },
   {
-   "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
-   "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-   "points": 523,
-   "time": "2026-11-02T18:39:38Z"
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "points": 633,
+   "time": "2026-11-03T17:40:00Z"
   },
   {
-   "title": "US boy names that became girl names and vice versa",
-   "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
-   "points": 409,
-   "time": "2026-11-02T16:34:36Z"
+   "title": "Stringman, an $800 open-source room scale gripper robot",
+   "url": "https://neufangled.com/",
+   "points": 608,
+   "time": "2026-11-03T16:47:29Z"
   },
   {
-   "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
-   "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-   "points": 359,
-   "time": "2026-11-02T22:30:47Z"
+   "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+   "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+   "points": 478,
+   "time": "2026-11-02T14:02:42Z"
   }
  ],
  "models": [
   {
+   "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "pipeline": "automatic-speech-recognition",
+   "downloads": 44939,
+   "likes": 825
+  },
+  {
    "id": "LiquidAI/LFM3-1.7B",
    "pipeline": "text-generation",
-   "downloads": 47817,
-   "likes": 1284
+   "downloads": 54959,
+   "likes": 1442
   },
   {
    "id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
    "pipeline": "image-text-to-text",
-   "downloads": 187260,
-   "likes": 4772
-  },
-  {
-   "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "pipeline": "automatic-speech-recognition",
-   "downloads": 38942,
-   "likes": 705
+   "downloads": 221621,
+   "likes": 5216
   },
   {
    "id": "mistralai/Mistral-Large-4-1T-A52B",
    "pipeline": "image-text-to-text",
-   "downloads": 6556,
-   "likes": 1518
+   "downloads": 8200,
+   "likes": 1565
   },
   {
    "id": "speridlabs/idol",
    "pipeline": "image-to-3d",
-   "downloads": 10742,
-   "likes": 456
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 2488128,
-   "likes": 10409
-  },
-  {
-   "id": "ccore/Qwen3.5-4B-3D-Coder",
-   "pipeline": "",
-   "downloads": 91123,
-   "likes": 576
-  },
-  {
-   "id": "baidu/Unlimited-OCR-2",
-   "pipeline": "image-text-to-text",
-   "downloads": 189897,
-   "likes": 576
+   "downloads": 14613,
+   "likes": 547
   },
   {
    "id": "Pika-Labs/Pika-H3-Flex",
    "pipeline": "image-to-video",
-   "downloads": 633,
-   "likes": 371
+   "downloads": 749,
+   "likes": 405
   },
   {
-   "id": "LiquidAI/LFM3-Omni-2B",
-   "pipeline": "any-to-any",
-   "downloads": 11662,
-   "likes": 324
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 2493402,
+   "likes": 10538
+  },
+  {
+   "id": "ccore/Qwen3.5-4B-3D-Coder",
+   "pipeline": "",
+   "downloads": 123321,
+   "likes": 625
+  },
+  {
+   "id": "burner22/numbat",
+   "pipeline": "",
+   "downloads": 8118,
+   "likes": 327
+  },
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "pipeline": "image-text-to-text",
+   "downloads": 8032442,
+   "likes": 19107
   }
  ],
  "trending": [
   {
    "name": "deepseek-ai/dsh-superagent-prototype",
    "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-   "stars": 15310,
+   "stars": 18037,
    "lang": "TypeScript",
    "desc": "Towards a More Autonomous Agent System"
   },
   {
+   "name": "storytold/craft-anything",
+   "url": "https://github.com/storytold/craft-anything",
+   "stars": 9755,
+   "lang": "Rust",
+   "desc": "Craft Anything: understand how any software works, and craft your own."
+  },
+  {
    "name": "heydamir/unslop",
    "url": "https://github.com/heydamir/unslop",
-   "stars": 6811,
+   "stars": 7914,
    "lang": "JavaScript",
    "desc": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface"
   },
   {
    "name": "wangzan101/Mika",
    "url": "https://github.com/wangzan101/Mika",
-   "stars": 5818,
+   "stars": 6327,
    "lang": "Kotlin",
    "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you."
   },
   {
-   "name": "storytold/craft-anything",
-   "url": "https://github.com/storytold/craft-anything",
-   "stars": 5803,
-   "lang": "Rust",
-   "desc": "Craft Anything: understand how any software works, and craft your own."
-  },
-  {
    "name": "valentderah/totk-pc-recomp",
    "url": "https://github.com/valentderah/totk-pc-recomp",
-   "stars": 4251,
+   "stars": 4663,
    "lang": "C",
    "desc": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not"
   },
   {
    "name": "patch-gg/pixelfx",
    "url": "https://github.com/patch-gg/pixelfx",
-   "stars": 3800,
+   "stars": 4444,
    "lang": "JavaScript",
    "desc": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own."
   },
   {
-   "name": "Djihads80/Eglantine",
-   "url": "https://github.com/Djihads80/Eglantine",
-   "stars": 2729,
-   "lang": "C++",
-   "desc": "VERY experimental Nintendo Switch 2 emulator"
-  },
-  {
    "name": "BryceYuuu/RUN",
    "url": "https://github.com/BryceYuuu/RUN",
-   "stars": 2490,
+   "stars": 3454,
    "lang": "Python",
    "desc": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）"
+  },
+  {
+   "name": "Djihads80/Eglantine",
+   "url": "https://github.com/Djihads80/Eglantine",
+   "stars": 3255,
+   "lang": "C++",
+   "desc": "VERY experimental Nintendo Switch 2 emulator"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 185764,
+   "stars": 185871,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-11-03T06:11:27Z"
+   "pushed": "2026-11-04T01:39:55Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 157629,
-   "lang": "Python",
+   "stars": 157730,
+   "lang": "Svelte",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-11-03T10:00:01Z"
+   "pushed": "2026-11-04T10:10:53Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 154360,
+   "stars": 154477,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-11-03T01:25:46Z"
+   "pushed": "2026-11-04T00:02:45Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 148935,
+   "stars": 148994,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-11-03T08:27:25Z"
+   "pushed": "2026-11-04T08:36:24Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 133247,
+   "stars": 133331,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-11-03T10:24:43Z"
+   "pushed": "2026-11-04T10:12:51Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 122892,
+   "stars": 122955,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-11-02T18:55:18Z"
@@ -270,15 +270,15 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 111234,
+   "stars": 112381,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-11-03T03:52:52Z"
+   "pushed": "2026-11-04T08:19:38Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 97237,
+   "stars": 97276,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-11-02T04:38:05Z"
@@ -286,39 +286,39 @@
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 84098,
+   "stars": 84396,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-11-03T10:15:32Z"
+   "pushed": "2026-11-04T09:56:38Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 62616,
+   "stars": 62680,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-11-03T10:30:02Z"
+   "pushed": "2026-11-04T10:27:10Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 57150,
+   "stars": 57217,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-11-03T09:07:32Z"
+   "pushed": "2026-11-04T09:07:37Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 48037,
+   "stars": 48092,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
-   "pushed": "2026-11-03T06:01:30Z"
+   "pushed": "2026-11-03T23:06:28Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32577,
+   "stars": 32585,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-10-29T10:34:29Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 5795,
+   "stars": 5843,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "Database Indexing",
-  "desc": "Without an index, a query scans the whole table. The right index means milliseconds; the wrong one means minutes. Run EXPLAIN to see what your query is really doing.",
-  "link": "https://use-the-index-luke.com/"
+  "cat": "AI",
+  "title": "Mixture of Experts (MoE)",
+  "desc": "The model contains many small 'expert' networks; a router sends each token to only 1-2 of them. This is why models like DeepSeek and Mixtral stay fast despite being huge.",
+  "link": "https://huggingface.co/blog/moe"
  }
 }
