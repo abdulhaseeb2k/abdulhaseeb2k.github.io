@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T10:37:48.827513+00:00",
+ "generated_at": "2026-11-07T09:48:46.119394+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "sshole",
-   "url": "https://sshhole.com",
-   "points": 2720,
-   "time": "2026-11-05T12:19:02Z"
+   "title": "Tesla to wind down Cybertruck production",
+   "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+   "points": 1003,
+   "time": "2026-11-06T12:13:51Z"
   },
   {
-   "title": "Claude Code sends your email address to websites",
-   "url": "https://github.com/anthropics/claude-code/issues/107757",
-   "points": 1168,
-   "time": "2026-11-05T22:17:15Z"
+   "title": "Libghostty 1.0",
+   "url": "https://mitchellh.com/writing/libghostty-1-0",
+   "points": 628,
+   "time": "2026-11-06T23:30:52Z"
   },
   {
-   "title": "Goodbye from Salon",
-   "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
-   "points": 585,
-   "time": "2026-11-05T20:03:29Z"
+   "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+   "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+   "points": 471,
+   "time": "2026-11-06T19:48:51Z"
   },
   {
-   "title": "MS Paint Remote Code Execution Vulnerability",
-   "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-   "points": 555,
-   "time": "2026-11-05T20:43:42Z"
+   "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+   "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+   "points": 336,
+   "time": "2026-11-06T04:00:28Z"
   },
   {
-   "title": "Motorola Signature 27 with GrapheneOS support",
-   "url": "https://motorolanews.com/motorola-signature-27-2/",
-   "points": 487,
-   "time": "2026-11-05T16:01:34Z"
+   "title": "Gemini Omni 1.2 Flash",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "points": 335,
+   "time": "2026-11-06T13:35:27Z"
   },
   {
-   "title": "I wish tech companies knew more about me",
-   "url": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
-   "points": 425,
-   "time": "2026-11-05T13:40:52Z"
+   "title": "AI is dramatically accelerating AI research",
+   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "points": 302,
+   "time": "2026-11-06T20:27:23Z"
   }
  ],
  "models": [
@@ -103,166 +103,166 @@
    "id": "moonshotai/Kimi-K3.1-Pro",
    "pipeline": "image-text-to-text",
    "downloads": 18432,
-   "likes": 1339
+   "likes": 1577
   },
   {
    "id": "speridlabs/idol",
    "pipeline": "image-to-3d",
    "downloads": 19139,
-   "likes": 846
+   "likes": 992
   },
   {
    "id": "ccore/Qwen3.5-4B-3D-Coder",
    "pipeline": "",
    "downloads": 190243,
-   "likes": 737
+   "likes": 813
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 2607491,
-   "likes": 10780
+   "downloads": 2643778,
+   "likes": 10902
   },
   {
-   "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-   "pipeline": "automatic-speech-recognition",
-   "downloads": 61049,
-   "likes": 3066
+   "id": "ricursiveAI/Ripple-65B-Preview",
+   "pipeline": "",
+   "downloads": 2013,
+   "likes": 347
   },
   {
    "id": "burner22/numbat",
    "pipeline": "",
    "downloads": 9066,
-   "likes": 358
+   "likes": 372
   },
   {
    "id": "FusionCow/Sulphur-3",
    "pipeline": "",
    "downloads": 950,
-   "likes": 385
-  },
-  {
-   "id": "mistralai/Mistral-Large-4-1T-A52B",
-   "pipeline": "image-text-to-text",
-   "downloads": 10530,
-   "likes": 1620
-  },
-  {
-   "id": "Pika-Labs/Pika-H3-Flex",
-   "pipeline": "image-to-video",
-   "downloads": 986,
-   "likes": 483
+   "likes": 399
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 7845288,
-   "likes": 19237
+   "downloads": 7813215,
+   "likes": 19299
+  },
+  {
+   "id": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+   "pipeline": "automatic-speech-recognition",
+   "downloads": 63798,
+   "likes": 3083
+  },
+  {
+   "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 1545313,
+   "likes": 2619
   }
  ],
  "trending": [
   {
-   "name": "deepseek-ai/dsh-superagent-prototype",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-   "stars": 19957,
-   "lang": "TypeScript",
-   "desc": "Towards a More Autonomous Agent System"
-  },
-  {
-   "name": "storytold/craft-anything",
-   "url": "https://github.com/storytold/craft-anything",
-   "stars": 16423,
-   "lang": "Rust",
-   "desc": "Craft Anything: understand how any software works, and craft your own."
-  },
-  {
    "name": "KKKKhazix/agent-autoloop",
    "url": "https://github.com/KKKKhazix/agent-autoloop",
-   "stars": 3468,
+   "stars": 3827,
    "lang": "TypeScript",
    "desc": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。"
   },
   {
-   "name": "zortos293/Lichii",
-   "url": "https://github.com/zortos293/Lichii",
-   "stars": 2884,
-   "lang": "C++",
-   "desc": "VERY experimental Nintendo Switch 2 emulator"
-  },
-  {
    "name": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
    "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
-   "stars": 2713,
+   "stars": 2965,
    "lang": "Python",
    "desc": "Google_AI_Pro_2Year_ZeroCost_Auto"
   },
   {
-   "name": "Verlintas/NOIR",
-   "url": "https://github.com/Verlintas/NOIR",
-   "stars": 2668,
-   "lang": "Kotlin",
-   "desc": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes."
-  },
-  {
    "name": "govijr/terminal-mac",
    "url": "https://github.com/govijr/terminal-mac",
-   "stars": 2027,
+   "stars": 2199,
    "lang": "Swift",
    "desc": "Entire MacOS running in your terminal."
   },
   {
    "name": "mromidev/claude-animated-shorts",
    "url": "https://github.com/mromidev/claude-animated-shorts",
-   "stars": 1915,
+   "stars": 2099,
    "lang": "TypeScript",
    "desc": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion"
+  },
+  {
+   "name": "caru-ini/stack-diagram",
+   "url": "https://github.com/caru-ini/stack-diagram",
+   "stars": 2007,
+   "lang": "TypeScript",
+   "desc": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos"
+  },
+  {
+   "name": "Minireel/HGhub",
+   "url": "https://github.com/Minireel/HGhub",
+   "stars": 1900,
+   "lang": "TypeScript",
+   "desc": "YellowFruit third-party client"
+  },
+  {
+   "name": "wquguru/cicada",
+   "url": "https://github.com/wquguru/cicada",
+   "stars": 1587,
+   "lang": "Swift",
+   "desc": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, "
+  },
+  {
+   "name": "JenkinWoo/sheeridVerify",
+   "url": "https://github.com/JenkinWoo/sheeridVerify",
+   "stars": 1278,
+   "lang": "JavaScript",
+   "desc": ""
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 186070,
+   "stars": 186201,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-11-06T02:08:23Z"
+   "pushed": "2026-11-07T02:44:07Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 157907,
+   "stars": 157979,
    "lang": "Svelte",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-11-06T07:45:20Z"
+   "pushed": "2026-11-07T08:37:26Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 154738,
+   "stars": 154843,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-11-06T00:00:34Z"
+   "pushed": "2026-11-06T17:04:01Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 149119,
+   "stars": 149145,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-11-06T08:46:54Z"
+   "pushed": "2026-11-07T09:18:20Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 133535,
+   "stars": 133605,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-11-06T10:02:48Z"
+   "pushed": "2026-11-07T09:46:43Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 123046,
+   "stars": 123085,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-11-05T03:43:23Z"
@@ -270,72 +270,72 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 113744,
+   "stars": 114184,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-11-06T10:30:00Z"
+   "pushed": "2026-11-07T09:38:15Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 97360,
+   "stars": 97409,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-11-02T04:38:05Z"
+   "pushed": "2026-11-06T17:59:03Z"
   },
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 84975,
+   "stars": 85258,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-11-06T07:21:00Z"
+   "pushed": "2026-11-07T08:24:41Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 62818,
+   "stars": 62857,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-11-06T10:37:48Z"
+   "pushed": "2026-11-07T09:44:52Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 57365,
+   "stars": 57435,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-11-06T09:08:14Z"
+   "pushed": "2026-11-07T09:06:11Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 48200,
+   "stars": 48267,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
-   "pushed": "2026-11-04T23:21:44Z"
+   "pushed": "2026-11-07T05:43:50Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32619,
+   "stars": 32628,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-10-29T10:34:29Z"
+   "pushed": "2026-11-06T19:14:29Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 5957,
+   "stars": 6005,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "Idempotency",
-  "desc": "An operation that gives the same result no matter how many times you run it. Critical for APIs and retry logic — a non-idempotent payment endpoint can double-charge.",
-  "link": "https://en.wikipedia.org/wiki/Idempotence"
+  "cat": "Security",
+  "title": "Prompt Injection",
+  "desc": "The #1 attack on LLM apps: instructions hidden in untrusted content (a web page, an email) hijack the model. Fix: treat tool output as data, never as commands.",
+  "link": "https://owasp.org/www-project-top-10-for-large-language-model-applications/"
  }
 }
