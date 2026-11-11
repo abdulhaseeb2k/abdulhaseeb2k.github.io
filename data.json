@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T10:54:29.404970+00:00",
+ "generated_at": "2026-11-11T10:34:28.000884+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Foldable Flight: The Best Paper Airplanes",
-   "url": "https://www.foldableflight.com",
-   "points": 1041,
-   "time": "2026-11-09T12:19:22Z"
+   "title": "Smart home devices should work without the internet",
+   "url": "https://docodethatmatters.com/home-automation-overnight-success/",
+   "points": 954,
+   "time": "2026-11-10T15:25:20Z"
   },
   {
-   "title": "Claude Fable 5.2 and Mythos 5.2",
-   "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-   "points": 625,
-   "time": "2026-11-09T18:01:10Z"
+   "title": ".name Grandfathered",
+   "url": "https://neil.fraser.name/news/2026/11/10/",
+   "points": 846,
+   "time": "2026-11-10T16:37:44Z"
   },
   {
-   "title": "USPS now offers official ZIP Code boundary polygons",
-   "url": "https://postalpro.usps.com/zcb",
-   "points": 623,
-   "time": "2026-11-09T19:58:59Z"
+   "title": "AlphaProof Code",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+   "points": 638,
+   "time": "2026-11-10T12:11:12Z"
   },
   {
-   "title": "Google Gemini routes personal Drive files and emails to human annotators",
-   "url": "https://github.com/thisisme6598/gemini_files/",
-   "points": 619,
-   "time": "2026-11-09T18:24:38Z"
+   "title": "AI usage generates a fragile codebase",
+   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+   "points": 555,
+   "time": "2026-11-10T10:25:58Z"
   },
   {
-   "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
-   "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
-   "points": 532,
-   "time": "2026-11-09T16:00:45Z"
+   "title": "Scion is back and is going to sell a kei truck in America",
+   "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
+   "points": 477,
+   "time": "2026-11-10T19:50:46Z"
   },
   {
-   "title": "Fable 5.2 one-shotted my nephew's dream game",
-   "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
-   "points": 406,
-   "time": "2026-11-09T23:08:13Z"
+   "title": "Starlink Mini 2",
+   "url": "https://starlink.com/mini-2",
+   "points": 419,
+   "time": "2026-11-10T18:22:32Z"
   }
  ],
  "models": [
   {
-   "id": "speridlabs/idol",
-   "pipeline": "image-to-3d",
-   "downloads": 26470,
-   "likes": 1727
-  },
-  {
    "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "pipeline": "text-generation",
    "downloads": 14378,
-   "likes": 1107
+   "likes": 1301
+  },
+  {
+   "id": "speridlabs/idol",
+   "pipeline": "image-to-3d",
+   "downloads": 26470,
+   "likes": 1917
   },
   {
    "id": "moonshotai/Kimi-K3.1-Pro",
    "pipeline": "image-text-to-text",
    "downloads": 30721,
-   "likes": 1823
+   "likes": 1894
+  },
+  {
+   "id": "MiniMaxAI/MiniMax-H3-Image",
+   "pipeline": "text-to-image",
+   "downloads": 667,
+   "likes": 565
   },
   {
    "id": "ricursiveAI/Ripple-65B-Preview",
    "pipeline": "",
-   "downloads": 5835,
-   "likes": 468
+   "downloads": 6480,
+   "likes": 492
   },
   {
    "id": "Lightricks/LTX-2.5",
    "pipeline": "image-to-video",
-   "downloads": 2791606,
-   "likes": 11304
+   "downloads": 2848771,
+   "likes": 11433
   },
   {
    "id": "NousResearch/Arete-27B",
    "pipeline": "text-generation",
-   "downloads": 2407,
-   "likes": 379
+   "downloads": 3431,
+   "likes": 417
+  },
+  {
+   "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 1532273,
+   "likes": 2868
   },
   {
    "id": "ccore/Qwen3.5-4B-3D-Coder",
    "pipeline": "",
    "downloads": 319405,
-   "likes": 964
-  },
-  {
-   "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 1459029,
-   "likes": 2803
+   "likes": 985
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 7443748,
-   "likes": 19522
-  },
-  {
-   "id": "webAI-Official/TwIL-8B",
-   "pipeline": "text-generation",
-   "downloads": 43175,
-   "likes": 266
+   "downloads": 7232703,
+   "likes": 19592
   }
  ],
  "trending": [
   {
    "name": "NotRexed/Hookshot",
    "url": "https://github.com/NotRexed/Hookshot",
-   "stars": 5765,
+   "stars": 7020,
    "lang": "C++",
    "desc": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake"
   },
   {
    "name": "huamidev/GestaltX",
    "url": "https://github.com/huamidev/GestaltX",
-   "stars": 3736,
+   "stars": 5682,
    "lang": "Swift",
    "desc": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages."
   },
   {
    "name": "tangerineturtle1/NX2navi",
    "url": "https://github.com/tangerineturtle1/NX2navi",
-   "stars": 2620,
+   "stars": 3033,
    "lang": "C",
    "desc": ""
   },
   {
    "name": "jhaizhou-ops/S2Arm",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
-   "stars": 2224,
+   "stars": 2524,
    "lang": "C#",
    "desc": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole li"
   },
   {
    "name": "JenkinWoo/sheeridVerify",
    "url": "https://github.com/JenkinWoo/sheeridVerify",
-   "stars": 1992,
+   "stars": 2017,
    "lang": "JavaScript",
    "desc": ""
   },
   {
    "name": "IainKay/ram-altman",
    "url": "https://github.com/IainKay/ram-altman",
-   "stars": 1601,
+   "stars": 1862,
    "lang": "Shell",
    "desc": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI."
   },
   {
-   "name": "DIYgod/pinky",
-   "url": "https://github.com/DIYgod/pinky",
-   "stars": 1595,
-   "lang": "Go",
-   "desc": "Let AI agents use your phone, with you in the loop."
+   "name": "jamesondh/chimera-vocal-synth",
+   "url": "https://github.com/jamesondh/chimera-vocal-synth",
+   "stars": 1822,
+   "lang": "Rust",
+   "desc": "the ultimate vocal synthesizer - sing, speak, beatbox, and more"
   },
   {
-   "name": "mmdoctor/google-pro-helper",
-   "url": "https://github.com/mmdoctor/google-pro-helper",
-   "stars": 1563,
-   "lang": "Python",
-   "desc": ""
+   "name": "DIYgod/pinky",
+   "url": "https://github.com/DIYgod/pinky",
+   "stars": 1803,
+   "lang": "Go",
+   "desc": "Let AI agents use your phone, with you in the loop."
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 186508,
+   "stars": 186629,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-11-10T01:49:34Z"
+   "pushed": "2026-11-11T00:39:33Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 158283,
+   "stars": 158359,
    "lang": "Svelte",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-11-10T08:23:27Z"
+   "pushed": "2026-11-11T08:00:11Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 155150,
+   "stars": 155249,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-11-10T08:39:26Z"
+   "pushed": "2026-11-11T08:38:12Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 149299,
+   "stars": 149344,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-11-10T08:28:09Z"
+   "pushed": "2026-11-11T08:20:06Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 133896,
+   "stars": 134054,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-11-10T10:53:47Z"
+   "pushed": "2026-11-11T10:27:08Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 123282,
+   "stars": 123341,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-11-05T03:43:23Z"
@@ -270,15 +270,15 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 115588,
+   "stars": 116017,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-11-10T10:44:40Z"
+   "pushed": "2026-11-11T07:15:32Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 97554,
+   "stars": 97596,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-11-06T17:59:03Z"
@@ -286,56 +286,56 @@
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 86118,
+   "stars": 86401,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-11-10T10:32:06Z"
+   "pushed": "2026-11-11T10:20:03Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 63028,
+   "stars": 63095,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-11-10T10:29:29Z"
+   "pushed": "2026-11-11T10:07:00Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 57665,
+   "stars": 57746,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-11-10T09:07:14Z"
+   "pushed": "2026-11-11T09:07:29Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 48439,
+   "stars": 48482,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
-   "pushed": "2026-11-10T01:49:49Z"
+   "pushed": "2026-11-11T00:04:00Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32683,
+   "stars": 32712,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-11-09T23:17:38Z"
+   "pushed": "2026-11-10T11:33:01Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 6135,
+   "stars": 6214,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "CAP Theorem",
-  "desc": "In a distributed system you can't have Consistency, Availability, and Partition-tolerance all at once. During a network partition you must choose between C and A.",
-  "link": "https://en.wikipedia.org/wiki/CAP_theorem"
+  "cat": "Security",
+  "title": "Supply Chain Attack",
+  "desc": "The attacker doesn't hack you — they hack your dependency (an npm/pip package). Use lockfiles, run `npm audit`, and vet unknown packages before installing.",
+  "link": "https://owasp.org/www-project-dependency-check/"
  }
 }
