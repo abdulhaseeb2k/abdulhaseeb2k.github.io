@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T10:34:28.000884+00:00",
+ "generated_at": "2026-11-12T10:48:48.865992+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,223 +62,223 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Smart home devices should work without the internet",
-   "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-   "points": 954,
-   "time": "2026-11-10T15:25:20Z"
+   "title": "Tim Peters has died",
+   "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+   "points": 1221,
+   "time": "2026-11-11T07:03:17Z"
   },
   {
-   "title": ".name Grandfathered",
-   "url": "https://neil.fraser.name/news/2026/11/10/",
-   "points": 846,
-   "time": "2026-11-10T16:37:44Z"
+   "title": "Nvidia is preparing to oust Jensen Huang",
+   "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+   "points": 1045,
+   "time": "2026-11-11T22:31:06Z"
   },
   {
-   "title": "AlphaProof Code",
-   "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-   "points": 638,
-   "time": "2026-11-10T12:11:12Z"
+   "title": "My AI agents found an unmapped Maya site?",
+   "url": "https://pietromiotti.com/latest/maya-site",
+   "points": 993,
+   "time": "2026-11-11T12:05:22Z"
   },
   {
-   "title": "AI usage generates a fragile codebase",
-   "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
-   "points": 555,
-   "time": "2026-11-10T10:25:58Z"
+   "title": "AWS emulator",
+   "url": "https://github.com/aws/aws-emulator",
+   "points": 855,
+   "time": "2026-11-11T18:21:38Z"
   },
   {
-   "title": "Scion is back and is going to sell a kei truck in America",
-   "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/",
-   "points": 477,
-   "time": "2026-11-10T19:50:46Z"
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "points": 561,
+   "time": "2026-11-11T21:24:35Z"
   },
   {
-   "title": "Starlink Mini 2",
-   "url": "https://starlink.com/mini-2",
-   "points": 419,
-   "time": "2026-11-10T18:22:32Z"
+   "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+   "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+   "points": 495,
+   "time": "2026-11-11T16:38:44Z"
   }
  ],
  "models": [
   {
    "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "pipeline": "text-generation",
-   "downloads": 14378,
-   "likes": 1301
-  },
-  {
-   "id": "speridlabs/idol",
-   "pipeline": "image-to-3d",
-   "downloads": 26470,
-   "likes": 1917
-  },
-  {
-   "id": "moonshotai/Kimi-K3.1-Pro",
-   "pipeline": "image-text-to-text",
-   "downloads": 30721,
-   "likes": 1894
+   "downloads": 18933,
+   "likes": 4597
   },
   {
    "id": "MiniMaxAI/MiniMax-H3-Image",
    "pipeline": "text-to-image",
-   "downloads": 667,
-   "likes": 565
+   "downloads": 306718,
+   "likes": 797
   },
   {
-   "id": "ricursiveAI/Ripple-65B-Preview",
-   "pipeline": "",
-   "downloads": 6480,
-   "likes": 492
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 2848771,
-   "likes": 11433
+   "id": "speridlabs/idol",
+   "pipeline": "image-to-3d",
+   "downloads": 29904,
+   "likes": 2184
   },
   {
    "id": "NousResearch/Arete-27B",
    "pipeline": "text-generation",
-   "downloads": 3431,
-   "likes": 417
+   "downloads": 4669,
+   "likes": 454
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 2782513,
+   "likes": 11564
   },
   {
    "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 1532273,
-   "likes": 2868
-  },
-  {
-   "id": "ccore/Qwen3.5-4B-3D-Coder",
-   "pipeline": "",
-   "downloads": 319405,
-   "likes": 985
+   "downloads": 1599836,
+   "likes": 2940
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 7232703,
-   "likes": 19592
+   "downloads": 7094218,
+   "likes": 19678
+  },
+  {
+   "id": "ricursiveAI/Ripple-65B-Preview",
+   "pipeline": "",
+   "downloads": 7667,
+   "likes": 524
+  },
+  {
+   "id": "ccore/Qwen3.5-4B-3D-Coder",
+   "pipeline": "",
+   "downloads": 368236,
+   "likes": 1029
+  },
+  {
+   "id": "moonshotai/Kimi-K3.1-Pro",
+   "pipeline": "image-text-to-text",
+   "downloads": 37486,
+   "likes": 1958
   }
  ],
  "trending": [
   {
-   "name": "NotRexed/Hookshot",
-   "url": "https://github.com/NotRexed/Hookshot",
-   "stars": 7020,
-   "lang": "C++",
-   "desc": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake"
-  },
-  {
    "name": "huamidev/GestaltX",
    "url": "https://github.com/huamidev/GestaltX",
-   "stars": 5682,
+   "stars": 6728,
    "lang": "Swift",
-   "desc": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages."
+   "desc": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups."
   },
   {
    "name": "tangerineturtle1/NX2navi",
    "url": "https://github.com/tangerineturtle1/NX2navi",
-   "stars": 3033,
+   "stars": 3380,
    "lang": "C",
    "desc": ""
   },
   {
    "name": "jhaizhou-ops/S2Arm",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
-   "stars": 2524,
+   "stars": 2703,
    "lang": "C#",
    "desc": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole li"
   },
   {
    "name": "JenkinWoo/sheeridVerify",
    "url": "https://github.com/JenkinWoo/sheeridVerify",
-   "stars": 2017,
+   "stars": 2059,
    "lang": "JavaScript",
    "desc": ""
   },
   {
-   "name": "IainKay/ram-altman",
-   "url": "https://github.com/IainKay/ram-altman",
-   "stars": 1862,
-   "lang": "Shell",
-   "desc": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI."
-  },
-  {
-   "name": "jamesondh/chimera-vocal-synth",
-   "url": "https://github.com/jamesondh/chimera-vocal-synth",
-   "stars": 1822,
-   "lang": "Rust",
-   "desc": "the ultimate vocal synthesizer - sing, speak, beatbox, and more"
-  },
-  {
    "name": "DIYgod/pinky",
    "url": "https://github.com/DIYgod/pinky",
-   "stars": 1803,
+   "stars": 1943,
    "lang": "Go",
    "desc": "Let AI agents use your phone, with you in the loop."
+  },
+  {
+   "name": "Kianuni/Erosion-CN",
+   "url": "https://github.com/Kianuni/Erosion-CN",
+   "stars": 1660,
+   "lang": "Swift",
+   "desc": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）"
+  },
+  {
+   "name": "mahmoudtawfik1998/secure-pdf-document-processor",
+   "url": "https://github.com/mahmoudtawfik1998/secure-pdf-document-processor",
+   "stars": 1305,
+   "lang": "HTML",
+   "desc": "Adobe Acrobat Pro 2026: Secure Standalone PDF Document Processor for Desktop"
+  },
+  {
+   "name": "hembramneeraj3-create/aida-64-extreme",
+   "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
+   "stars": 1304,
+   "lang": "HTML",
+   "desc": "Aida 64 Extreme 2026: Complete Standalone Desktop Setup with Full Feature Configuration"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 186629,
+   "stars": 186748,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-11-11T00:39:33Z"
+   "pushed": "2026-11-12T03:21:12Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 158359,
+   "stars": 158456,
    "lang": "Svelte",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-11-11T08:00:11Z"
+   "pushed": "2026-11-12T04:39:37Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 155249,
+   "stars": 155397,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-11-11T08:38:12Z"
+   "pushed": "2026-11-11T22:55:16Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 149344,
+   "stars": 149398,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-11-11T08:20:06Z"
+   "pushed": "2026-11-12T08:59:42Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 134054,
+   "stars": 134213,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-11-11T10:27:08Z"
+   "pushed": "2026-11-12T10:46:30Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 123341,
+   "stars": 123396,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-11-05T03:43:23Z"
+   "pushed": "2026-11-12T03:43:22Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 116017,
+   "stars": 116381,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-11-11T07:15:32Z"
+   "pushed": "2026-11-12T08:04:02Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 97596,
+   "stars": 97641,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-11-06T17:59:03Z"
@@ -286,56 +286,56 @@
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 86401,
+   "stars": 86710,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-11-11T10:20:03Z"
+   "pushed": "2026-11-12T09:58:02Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 63095,
+   "stars": 63152,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-11-11T10:07:00Z"
+   "pushed": "2026-11-12T10:45:37Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 57746,
+   "stars": 57829,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-11-11T09:07:29Z"
+   "pushed": "2026-11-12T09:07:31Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 48482,
+   "stars": 48546,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
-   "pushed": "2026-11-11T00:04:00Z"
+   "pushed": "2026-11-11T23:14:51Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32712,
+   "stars": 32729,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
-   "pushed": "2026-11-10T11:33:01Z"
+   "pushed": "2026-11-11T20:44:23Z"
   },
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 6214,
+   "stars": 6282,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "Supply Chain Attack",
-  "desc": "The attacker doesn't hack you — they hack your dependency (an npm/pip package). Use lockfiles, run `npm audit`, and vet unknown packages before installing.",
-  "link": "https://owasp.org/www-project-dependency-check/"
+  "cat": "AI",
+  "title": "Quantization",
+  "desc": "Compressing model weights from 16-bit to 4/8-bit — 4x smaller, faster, with a small quality cost. It's how 70B models run on consumer GPUs (GGUF, AWQ).",
+  "link": "https://huggingface.co/docs/optimum/concept_guides/quantization"
  }
 }
