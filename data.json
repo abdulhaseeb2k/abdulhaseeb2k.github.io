@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T10:44:33.638126+00:00",
+ "generated_at": "2026-11-14T09:58:45.255796+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,40 +62,40 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Jensen Huang resigns",
-   "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-   "points": 3582,
-   "time": "2026-11-12T13:52:29Z"
+   "title": "FAA issues national ground stop – lifted 4.5 hours later",
+   "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+   "points": 1539,
+   "time": "2026-11-13T21:05:53Z"
   },
   {
-   "title": "Anthropic IPO",
-   "url": "https://ipo.anthropic.com/us/",
-   "points": 938,
-   "time": "2026-11-12T11:46:41Z"
+   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+   "points": 748,
+   "time": "2026-11-12T22:03:09Z"
   },
   {
-   "title": "Service degradation on Microsoft 365",
-   "url": "https://status.cloud.microsoft/",
-   "points": 902,
-   "time": "2026-11-12T18:20:48Z"
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "points": 559,
+   "time": "2026-11-14T02:52:59Z"
   },
   {
-   "title": "Rust 1.100",
-   "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-   "points": 692,
-   "time": "2026-11-12T18:39:05Z"
+   "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
+   "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
+   "points": 353,
+   "time": "2026-11-13T18:40:44Z"
   },
   {
-   "title": "Nvidia employees petition to bring back Jensen Huang",
-   "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-   "points": 602,
-   "time": "2026-11-13T02:16:24Z"
+   "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "points": 291,
+   "time": "2026-11-13T15:08:44Z"
   },
   {
-   "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-   "url": "https://github.com/simpsoka/zigzag",
-   "points": 534,
-   "time": "2026-11-12T17:02:42Z"
+   "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+   "url": "https://orcasairband.com/",
+   "points": 261,
+   "time": "2026-11-13T22:04:24Z"
   }
  ],
  "models": [
@@ -103,166 +103,166 @@
    "id": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
    "pipeline": "text-generation",
    "downloads": 21586,
-   "likes": 4831
+   "likes": 7087
   },
   {
    "id": "MiniMaxAI/MiniMax-H3-Image",
    "pipeline": "text-to-image",
    "downloads": 437039,
-   "likes": 935
+   "likes": 1066
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 2777667,
+   "likes": 11836
+  },
+  {
+   "id": "Qwen/Qwen3.8-27B",
+   "pipeline": "image-text-to-text",
+   "downloads": 6757964,
+   "likes": 19924
   },
   {
    "id": "NousResearch/Arete-27B",
    "pipeline": "text-generation",
    "downloads": 5545,
-   "likes": 508
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 2778909,
-   "likes": 11676
+   "likes": 580
   },
   {
    "id": "speridlabs/idol",
    "pipeline": "image-to-3d",
    "downloads": 31367,
-   "likes": 2257
-  },
-  {
-   "id": "Qwen/Qwen3.8-27B",
-   "pipeline": "image-text-to-text",
-   "downloads": 6960395,
-   "likes": 19788
+   "likes": 2322
   },
   {
    "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
    "pipeline": "image-text-to-text",
    "downloads": 1639400,
-   "likes": 2998
+   "likes": 3089
+  },
+  {
+   "id": "moonshotai/Kimi-K3.1-Pro",
+   "pipeline": "image-text-to-text",
+   "downloads": 40953,
+   "likes": 2059
   },
   {
    "id": "Comfy-Org/MiniMax-H3-Image",
    "pipeline": "text-to-image",
    "downloads": 1257301,
-   "likes": 319
+   "likes": 368
   },
   {
-   "id": "ccore/Qwen3.5-4B-3D-Coder",
-   "pipeline": "",
-   "downloads": 392582,
-   "likes": 1067
-  },
-  {
-   "id": "black-forest-labs/flux-3-image-klein-comfy",
-   "pipeline": "image-to-image",
-   "downloads": 1330289,
-   "likes": 3050
+   "id": "Zyphra/ZONOS3-Mini",
+   "pipeline": "text-to-speech",
+   "downloads": 13068,
+   "likes": 321
   }
  ],
  "trending": [
   {
    "name": "huamidev/GestaltX",
    "url": "https://github.com/huamidev/GestaltX",
-   "stars": 7134,
+   "stars": 7452,
    "lang": "Swift",
    "desc": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups."
   },
   {
-   "name": "tangerineturtle1/NX2navi",
-   "url": "https://github.com/tangerineturtle1/NX2navi",
-   "stars": 3672,
-   "lang": "C",
-   "desc": ""
-  },
-  {
    "name": "jhaizhou-ops/S2Arm",
    "url": "https://github.com/jhaizhou-ops/S2Arm",
-   "stars": 2829,
+   "stars": 2907,
    "lang": "C#",
    "desc": "Run your own Switch games natively on iPhone, iPad and Mac: game code rewritten to ARM64, graphics direct to Metal, one app for the whole li"
   },
   {
    "name": "Kianuni/Erosion-CN",
    "url": "https://github.com/Kianuni/Erosion-CN",
-   "stars": 1826,
+   "stars": 1986,
    "lang": "Swift",
    "desc": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）"
   },
   {
+   "name": "apex-compute/ANR",
+   "url": "https://github.com/apex-compute/ANR",
+   "stars": 1596,
+   "lang": "C++",
+   "desc": "Apex Neural Rendering (ANR) by Apex Compute"
+  },
+  {
    "name": "HybridRobotics/supermimic",
    "url": "https://github.com/HybridRobotics/supermimic",
-   "stars": 1393,
+   "stars": 1472,
    "lang": "Python",
    "desc": "Humanoid whole-body motion tracking with one differentiable world model."
   },
   {
    "name": "agentes-chat/agentes-chat",
    "url": "https://github.com/agentes-chat/agentes-chat",
-   "stars": 1260,
+   "stars": 1362,
    "lang": "TypeScript",
    "desc": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Co"
   },
   {
-   "name": "apex-compute/ANR",
-   "url": "https://github.com/apex-compute/ANR",
-   "stars": 1188,
-   "lang": "C++",
-   "desc": "Apex Neural Rendering (ANR) by Apex Compute"
-  },
-  {
    "name": "FrigadeHQ/yogurt",
    "url": "https://github.com/FrigadeHQ/yogurt",
-   "stars": 1099,
+   "stars": 1344,
    "lang": "TypeScript",
-   "desc": "Private AI meeting notes. Free and open source."
+   "desc": "Private AI meeting notes that stay on your computer. A free, open-source alternative to Granola for Mac, Windows and Linux."
+  },
+  {
+   "name": "deepseek-ai/chat-demo",
+   "url": "https://github.com/deepseek-ai/chat-demo",
+   "stars": 1318,
+   "lang": "TypeScript",
+   "desc": "Chat Demo"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 186861,
+   "stars": 186927,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-11-13T00:02:20Z"
+   "pushed": "2026-11-14T00:00:10Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 158541,
+   "stars": 158619,
    "lang": "Svelte",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-11-13T10:44:01Z"
+   "pushed": "2026-11-14T05:31:06Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 155506,
+   "stars": 155617,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-11-13T07:03:33Z"
+   "pushed": "2026-11-14T07:22:36Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 149440,
+   "stars": 149484,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-11-13T09:24:39Z"
+   "pushed": "2026-11-14T08:44:18Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 134807,
+   "stars": 134950,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-11-13T10:21:56Z"
+   "pushed": "2026-11-14T08:58:39Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 123438,
+   "stars": 123472,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-11-12T03:43:22Z"
@@ -270,15 +270,15 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 116692,
+   "stars": 116939,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-11-13T05:15:01Z"
+   "pushed": "2026-11-13T18:56:42Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 97674,
+   "stars": 97689,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-11-06T17:59:03Z"
@@ -286,39 +286,39 @@
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 86998,
+   "stars": 87266,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-11-13T09:24:22Z"
+   "pushed": "2026-11-14T09:23:10Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 63214,
+   "stars": 63237,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-11-13T10:44:04Z"
+   "pushed": "2026-11-14T09:58:20Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 57907,
+   "stars": 57969,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-11-13T09:07:32Z"
+   "pushed": "2026-11-14T09:06:02Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 48596,
+   "stars": 48620,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
-   "pushed": "2026-11-13T06:38:19Z"
+   "pushed": "2026-11-14T09:24:35Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32744,
+   "stars": 32758,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-11-12T17:19:53Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 6328,
+   "stars": 6355,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Data Science",
-  "title": "A/B Testing",
-  "desc": "Randomly split users between two versions and compare them statistically. Never call a winner without understanding p-values and sample size.",
-  "link": "https://en.wikipedia.org/wiki/A/B_testing"
+  "cat": "Dev",
+  "title": "Event-Driven Architecture",
+  "desc": "Services publish and subscribe to events (Kafka, RabbitMQ) instead of calling each other directly. You gain loose coupling; debugging and ordering get harder.",
+  "link": "https://martinfowler.com/articles/201701-event-driven.html"
  }
 }
