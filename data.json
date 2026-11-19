@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T11:23:30.673184+00:00",
+ "generated_at": "2026-11-19T11:21:36.632890+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,223 +62,223 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "GPT‑6.2 Astra and Sol",
-   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-   "points": 1283,
-   "time": "2026-11-17T17:46:43Z"
+   "title": "Unauthenticated remote code execution in Nginx",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "points": 1403,
+   "time": "2026-11-18T15:19:55Z"
   },
   {
-   "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-   "url": "https://calif.io/java4shell/",
-   "points": 964,
-   "time": "2026-11-17T21:11:28Z"
+   "title": "Gemini 4 Neon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "points": 854,
+   "time": "2026-11-18T21:34:07Z"
   },
   {
-   "title": "Quad9's withdrawal from France: A canary in the coal mine",
-   "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-   "points": 634,
-   "time": "2026-11-17T22:13:34Z"
+   "title": "Inside Deutsche Bank",
+   "url": "https://www.inside-db.com/",
+   "points": 707,
+   "time": "2026-11-18T15:38:33Z"
   },
   {
-   "title": "Highly classified US national security communications network goes down",
-   "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
-   "points": 593,
-   "time": "2026-11-17T15:38:28Z"
+   "title": "Seven new models at scalable price-performance",
+   "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+   "points": 546,
+   "time": "2026-11-18T16:08:24Z"
   },
   {
-   "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-   "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
-   "points": 558,
-   "time": "2026-11-17T17:12:06Z"
+   "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
+   "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+   "points": 280,
+   "time": "2026-11-18T14:43:52Z"
   },
   {
-   "title": "Google's AI answers reducing search traffic by 40%",
-   "url": "https://revscope.co/blog/search-seo-geo-2026/",
-   "points": 425,
-   "time": "2026-11-18T00:17:58Z"
+   "title": "Multiple vulnerabilities in Regexp and String case conversion",
+   "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+   "points": 279,
+   "time": "2026-11-18T23:52:50Z"
   }
  ],
  "models": [
   {
-   "id": "MiniMaxAI/MiniMax-H3-Image",
-   "pipeline": "text-to-image",
-   "downloads": 759661,
-   "likes": 1560
+   "id": "higurashi-ai/Haru-4B",
+   "pipeline": "audio-to-audio",
+   "downloads": 5314,
+   "likes": 1812
+  },
+  {
+   "id": "tencent/Hy4-flash",
+   "pipeline": "image-text-to-text",
+   "downloads": 159,
+   "likes": 280
   },
   {
    "id": "Qwen/Qwen3.8-27B",
    "pipeline": "image-text-to-text",
-   "downloads": 6888351,
-   "likes": 20514
+   "downloads": 6647301,
+   "likes": 20606
   },
   {
-   "id": "higurashi-ai/Haru-4B",
-   "pipeline": "audio-to-audio",
-   "downloads": 4445,
-   "likes": 571
-  },
-  {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 2871190,
-   "likes": 12474
-  },
-  {
-   "id": "thinkingmachines/Inkling-2-Small",
-   "pipeline": "image-text-to-text",
-   "downloads": 30082,
-   "likes": 472
-  },
-  {
-   "id": "unsloth/Qwen3.8-27B-GGUF",
-   "pipeline": "",
-   "downloads": 6998076,
-   "likes": 6172
-  },
-  {
-   "id": "sensenova/SenseNova-Loop-9B",
-   "pipeline": "image-text-to-text",
-   "downloads": 0,
-   "likes": 288
+   "id": "MiniMaxAI/MiniMax-H3-Image",
+   "pipeline": "text-to-image",
+   "downloads": 759661,
+   "likes": 1607
   },
   {
    "id": "harness-hub/Qwen3.8-27B-pi-adapted",
    "pipeline": "image-text-to-text",
-   "downloads": 0,
-   "likes": 258
+   "downloads": 377,
+   "likes": 656
   },
   {
-   "id": "chatrlabs/Qwen-Image-2.1-Uncensored-Omni-Quantized",
-   "pipeline": "text-to-image",
-   "downloads": 224306,
-   "likes": 563
+   "id": "apple/FastFrames-L",
+   "pipeline": "text-to-video",
+   "downloads": 0,
+   "likes": 249
   },
   {
    "id": "n4ze3m/tiny-voca",
    "pipeline": "text-to-speech",
-   "downloads": 3042,
-   "likes": 264
+   "downloads": 4430,
+   "likes": 308
+  },
+  {
+   "id": "meituan-longcat/LongCat-Video-Avatar-1.6",
+   "pipeline": "",
+   "downloads": 1226,
+   "likes": 287
+  },
+  {
+   "id": "maxwell-model/Maxwell-V1-Flash",
+   "pipeline": "text-generation",
+   "downloads": 1052,
+   "likes": 254
+  },
+  {
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 2934937,
+   "likes": 12660
   }
  ],
  "trending": [
   {
-   "name": "deepseek-ai/chat-demo",
-   "url": "https://github.com/deepseek-ai/chat-demo",
-   "stars": 4680,
-   "lang": "TypeScript",
-   "desc": "Chat Demo"
-  },
-  {
    "name": "krisgfx9/Wireless-Device-Battery-Monitor",
    "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
-   "stars": 3432,
+   "stars": 4288,
    "lang": "C++",
    "desc": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor s"
   },
   {
    "name": "erkamyaman/rust-anything",
    "url": "https://github.com/erkamyaman/rust-anything",
-   "stars": 2335,
+   "stars": 4173,
    "lang": "Rust",
    "desc": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and "
   },
   {
-   "name": "Noniv/abyssal-garden",
-   "url": "https://github.com/Noniv/abyssal-garden",
-   "stars": 2292,
-   "lang": "JavaScript",
-   "desc": "A dreamy underwater world you can swim through in your browser: swaying kelp forests, sunbeams, a sunken ship and manta rays. Everything is "
-  },
-  {
-   "name": "Immortal-Protocols/lastbook",
-   "url": "https://github.com/Immortal-Protocols/lastbook",
-   "stars": 1969,
-   "lang": "Python",
-   "desc": "Offline knowledge AI, maps and videos for survival and rebuilding"
-  },
-  {
    "name": "duwqijlk/muse-protocol",
    "url": "https://github.com/duwqijlk/muse-protocol",
-   "stars": 1617,
+   "stars": 1639,
    "lang": "Python",
    "desc": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）"
   },
   {
-   "name": "ZiChuanLan/freebie-radar",
-   "url": "https://github.com/ZiChuanLan/freebie-radar",
-   "stars": 1535,
-   "lang": "TypeScript",
-   "desc": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送"
+   "name": "Hut-hzf/ung220z-tool",
+   "url": "https://github.com/Hut-hzf/ung220z-tool",
+   "stars": 1584,
+   "lang": "Python",
+   "desc": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。"
   },
   {
    "name": "CzzzzzzJ/mdldm-maitian",
    "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
-   "stars": 1215,
+   "stars": 1521,
    "lang": "JavaScript",
    "desc": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏"
+  },
+  {
+   "name": "haziqahmedqasmi/PeakCut",
+   "url": "https://github.com/haziqahmedqasmi/PeakCut",
+   "stars": 1188,
+   "lang": "Python",
+   "desc": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key."
+  },
+  {
+   "name": "sybil-solutions/inference-optimisation-skill",
+   "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+   "stars": 1181,
+   "lang": "Python",
+   "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantiz"
+  },
+  {
+   "name": "joshpuckett/allo",
+   "url": "https://github.com/joshpuckett/allo",
+   "stars": 1099,
+   "lang": "Python",
+   "desc": "Allo is your friendly neighborhood typeface, free and open source"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 187503,
+   "stars": 187592,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-11-18T00:16:41Z"
+   "pushed": "2026-11-18T22:53:05Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 159001,
+   "stars": 159076,
    "lang": "Svelte",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-11-18T00:57:34Z"
+   "pushed": "2026-11-18T20:54:11Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 156106,
+   "stars": 156249,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-11-18T11:10:30Z"
+   "pushed": "2026-11-19T08:23:13Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 149840,
+   "stars": 149884,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-11-18T09:15:40Z"
+   "pushed": "2026-11-19T08:23:35Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 135615,
+   "stars": 135680,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-11-18T11:09:22Z"
+   "pushed": "2026-11-19T11:21:14Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 123790,
+   "stars": 123848,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
-   "pushed": "2026-11-18T09:46:22Z"
+   "pushed": "2026-11-19T03:43:07Z"
   },
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 118114,
+   "stars": 118319,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-11-18T10:58:46Z"
+   "pushed": "2026-11-19T11:12:05Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 97841,
+   "stars": 98208,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-11-17T05:21:40Z"
@@ -286,39 +286,39 @@
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 88529,
+   "stars": 88797,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-11-18T09:24:35Z"
+   "pushed": "2026-11-19T10:25:49Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 63479,
+   "stars": 63534,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-11-18T11:11:24Z"
+   "pushed": "2026-11-19T11:19:31Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 58267,
+   "stars": 58345,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-11-18T09:07:15Z"
+   "pushed": "2026-11-19T09:07:45Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 48815,
+   "stars": 48854,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
-   "pushed": "2026-11-18T02:01:57Z"
+   "pushed": "2026-11-19T01:37:03Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32838,
+   "stars": 32857,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-11-16T21:54:55Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 6584,
+   "stars": 6634,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Dev",
-  "title": "SOLID Principles",
-  "desc": "Five OOP design rules (Single responsibility, Open/closed, Liskov, Interface segregation, Dependency inversion) that keep code maintainable as it grows.",
-  "link": "https://en.wikipedia.org/wiki/SOLID"
+  "cat": "Security",
+  "title": "OWASP Top 10",
+  "desc": "The official list of the 10 most common web app vulnerabilities — injection, broken auth, SSRF, and more. Every web developer should know it by heart.",
+  "link": "https://owasp.org/www-project-top-ten/"
  }
 }
