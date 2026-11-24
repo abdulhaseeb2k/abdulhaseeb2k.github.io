@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T12:03:20.835601+00:00",
+ "generated_at": "2026-11-24T13:27:15.355920+00:00",
  "ai_news": [
   {
    "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
@@ -62,207 +62,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-   "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-   "points": 1320,
-   "time": "2026-11-22T04:04:56Z"
+   "title": "Nvidia Reinstates Jensen Huang as CEO",
+   "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+   "points": 2673,
+   "time": "2026-11-23T14:00:18Z"
   },
   {
-   "title": "What Happened to Silicon Valley?",
-   "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
-   "points": 692,
-   "time": "2026-11-22T19:20:15Z"
+   "title": "Ladybird is now in alpha",
+   "url": "https://ladybird.org/posts/alpha/",
+   "points": 2136,
+   "time": "2026-11-23T16:13:12Z"
   },
   {
-   "title": "Perplexity and Intelligence",
-   "url": "https://openai.com/index/perplexity-and-intelligence/",
-   "points": 605,
-   "time": "2026-11-22T17:06:27Z"
+   "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
+   "url": "https://twitter.com/ylecun/status/2124550037912920090",
+   "points": 1809,
+   "time": "2026-11-23T17:07:26Z"
+  },
+  {
+   "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
+   "url": "https://arm.jonpalmisc.com/",
+   "points": 1101,
+   "time": "2026-11-23T19:17:55Z"
   },
   {
    "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
    "url": "https://spelunkr.tv",
-   "points": 576,
+   "points": 1026,
    "time": "2026-11-23T01:13:51Z"
   },
   {
-   "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-   "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-   "points": 555,
-   "time": "2026-11-22T21:01:16Z"
-  },
-  {
-   "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
-   "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-   "points": 525,
-   "time": "2026-11-22T19:10:34Z"
+   "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+   "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+   "points": 538,
+   "time": "2026-11-23T22:32:29Z"
   }
  ],
  "models": [
   {
    "id": "thinkingmachines/Inkling-2-Mini",
    "pipeline": "image-text-to-text",
-   "downloads": 41888,
-   "likes": 5246
+   "downloads": 69042,
+   "likes": 5645
   },
   {
    "id": "unsloth/Inkling-2-Mini-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 1292888,
-   "likes": 981
+   "downloads": 1913407,
+   "likes": 1186
   },
   {
    "id": "inworld/voice-isolator",
    "pipeline": "audio-to-audio",
-   "downloads": 0,
-   "likes": 680
+   "downloads": 12733,
+   "likes": 772
   },
   {
    "id": "tencent/Hy4-flash",
    "pipeline": "image-text-to-text",
-   "downloads": 7696,
-   "likes": 632
-  },
-  {
-   "id": "harness-hub/Qwen3.8-27B-pi-adapted",
-   "pipeline": "image-text-to-text",
-   "downloads": 3132,
-   "likes": 1011
+   "downloads": 9167,
+   "likes": 665
   },
   {
    "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 329497,
-   "likes": 564
+   "downloads": 573775,
+   "likes": 702
   },
   {
-   "id": "apple/DepthPro2",
-   "pipeline": "depth-estimation",
-   "downloads": 0,
-   "likes": 1091
+   "id": "harness-hub/Qwen3.8-27B-pi-adapted",
+   "pipeline": "image-text-to-text",
+   "downloads": 3529,
+   "likes": 1051
   },
   {
    "id": "higurashi-ai/Haru-4B",
    "pipeline": "audio-to-audio",
-   "downloads": 9087,
-   "likes": 914
+   "downloads": 9575,
+   "likes": 951
+  },
+  {
+   "id": "SulphurAI/Sulphur-3",
+   "pipeline": "",
+   "downloads": 160965,
+   "likes": 870
   },
   {
    "id": "sensenova/SenseNova-Loop-9B",
    "pipeline": "image-text-to-text",
-   "downloads": 2036,
-   "likes": 605
+   "downloads": 2696,
+   "likes": 661
   },
   {
-   "id": "Qwen/Qwen3.8-27B",
-   "pipeline": "image-text-to-text",
-   "downloads": 6185088,
-   "likes": 21634
+   "id": "apple/FastFrames-L",
+   "pipeline": "text-to-video",
+   "downloads": 0,
+   "likes": 579
   }
  ],
  "trending": [
   {
-   "name": "ItsNotRexed/Leonida",
-   "url": "https://github.com/ItsNotRexed/Leonida",
-   "stars": 19027,
-   "lang": "Python",
-   "desc": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6"
+   "name": "Marvisak/VIctory",
+   "url": "https://github.com/Marvisak/VIctory",
+   "stars": 8724,
+   "lang": "Rust",
+   "desc": "An attempt at running GTA VI on PC"
   },
   {
-   "name": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
-   "stars": 2760,
-   "lang": "",
-   "desc": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, Op"
+   "name": "ivall/xcl",
+   "url": "https://github.com/ivall/xcl",
+   "stars": 6623,
+   "lang": "Rust",
+   "desc": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA"
   },
   {
    "name": "EL4CTEO/fast-anything",
    "url": "https://github.com/EL4CTEO/fast-anything",
-   "stars": 2645,
+   "stars": 3455,
    "lang": "Rust",
    "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prov"
   },
   {
+   "name": "AFK-surf/xnulinux",
+   "url": "https://github.com/AFK-surf/xnulinux",
+   "stars": 2926,
+   "lang": "Objective-C++",
+   "desc": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)"
+  },
+  {
    "name": "iamajmeena/neonclipping",
    "url": "https://github.com/iamajmeena/neonclipping",
-   "stars": 2221,
+   "stars": 2394,
    "lang": "Python",
    "desc": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM)."
   },
   {
-   "name": "omonkeyz/xbox-emulator",
-   "url": "https://github.com/omonkeyz/xbox-emulator",
-   "stars": 1477,
-   "lang": "Rust",
-   "desc": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)"
+   "name": "4lwayz/portwatch-vi",
+   "url": "https://github.com/4lwayz/portwatch-vi",
+   "stars": 1830,
+   "lang": "JavaScript",
+   "desc": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily."
   },
   {
    "name": "R0Y00/Xbox2Windows",
    "url": "https://github.com/R0Y00/Xbox2Windows",
-   "stars": 1393,
+   "stars": 1802,
    "lang": "Python",
    "desc": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverif"
   },
   {
-   "name": "Lemxy/WinRust",
-   "url": "https://github.com/Lemxy/WinRust",
-   "stars": 1319,
+   "name": "omonkeyz/xbox-emulator",
+   "url": "https://github.com/omonkeyz/xbox-emulator",
+   "stars": 1755,
    "lang": "Rust",
-   "desc": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe."
-  },
-  {
-   "name": "os6/nospeaker",
-   "url": "https://github.com/os6/nospeaker",
-   "stars": 880,
-   "lang": "Swift",
-   "desc": "make your macbook's trackpad talk using its haptic motor"
+   "desc": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 187911,
+   "stars": 187953,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-11-22T10:10:02Z"
+   "pushed": "2026-11-24T07:31:41Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 159324,
+   "stars": 159411,
    "lang": "Svelte",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-11-23T11:13:48Z"
+   "pushed": "2026-11-24T12:39:39Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 156765,
+   "stars": 156899,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-11-23T10:14:33Z"
+   "pushed": "2026-11-24T12:35:42Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 149988,
+   "stars": 149932,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-11-23T08:20:50Z"
+   "pushed": "2026-11-24T08:38:10Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 136177,
+   "stars": 136101,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-11-23T11:37:14Z"
+   "pushed": "2026-11-24T13:14:00Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 124055,
+   "stars": 124118,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-11-19T03:43:07Z"
@@ -270,55 +270,55 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 119202,
+   "stars": 119448,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-11-23T05:09:45Z"
+   "pushed": "2026-11-24T07:45:22Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 98407,
+   "stars": 98455,
    "lang": "",
    "desc": "A collection of MCP servers.",
-   "pushed": "2026-11-23T01:44:48Z"
+   "pushed": "2026-11-24T08:42:36Z"
   },
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 89738,
+   "stars": 90008,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-11-23T11:22:25Z"
+   "pushed": "2026-11-24T13:10:33Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 63752,
+   "stars": 63815,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-11-23T11:55:59Z"
+   "pushed": "2026-11-24T13:23:04Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 58645,
+   "stars": 58716,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-11-23T09:09:29Z"
+   "pushed": "2026-11-24T12:10:14Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 49061,
+   "stars": 49109,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
-   "pushed": "2026-11-21T05:43:43Z"
+   "pushed": "2026-11-23T17:36:27Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32911,
+   "stars": 32924,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-11-16T21:54:55Z"
@@ -326,16 +326,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 6784,
+   "stars": 6824,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Security",
-  "title": "SSRF (Server-Side Request Forgery)",
-  "desc": "An attacker makes your server hit internal URLs (cloud metadata, internal APIs). Validate URL inputs and block internal IP ranges.",
-  "link": "https://owasp.org/www-community/attacks/Server_Side_Request_Forgery"
+  "cat": "AI",
+  "title": "Agents & Tool Use",
+  "desc": "An LLM doesn't just write text — it calls tools (search, code execution, APIs) and reacts to the results. MCP is becoming the open standard for this.",
+  "link": "https://modelcontextprotocol.io"
  }
 }
