@@ -1,33 +1,12 @@
 {
- "generated_at": "2026-11-27T11:55:45.916792+00:00",
+ "generated_at": "2026-11-28T11:30:45.867381+00:00",
  "ai_news": [
-  {
-   "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
-   "url": "https://github.com/juggler-ai/juggler",
-   "points": 280,
-   "comments": 118,
-   "time": "2026-07-12T18:28:15Z"
-  },
-  {
-   "title": "Show HN: I am building a map of people who lived in the Roman Empire",
-   "url": "https://new.roman-names.com/",
-   "points": 210,
-   "comments": 52,
-   "time": "2026-06-10T19:28:49Z"
-  },
   {
    "title": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
    "url": "https://news.ycombinator.com/item?id=48356312",
    "points": 103,
    "comments": 27,
    "time": "2026-06-01T13:05:02Z"
-  },
-  {
-   "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
-   "url": "https://voker.ai",
-   "points": 59,
-   "comments": 22,
-   "time": "2026-05-12T15:45:20Z"
   },
   {
    "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
@@ -44,13 +23,6 @@
    "time": "2026-03-26T03:55:52Z"
   },
   {
-   "title": "Show HN: Vibe Code your 3D Models",
-   "url": "https://github.com/ierror/synaps-cad",
-   "points": 61,
-   "comments": 20,
-   "time": "2026-02-27T17:27:34Z"
-  },
-  {
    "title": "Launch HN: TeamOut (YC W22) – AI agent for planning company retreats",
    "url": "https://app.teamout.com/ai",
    "points": 55,
@@ -62,207 +34,207 @@
  "dev_news": [],
  "hn_front": [
   {
-   "title": "1Password Security Incident",
-   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-   "points": 1675,
-   "time": "2026-11-25T17:18:26Z"
+   "title": "Michael Nielsen took down his book on neural nets",
+   "url": "https://neuralnetworksanddeeplearning.com/",
+   "points": 557,
+   "time": "2026-11-27T19:31:01Z"
   },
   {
-   "title": "AI made self-hosting fun again",
-   "url": "https://janlukas.blog/posts/ai-self-hosting",
-   "points": 763,
-   "time": "2026-11-26T21:47:45Z"
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+   "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+   "points": 536,
+   "time": "2026-11-27T15:40:31Z"
   },
   {
-   "title": "Intel One Mono font (2023)",
-   "url": "https://github.com/intel/intel-one-mono",
-   "points": 532,
-   "time": "2026-11-26T10:11:01Z"
+   "title": "GPT 6.2 Astra Solves a Historical Mystery",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "points": 457,
+   "time": "2026-11-25T15:16:53Z"
   },
   {
-   "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-   "url": "https://github.com/antonpictures/youtube-punisher",
-   "points": 428,
-   "time": "2026-11-26T17:36:47Z"
+   "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+   "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+   "points": 434,
+   "time": "2026-11-27T23:06:29Z"
   },
   {
-   "title": "Company Culture = Slack Emoji ÷ √Headcount",
-   "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+   "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+   "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+   "points": 398,
+   "time": "2026-11-27T19:42:25Z"
+  },
+  {
+   "title": "The Balatro Timeline",
+   "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
    "points": 396,
-   "time": "2026-11-26T20:49:49Z"
-  },
-  {
-   "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-   "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-   "points": 384,
-   "time": "2026-11-26T21:08:05Z"
+   "time": "2026-11-26T17:20:27Z"
   }
  ],
  "models": [
   {
    "id": "thinkingmachines/Inkling-2-Mini",
    "pipeline": "image-text-to-text",
-   "downloads": 96527,
-   "likes": 6365
+   "downloads": 177012,
+   "likes": 6525
   },
   {
    "id": "unsloth/Inkling-2-Mini-GGUF",
    "pipeline": "image-text-to-text",
-   "downloads": 2445633,
-   "likes": 1537
+   "downloads": 3621301,
+   "likes": 1632
   },
   {
    "id": "SulphurAI/Sulphur-3",
    "pipeline": "",
-   "downloads": 189735,
-   "likes": 1293
-  },
-  {
-   "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-   "pipeline": "image-text-to-text",
-   "downloads": 762491,
-   "likes": 966
+   "downloads": 759937,
+   "likes": 1398
   },
   {
    "id": "prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
    "pipeline": "text-generation",
-   "downloads": 59366,
-   "likes": 574
+   "downloads": 473980,
+   "likes": 664
   },
   {
-   "id": "Lightricks/LTX-2.5",
-   "pipeline": "image-to-video",
-   "downloads": 3080701,
-   "likes": 13637
-  },
-  {
-   "id": "nvidia/Nemotron-Labs-Image-30B-A3B",
-   "pipeline": "text-to-image",
-   "downloads": 1692,
-   "likes": 299
-  },
-  {
-   "id": "llamaindex/OCRia-nano-1",
-   "pipeline": "image-to-text",
-   "downloads": 126,
-   "likes": 299
+   "id": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+   "pipeline": "image-text-to-text",
+   "downloads": 1297386,
+   "likes": 1052
   },
   {
    "id": "inworld/voice-isolator",
    "pipeline": "audio-to-audio",
-   "downloads": 15244,
-   "likes": 978
+   "downloads": 22810,
+   "likes": 1018
   },
   {
-   "id": "apple/DepthPro2",
-   "pipeline": "depth-estimation",
-   "downloads": 0,
-   "likes": 1329
+   "id": "Lightricks/LTX-2.5",
+   "pipeline": "image-to-video",
+   "downloads": 3088512,
+   "likes": 13771
+  },
+  {
+   "id": "llamaindex/OCRia-nano-1",
+   "pipeline": "image-to-text",
+   "downloads": 9982,
+   "likes": 373
+  },
+  {
+   "id": "nvidia/Nemotron-Labs-Image-30B-A3B",
+   "pipeline": "text-to-image",
+   "downloads": 2042,
+   "likes": 350
+  },
+  {
+   "id": "ISTA-DASLab/Inkling-2-Mini-GSQ-RCO-GGUF",
+   "pipeline": "text-generation",
+   "downloads": 97896,
+   "likes": 307
   }
  ],
  "trending": [
   {
    "name": "Marvisak/VIctory",
    "url": "https://github.com/Marvisak/VIctory",
-   "stars": 13596,
+   "stars": 13973,
    "lang": "Rust",
    "desc": "An attempt at running GTA VI on PC"
   },
   {
-   "name": "4lwayz/portwatch-vi",
-   "url": "https://github.com/4lwayz/portwatch-vi",
-   "stars": 6222,
-   "lang": "JavaScript",
-   "desc": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily."
-  },
-  {
-   "name": "EL4CTEO/fast-anything",
-   "url": "https://github.com/EL4CTEO/fast-anything",
-   "stars": 4370,
+   "name": "trustno1-coder/VIctory-NVIDIA",
+   "url": "https://github.com/trustno1-coder/VIctory-NVIDIA",
+   "stars": 5032,
    "lang": "Rust",
-   "desc": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prov"
-  },
-  {
-   "name": "Belobug/VIctory-Belobug-AMD",
-   "url": "https://github.com/Belobug/VIctory-Belobug-AMD",
-   "stars": 3826,
-   "lang": "Rust",
-   "desc": ""
+   "desc": "VIctory (Xbox Series compatibility layer) tuned for NVIDIA RTX cards: Series X at 2560x1440 with DLSS, about 26-30 fps on an RTX 5070, DLSS "
   },
   {
    "name": "fxceless/victory-fork",
    "url": "https://github.com/fxceless/victory-fork",
-   "stars": 3319,
+   "stars": 3372,
    "lang": "Rust",
    "desc": "Work-in-progress fork of VIctory: getting an Xbox Series title to render and run on a Windows PC. No game files."
   },
   {
-   "name": "ubiquitarianism/leonida",
-   "url": "https://github.com/ubiquitarianism/leonida",
-   "stars": 2583,
+   "name": "ProjectLeonida/mandy",
+   "url": "https://github.com/ProjectLeonida/mandy",
+   "stars": 3085,
    "lang": "Python",
    "desc": "A continuation of Leonida, the Xbox > PC port interface for GTA VI"
   },
   {
-   "name": "os6/nospeaker",
-   "url": "https://github.com/os6/nospeaker",
-   "stars": 1972,
-   "lang": "Swift",
-   "desc": "make your macbook's trackpad talk using its haptic motor"
+   "name": "nexu-io/opengame",
+   "url": "https://github.com/nexu-io/opengame",
+   "stars": 2632,
+   "lang": "TypeScript",
+   "desc": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSee"
   },
   {
-   "name": "avatarmanz/VIctory-7900XTX",
-   "url": "https://github.com/avatarmanz/VIctory-7900XTX",
-   "stars": 1902,
-   "lang": "Rust",
-   "desc": "Goal: an Xbox Series title (your own dump) on PC as the Series X version at 4K with ray tracing, picture matching the Xbox first (textures, "
+   "name": "alesha-pro/llm.asm",
+   "url": "https://github.com/alesha-pro/llm.asm",
+   "stars": 2477,
+   "lang": "Assembly",
+   "desc": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x"
+  },
+  {
+   "name": "Reukix/Reloc",
+   "url": "https://github.com/Reukix/Reloc",
+   "stars": 2082,
+   "lang": "Swift",
+   "desc": "iOS accessory-level location simulator over local loopback (iAP2 / MFi-v3 / NMEA)"
+  },
+  {
+   "name": "os6/nospeaker",
+   "url": "https://github.com/os6/nospeaker",
+   "stars": 2002,
+   "lang": "Swift",
+   "desc": "make your macbook's trackpad talk using its haptic motor"
   }
  ],
  "famous_repos": [
   {
    "name": "ollama/ollama",
    "url": "https://github.com/ollama/ollama",
-   "stars": 188294,
+   "stars": 188367,
    "lang": "Go",
    "desc": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
-   "pushed": "2026-11-27T10:05:28Z"
+   "pushed": "2026-11-28T04:13:22Z"
   },
   {
    "name": "open-webui/open-webui",
    "url": "https://github.com/open-webui/open-webui",
-   "stars": 159673,
+   "stars": 159716,
    "lang": "Svelte",
    "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-   "pushed": "2026-11-27T11:31:55Z"
+   "pushed": "2026-11-27T16:00:01Z"
   },
   {
    "name": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
-   "stars": 157275,
+   "stars": 157358,
    "lang": "TypeScript",
    "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining c",
-   "pushed": "2026-11-27T10:13:55Z"
+   "pushed": "2026-11-28T09:24:06Z"
   },
   {
    "name": "langchain-ai/langchain",
    "url": "https://github.com/langchain-ai/langchain",
-   "stars": 150070,
+   "stars": 150095,
    "lang": "Python",
    "desc": "The agent engineering platform.",
-   "pushed": "2026-11-27T08:21:12Z"
+   "pushed": "2026-11-28T08:17:36Z"
   },
   {
    "name": "ggml-org/llama.cpp",
    "url": "https://github.com/ggml-org/llama.cpp",
-   "stars": 136484,
+   "stars": 136488,
    "lang": "C++",
    "desc": "LLM inference in C/C++",
-   "pushed": "2026-11-27T11:46:30Z"
+   "pushed": "2026-11-28T11:22:50Z"
   },
   {
    "name": "microsoft/generative-ai-for-beginners",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-   "stars": 124392,
+   "stars": 124465,
    "lang": "Jupyter Notebook",
    "desc": "21 Lessons, Get Started Building with Generative AI ",
    "pushed": "2026-11-26T03:43:40Z"
@@ -270,15 +242,15 @@
   {
    "name": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
-   "stars": 120096,
+   "stars": 120301,
    "lang": "TypeScript",
    "desc": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context b",
-   "pushed": "2026-11-26T21:26:54Z"
+   "pushed": "2026-11-28T11:11:58Z"
   },
   {
    "name": "punkpeye/awesome-mcp-servers",
    "url": "https://github.com/punkpeye/awesome-mcp-servers",
-   "stars": 98565,
+   "stars": 98593,
    "lang": "",
    "desc": "A collection of MCP servers.",
    "pushed": "2026-11-26T22:26:12Z"
@@ -286,39 +258,39 @@
   {
    "name": "cheaper-inference/OmniRoute",
    "url": "https://github.com/cheaper-inference/OmniRoute",
-   "stars": 90655,
+   "stars": 90851,
    "lang": "TypeScript",
    "desc": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Cla",
-   "pushed": "2026-11-27T11:26:36Z"
+   "pushed": "2026-11-28T11:23:33Z"
   },
   {
    "name": "BerriAI/litellm",
    "url": "https://github.com/BerriAI/litellm",
-   "stars": 64012,
+   "stars": 64066,
    "lang": "Python",
    "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and l",
-   "pushed": "2026-11-27T11:39:26Z"
+   "pushed": "2026-11-28T11:22:56Z"
   },
   {
    "name": "hesreallyhim/awesome-claude-code",
    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-   "stars": 58906,
+   "stars": 58967,
    "lang": "Python",
    "desc": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppa",
-   "pushed": "2026-11-27T09:07:15Z"
+   "pushed": "2026-11-28T09:06:47Z"
   },
   {
    "name": "DeusData/codebase-memory-mcp",
    "url": "https://github.com/DeusData/codebase-memory-mcp",
-   "stars": 49242,
+   "stars": 49271,
    "lang": "C",
    "desc": "Local code intelligence for developers and AI agents. Connect code, docs and infrastructure in a persistent graph, with CBM Lens, MCP tools, agent integrations ",
-   "pushed": "2026-11-27T06:25:27Z"
+   "pushed": "2026-11-28T10:24:07Z"
   },
   {
    "name": "tirth8205/code-review-graph",
    "url": "https://github.com/tirth8205/code-review-graph",
-   "stars": 32958,
+   "stars": 32968,
    "lang": "Python",
    "desc": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked contex",
    "pushed": "2026-11-16T21:54:55Z"
@@ -326,16 +298,16 @@
   {
    "name": "WorldFlowAI/everything-claude-code",
    "url": "https://github.com/WorldFlowAI/everything-claude-code",
-   "stars": 6914,
+   "stars": 6936,
    "lang": "JavaScript",
    "desc": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
    "pushed": "2026-01-23T12:42:00Z"
   }
  ],
  "concept": {
-  "cat": "Data Science",
-  "title": "Feature Engineering",
-  "desc": "Turning raw data into meaningful model inputs — extracting day-of-week from dates, encoding categories, building ratios. It often matters more than the choice of model.",
-  "link": "https://developers.google.com/machine-learning/crash-course"
+  "cat": "Dev",
+  "title": "Idempotency",
+  "desc": "An operation that gives the same result no matter how many times you run it. Critical for APIs and retry logic — a non-idempotent payment endpoint can double-charge.",
+  "link": "https://en.wikipedia.org/wiki/Idempotence"
  }
 }
